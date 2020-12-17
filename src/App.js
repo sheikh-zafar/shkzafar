@@ -1,17 +1,18 @@
 import './App.css';
+import Main from "./components/main";
+import { Layout,  Content } from "react-mdl";
+import 'react-mdl/extra/material.css';   
+import 'react-mdl/extra/material.js';
 
 function App() {
   return (
-    <div className="App">
-      <section className="heading-section">
-      <div className="col-md-12">
-      <h1>فضيلة الشيخ ظهر الحسن مدني</h1>
-      <hr/>
-      <p>SHAIKH ZAFAR UL HASAN MADANI</p>
-      </div>
-      </section>
-      
-    </div>
+    <Layout fixedHeader>
+          <Content>
+            <div className="page-content" >
+            <Main />
+            </div>
+          </Content>
+        </Layout>
   );
 }
 
