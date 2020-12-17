@@ -1,11 +1,16 @@
-import Hyundai from "./img/hyundai.png";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Dars of Sheikh zafar-ul-Hassan (hafizahullah)</h1>
-      <img src={Hyundai} alt="sample-img"/>
+      <section className="heading-section">
+      <div className="col-md-12">
+      <h1>فضيلة الشيخ ظهر الحسن مدني</h1>
+      <hr/>
+      <p>SHAIKH ZAFAR UL HASAN MADANI</p>
+      </div>
+      </section>
+      
     </div>
   );
 }

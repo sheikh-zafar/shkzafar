@@ -2,12 +2,18 @@
   text-align: center;
 }
 body {
-  background-color: #61dafb;
+  background-color: #2e856e;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.heading-section {
+  color: beige;
+}
+.heading-section h1 {
+  color: beige;
 }
 
 @media (prefers-reduced-motion: no-preference) {
