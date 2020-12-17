@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/shkzafar/static/css/main.1922c3dc.chunk.css",
-    "main.js": "/shkzafar/static/js/main.5bab24f0.chunk.js",
-    "main.js.map": "/shkzafar/static/js/main.5bab24f0.chunk.js.map",
+    "main.css": "/shkzafar/static/css/main.b4c8d711.chunk.css",
+    "main.js": "/shkzafar/static/js/main.a0291785.chunk.js",
+    "main.js.map": "/shkzafar/static/js/main.a0291785.chunk.js.map",
     "runtime-main.js": "/shkzafar/static/js/runtime-main.9ec2c037.js",
     "runtime-main.js.map": "/shkzafar/static/js/runtime-main.9ec2c037.js.map",
     "static/js/2.994da948.chunk.js": "/shkzafar/static/js/2.994da948.chunk.js",
@@ -10,14 +10,13 @@
     "static/js/3.f78e0bde.chunk.js": "/shkzafar/static/js/3.f78e0bde.chunk.js",
     "static/js/3.f78e0bde.chunk.js.map": "/shkzafar/static/js/3.f78e0bde.chunk.js.map",
     "index.html": "/shkzafar/index.html",
-    "static/css/main.1922c3dc.chunk.css.map": "/shkzafar/static/css/main.1922c3dc.chunk.css.map",
-    "static/js/2.994da948.chunk.js.LICENSE.txt": "/shkzafar/static/js/2.994da948.chunk.js.LICENSE.txt",
-    "static/media/hyundai.d9781b4b.png": "/shkzafar/static/media/hyundai.d9781b4b.png"
+    "static/css/main.b4c8d711.chunk.css.map": "/shkzafar/static/css/main.b4c8d711.chunk.css.map",
+    "static/js/2.994da948.chunk.js.LICENSE.txt": "/shkzafar/static/js/2.994da948.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9ec2c037.js",
     "static/js/2.994da948.chunk.js",
-    "static/css/main.1922c3dc.chunk.css",
-    "static/js/main.5bab24f0.chunk.js"
+    "static/css/main.b4c8d711.chunk.css",
+    "static/js/main.a0291785.chunk.js"
   ]
 }
