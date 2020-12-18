@@ -13,14 +13,111 @@ body {
 .heading-section {
   color: beige;
 }
+.heading-name {
+  font-size: 35px;
+}
+nav {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+li .nav-link {
+  font-size: 2rem;
+  color: #5c4033;
+  border-right: #5c4033 dotted;
+}
+li .nav-link:hover {
+  color: beige;
+}
+a .nav-link {
+  color: beige;
+}
+
+.navbar-color {
+  background: url("../src/img/beigebg.jpeg");
+}
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
 .heading-section h1 {
   color: beige;
   font-family: "Amiri";
 }
+.heading-lead {
+  font-size: 20px;
+}
+.embed-section {
+  margin-top: 25px;
+}
+.calendar-section {
+  background: url("../src/img/beigebg.jpeg");
+  margin-top: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mixlr-section {
+  height: auto;
+  background: url("../src/img/beigebg.jpeg");
+  margin-top: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.telegram-section {
+  background: url("../src/img/beigebg.jpeg");
+  margin-top: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.latest-section {
+  background: url("../src/img/beigebg.jpeg");
+  margin-top: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media (min-width: 1200px) {
+  .calendar-section {
+  }
+  .mixlr-section {
+  }
+}
+@media (max-width: 991.98px) {
+  .calendar-section {
+  }
+  .mixlr-section {
+  }
+  .telegram-section {
+  }
+  .latest-section {
+  }
+}
+
+@media (max-width: 767.98px) {
+  .heading-name {
+    font-size: 20px;
+  }
+  .heading-lead {
+    font-size: 15px;
+  }
+  .calendar-section {
+  }
+  .mixlr-section {
+  }
+  .embed-section {
+  }
+}
+
+@media (max-width: 575.98px) {
+  .heading-name {
+    font-size: 15px;
+  }
+  .heading-lead {
+    font-size: 10px;
+  }
+  .calendar-section {
+  }
+  .mixlr-section {
+  }
+  .embed-section {
+  }
+}
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .embed-section {
   }
 }
 

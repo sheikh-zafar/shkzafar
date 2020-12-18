@@ -1,34 +1,53 @@
-import React, { Component } from 'react';
-import { Layout,  Navigation, Drawer, Header,Content } from "react-mdl";
+import React, { Component } from "react";
 
 export default class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light mx-auto justify-content-between">
-  <a class="navbar-brand" href="/">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mx-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="/">Home </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/">Audios</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/">Books</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/">About Shaikh</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+        <nav class="navbar navbar-expand-lg navbar-color center">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div className="d-md-flex d-block flex-row mx-md-auto mx-0">
+            <div
+              className="collapse navbar-collapse"
+              width="100%"
+              id="navbarSupportedContent"
+            >
+              <ul className="navbar-nav">
+                <li className="nav-item">
+                  <a className="nav-link" href="/">
+                    Home{" "}
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/">
+                    Audios
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/">
+                    Books
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/">
+                    About Shaikh
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
-    )
+    );
   }
 }
