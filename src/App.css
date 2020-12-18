@@ -12,6 +12,7 @@ body {
 }
 .heading-section {
   color: beige;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
 .heading-name {
   font-size: 35px;
@@ -51,14 +52,17 @@ a .nav-link {
 .calendar-section {
   background: url("../src/img/beigebg.jpeg");
   margin-top: 25px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9),
-    0 6px 20px 0 rgba(255, 255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+.mosque {
+  margin-top: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
 .mixlr-section {
   height: 215px;
   background: url("../src/img/beigebg.jpeg");
   margin-top: 25px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
 .telegram-section {
   background: url("../src/img/beigebg.jpeg");
@@ -66,12 +70,23 @@ a .nav-link {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
 .latest-section {
+  height: 215px;
   background: url("../src/img/beigebg.jpeg");
   margin-top: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.mixlr-img-section {
+  height: "215px";
 }
 .mixlr {
+  background-color: beige;
   height: 215px;
+}
+img .logo {
+  height: 50px;
+  width: 50px;
 }
 @media (min-width: 1200px) {
   .calendar-section {
@@ -87,6 +102,7 @@ a .nav-link {
   .telegram-section {
   }
   .latest-section {
+    height: 215px;
   }
 }
 

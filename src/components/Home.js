@@ -4,7 +4,16 @@ import Calendar from "react-calendar";
 import Footer from "./footer";
 import "react-calendar/dist/Calendar.css";
 import Iframe from "react-iframe";
-import Youtube from "../img/youtube.jpg";
+import Shkzafar from "../img/shkzafar.jpg";
+import YoutubeSubscribeButton from "deku-youtube-subscribe-button";
+import bam2 from "../img/bam2.jpg";
+import bamslide from "../img/bamslide.jpg";
+import shamail1 from "../img/shamail1.jpg";
+import shamail2 from "../img/shamail2.jpg";
+import shamailslide from "../img/shamailslide.jpg";
+import sharhsunnah2 from "../img/sharhsunnah2.jpg";
+import sharhsunnah3 from "../img/sharhsunnah3.jpg";
+import mosque from "../img/mosque.jpg";
 
 export default class Home extends Component {
   state = {
@@ -41,7 +50,7 @@ export default class Home extends Component {
                   <div class="carousel-inner">
                     <div class="carousel-item active" data-interval="10000">
                       <img
-                        src="..."
+                        src={sharhsunnah2}
                         className="d-block w-100"
                         alt="..."
                         height="400px"
@@ -50,7 +59,7 @@ export default class Home extends Component {
                     </div>
                     <div class="carousel-item" data-interval="2000">
                       <img
-                        src="..."
+                        src={shamail1}
                         className="d-block w-100"
                         alt="..."
                         height="400px"
@@ -59,7 +68,16 @@ export default class Home extends Component {
                     </div>
                     <div class="carousel-item">
                       <img
-                        src="..."
+                        src={shamail2}
+                        className="d-block w-100"
+                        alt="..."
+                        height="400px"
+                        width="100%"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src={bamslide}
                         className="d-block w-100"
                         alt="..."
                         height="400px"
@@ -92,14 +110,24 @@ export default class Home extends Component {
           <div className="container-fluid">
             <div className="row">
               <div className="col-lg-3 col-md-4 col-sm-10 col-xs-12">
-                <section className="latest-section">
-                  <div class="embed-responsive embed-responsive-4by3">
-                    <iframe
-                      title="jummuah khutbah"
-                      src="https://www.youtube.com/embed/videoseries?list=PLmZP1KIsC-hnB5SYT-dP55VpAM4jFuwtW"
-                      frameborder="0"
-                      height="215px"
-                    ></iframe>
+                <section className="mixlr-section">
+                  <iframe
+                    title="calendar"
+                    src="https://calendar.google.com/calendar/embed?height=250&amp;wkst=1&amp;bgcolor=%23009688&amp;ctz=Asia%2FDubai&amp;src=OXB0dG5lNmxwdWU5dmRsbTdxZm42czg5bGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%230B8043&amp;showPrint=0&amp;showCalendars=0&amp;showDate=1&amp;mode=AGENDA&amp;showTabs=0&amp;showNav=0"
+                    frameborder="0"
+                    width="100%"
+                    height="80%"
+                    scrolling="no"
+                  ></iframe>
+                  <div className="d-flex justify-content-center">
+                    <a
+                      href="#link"
+                      type="button"
+                      class="btn btn btn-outline-dark pt-1"
+                      style={{ backgroundColor: "#5c4033", color: "white" }}
+                    >
+                      Show Calendar
+                    </a>
                   </div>
                 </section>
               </div>
@@ -116,23 +144,74 @@ export default class Home extends Component {
                     marginheight="0"
                     marginwidth="0"
                   ></iframe>
-
-                  <small>
-                    <a href="http://mixlr.com/zafarulhasan">
-                      zafarulhasan is on Mixlr
-                    </a>
-                  </small>
                 </section>
               </div>
             </div>
           </div>
+          <section className="embed-section">
+            <div className="container-fluid">
+              <div className="row">
+                <div className="col-xs-12 col-sm-6 col-md-2">
+                  <div className="container-fluid">
+                    <div className="row pt-5">
+                      <div
+                        class="g-ytsubscribe"
+                        data-channelid="UC2zD7wY_3TCGCyA9Cy_Nu9w"
+                        data-layout="full"
+                        data-count="default"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xs-12 col-sm-6 col-md-4">
+                  <section className="mixlr-img-section">
+                    <img
+                      src={shamailslide}
+                      alt="shamail"
+                      className="img-responsive"
+                      height="100%"
+                    />
+                  </section>
+                </div>
+
+                <div className="col-xs-12 col-sm-6 col-md-6">
+                  <section className="mixlr-section">
+                    <iframe
+                      title="shaikh-zafar"
+                      src="https://mixlr.com/zafarulhasan/showreel/"
+                      className="mixlr "
+                      width="100%"
+                      height="100%"
+                      scrolling="no"
+                      frameborder="no"
+                      marginheight="0"
+                      marginwidth="0"
+                    ></iframe>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
+        <section className="mosque">
+          <div className="container py-4 d-flex justify-content-center">
+            <div className="col-md-8">
+              <img
+                src={mosque}
+                alt="mosque"
+                height="215px"
+                className="img-responsive"
+              />
+            </div>
+          </div>
+        </section>
+
         <section className="embed-section">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row">
-              <div className="col-lg-3 col-md-4 col-sm-10 col-xs-12">
-                <section className="calendar-section">
-                  <div class="embed-responsive embed-responsive-4by3">
+              <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <section className="calendar-section" id="link">
+                  <div class="embed-responsive embed-responsive-16by9">
                     <iframe
                       title="shaikh zafar class"
                       src="https://calendar.google.com/calendar/embed?src=9pttne6lpue9vdlm7qfn6s89lc@group.calendar.google.com&ctz=Asia/Dubai"
@@ -141,17 +220,6 @@ export default class Home extends Component {
                       scrolling="no"
                     ></iframe>
                   </div>
-                </section>
-              </div>
-              <div className="col-lg-9 col-md-8 col-sm-10 col-xs-12">
-                <section className="telegram-section">
-                  <iframe
-                    title="jummuah khutbah"
-                    src="https://api.telegram.org/bot1423133292:AAFMCjhsJznoVrxiApdX-khwspnqFMgQYYc/getUpdates/
-                    "
-                    frameborder="0"
-                    height="250px"
-                  ></iframe>
                 </section>
               </div>
             </div>
