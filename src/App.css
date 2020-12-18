@@ -51,23 +51,27 @@ a .nav-link {
 .calendar-section {
   background: url("../src/img/beigebg.jpeg");
   margin-top: 25px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9),
+    0 6px 20px 0 rgba(255, 255, 255, 255);
 }
 .mixlr-section {
-  height: auto;
+  height: 215px;
   background: url("../src/img/beigebg.jpeg");
   margin-top: 25px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 255);
 }
 .telegram-section {
   background: url("../src/img/beigebg.jpeg");
   margin-top: 25px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
 .latest-section {
   background: url("../src/img/beigebg.jpeg");
   margin-top: 25px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+.mixlr {
+  height: 215px;
 }
 @media (min-width: 1200px) {
   .calendar-section {

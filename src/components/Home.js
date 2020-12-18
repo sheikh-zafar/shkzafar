@@ -26,50 +26,7 @@ export default class Home extends Component {
           <div className="text-center mt-0">
             <p className="heading-lead mt-0">SHAIKH ZAFAR UL HASAN MADANI</p>
           </div>
-          <div className="container-fluid my-2 text-center ">
-            <div>
-              <div
-                className="container-fluid d-flex justify-content-between"
-                id="fixed"
-              >
-                <a href="/" rel="noopener noreferrer" target="_blank">
-                  <i
-                    className="fa fa-3x fa-google"
-                    style={{ color: "#e1c699" }}
-                    aria-hidden="true"
-                  ></i>
-                </a>
-                <a href="/" rel="noopener noreferrer" target="_blank">
-                  <i
-                    className="fa fa-3x fa-facebook-square"
-                    style={{ color: `#e1c699` }}
-                    aria-hidden="true"
-                  ></i>
-                </a>
-                <a href="/" rel="noopener noreferrer" target="_blank">
-                  <i
-                    className="fa fa-3x fa-twitter-square"
-                    style={{ color: "#e1c699" }}
-                    aria-hidden="true"
-                  ></i>
-                </a>
-                <a href="/" rel="noopener noreferrer" target="_blank">
-                  <i
-                    className="fa fa-3x fa-linkedin-square"
-                    style={{ color: "#e1c699 " }}
-                    aria-hidden="true"
-                  ></i>
-                </a>
-                <a href="/" rel="noopener noreferrer" target="_blank">
-                  <i
-                    className="fa fa-3x fa-instagram"
-                    style={{ color: "#e1c699" }}
-                    aria-hidden="true"
-                  ></i>
-                </a>
-              </div>
-            </div>
-          </div>
+
           <Navbar />
         </section>
         <div className="container-fluid">
@@ -135,7 +92,46 @@ export default class Home extends Component {
           <div className="container-fluid">
             <div className="row">
               <div className="col-lg-3 col-md-4 col-sm-10 col-xs-12">
-                <div className="calendar-section">
+                <section className="latest-section">
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe
+                      title="jummuah khutbah"
+                      src="https://www.youtube.com/embed/videoseries?list=PLmZP1KIsC-hnB5SYT-dP55VpAM4jFuwtW"
+                      frameborder="0"
+                      height="215px"
+                    ></iframe>
+                  </div>
+                </section>
+              </div>
+              <div className=" col-lg-9 col-md-8 col-sm-10 col-xs-12">
+                <section className="mixlr-section">
+                  <iframe
+                    title="shaikh-zafar"
+                    src="https://mixlr.com/zafarulhasan/embed"
+                    className="mixlr"
+                    width="100%"
+                    height="10px"
+                    scrolling="no"
+                    frameborder="no"
+                    marginheight="0"
+                    marginwidth="0"
+                  ></iframe>
+
+                  <small>
+                    <a href="http://mixlr.com/zafarulhasan">
+                      zafarulhasan is on Mixlr
+                    </a>
+                  </small>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section className="embed-section">
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-lg-3 col-md-4 col-sm-10 col-xs-12">
+                <section className="calendar-section">
                   <div class="embed-responsive embed-responsive-4by3">
                     <iframe
                       title="shaikh zafar class"
@@ -145,51 +141,16 @@ export default class Home extends Component {
                       scrolling="no"
                     ></iframe>
                   </div>
-                </div>
+                </section>
               </div>
-              <div className="mixlr-section col-lg-9 col-md-8 col-sm-10 col-xs-12">
-                <div className="col-md-2 mt-3">
-                  <iframe
-                    title="mixlr"
-                    src="https://mixlr.com/users/7312955/embed"
-                    scrolling="no"
-                    frameborder="no"
-                    marginheight="0"
-                    marginwidth="0"
-                  ></iframe>
-                  <small>
-                    <a href="https://mixlr.com/a_jamal">
-                      Updates from A_jamal lectures
-                    </a>
-                  </small>
-                </div>
-
-                <div className="col-md-6"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <section className="embed-section">
-          <div className="container-fluid">
-            <div className="row">
-              <div className="col-lg-3 col-md-4 col-sm-10 col-xs-12">
+              <div className="col-lg-9 col-md-8 col-sm-10 col-xs-12">
                 <section className="telegram-section">
                   <iframe
                     title="jummuah khutbah"
                     src="https://api.telegram.org/bot1423133292:AAFMCjhsJznoVrxiApdX-khwspnqFMgQYYc/getUpdates/
                     "
                     frameborder="0"
-                    height="215px"
-                  ></iframe>
-                </section>
-              </div>
-              <div className="col-lg-9 col-md-8 col-sm-10 col-xs-12">
-                <section className="latest-section">
-                  <iframe
-                    title="jummuah khutbah"
-                    src="https://www.youtube.com/embed/videoseries?list=PLmZP1KIsC-hnB5SYT-dP55VpAM4jFuwtW"
-                    frameborder="0"
-                    height="215px"
+                    height="250px"
                   ></iframe>
                 </section>
               </div>
