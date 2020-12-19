@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
-import Calendar from "react-calendar";
 import Footer from "./footer";
 import "react-calendar/dist/Calendar.css";
 import bam2 from "../img/bam2.jpg";
@@ -21,20 +20,7 @@ export default class Home extends Component {
     return (
       <div>
         {/*Heading name and Navigation bar*/}
-        <section className="heading-section">
-          <div className="container d-flex justify-content-center">
-            <div>
-              <h1 className="heading-name">
-                فضيلة الشيخ ظفر الحسن مدني حفظه اللّه
-              </h1>
-            </div>
-            <hr />
-          </div>
-          <div className="text-center mt-0">
-            <p className="heading-lead mt-0">SHAIKH ZAFAR UL HASAN MADANI</p>
-          </div>
-          <Navbar />
-        </section>
+        <Navbar />
 
         {/*Banner section*/}
         <div className="container">
@@ -68,6 +54,15 @@ export default class Home extends Component {
                     <div class="carousel-item">
                       <img
                         src={shamail2}
+                        className="d-block w-100"
+                        alt="shamail"
+                        height="400px"
+                        width="100%"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src={shamailslide}
                         className="d-block w-100"
                         alt="shamail"
                         height="400px"
@@ -110,7 +105,7 @@ export default class Home extends Component {
         <section className="embed-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-4 col-md-5 col-sm-10 col-xs-12">
+              <div className="col-lg-5 col-md-5 col-sm-10 col-xs-12">
                 <section className="mixlr-section calendar">
                   <iframe
                     title="calendar"
@@ -122,8 +117,11 @@ export default class Home extends Component {
                   ></iframe>
                 </section>
               </div>
-              <div className=" col-lg-8 col-md-7 col-sm-10 col-xs-12">
-                <div className="container  px-0 pt-1">
+              <div className=" col-lg-7 col-md-7 col-sm-10 col-xs-12">
+                <div
+                  className="container  px-0 pt-1"
+                  style={{ fontFamily: "Fredoka One", fontSize: "20px" }}
+                >
                   Live Broadcast on Mixlr
                 </div>
                 <section className="mixlr-section">
@@ -144,9 +142,16 @@ export default class Home extends Component {
         </section>
 
         {/*Youtube, Image ,Showreel*/}
-        <div className="container">
+        <div className="container pt-3">
           <section className="three-col-section">
-            <div className="container-fluid py-4 ">
+            <div
+              className="container-fluid py-4 "
+              style={{
+                color: "#5c4033",
+                fontFamily: "Pacifico family",
+                fontSize: "15px",
+              }}
+            >
               <div className="row justify-content-center ">
                 <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                   <div className="container py-3 ">
@@ -156,9 +161,9 @@ export default class Home extends Component {
                       className="btn btn btn-lg btn-outline-dark"
                       style={{
                         width: "170px",
-                        backgroundColor: "white",
-                        color: "black",
-                        fontFamily: "serif",
+                        backgroundColor: "#2e856e",
+                        color: "beige",
+                        fontFamily: "Righteous",
                       }}
                     >
                       Calendar
@@ -184,12 +189,14 @@ export default class Home extends Component {
                     <a
                       href="https://mixlr.com/zafarulhasan/showreel/"
                       role="button"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="btn btn btn-lg btn-outline-dark"
                       style={{
                         width: "170px",
-                        backgroundColor: "white",
-                        color: "black",
-                        fontFamily: "serif",
+                        backgroundColor: "#2e856e",
+                        color: "beige",
+                        fontFamily: "Righteous",
                       }}
                     >
                       Mixlr Show Reel
@@ -206,8 +213,8 @@ export default class Home extends Component {
 
         {/*Banner1*/}
         <section className="mosque">
-          <div className="container-fluid">
-            <div className="row">
+          <div className="container">
+            <div className="row" style={{ border: "1px dotted beige" }}>
               <div className="container py-4">
                 <div className="row justify-content-center">
                   <div className="col-md-10 displayimg  d-flex justify-content-center">

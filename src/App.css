@@ -10,6 +10,7 @@
 }
 body {
   background-color: #2e856e;
+  color: beige;
 }
 * {
   scroll-behavior: smooth;
@@ -93,7 +94,7 @@ a .nav-link {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
 .calendar {
-  height: 240px;
+  height: 270px;
 }
 .mixlr {
   background-color: beige;
@@ -103,8 +104,7 @@ img .logo {
   height: 50px;
   width: 50px;
 }
-.shamailimg {
-}
+
 .display-head {
   margin-top: 25px;
   font-family: "Gloria Hallelujah", sans-serif;
