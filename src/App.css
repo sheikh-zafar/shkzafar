@@ -11,10 +11,8 @@
 body {
   background-color: #2e856e;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  scroll-behavior: smooth;
 }
 .heading-section {
   color: beige;
@@ -37,14 +35,10 @@ li .nav-link:hover {
 a .nav-link {
   color: beige;
 }
-
 .navbar-color {
   background: url("../src/img/beigebg.jpeg");
 }
-.mx-auto {
-  margin-right: auto !important;
-  margin-left: auto !important;
-}
+
 .heading-section h1 {
   color: beige;
   font-family: "Amiri";
@@ -115,7 +109,8 @@ img .logo {
   color: beige;
 }
 .displayimg {
-  height: 150px;
+  height: 215px;
+  width: 1000px;
 }
 
 @media (min-width: 1200px) {

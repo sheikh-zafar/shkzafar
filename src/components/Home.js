@@ -21,7 +21,6 @@ export default class Home extends Component {
     return (
       <div>
         {/*Heading name and Navigation bar*/}
-
         <section className="heading-section">
           <div className="container d-flex justify-content-center">
             <div>
@@ -38,8 +37,7 @@ export default class Home extends Component {
         </section>
 
         {/*Banner section*/}
-
-        <div className="container-fluid">
+        <div className="container">
           <div className="row">
             <div className="col-md-12">
               <section className="banner-section">
@@ -110,7 +108,7 @@ export default class Home extends Component {
 
         {/*Calendar and Mixlr section*/}
         <section className="embed-section">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row">
               <div className="col-lg-3 col-md-4 col-sm-10 col-xs-12">
                 <section className="mixlr-section">
@@ -144,26 +142,27 @@ export default class Home extends Component {
 
         {/*Youtube, Image ,Showreel*/}
         <section className="embed-section">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-xs-12 col-sm-6 col-md-4">
-                <div className="container">
+          <div className="container py-4 ">
+            <div className="row justify-content-center ">
+              <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div className="container py-3">
                   <a
                     href="#link"
                     role="button"
-                    className="btn btn btn-outline-dark"
+                    className="btn btn btn-lg btn-outline-dark"
                     style={{
+                      width: "170px",
                       backgroundColor: "white",
                       color: "black",
-                      fontFamily: "monospace",
+                      fontFamily: "serif",
                     }}
                   >
                     Calendar
                   </a>
                 </div>
               </div>
-              <div className="col-xs-12 col-sm-6 col-md-4">
-                <div className="container">
+              <div className="col-lg-3 col-md-4 col-sm-6  col-xs-12">
+                <div className="container py-4">
                   <div
                     class="g-ytsubscribe"
                     data-channelid="UC2zD7wY_3TCGCyA9Cy_Nu9w"
@@ -172,13 +171,14 @@ export default class Home extends Component {
                   ></div>
                 </div>
               </div>
-              <div className="col-xs-12 col-sm-6 col-md-4">
-                <div className="container">
+              <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div className="container py-3">
                   <a
                     href="https://mixlr.com/zafarulhasan/showreel/"
                     role="button"
-                    className="btn btn btn-outline-dark"
+                    className="btn btn btn-lg btn-outline-dark"
                     style={{
+                      width: "170px",
                       backgroundColor: "white",
                       color: "black",
                       fontFamily: "serif",
@@ -193,88 +193,81 @@ export default class Home extends Component {
         </section>
 
         {/*Banner1*/}
-
-        <section className="mosque ">
-          <div class="container-fluid ">
-            <div class="row text-center ">
-              <div class="col-md-12">
-                <h5 className="display-head">
-                  <i class="fa fa-2x fa-calendar" aria-hidden="true"></i>
-                  Event List
-                </h5>
-              </div>
-            </div>
-          </div>
-          <div className="container py-4 ">
-            <div className="row justify-content-center">
-              <div className="col-md-8 displayimg  d-flex justify-content-center">
-                <img
-                  src={mosque}
-                  alt="jumuah khutbah"
-                  className="img-responsive"
-                />
-              </div>
-            </div>
-
-            <div className=" container text-center">
-              <div className="row justify-content-center">
-                <h5 className="display-title">Jumu'ah Khutbah</h5>
-              </div>
-            </div>
-          </div>
-          <div className="container py-4 ">
-            <div className="row justify-content-center">
-              <div className="col-md-8 displayimg  d-flex justify-content-center">
-                <img
-                  src={sharhsunnah3}
-                  alt="Sharh as-Sunnah
-                "
-                  className="img-responsive displayimg"
-                />
-              </div>
-            </div>
-            <div className="container">
-              <div className="row justify-content-center">
-                <div className="text-center">
-                  <h5 className="display-title">Sharh as-Sunnah</h5>
+        <section className="mosque">
+          <div className="container-fluid">
+            <div className="row">
+              <div className="container py-4 ">
+                <div className="row justify-content-center">
+                  <div className="col-md-10 displayimg  d-flex justify-content-center">
+                    <img
+                      src={mosque}
+                      alt="jumuah khutbah"
+                      className="img-responsive"
+                    />
+                  </div>
+                </div>
+                <div className=" container text-center">
+                  <div className="row justify-content-center">
+                    <h5 className="display-title">Jumu'ah Khutbah</h5>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="container py-4">
-            <div className="row justify-content-center">
-              <div className="col-md-8 displayimg  d-flex justify-content-center">
-                <img
-                  src={bam2}
-                  alt="bulugh al maram
+
+              <div className="container py-4 ">
+                <div className="row justify-content-center">
+                  <div className="col-md-10 displayimg  d-flex justify-content-center">
+                    <img
+                      src={sharhsunnah3}
+                      alt="Sharh as-Sunnah
+                "
+                      className="img-responsive displayimg"
+                    />
+                  </div>
+                </div>
+                <div className="container">
+                  <div className="row justify-content-center">
+                    <div className="text-center">
+                      <h5 className="display-title">Sharh as-Sunnah</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="container py-4">
+                <div className="row justify-content-center">
+                  <div className="col-md-10 displayimg  d-flex justify-content-center">
+                    <img
+                      src={bam2}
+                      alt="bulugh al maram
   "
-                  className="img-responsive displayimg"
-                />
-              </div>
-            </div>
-            <div className="container">
-              <div className="row justify-content-center">
-                <div className="text-center">
-                  <h5 className="display-title">Bulugh Al Maram</h5>
+                      className="img-responsive displayimg"
+                    />
+                  </div>
+                </div>
+                <div className="container">
+                  <div className="row justify-content-center">
+                    <div className="text-center">
+                      <h5 className="display-title">Bulugh Al Maram</h5>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="container py-4 ">
-            <div className="row justify-content-center">
-              <div className="col-md-8 displayimg  d-flex justify-content-center">
-                <img
-                  src={shamail2}
-                  alt="at tirmidhi
+              <div className="container py-4 ">
+                <div className="row justify-content-center">
+                  <div className="col-md-10 displayimg  d-flex justify-content-center">
+                    <img
+                      src={shamail2}
+                      alt="at tirmidhi
                 "
-                  className="img-responsive displayimg"
-                />
-              </div>
-            </div>
-            <div className="container">
-              <div className="row justify-content-center">
-                <div className="text-center">
-                  <h5 className="display-title">Shama'il at Tirmidhi</h5>
+                      className="img-responsive displayimg"
+                    />
+                  </div>
+                </div>
+                <div className="container">
+                  <div className="row justify-content-center">
+                    <div className="text-center">
+                      <h5 className="display-title">Shama'il at Tirmidhi</h5>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -282,11 +275,22 @@ export default class Home extends Component {
         </section>
 
         {/*Full month calendar*/}
-        <section className="embed-section">
+        <section className="embed-section" id="link">
           <div className="container">
             <div className="row">
+              <div class="container-fluid ">
+                <div class="row text-center">
+                  <div class="col-md-12">
+                    <h5 className="display-head">
+                      <i class="fa fa-2x fa-calendar" aria-hidden="true"></i>
+                      Event List
+                    </h5>
+                    <hr />
+                  </div>
+                </div>
+              </div>
               <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <section className="calendar-section" id="link">
+                <section className="calendar-section">
                   <div class="embed-responsive embed-responsive-16by9">
                     <iframe
                       title="shaikh zafar class"
