@@ -1,33 +1,32 @@
 {
   "files": {
-    "main.css": "/shkzafar/static/css/main.d9943b2f.chunk.css",
-    "main.js": "/shkzafar/static/js/main.d11275b8.chunk.js",
-    "main.js.map": "/shkzafar/static/js/main.d11275b8.chunk.js.map",
-    "runtime-main.js": "/shkzafar/static/js/runtime-main.e3862143.js",
-    "runtime-main.js.map": "/shkzafar/static/js/runtime-main.e3862143.js.map",
+    "main.css": "/shkzafar/static/css/main.cbdab809.chunk.css",
+    "main.js": "/shkzafar/static/js/main.dd5d8bdf.chunk.js",
+    "main.js.map": "/shkzafar/static/js/main.dd5d8bdf.chunk.js.map",
+    "runtime-main.js": "/shkzafar/static/js/runtime-main.b5a86196.js",
+    "runtime-main.js.map": "/shkzafar/static/js/runtime-main.b5a86196.js.map",
     "static/css/2.f1a1079b.chunk.css": "/shkzafar/static/css/2.f1a1079b.chunk.css",
-    "static/js/2.a2b09e96.chunk.js": "/shkzafar/static/js/2.a2b09e96.chunk.js",
-    "static/js/2.a2b09e96.chunk.js.map": "/shkzafar/static/js/2.a2b09e96.chunk.js.map",
-    "static/js/3.587cf2eb.chunk.js": "/shkzafar/static/js/3.587cf2eb.chunk.js",
-    "static/js/3.587cf2eb.chunk.js.map": "/shkzafar/static/js/3.587cf2eb.chunk.js.map",
+    "static/js/2.449adb78.chunk.js": "/shkzafar/static/js/2.449adb78.chunk.js",
+    "static/js/2.449adb78.chunk.js.map": "/shkzafar/static/js/2.449adb78.chunk.js.map",
+    "static/js/3.eadb10ba.chunk.js": "/shkzafar/static/js/3.eadb10ba.chunk.js",
+    "static/js/3.eadb10ba.chunk.js.map": "/shkzafar/static/js/3.eadb10ba.chunk.js.map",
     "index.html": "/shkzafar/index.html",
     "static/css/2.f1a1079b.chunk.css.map": "/shkzafar/static/css/2.f1a1079b.chunk.css.map",
-    "static/css/main.d9943b2f.chunk.css.map": "/shkzafar/static/css/main.d9943b2f.chunk.css.map",
-    "static/js/2.a2b09e96.chunk.js.LICENSE.txt": "/shkzafar/static/js/2.a2b09e96.chunk.js.LICENSE.txt",
+    "static/css/main.cbdab809.chunk.css.map": "/shkzafar/static/css/main.cbdab809.chunk.css.map",
+    "static/js/2.449adb78.chunk.js.LICENSE.txt": "/shkzafar/static/js/2.449adb78.chunk.js.LICENSE.txt",
     "static/media/bamslide.68730c66.jpg": "/shkzafar/static/media/bamslide.68730c66.jpg",
     "static/media/mosque.e1f1f0ea.jpg": "/shkzafar/static/media/mosque.e1f1f0ea.jpg",
     "static/media/shamail1.bf35a4ea.jpg": "/shkzafar/static/media/shamail1.bf35a4ea.jpg",
     "static/media/shamail2.7b6ab84b.jpg": "/shkzafar/static/media/shamail2.7b6ab84b.jpg",
     "static/media/shamailslide.b85f8dc1.jpg": "/shkzafar/static/media/shamailslide.b85f8dc1.jpg",
     "static/media/sharhsunnah2.9f34a0e8.jpg": "/shkzafar/static/media/sharhsunnah2.9f34a0e8.jpg",
-    "static/media/sharhsunnah3.b782ecca.jpg": "/shkzafar/static/media/sharhsunnah3.b782ecca.jpg",
-    "static/media/shkzafar.d99eae60.jpg": "/shkzafar/static/media/shkzafar.d99eae60.jpg"
+    "static/media/sharhsunnah3.b782ecca.jpg": "/shkzafar/static/media/sharhsunnah3.b782ecca.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e3862143.js",
+    "static/js/runtime-main.b5a86196.js",
     "static/css/2.f1a1079b.chunk.css",
-    "static/js/2.a2b09e96.chunk.js",
-    "static/css/main.d9943b2f.chunk.css",
-    "static/js/main.d11275b8.chunk.js"
+    "static/js/2.449adb78.chunk.js",
+    "static/css/main.cbdab809.chunk.css",
+    "static/js/main.dd5d8bdf.chunk.js"
   ]
 }
