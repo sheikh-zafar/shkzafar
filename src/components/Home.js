@@ -119,60 +119,10 @@ export default class Home extends Component {
                     src="https://calendar.google.com/calendar/embed?height=250&amp;wkst=1&amp;bgcolor=%23009688&amp;ctz=Asia%2FDubai&amp;src=OXB0dG5lNmxwdWU5dmRsbTdxZm42czg5bGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%230B8043&amp;showPrint=0&amp;showCalendars=0&amp;showDate=1&amp;mode=AGENDA&amp;showTabs=0&amp;showNav=0"
                     frameborder="0"
                     width="100%"
-                    height="80%"
+                    height="100%"
                     scrolling="no"
                   ></iframe>
-                  <div className="d-flex justify-content-center mb-1">
-                    <a
-                      href="#link"
-                      type="button"
-                      className="btn btn btn-outline-dark"
-                      style={{ backgroundColor: "#5c4033", color: "white" }}
-                    >
-                      Show Calendar
-                    </a>
-                  </div>
                 </section>
-                {/*Modal*/}
-                <div
-                  className="modal fade"
-                  id="exampleModalLong"
-                  tabindex="-1"
-                  role="dialog"
-                  aria-labelledby="exampleModalLongTitle"
-                  aria-hidden="true"
-                >
-                  <div className="modal-dialog" role="document">
-                    <div className="modal-content">
-                      <div className="modal-header">
-                        <h5 className="modal-title" id="exampleModalLongTitle">
-                          Modal title
-                        </h5>
-                        <button
-                          type="button"
-                          className="close"
-                          data-dismiss="modal"
-                          aria-label="Close"
-                        >
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div className="modal-body">...</div>
-                      <div className="modal-footer">
-                        <button
-                          type="button"
-                          className="btn btn-secondary"
-                          data-dismiss="modal"
-                        >
-                          Close
-                        </button>
-                        <button type="button" className="btn btn-primary">
-                          Save changes
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
               <div className=" col-lg-9 col-md-8 col-sm-10 col-xs-12">
                 <section className="mixlr-section">
@@ -181,7 +131,6 @@ export default class Home extends Component {
                     src="https://mixlr.com/zafarulhasan/embed"
                     className="mixlr"
                     width="100%"
-                    height="10px"
                     scrolling="no"
                     frameborder="no"
                     marginheight="0"
@@ -195,44 +144,49 @@ export default class Home extends Component {
 
         {/*Youtube, Image ,Showreel*/}
         <section className="embed-section">
-          <div className="container-fluid">
-            <div className="row">
-              <div className="col-xs-12 col-sm-6 col-md-2">
-                <div className="container-fluid">
-                  <div className="row pt-5">
-                    <div
-                      class="g-ytsubscribe"
-                      data-channelid="UC2zD7wY_3TCGCyA9Cy_Nu9w"
-                      data-layout="full"
-                      data-count="default"
-                    ></div>
-                  </div>
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-xs-12 col-sm-6 col-md-4">
+                <div className="container">
+                  <a
+                    href="#link"
+                    role="button"
+                    className="btn btn btn-outline-dark"
+                    style={{
+                      backgroundColor: "white",
+                      color: "black",
+                      fontFamily: "monospace",
+                    }}
+                  >
+                    Calendar
+                  </a>
                 </div>
               </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 ">
-                <section className="mixlr-img-section">
-                  <img
-                    src={shamailslide}
-                    alt="shamail"
-                    className="img-responsive"
-                  />
-                </section>
+              <div className="col-xs-12 col-sm-6 col-md-4">
+                <div className="container">
+                  <div
+                    class="g-ytsubscribe"
+                    data-channelid="UC2zD7wY_3TCGCyA9Cy_Nu9w"
+                    data-layout="full"
+                    data-count="default"
+                  ></div>
+                </div>
               </div>
-
-              <div className="col-xs-12 col-sm-6 col-md-6">
-                <section className="mixlr-section">
-                  <iframe
-                    title="shaikh-zafar"
-                    src="https://mixlr.com/zafarulhasan/showreel/"
-                    className="mixlr "
-                    width="100%"
-                    height="100%"
-                    scrolling="no"
-                    frameborder="no"
-                    marginheight="0"
-                    marginwidth="0"
-                  ></iframe>
-                </section>
+              <div className="col-xs-12 col-sm-6 col-md-4">
+                <div className="container">
+                  <a
+                    href="https://mixlr.com/zafarulhasan/showreel/"
+                    role="button"
+                    className="btn btn btn-outline-dark"
+                    style={{
+                      backgroundColor: "white",
+                      color: "black",
+                      fontFamily: "serif",
+                    }}
+                  >
+                    Mixlr Show Reel
+                  </a>
+                </div>
               </div>
             </div>
           </div>

@@ -16,35 +16,33 @@ export default class Navbar extends Component {
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div className="d-md-flex d-block flex-row mx-md-auto mx-0">
-            <div
-              className="collapse navbar-collapse"
-              width="100%"
-              id="navbarSupportedContent"
-            >
-              <ul className="navbar-nav">
-                <li className="nav-item">
-                  <a className="nav-link" href="/">
-                    Home{" "}
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/">
-                    Audios
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/">
-                    Books
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/">
-                    About Shaikh
-                  </a>
-                </li>
-              </ul>
-            </div>
+          <div
+            className="d-md-flex d-block flex-row mx-md-auto mx-0 collapse navbar-collapse"
+            width="100%"
+            id="navbarSupportedContent"
+          >
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <a className="nav-link" href="/">
+                  Home{" "}
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/">
+                  Audios
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/">
+                  Books
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/">
+                  About Shaikh
+                </a>
+              </li>
+            </ul>
           </div>
         </nav>
       </div>
