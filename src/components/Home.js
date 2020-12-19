@@ -110,8 +110,8 @@ export default class Home extends Component {
         <section className="embed-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-3 col-md-4 col-sm-10 col-xs-12">
-                <section className="mixlr-section">
+              <div className="col-lg-4 col-md-5 col-sm-10 col-xs-12">
+                <section className="mixlr-section calendar">
                   <iframe
                     title="calendar"
                     src="https://calendar.google.com/calendar/embed?height=250&amp;wkst=1&amp;bgcolor=%23009688&amp;ctz=Asia%2FDubai&amp;src=OXB0dG5lNmxwdWU5dmRsbTdxZm42czg5bGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%230B8043&amp;showPrint=0&amp;showCalendars=0&amp;showDate=1&amp;mode=AGENDA&amp;showTabs=0&amp;showNav=0"
@@ -122,7 +122,10 @@ export default class Home extends Component {
                   ></iframe>
                 </section>
               </div>
-              <div className=" col-lg-9 col-md-8 col-sm-10 col-xs-12">
+              <div className=" col-lg-8 col-md-7 col-sm-10 col-xs-12">
+                <div className="container  px-0 pt-1">
+                  Live Broadcast on Mixlr
+                </div>
                 <section className="mixlr-section">
                   <iframe
                     title="shaikh-zafar"
@@ -141,62 +144,71 @@ export default class Home extends Component {
         </section>
 
         {/*Youtube, Image ,Showreel*/}
-        <section className="embed-section">
-          <div className="container py-4 ">
-            <div className="row justify-content-center ">
-              <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <div className="container py-3">
-                  <a
-                    href="#link"
-                    role="button"
-                    className="btn btn btn-lg btn-outline-dark"
-                    style={{
-                      width: "170px",
-                      backgroundColor: "white",
-                      color: "black",
-                      fontFamily: "serif",
-                    }}
-                  >
-                    Calendar
-                  </a>
+        <div className="container">
+          <section className="three-col-section">
+            <div className="container-fluid py-4 ">
+              <div className="row justify-content-center ">
+                <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                  <div className="container py-3 ">
+                    <a
+                      href="#link"
+                      role="button"
+                      className="btn btn btn-lg btn-outline-dark"
+                      style={{
+                        width: "170px",
+                        backgroundColor: "white",
+                        color: "black",
+                        fontFamily: "serif",
+                      }}
+                    >
+                      Calendar
+                    </a>
+                    <div className="container  px-0 pt-1">
+                      Complete Lecture schedule
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className="col-lg-3 col-md-4 col-sm-6  col-xs-12">
-                <div className="container py-4">
-                  <div
-                    class="g-ytsubscribe"
-                    data-channelid="UC2zD7wY_3TCGCyA9Cy_Nu9w"
-                    data-layout="full"
-                    data-count="default"
-                  ></div>
+                <div className="col-lg-3 col-md-4 col-sm-6  col-xs-12">
+                  <div className="container py-4">
+                    <div
+                      class="g-ytsubscribe"
+                      data-channelid="UC2zD7wY_3TCGCyA9Cy_Nu9w"
+                      data-layout="full"
+                      data-count="default"
+                    ></div>
+                    <div className="container px-0 pt-1">YouTube Channel</div>
+                  </div>
                 </div>
-              </div>
-              <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <div className="container py-3">
-                  <a
-                    href="https://mixlr.com/zafarulhasan/showreel/"
-                    role="button"
-                    className="btn btn btn-lg btn-outline-dark"
-                    style={{
-                      width: "170px",
-                      backgroundColor: "white",
-                      color: "black",
-                      fontFamily: "serif",
-                    }}
-                  >
-                    Mixlr Show Reel
-                  </a>
+                <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                  <div className="container py-3">
+                    <a
+                      href="https://mixlr.com/zafarulhasan/showreel/"
+                      role="button"
+                      className="btn btn btn-lg btn-outline-dark"
+                      style={{
+                        width: "170px",
+                        backgroundColor: "white",
+                        color: "black",
+                        fontFamily: "serif",
+                      }}
+                    >
+                      Mixlr Show Reel
+                    </a>
+                    <div className="container px-0 pt-1">
+                      Catch up on missed duroos
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
+        </div>
 
         {/*Banner1*/}
         <section className="mosque">
           <div className="container-fluid">
             <div className="row">
-              <div className="container py-4 ">
+              <div className="container py-4">
                 <div className="row justify-content-center">
                   <div className="col-md-10 displayimg  d-flex justify-content-center">
                     <img
@@ -208,7 +220,7 @@ export default class Home extends Component {
                 </div>
                 <div className=" container text-center">
                   <div className="row justify-content-center">
-                    <h5 className="display-title">Jumu'ah Khutbah</h5>
+                    <h5 className="display-title">Jumu'ah Khutba</h5>
                   </div>
                 </div>
               </div>
@@ -256,8 +268,7 @@ export default class Home extends Component {
                   <div className="col-md-10 displayimg  d-flex justify-content-center">
                     <img
                       src={shamail2}
-                      alt="at tirmidhi
-                "
+                      alt="at tirmidhi"
                       className="img-responsive displayimg"
                     />
                   </div>
