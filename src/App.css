@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Patua+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Patua+One&family=Ubuntu+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
 .App {
   text-align: center;
 }
@@ -43,7 +49,11 @@ a .nav-link {
   color: beige;
   font-family: "Amiri";
 }
+.heading-name {
+  font-size: 30px;
+}
 .heading-lead {
+  padding-top: 0%;
   font-size: 20px;
 }
 .embed-section {
@@ -56,8 +66,9 @@ a .nav-link {
 }
 .mosque {
   margin-top: 25px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+  background-color: #2e856e;
 }
+
 .mixlr-section {
   height: 215px;
   background: url("../src/img/beigebg.jpeg");
@@ -78,7 +89,10 @@ a .nav-link {
   padding-left: 30px;
 }
 .mixlr-img-section {
-  height: "215px";
+  height: 215px;
+  background: url("../src/img/beigebg.jpeg");
+  margin-top: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
 .mixlr {
   background-color: beige;
@@ -88,6 +102,22 @@ img .logo {
   height: 50px;
   width: 50px;
 }
+.shamailimg {
+}
+.display-head {
+  margin-top: 25px;
+  font-family: "Gloria Hallelujah", sans-serif;
+  color: beige;
+  font-size: 30px;
+}
+.display-title {
+  font-family: "Fredoka One", sans-serif;
+  color: beige;
+}
+.displayimg {
+  height: 150px;
+}
+
 @media (min-width: 1200px) {
   .calendar-section {
   }
@@ -108,9 +138,10 @@ img .logo {
 
 @media (max-width: 767.98px) {
   .heading-name {
-    font-size: 20px;
+    font-size: 25px;
   }
   .heading-lead {
+    padding-top: 0%;
     font-size: 15px;
   }
   .calendar-section {
@@ -123,10 +154,11 @@ img .logo {
 
 @media (max-width: 575.98px) {
   .heading-name {
-    font-size: 15px;
+    font-size: 20px;
   }
   .heading-lead {
-    font-size: 10px;
+    padding-top: 0%;
+    font-size: 15px;
   }
   .calendar-section {
   }

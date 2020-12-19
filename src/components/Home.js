@@ -3,9 +3,6 @@ import Navbar from "./Navbar";
 import Calendar from "react-calendar";
 import Footer from "./footer";
 import "react-calendar/dist/Calendar.css";
-import Iframe from "react-iframe";
-import Shkzafar from "../img/shkzafar.jpg";
-import YoutubeSubscribeButton from "deku-youtube-subscribe-button";
 import bam2 from "../img/bam2.jpg";
 import bamslide from "../img/bamslide.jpg";
 import shamail1 from "../img/shamail1.jpg";
@@ -23,11 +20,13 @@ export default class Home extends Component {
   render() {
     return (
       <div>
+        {/*Heading name and Navigation bar*/}
+
         <section className="heading-section">
           <div className="container d-flex justify-content-center">
             <div>
               <h1 className="heading-name">
-                فضيلة الشيخ ظفر الحسن مدني حفظه الله
+                فضيلة الشيخ ظفر الحسن مدني حفظه اللّه
               </h1>
             </div>
             <hr />
@@ -35,9 +34,11 @@ export default class Home extends Component {
           <div className="text-center mt-0">
             <p className="heading-lead mt-0">SHAIKH ZAFAR UL HASAN MADANI</p>
           </div>
-
           <Navbar />
         </section>
+
+        {/*Banner section*/}
+
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-12">
@@ -48,11 +49,11 @@ export default class Home extends Component {
                   data-ride="carousel"
                 >
                   <div class="carousel-inner">
-                    <div class="carousel-item active" data-interval="10000">
+                    <div class="carousel-item active" data-interval="5000">
                       <img
                         src={sharhsunnah2}
                         className="d-block w-100"
-                        alt="..."
+                        alt="sharh as sunnah"
                         height="400px"
                         width="100%"
                       />
@@ -61,7 +62,7 @@ export default class Home extends Component {
                       <img
                         src={shamail1}
                         className="d-block w-100"
-                        alt="..."
+                        alt="shamail"
                         height="400px"
                         width="100%"
                       />
@@ -70,7 +71,7 @@ export default class Home extends Component {
                       <img
                         src={shamail2}
                         className="d-block w-100"
-                        alt="..."
+                        alt="shamail"
                         height="400px"
                         width="100%"
                       />
@@ -79,7 +80,7 @@ export default class Home extends Component {
                       <img
                         src={bamslide}
                         className="d-block w-100"
-                        alt="..."
+                        alt="bulugh al maram"
                         height="400px"
                         width="100%"
                       />
@@ -106,7 +107,9 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
-        <div className="embed-section">
+
+        {/*Calendar and Mixlr section*/}
+        <section className="embed-section">
           <div className="container-fluid">
             <div className="row">
               <div className="col-lg-3 col-md-4 col-sm-10 col-xs-12">
@@ -119,17 +122,57 @@ export default class Home extends Component {
                     height="80%"
                     scrolling="no"
                   ></iframe>
-                  <div className="d-flex justify-content-center">
+                  <div className="d-flex justify-content-center mb-1">
                     <a
                       href="#link"
                       type="button"
-                      class="btn btn btn-outline-dark pt-1"
+                      className="btn btn btn-outline-dark"
                       style={{ backgroundColor: "#5c4033", color: "white" }}
                     >
                       Show Calendar
                     </a>
                   </div>
                 </section>
+                {/*Modal*/}
+                <div
+                  className="modal fade"
+                  id="exampleModalLong"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="exampleModalLongTitle"
+                  aria-hidden="true"
+                >
+                  <div className="modal-dialog" role="document">
+                    <div className="modal-content">
+                      <div className="modal-header">
+                        <h5 className="modal-title" id="exampleModalLongTitle">
+                          Modal title
+                        </h5>
+                        <button
+                          type="button"
+                          className="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div className="modal-body">...</div>
+                      <div className="modal-footer">
+                        <button
+                          type="button"
+                          className="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                        <button type="button" className="btn btn-primary">
+                          Save changes
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className=" col-lg-9 col-md-8 col-sm-10 col-xs-12">
                 <section className="mixlr-section">
@@ -148,64 +191,143 @@ export default class Home extends Component {
               </div>
             </div>
           </div>
-          <section className="embed-section">
-            <div className="container-fluid">
-              <div className="row">
-                <div className="col-xs-12 col-sm-6 col-md-2">
-                  <div className="container-fluid">
-                    <div className="row pt-5">
-                      <div
-                        class="g-ytsubscribe"
-                        data-channelid="UC2zD7wY_3TCGCyA9Cy_Nu9w"
-                        data-layout="full"
-                        data-count="default"
-                      ></div>
-                    </div>
+        </section>
+
+        {/*Youtube, Image ,Showreel*/}
+        <section className="embed-section">
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-xs-12 col-sm-6 col-md-2">
+                <div className="container-fluid">
+                  <div className="row pt-5">
+                    <div
+                      class="g-ytsubscribe"
+                      data-channelid="UC2zD7wY_3TCGCyA9Cy_Nu9w"
+                      data-layout="full"
+                      data-count="default"
+                    ></div>
                   </div>
                 </div>
-                <div className="col-xs-12 col-sm-6 col-md-4">
-                  <section className="mixlr-img-section">
-                    <img
-                      src={shamailslide}
-                      alt="shamail"
-                      className="img-responsive"
-                      height="100%"
-                    />
-                  </section>
-                </div>
-
-                <div className="col-xs-12 col-sm-6 col-md-6">
-                  <section className="mixlr-section">
-                    <iframe
-                      title="shaikh-zafar"
-                      src="https://mixlr.com/zafarulhasan/showreel/"
-                      className="mixlr "
-                      width="100%"
-                      height="100%"
-                      scrolling="no"
-                      frameborder="no"
-                      marginheight="0"
-                      marginwidth="0"
-                    ></iframe>
-                  </section>
-                </div>
               </div>
-            </div>
-          </section>
-        </div>
-        <section className="mosque">
-          <div className="container py-4 d-flex justify-content-center">
-            <div className="col-md-8">
-              <img
-                src={mosque}
-                alt="mosque"
-                height="215px"
-                className="img-responsive"
-              />
+              <div className="col-xs-12 col-sm-6 col-md-4 ">
+                <section className="mixlr-img-section">
+                  <img
+                    src={shamailslide}
+                    alt="shamail"
+                    className="img-responsive"
+                  />
+                </section>
+              </div>
+
+              <div className="col-xs-12 col-sm-6 col-md-6">
+                <section className="mixlr-section">
+                  <iframe
+                    title="shaikh-zafar"
+                    src="https://mixlr.com/zafarulhasan/showreel/"
+                    className="mixlr "
+                    width="100%"
+                    height="100%"
+                    scrolling="no"
+                    frameborder="no"
+                    marginheight="0"
+                    marginwidth="0"
+                  ></iframe>
+                </section>
+              </div>
             </div>
           </div>
         </section>
 
+        {/*Banner1*/}
+
+        <section className="mosque ">
+          <div class="container-fluid ">
+            <div class="row text-center ">
+              <div class="col-md-12">
+                <h5 className="display-head">
+                  <i class="fa fa-2x fa-calendar" aria-hidden="true"></i>
+                  Event List
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div className="container py-4 ">
+            <div className="row justify-content-center">
+              <div className="col-md-8 displayimg  d-flex justify-content-center">
+                <img
+                  src={mosque}
+                  alt="jumuah khutbah"
+                  className="img-responsive"
+                />
+              </div>
+            </div>
+
+            <div className=" container text-center">
+              <div className="row justify-content-center">
+                <h5 className="display-title">Jumu'ah Khutbah</h5>
+              </div>
+            </div>
+          </div>
+          <div className="container py-4 ">
+            <div className="row justify-content-center">
+              <div className="col-md-8 displayimg  d-flex justify-content-center">
+                <img
+                  src={sharhsunnah3}
+                  alt="Sharh as-Sunnah
+                "
+                  className="img-responsive displayimg"
+                />
+              </div>
+            </div>
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="text-center">
+                  <h5 className="display-title">Sharh as-Sunnah</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="container py-4">
+            <div className="row justify-content-center">
+              <div className="col-md-8 displayimg  d-flex justify-content-center">
+                <img
+                  src={bam2}
+                  alt="bulugh al maram
+  "
+                  className="img-responsive displayimg"
+                />
+              </div>
+            </div>
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="text-center">
+                  <h5 className="display-title">Bulugh Al Maram</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="container py-4 ">
+            <div className="row justify-content-center">
+              <div className="col-md-8 displayimg  d-flex justify-content-center">
+                <img
+                  src={shamail2}
+                  alt="at tirmidhi
+                "
+                  className="img-responsive displayimg"
+                />
+              </div>
+            </div>
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="text-center">
+                  <h5 className="display-title">Shama'il at Tirmidhi</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/*Full month calendar*/}
         <section className="embed-section">
           <div className="container">
             <div className="row">
