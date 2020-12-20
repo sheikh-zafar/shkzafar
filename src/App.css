@@ -32,6 +32,7 @@ li .nav-link {
 }
 li .nav-link:hover {
   color: beige;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
 Link .nav-link {
   font-size: 2rem;
@@ -39,8 +40,8 @@ Link .nav-link {
   border-right: #5c4033 dotted;
 }
 
-Link .nav-link {
-  color: beige;
+Link .nav-link:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
 .navbar-color {
   background: url("../src/img/beigebg.jpeg");
