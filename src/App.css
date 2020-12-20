@@ -33,7 +33,13 @@ li .nav-link {
 li .nav-link:hover {
   color: beige;
 }
-a .nav-link {
+Link .nav-link {
+  font-size: 2rem;
+  color: #5c4033;
+  border-right: #5c4033 dotted;
+}
+
+Link .nav-link {
   color: beige;
 }
 .navbar-color {
@@ -94,7 +100,7 @@ a .nav-link {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
 .calendar {
-  height: 270px;
+  height: 215px;
 }
 .mixlr {
   background-color: beige;
@@ -119,6 +125,41 @@ img .logo {
   height: 215px;
   width: 1000px;
   border: 2px #5c4033;
+}
+.audio-display-head {
+  margin-top: 25px;
+  font-family: "Amiri", sans-serif;
+  font-size: 40px;
+}
+.rounded-links {
+  border: 9px solid #5c4033;
+  height: 10rem;
+  width: 10rem;
+  background-color: beige;
+  background-image: url(../src/img/beigebg.jpeg);
+}
+a .rounded-headname {
+  font-family: "Amiri", sans-serif;
+  color: #5c4033;
+  font-size: 50px;
+}
+a .rounded-headname:hover {
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }
 
 @media (min-width: 1200px) {
