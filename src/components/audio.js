@@ -1,8 +1,16 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "./footer";
+import { audios } from "../data";
+import AudioEmbed from "./AudioEmbed";
 
 export default class audio extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      iframe: audios,
+    };
+  }
   render() {
     return (
       <div>
@@ -94,15 +102,23 @@ export default class audio extends Component {
         {/*audio cards */}
         <section className="embed-section">
           <div className="container">
-            <div className="row text-center">
-              <div class="col-md-12">
-                <iframe
-                  title="shaikh zafar class"
-                  src="https://drive.google.com/embeddedfolderview?id=1F7mRlSHiaPJH0ugBAdYLIVc5vD7FyVLh#grid"
-                  height="270px"
-                  frameborder="0"
-                ></iframe>
-              </div>
+            <div className="row">
+              <h1>Using iframe embed</h1>
+              <iframe
+                title="sheikh-zafar"
+                src="https://drive.google.com/embeddedfolderview?id=1ppxPpknfEB3jh4DP-O-0QQ2Z4SKgB_5V#grid"
+                style={{ width: "100%", height: "600px", border: 0 }}
+              ></iframe>
+            </div>
+          </div>
+          <div className="container">
+            <div className="row">
+              <h1>Using json embed from inner file</h1>
+            </div>
+          </div>
+          <div className="container">
+            <div className="row">
+              <AudioEmbed iframeAudios={this.state.iframe} />
             </div>
           </div>
         </section>
