@@ -49,20 +49,24 @@ export default class audio extends Component {
                 </a>
               </div>
               <div className="col-md-4 d-flex justify-content-center d-md-flex justify-content-center">
-                <a
-                  href="/shkzafar/audio/tadweensunnah"
-                  type="button"
-                  onClick={() => history.push("/shkzafar/audio/tadweensunnah")}
-                >
-                  <div className="rounded-links rounded-circle">
-                    <i
-                      className="fa fa-5x fa-calendar pt-4"
-                      style={{ color: "#2e856e" }}
-                      aria-hidden="true"
-                    ></i>
-                  </div>
-                  <h3 className="rounded-headname">تدوين السنة</h3>
-                </a>
+                <Link to="/shkzafar/audio/tadweensunnah">
+                  <a
+                    href="/shkzafar/audio/tadweensunnah"
+                    type="button"
+                    onClick={() =>
+                      history.push("/shkzafar/audio/tadweensunnah")
+                    }
+                  >
+                    <div className="rounded-links rounded-circle">
+                      <i
+                        className="fa fa-5x fa-calendar pt-4"
+                        style={{ color: "#2e856e" }}
+                        aria-hidden="true"
+                      ></i>
+                    </div>
+                    <h3 className="rounded-headname">تدوين السنة</h3>
+                  </a>
+                </Link>
               </div>
               <div className="col-md-4 d-flex justify-content-end d-md-flex justify-content-center">
                 <a href="/" rel="noopener noreferrer">
