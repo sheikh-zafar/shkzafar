@@ -3,18 +3,25 @@ import Navbar from "./Navbar";
 import Footer from "./footer";
 import { audios } from "../data";
 import AudioEmbed from "./AudioEmbed";
+import { Link } from "react-router-dom";
+import history from "./history";
 
 export default class audio extends Component {
+  handleClick() {
+    this.props.history.push("shkzafar/audio/tadweensunnah");
+  }
   constructor(props) {
     super(props);
     this.state = {
       iframe: audios,
     };
   }
+
   render() {
     return (
       <div>
         <Navbar />
+
         <section className="embed-section">
           <div className="container">
             <div className="row text-center">
@@ -42,7 +49,11 @@ export default class audio extends Component {
                 </a>
               </div>
               <div className="col-md-4 d-flex justify-content-center d-md-flex justify-content-center">
-                <a href="/" rel="noopener noreferrer">
+                <a
+                  href="/shkzafar/audio/tadweensunnah"
+                  type="button"
+                  onClick={() => history.push("/shkzafar/audio/tadweensunnah")}
+                >
                   <div className="rounded-links rounded-circle">
                     <i
                       className="fa fa-5x fa-calendar pt-4"
