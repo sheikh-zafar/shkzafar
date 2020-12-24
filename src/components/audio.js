@@ -48,7 +48,7 @@ export default class audio extends Component {
                   <h3 className="rounded-headname">خطبة</h3>
                 </a>
               </div>
-              <div className="col-md-4 d-flex justify-content-center d-md-flex justify-content-center">
+              <div className="col-md-4 col-xs-12 col-sm-10 d-flex justify-content-center d-md-flex justify-content-end align-item-center">
                 <Link to="/shkzafar/audio/tadweensunnah">
                   <a
                     href="/shkzafar/audio/tadweensunnah"

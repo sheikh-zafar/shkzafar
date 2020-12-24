@@ -189,11 +189,9 @@ a:active {
     padding-top: 0%;
     font-size: 15px;
   }
-  .calendar-section {
-  }
-  .mixlr-section {
-  }
-  .embed-section {
+  li .nav-link {
+    font-size: 1.6rem;
+    border-right: none;
   }
 }
 
@@ -205,11 +203,9 @@ a:active {
     padding-top: 0%;
     font-size: 15px;
   }
-  .calendar-section {
-  }
-  .mixlr-section {
-  }
-  .embed-section {
+  li .nav-link {
+    font-size: 1.4rem;
+    border-right: none;
   }
 }
 
