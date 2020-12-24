@@ -118,11 +118,21 @@ export default class audio extends Component {
         <section className="embed-section">
           <div className="container">
             <div className="row">
-              <h1>Using iframe embed</h1>
+              <h1>Using iframe embed - Grid view</h1>
               <iframe
                 title="sheikh-zafar"
-                src="https://drive.google.com/embeddedfolderview?id=1ppxPpknfEB3jh4DP-O-0QQ2Z4SKgB_5V#grid"
-                style={{ width: "100%", height: "600px", border: 0 }}
+                src="https://drive.google.com/embeddedfolderview?id=1F7mRlSHiaPJH0ugBAdYLIVc5vD7FyVLh#grid"
+                scrolling="no"
+                style={{ width: "100%", height: "1000px", border: 0 }}
+              ></iframe>
+            </div>
+            <div className="row">
+              <h1>Using iframe embed - List view</h1>
+              <iframe
+                title="sheikh-zafar"
+                src="https://drive.google.com/embeddedfolderview?id=1F7mRlSHiaPJH0ugBAdYLIVc5vD7FyVLh#list"
+                scrolling="no"
+                style={{ width: "100%", height: "1000px", border: 0 }}
               ></iframe>
             </div>
           </div>
