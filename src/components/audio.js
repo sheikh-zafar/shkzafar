@@ -150,7 +150,7 @@ export default class audio extends Component {
                   </h3>
                 </a>
               </div>
-              <div className="col-md-3 col-sm-6 col-xs-6 d-flex justify-content-center ">
+              <div className="col-md-3 d-flex justify-content-center ">
                 <a href="/" rel="noopener noreferrer">
                   <div className="rounded-links rounded-circle">
                     <i
@@ -166,38 +166,7 @@ export default class audio extends Component {
           </div>
         </section>
         {/*audio cards */}
-        <section className="embed-section">
-          <div className="container">
-            <div className="row">
-              <h1>Using iframe embed - Grid view</h1>
-              <iframe
-                title="sheikh-zafar"
-                src="https://drive.google.com/embeddedfolderview?id=1F7mRlSHiaPJH0ugBAdYLIVc5vD7FyVLh#grid"
-                scrolling="no"
-                style={{ width: "100%", height: "1000px", border: 0 }}
-              ></iframe>
-            </div>
-            <div className="row">
-              <h1>Using iframe embed - List view</h1>
-              <iframe
-                title="sheikh-zafar"
-                src="https://drive.google.com/embeddedfolderview?id=1F7mRlSHiaPJH0ugBAdYLIVc5vD7FyVLh#list"
-                scrolling="no"
-                style={{ width: "100%", height: "1000px", border: 0 }}
-              ></iframe>
-            </div>
-          </div>
-          <div className="container">
-            <div className="row">
-              <h1>Using json embed from inner file</h1>
-            </div>
-          </div>
-          <div className="container">
-            <div className="row">
-              <AudioEmbed iframeAudios={this.state.iframe} />
-            </div>
-          </div>
-        </section>
+        <section className="embed-section"></section>
         {/*Footer section */}
         <section className="embed-section">
           <div className="col-md-12 text-center">
