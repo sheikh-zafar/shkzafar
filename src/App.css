@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Patua+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Patua+One&family=Ubuntu+Condensed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@500;700&display=swap");
 .App {
   text-align: center;
 }
@@ -134,15 +135,15 @@ img .logo {
 }
 .rounded-links {
   border: 9px solid #5c4033;
-  height: 10rem;
-  width: 10rem;
+  height: 9rem;
+  width: 9rem;
   background-color: beige;
   background-image: url(../src/img/beigebg.jpeg);
 }
 a .rounded-headname {
-  font-family: "Amiri", sans-serif;
+  font-family: "Tajawal", sans-serif;
   color: #5c4033;
-  font-size: 50px;
+  font-size: 40px;
 }
 a .rounded-headname:hover {
   text-decoration: none;
