@@ -5,6 +5,7 @@ import audio from "./audio";
 import books from "./books";
 import about from "./about";
 import tadweensunnah from "./tadweensunnah";
+import muktasar from "./muktasar";
 
 const Main = () => (
   <BrowserRouter>
@@ -16,6 +17,7 @@ const Main = () => (
         path="/shkzafar/audio/tadweensunnah"
         component={tadweensunnah}
       />
+      <Route exact path="/shkzafar/audio/muktasar" component={muktasar} />
       <Route exact path="/shkzafar/books" component={books} />
       <Route exact path="/shkzafar/about" component={about} />
     </Switch>

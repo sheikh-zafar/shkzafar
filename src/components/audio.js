@@ -21,16 +21,17 @@ export default class audio extends Component {
     return (
       <div>
         <Navbar />
-        <section className="embed-section">
-          <div className="container">
-            <div className="row text-center">
-              <div class="col-md-12">
-                <h5 className="audio-display-head">أقسام الموقع</h5>
-                <hr />
-              </div>
-            </div>
-          </div>
-        </section>
+        <ul id="menu">
+          <li>
+            <a href="#L384">Section 1</a>
+          </li>
+          <li>
+            <a href="#details">Section 2</a>
+          </li>
+          <li>
+            <a href="#FAQ">Section 3</a>
+          </li>
+        </ul>
         {/*Rounded button links 1*/}
         <section className="embed-section">
           <div className="container py-3">
@@ -121,7 +122,13 @@ export default class audio extends Component {
                 </a>
               </div>
               <div className="col-md-3 col-sm-6 col-xs-6 d-flex justify-content-center">
-                <a href="/" rel="noopener noreferrer">
+                <Link to="/shkzafar/audio/muktasar"></Link>
+                <a
+                  href="/shkzafar/audio/muktasar"
+                  rel="noopener noreferrer"
+                  type="button"
+                  onClick={() => history.push("/shkzafar/audio/muktasar")}
+                >
                   <div className="rounded-links rounded-circle">
                     <i
                       className="fa fa-5x fa-calendar pt-4"
@@ -150,7 +157,7 @@ export default class audio extends Component {
                   </h3>
                 </a>
               </div>
-              <div className="col-md-3 d-flex justify-content-center ">
+              <div className="col-md-3 col-sm-6 col-xs-6 d-flex justify-content-center ">
                 <a href="/" rel="noopener noreferrer">
                   <div className="rounded-links rounded-circle">
                     <i

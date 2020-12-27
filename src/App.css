@@ -140,6 +140,7 @@ img .logo {
   background-color: beige;
   background-image: url(../src/img/beigebg.jpeg);
 }
+
 a .rounded-headname {
   font-family: "Tajawal", sans-serif;
   color: #5c4033;
@@ -162,6 +163,20 @@ a:hover {
 
 a:active {
   text-decoration: none;
+}
+.card-header {
+  font-family: "Tajawal", sans-serif;
+  font-size: 40px;
+}
+.card {
+  color: #5c4033;
+  background-image: url(../src/img/beigebg.jpeg);
+}
+#menu {
+  position: fixed;
+  right: 2rem;
+  top: 80%;
+  width: 8em;
 }
 
 @media (min-width: 1200px) {
@@ -197,6 +212,9 @@ a:active {
 }
 
 @media (max-width: 575.98px) {
+  .card-header {
+    font-size: 35px;
+  }
   .heading-name {
     font-size: 20px;
   }
@@ -207,6 +225,9 @@ a:active {
   li .nav-link {
     font-size: 1.4rem;
     border-right: none;
+  }
+  #menu {
+    display: none;
   }
 }
 
