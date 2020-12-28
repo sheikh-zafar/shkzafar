@@ -16,6 +16,15 @@ body {
 * {
   scroll-behavior: smooth;
 }
+.header-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  width: 100%;
+  height: 55vh;
+}
 .heading-section {
   color: beige;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
@@ -142,9 +151,9 @@ img .logo {
 }
 
 a .rounded-headname {
-  font-family: "Tajawal", sans-serif;
+  font-family: "Righteous", sans-serif;
   color: #5c4033;
-  font-size: 40px;
+  font-size: 1.7rem;
 }
 a .rounded-headname:hover {
   text-decoration: none;
@@ -178,20 +187,104 @@ a:active {
   top: 80%;
   width: 8em;
 }
+#vertical {
+  border-left: 5px dotted beige;
+  height: 400vh;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+.vertical {
+  border-left: 5px dotted beige;
+  height: 400vh;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+.horizontal {
+  border-bottom: 5px dotted beige;
+  width: 700px;
+  padding-left: 5rem;
+}
+.twenty {
+  padding-top: "60px";
+}
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+.timelinecontainer {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.timelinecontainer::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #ff9f55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.left {
+  left: 0;
+}
+
+.right {
+  left: 50%;
+}
+
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+.right::after {
+  left: -16px;
+}
+
+.content {
+}
 
 @media (min-width: 1200px) {
-  .calendar-section {
-  }
-  .mixlr-section {
-  }
 }
 @media (max-width: 991.98px) {
-  .calendar-section {
-  }
-  .mixlr-section {
-  }
-  .telegram-section {
-  }
   .latest-section {
     height: 215px;
   }
@@ -229,11 +322,37 @@ a:active {
   #menu {
     display: none;
   }
+  .vertical {
+    display: none;
+  }
+  .timeline::after {
+    left: 31px;
+  }
+
+  .timelinecontainer {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  .timelinecontainer::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  .left::after,
+  .right::after {
+    left: 15px;
+  }
+
+  .right {
+    left: 0%;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .embed-section {
-  }
 }
 
 .App-header {

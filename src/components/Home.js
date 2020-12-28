@@ -322,6 +322,12 @@ export default class Home extends Component {
               </div>
             </div>
           </div>
+          <iframe
+            title="calendar"
+            src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=#2e856e&amp;ctz=Asia/Dubai&amp;src=M2I4cG9vczFic2lwdGhnYnA5NWhjYnZuaTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=#0B8043&amp;showPrint=0&amp;showCalendars=0"
+            frameborder="0"
+            scrolling="no"
+          ></iframe>
         </section>
         <section className="embed-section">
           <div className="col-md-12 text-center">

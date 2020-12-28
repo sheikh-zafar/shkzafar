@@ -35,8 +35,9 @@ export default class muktasar extends Component {
                     <div className="row">
                       <div className="col">
                         <a
-                          href="/"
+                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
                           className="btn btn btn-lg btn-outline-dark"
+                          target="_newtab"
                           style={{
                             width: "170px",
                             backgroundColor: "#2e856e",
@@ -49,7 +50,8 @@ export default class muktasar extends Component {
                       </div>
                       <div className="col">
                         <a
-                          href="/"
+                          href="https://drive.google.com/drive/folders/1Fx6WbJG3y2mmkrSuKSWXJZz3FBwd80mf"
+                          target="_newtab"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
                             width: "170px",
@@ -88,7 +90,8 @@ export default class muktasar extends Component {
                     <div className="row">
                       <div className="col">
                         <a
-                          href="/"
+                          href="https://drive.google.com/drive/folders/1azueqYmaJAcOntjy9hxks029gnVIGyky"
+                          target="_newtab"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
                             width: "170px",

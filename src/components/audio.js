@@ -34,28 +34,15 @@ export default class audio extends Component {
         </ul>
         {/*Rounded button links 1*/}
         <section className="embed-section">
-          <div className="container py-3">
+          <div className="container-fluid py-3">
             <div className="row text-center">
-              <div className="col-md-3 col-sm-6 col-xs-6 d-flex justify-content-start d-md-flex justify-content-center">
-                <a href="/" rel="noopener noreferrer">
-                  <div className="rounded-links rounded-circle">
-                    <i
-                      className="fa fa-5x fa-calendar pt-4"
-                      style={{ color: "#2e856e" }}
-                      aria-hidden="true"
-                    ></i>
-                  </div>
-                  <h3 className="rounded-headname">خطبة</h3>
-                </a>
-              </div>
-              <div className="col-md-3 col-sm-6 col-xs-6 d-flex justify-content-center ">
-                <Link to="/shkzafar/audio/tadweensunnah">
+              <div className="col-md-3 col-sm-6 col-xs-6 d-md-flex justify-content-center d-sm-flex justify-content-center">
+                <Link to="/shkzafar/audio/khutbah">
                   <a
-                    href="/shkzafar/audio/tadweensunnah"
+                    href="/shkzafar/audio/khutbah"
+                    rel="noopener noreferrer"
                     type="button"
-                    onClick={() =>
-                      history.push("/shkzafar/audio/tadweensunnah")
-                    }
+                    onClick={() => history.push("/shkzafar/audio/khutbah")}
                   >
                     <div className="rounded-links rounded-circle">
                       <i
@@ -64,15 +51,34 @@ export default class audio extends Component {
                         aria-hidden="true"
                       ></i>
                     </div>
-                    <h3 className="rounded-headname">
-                      تدوين <br />
-                      السنة
-                    </h3>
+                    <div>
+                      <h3 className="rounded-headname">Jumu'ah Khutbah</h3>
+                    </div>
+                  </a>
+                </Link>
+              </div>
+              <div className="col-md-3 col-sm-6 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center">
+                <Link to="/">
+                  <a
+                    href="/shkzafar/audio/qurantafseer"
+                    type="button"
+                    onClick={() => history.push("/shkzafar/audio/qurantafseer")}
+                  >
+                    <div className="rounded-links rounded-circle">
+                      <i
+                        className="fa fa-5x fa-calendar pt-4"
+                        style={{ color: "#2e856e" }}
+                        aria-hidden="true"
+                      ></i>
+                    </div>
+                    <div>
+                      <h3 className="rounded-headname">Quran Tafseer</h3>
+                    </div>
                   </a>
                 </Link>
               </div>
 
-              <div className="col-md-3 col-sm-6 col-xs-6 d-flex justify-content-center">
+              <div className="col-md-3 col-sm-6 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center">
                 <a href="/" rel="noopener noreferrer">
                   <div className="rounded-links rounded-circle">
                     <i
@@ -81,13 +87,12 @@ export default class audio extends Component {
                       aria-hidden="true"
                     ></i>
                   </div>
-                  <h3 className="rounded-headname">
-                    أركان <br />
-                    الإسلام
-                  </h3>
+                  <div>
+                    <h3 className="rounded-headname">Arkan al Islam</h3>
+                  </div>
                 </a>
               </div>
-              <div className="col-md-3 col-sm-6 col-xs-6 d-flex justify-content-center">
+              <div className="col-md-3 col-sm-6 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center">
                 <a href="/" rel="noopener noreferrer">
                   <div className="rounded-links rounded-circle">
                     <i
@@ -96,7 +101,9 @@ export default class audio extends Component {
                       aria-hidden="true"
                     ></i>
                   </div>
-                  <h3 className="rounded-headname">تفسير</h3>
+                  <div>
+                    <h3 className="rounded-headname">Mausamiat</h3>
+                  </div>
                 </a>
               </div>
             </div>
@@ -106,7 +113,7 @@ export default class audio extends Component {
         <section className="embed-section">
           <div className="container py-3">
             <div className="row text-center">
-              <div className="col-md-3 col-sm-6 col-xs-6 d-flex justify-content-center">
+              <div className="col-md-4 col-sm-6 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center">
                 <a href="/" rel="noopener noreferrer">
                   <div className="rounded-links rounded-circle">
                     <i
@@ -115,13 +122,13 @@ export default class audio extends Component {
                       aria-hidden="true"
                     ></i>
                   </div>
-                  <h3 className="rounded-headname">
-                    عام <br />
-                    دروس
-                  </h3>
+                  <div>
+                    <h3 className="rounded-headname">Taweel Dawrah</h3>
+                  </div>
                 </a>
               </div>
-              <div className="col-md-3 col-sm-6 col-xs-6 d-flex justify-content-center">
+
+              <div className="col-md-4 col-sm-6 col-xs-6 d-flex justify-content-center d-md-flex justify-content-end d-sm-flex justify-content-center">
                 <Link to="/shkzafar/audio/muktasar">
                   <a
                     href="/shkzafar/audio/muktasar"
@@ -136,14 +143,14 @@ export default class audio extends Component {
                         aria-hidden="true"
                       ></i>
                     </div>
-                    <h3 className="rounded-headname">
-                      مختصر <br />
-                      دورة
-                    </h3>
+                    <div>
+                      <h3 className="rounded-headname">Mukhtasar Dawrah</h3>
+                    </div>
                   </a>
                 </Link>
               </div>
-              <div className="col-md-3 col-sm-6 col-xs-6 d-flex justify-content-center">
+
+              <div className="col-md-4 col-sm-6 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center">
                 <a href="/" rel="noopener noreferrer">
                   <div className="rounded-links rounded-circle">
                     <i
@@ -152,22 +159,9 @@ export default class audio extends Component {
                       aria-hidden="true"
                     ></i>
                   </div>
-                  <h3 className="rounded-headname">
-                    طويل <br />
-                    دورة
-                  </h3>
-                </a>
-              </div>
-              <div className="col-md-3 col-sm-6 col-xs-6 d-flex justify-content-center ">
-                <a href="/" rel="noopener noreferrer">
-                  <div className="rounded-links rounded-circle">
-                    <i
-                      className="fa fa-5x fa-calendar pt-4"
-                      style={{ color: "#2e856e" }}
-                      aria-hidden="true"
-                    ></i>
+                  <div>
+                    <h3 className="rounded-headname">Aam Duroos</h3>
                   </div>
-                  <h3 className="rounded-headname">موسمية</h3>
                 </a>
               </div>
             </div>
