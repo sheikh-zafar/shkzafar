@@ -58,7 +58,7 @@ export default class audio extends Component {
                 </Link>
               </div>
               <div className="col-md-3 col-sm-6 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center">
-                <Link to="/">
+                <Link to="/shkzafar/audio/qurantafseer">
                   <a
                     href="/shkzafar/audio/qurantafseer"
                     type="button"
@@ -79,18 +79,25 @@ export default class audio extends Component {
               </div>
 
               <div className="col-md-3 col-sm-6 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center">
-                <a href="/" rel="noopener noreferrer">
-                  <div className="rounded-links rounded-circle">
-                    <i
-                      className="fa fa-5x fa-calendar pt-4"
-                      style={{ color: "#2e856e" }}
-                      aria-hidden="true"
-                    ></i>
-                  </div>
-                  <div>
-                    <h3 className="rounded-headname">Arkan al Islam</h3>
-                  </div>
-                </a>
+                <Link to="/shkzafar/audio/muktasar">
+                  <a
+                    href="/shkzafar/audio/arkan"
+                    rel="noopener noreferrer"
+                    type="button"
+                    onClick={() => history.push("/shkzafar/audio/arkan")}
+                  >
+                    <div className="rounded-links rounded-circle">
+                      <i
+                        className="fa fa-5x fa-calendar pt-4"
+                        style={{ color: "#2e856e" }}
+                        aria-hidden="true"
+                      ></i>
+                    </div>
+                    <div>
+                      <h3 className="rounded-headname">Arkan al-Islam</h3>
+                    </div>
+                  </a>
+                </Link>
               </div>
               <div className="col-md-3 col-sm-6 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center">
                 <a href="/" rel="noopener noreferrer">
@@ -114,18 +121,25 @@ export default class audio extends Component {
           <div className="container py-3">
             <div className="row text-center">
               <div className="col-md-4 col-sm-6 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center">
-                <a href="/" rel="noopener noreferrer">
-                  <div className="rounded-links rounded-circle">
-                    <i
-                      className="fa fa-5x fa-calendar pt-4"
-                      style={{ color: "#2e856e" }}
-                      aria-hidden="true"
-                    ></i>
-                  </div>
-                  <div>
-                    <h3 className="rounded-headname">Taweel Dawrah</h3>
-                  </div>
-                </a>
+                <Link to="/shkzafar/audio/muktasar">
+                  <a
+                    href="/shkzafar/audio/taweel"
+                    rel="noopener noreferrer"
+                    type="button"
+                    onClick={() => history.push("/shkzafar/audio/taweel")}
+                  >
+                    <div className="rounded-links rounded-circle">
+                      <i
+                        className="fa fa-5x fa-calendar pt-4"
+                        style={{ color: "#2e856e" }}
+                        aria-hidden="true"
+                      ></i>
+                    </div>
+                    <div>
+                      <h3 className="rounded-headname">Taweel Dawrah</h3>
+                    </div>
+                  </a>
+                </Link>
               </div>
 
               <div className="col-md-4 col-sm-6 col-xs-6 d-flex justify-content-center d-md-flex justify-content-end d-sm-flex justify-content-center">
@@ -151,18 +165,25 @@ export default class audio extends Component {
               </div>
 
               <div className="col-md-4 col-sm-6 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center">
-                <a href="/" rel="noopener noreferrer">
-                  <div className="rounded-links rounded-circle">
-                    <i
-                      className="fa fa-5x fa-calendar pt-4"
-                      style={{ color: "#2e856e" }}
-                      aria-hidden="true"
-                    ></i>
-                  </div>
-                  <div>
-                    <h3 className="rounded-headname">Aam Duroos</h3>
-                  </div>
-                </a>
+                <Link to="/shkzafar/audio/muktasar">
+                  <a
+                    href="/shkzafar/audio/aam"
+                    rel="noopener noreferrer"
+                    type="button"
+                    onClick={() => history.push("/shkzafar/audio/aam")}
+                  >
+                    <div className="rounded-links rounded-circle">
+                      <i
+                        className="fa fa-5x fa-calendar pt-4"
+                        style={{ color: "#2e856e" }}
+                        aria-hidden="true"
+                      ></i>
+                    </div>
+                    <div>
+                      <h3 className="rounded-headname">Aam Duroos</h3>
+                    </div>
+                  </a>
+                </Link>
               </div>
             </div>
           </div>

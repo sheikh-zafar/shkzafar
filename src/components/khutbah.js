@@ -80,7 +80,7 @@ export default class khutbah extends Component {
                       </div>
                       <div className="col">
                         <a
-                          href="https://drive.google.com/drive/folders/1Fx6WbJG3y2mmkrSuKSWXJZz3FBwd80mf"
+                          href="https://drive.google.com/drive/u/0/folders/1WGuAmSMs0TVhFniVcLvjxWHZptcysHn7"
                           target="_newtab"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
@@ -131,7 +131,7 @@ export default class khutbah extends Component {
                       </div>
                       <div className="col">
                         <a
-                          href="https://drive.google.com/drive/folders/1Fx6WbJG3y2mmkrSuKSWXJZz3FBwd80mf"
+                          href="https://drive.google.com/drive/u/0/folders/1Gqwi3Mbw00PHkcI3NWyakVe-zsr0M9HV"
                           target="_newtab"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
@@ -182,7 +182,7 @@ export default class khutbah extends Component {
                       </div>
                       <div className="col">
                         <a
-                          href="https://drive.google.com/drive/folders/1Fx6WbJG3y2mmkrSuKSWXJZz3FBwd80mf"
+                          href="https://drive.google.com/drive/u/0/folders/1YPqmTZnpHKUANnFPNz21vDEmPis9dUno"
                           target="_newtab"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
@@ -233,7 +233,7 @@ export default class khutbah extends Component {
                       </div>
                       <div className="col">
                         <a
-                          href="https://drive.google.com/drive/folders/1Fx6WbJG3y2mmkrSuKSWXJZz3FBwd80mf"
+                          href="https://drive.google.com/drive/u/0/folders/15RHnNDUDY1cIYa6DtJLCuDPkCI36S21s"
                           target="_newtab"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
@@ -284,7 +284,7 @@ export default class khutbah extends Component {
                       </div>
                       <div className="col">
                         <a
-                          href="https://drive.google.com/drive/folders/1Fx6WbJG3y2mmkrSuKSWXJZz3FBwd80mf"
+                          href="https://drive.google.com/drive/u/0/folders/1LyS5vLN6BzwUn2Gx2dGSQ5nwpUVUxoOX"
                           target="_newtab"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
@@ -335,7 +335,415 @@ export default class khutbah extends Component {
                       </div>
                       <div className="col">
                         <a
-                          href="https://drive.google.com/drive/folders/1Fx6WbJG3y2mmkrSuKSWXJZz3FBwd80mf"
+                          href="https://drive.google.com/drive/u/0/folders/19x2wef8L4a6T0GNuHgEtSf5Ie-e3Ali4"
+                          target="_newtab"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            width: "170px",
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Download
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer text-muted">2 days ago</div>
+                </div>
+              </div>
+            </div>
+            <div class="timelinecontainer left">
+              <div class="content">
+                <h2>2014</h2>
+                <div class="card text-center">
+                  <div class="card-header">جمعة خطبة</div>
+                  <div class="card-body">
+                    <h5 class="card-title" style={{ color: "#2e856e" }}>
+                      29th,November,'2016 - 03,December,'2016
+                    </h5>
+                    <p class="card-text" style={{ fontSize: "20px" }}>
+                      <i className="fa fa-map-marker" aria-hidden="true">
+                        Masjid Abdur Rahman Al-khas
+                      </i>
+                    </p>
+                    <div className="row">
+                      <div className="col">
+                        <a
+                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          className="btn btn btn-lg btn-outline-dark"
+                          target="_newtab"
+                          style={{
+                            width: "170px",
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Listen
+                        </a>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://drive.google.com/drive/u/0/folders/1VKkGtyDWXiImGgyP2gG1IiB_NFGtE7Fq"
+                          target="_newtab"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            width: "170px",
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Download
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer text-muted">2 days ago</div>
+                </div>
+              </div>
+            </div>
+            <div class="timelinecontainer right">
+              <div class="content">
+                <h2>2013</h2>
+                <div class="card text-center">
+                  <div class="card-header">جمعة خطبة</div>
+                  <div class="card-body">
+                    <h5 class="card-title" style={{ color: "#2e856e" }}>
+                      29th,November,'2016 - 03,December,'2016
+                    </h5>
+                    <p class="card-text" style={{ fontSize: "20px" }}>
+                      <i className="fa fa-map-marker" aria-hidden="true">
+                        Masjid Abdur Rahman Al-khas
+                      </i>
+                    </p>
+                    <div className="row">
+                      <div className="col">
+                        <a
+                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          className="btn btn btn-lg btn-outline-dark"
+                          target="_newtab"
+                          style={{
+                            width: "170px",
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Listen
+                        </a>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://drive.google.com/drive/u/0/folders/1I25CEplT11AHxIfeg1zTJxl6uwAXcnnn"
+                          target="_newtab"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            width: "170px",
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Download
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer text-muted">2 days ago</div>
+                </div>
+              </div>
+            </div>
+            <div class="timelinecontainer left">
+              <div class="content">
+                <h2>2012</h2>
+                <div class="card text-center">
+                  <div class="card-header">جمعة خطبة</div>
+                  <div class="card-body">
+                    <h5 class="card-title" style={{ color: "#2e856e" }}>
+                      29th,November,'2016 - 03,December,'2016
+                    </h5>
+                    <p class="card-text" style={{ fontSize: "20px" }}>
+                      <i className="fa fa-map-marker" aria-hidden="true">
+                        Masjid Abdur Rahman Al-khas
+                      </i>
+                    </p>
+                    <div className="row">
+                      <div className="col">
+                        <a
+                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          className="btn btn btn-lg btn-outline-dark"
+                          target="_newtab"
+                          style={{
+                            width: "170px",
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Listen
+                        </a>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://drive.google.com/drive/u/0/folders/1Q6Ex1u-JthpGDZ3G4NAxDY2iPdrvYJMg"
+                          target="_newtab"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            width: "170px",
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Download
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer text-muted">2 days ago</div>
+                </div>
+              </div>
+            </div>
+            <div class="timelinecontainer right">
+              <div class="content">
+                <h2>2011</h2>
+                <div class="card text-center">
+                  <div class="card-header">جمعة خطبة</div>
+                  <div class="card-body">
+                    <h5 class="card-title" style={{ color: "#2e856e" }}>
+                      29th,November,'2016 - 03,December,'2016
+                    </h5>
+                    <p class="card-text" style={{ fontSize: "20px" }}>
+                      <i className="fa fa-map-marker" aria-hidden="true">
+                        Masjid Abdur Rahman Al-khas
+                      </i>
+                    </p>
+                    <div className="row">
+                      <div className="col">
+                        <a
+                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          className="btn btn btn-lg btn-outline-dark"
+                          target="_newtab"
+                          style={{
+                            width: "170px",
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Listen
+                        </a>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://drive.google.com/drive/u/0/folders/1_4WYdFIBOiCZOjB812NpzyKaxYgikFyj"
+                          target="_newtab"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            width: "170px",
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Download
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer text-muted">2 days ago</div>
+                </div>
+              </div>
+            </div>
+            <div class="timelinecontainer left">
+              <div class="content">
+                <h2>2010</h2>
+                <div class="card text-center">
+                  <div class="card-header">جمعة خطبة</div>
+                  <div class="card-body">
+                    <h5 class="card-title" style={{ color: "#2e856e" }}>
+                      29th,November,'2016 - 03,December,'2016
+                    </h5>
+                    <p class="card-text" style={{ fontSize: "20px" }}>
+                      <i className="fa fa-map-marker" aria-hidden="true">
+                        Masjid Abdur Rahman Al-khas
+                      </i>
+                    </p>
+                    <div className="row">
+                      <div className="col">
+                        <a
+                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          className="btn btn btn-lg btn-outline-dark"
+                          target="_newtab"
+                          style={{
+                            width: "170px",
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Listen
+                        </a>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://drive.google.com/drive/u/0/folders/1DVWwypnsMNuJvVZ4v_2FA8IpptwxRxg9"
+                          target="_newtab"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            width: "170px",
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Download
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer text-muted">2 days ago</div>
+                </div>
+              </div>
+            </div>
+            <div class="timelinecontainer right">
+              <div class="content">
+                <h2>2009</h2>
+                <div class="card text-center">
+                  <div class="card-header">جمعة خطبة</div>
+                  <div class="card-body">
+                    <h5 class="card-title" style={{ color: "#2e856e" }}>
+                      29th,November,'2016 - 03,December,'2016
+                    </h5>
+                    <p class="card-text" style={{ fontSize: "20px" }}>
+                      <i className="fa fa-map-marker" aria-hidden="true">
+                        Masjid Abdur Rahman Al-khas
+                      </i>
+                    </p>
+                    <div className="row">
+                      <div className="col">
+                        <a
+                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          className="btn btn btn-lg btn-outline-dark"
+                          target="_newtab"
+                          style={{
+                            width: "170px",
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Listen
+                        </a>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://drive.google.com/drive/u/0/folders/1EJ1JPE4M8bPyJNwhgkEi_pOTGrVsLYgC"
+                          target="_newtab"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            width: "170px",
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Download
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer text-muted">2 days ago</div>
+                </div>
+              </div>
+            </div>
+            <div class="timelinecontainer left">
+              <div class="content">
+                <h2>2008</h2>
+                <div class="card text-center">
+                  <div class="card-header">جمعة خطبة</div>
+                  <div class="card-body">
+                    <h5 class="card-title" style={{ color: "#2e856e" }}>
+                      29th,November,'2016 - 03,December,'2016
+                    </h5>
+                    <p class="card-text" style={{ fontSize: "20px" }}>
+                      <i className="fa fa-map-marker" aria-hidden="true">
+                        Masjid Abdur Rahman Al-khas
+                      </i>
+                    </p>
+                    <div className="row">
+                      <div className="col">
+                        <a
+                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          className="btn btn btn-lg btn-outline-dark"
+                          target="_newtab"
+                          style={{
+                            width: "170px",
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Listen
+                        </a>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://drive.google.com/drive/u/0/folders/195tqUcLmuZ3RKeVNqBA5JI_PzxzIbwMx"
+                          target="_newtab"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            width: "170px",
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Download
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer text-muted">2 days ago</div>
+                </div>
+              </div>
+            </div>
+            <div class="timelinecontainer right">
+              <div class="content">
+                <h2>2007</h2>
+                <div class="card text-center">
+                  <div class="card-header">جمعة خطبة</div>
+                  <div class="card-body">
+                    <h5 class="card-title" style={{ color: "#2e856e" }}>
+                      29th,November,'2016 - 03,December,'2016
+                    </h5>
+                    <p class="card-text" style={{ fontSize: "20px" }}>
+                      <i className="fa fa-map-marker" aria-hidden="true">
+                        Masjid Abdur Rahman Al-khas
+                      </i>
+                    </p>
+                    <div className="row">
+                      <div className="col">
+                        <a
+                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          className="btn btn btn-lg btn-outline-dark"
+                          target="_newtab"
+                          style={{
+                            width: "170px",
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Listen
+                        </a>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://drive.google.com/drive/u/0/folders/1MkU2NBaWv1JoybsyJf1nh7Ehu5vRArrs"
                           target="_newtab"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
