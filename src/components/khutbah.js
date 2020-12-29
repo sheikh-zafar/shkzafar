@@ -50,13 +50,12 @@ export default class khutbah extends Component {
           <div class="timeline">
             <div class="timelinecontainer left">
               <div class="content">
-                <h2>2020</h2>
                 <div class="card text-center">
-                  <div class="card-header">جمعة خطبة</div>
+                  <div class="card-header">2020</div>
                   <div class="card-body">
-                    <h5 class="card-title" style={{ color: "#2e856e" }}>
-                      29th,November,'2016 - 03,December,'2016
-                    </h5>
+                    <h2 class="card-title" style={{ color: "#2e856e" }}>
+                      ۱٤٤۰ - ۱٤٤۱{" "}
+                    </h2>
                     <p class="card-text" style={{ fontSize: "20px" }}>
                       <i className="fa fa-map-marker" aria-hidden="true">
                         Masjid Abdur Rahman Al-khas
@@ -95,19 +94,17 @@ export default class khutbah extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
             <div class="timelinecontainer right">
               <div class="content">
-                <h2>2019</h2>
                 <div class="card text-center">
-                  <div class="card-header">جمعة خطبة</div>
+                  <div class="card-header">2019</div>
                   <div class="card-body">
-                    <h5 class="card-title" style={{ color: "#2e856e" }}>
-                      29th,November,'2016 - 03,December,'2016
-                    </h5>
+                    <h2 class="card-title" style={{ color: "#2e856e" }}>
+                      ۱٤۳۹ - ۱٤٤۰{" "}
+                    </h2>
                     <p class="card-text" style={{ fontSize: "20px" }}>
                       <i className="fa fa-map-marker" aria-hidden="true">
                         Masjid Abdur Rahman Al-khas
@@ -146,19 +143,17 @@ export default class khutbah extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
             <div class="timelinecontainer left">
               <div class="content">
-                <h2>2018</h2>
                 <div class="card text-center">
-                  <div class="card-header">جمعة خطبة</div>
+                  <div class="card-header">2018</div>
                   <div class="card-body">
-                    <h5 class="card-title" style={{ color: "#2e856e" }}>
-                      29th,November,'2016 - 03,December,'2016
-                    </h5>
+                    <h2 class="card-title" style={{ color: "#2e856e" }}>
+                      ۱٤۳۸ - ۱٤۳۹{" "}
+                    </h2>
                     <p class="card-text" style={{ fontSize: "20px" }}>
                       <i className="fa fa-map-marker" aria-hidden="true">
                         Masjid Abdur Rahman Al-khas
@@ -197,19 +192,17 @@ export default class khutbah extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
             <div class="timelinecontainer right">
               <div class="content">
-                <h2>2017</h2>
                 <div class="card text-center">
-                  <div class="card-header">جمعة خطبة</div>
+                  <div class="card-header">2017</div>
                   <div class="card-body">
-                    <h5 class="card-title" style={{ color: "#2e856e" }}>
-                      29th,November,'2016 - 03,December,'2016
-                    </h5>
+                    <h2 class="card-title" style={{ color: "#2e856e" }}>
+                      ۱٤۳۷ - ۱٤۳۸{" "}
+                    </h2>
                     <p class="card-text" style={{ fontSize: "20px" }}>
                       <i className="fa fa-map-marker" aria-hidden="true">
                         Masjid Abdur Rahman Al-khas
@@ -248,19 +241,17 @@ export default class khutbah extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
             <div class="timelinecontainer left">
               <div class="content">
-                <h2>2016</h2>
                 <div class="card text-center">
-                  <div class="card-header">جمعة خطبة</div>
+                  <div class="card-header">2016</div>
                   <div class="card-body">
-                    <h5 class="card-title" style={{ color: "#2e856e" }}>
-                      29th,November,'2016 - 03,December,'2016
-                    </h5>
+                    <h2 class="card-title" style={{ color: "#2e856e" }}>
+                      ۱٤۳٦ - ۱٤۳۷{" "}
+                    </h2>
                     <p class="card-text" style={{ fontSize: "20px" }}>
                       <i className="fa fa-map-marker" aria-hidden="true">
                         Masjid Abdur Rahman Al-khas
@@ -299,19 +290,17 @@ export default class khutbah extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
             <div class="timelinecontainer right">
               <div class="content">
-                <h2>2015</h2>
                 <div class="card text-center">
-                  <div class="card-header">جمعة خطبة</div>
+                  <div class="card-header">2015</div>
                   <div class="card-body">
-                    <h5 class="card-title" style={{ color: "#2e856e" }}>
-                      29th,November,'2016 - 03,December,'2016
-                    </h5>
+                    <h2 class="card-title" style={{ color: "#2e856e" }}>
+                      ۱٤۳٥ - ۱٤۳٦{" "}
+                    </h2>
                     <p class="card-text" style={{ fontSize: "20px" }}>
                       <i className="fa fa-map-marker" aria-hidden="true">
                         Masjid Abdur Rahman Al-khas
@@ -350,19 +339,17 @@ export default class khutbah extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
             <div class="timelinecontainer left">
               <div class="content">
-                <h2>2014</h2>
                 <div class="card text-center">
-                  <div class="card-header">جمعة خطبة</div>
+                  <div class="card-header">2014</div>
                   <div class="card-body">
-                    <h5 class="card-title" style={{ color: "#2e856e" }}>
-                      29th,November,'2016 - 03,December,'2016
-                    </h5>
+                    <h2 class="card-title" style={{ color: "#2e856e" }}>
+                      ۱٤۳٤ - ۱٤۳٥{" "}
+                    </h2>
                     <p class="card-text" style={{ fontSize: "20px" }}>
                       <i className="fa fa-map-marker" aria-hidden="true">
                         Masjid Abdur Rahman Al-khas
@@ -401,19 +388,17 @@ export default class khutbah extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
             <div class="timelinecontainer right">
               <div class="content">
-                <h2>2013</h2>
                 <div class="card text-center">
-                  <div class="card-header">جمعة خطبة</div>
+                  <div class="card-header">2013</div>
                   <div class="card-body">
-                    <h5 class="card-title" style={{ color: "#2e856e" }}>
-                      29th,November,'2016 - 03,December,'2016
-                    </h5>
+                    <h2 class="card-title" style={{ color: "#2e856e" }}>
+                      ۱٤۳۳ - ۱٤۳٤{" "}
+                    </h2>
                     <p class="card-text" style={{ fontSize: "20px" }}>
                       <i className="fa fa-map-marker" aria-hidden="true">
                         Masjid Abdur Rahman Al-khas
@@ -452,19 +437,17 @@ export default class khutbah extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
             <div class="timelinecontainer left">
               <div class="content">
-                <h2>2012</h2>
                 <div class="card text-center">
-                  <div class="card-header">جمعة خطبة</div>
+                  <div class="card-header">2012</div>
                   <div class="card-body">
-                    <h5 class="card-title" style={{ color: "#2e856e" }}>
-                      29th,November,'2016 - 03,December,'2016
-                    </h5>
+                    <h2 class="card-title" style={{ color: "#2e856e" }}>
+                      ۱٤۳۲ - ۱٤۳۳{" "}
+                    </h2>
                     <p class="card-text" style={{ fontSize: "20px" }}>
                       <i className="fa fa-map-marker" aria-hidden="true">
                         Masjid Abdur Rahman Al-khas
@@ -503,19 +486,17 @@ export default class khutbah extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
             <div class="timelinecontainer right">
               <div class="content">
-                <h2>2011</h2>
                 <div class="card text-center">
-                  <div class="card-header">جمعة خطبة</div>
+                  <div class="card-header">2011</div>
                   <div class="card-body">
-                    <h5 class="card-title" style={{ color: "#2e856e" }}>
-                      29th,November,'2016 - 03,December,'2016
-                    </h5>
+                    <h2 class="card-title" style={{ color: "#2e856e" }}>
+                      ۱٤۳۱ - ۱٤۳۲
+                    </h2>
                     <p class="card-text" style={{ fontSize: "20px" }}>
                       <i className="fa fa-map-marker" aria-hidden="true">
                         Masjid Abdur Rahman Al-khas
@@ -554,19 +535,17 @@ export default class khutbah extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
             <div class="timelinecontainer left">
               <div class="content">
-                <h2>2010</h2>
                 <div class="card text-center">
-                  <div class="card-header">جمعة خطبة</div>
+                  <div class="card-header">2010</div>
                   <div class="card-body">
-                    <h5 class="card-title" style={{ color: "#2e856e" }}>
-                      29th,November,'2016 - 03,December,'2016
-                    </h5>
+                    <h2 class="card-title" style={{ color: "#2e856e" }}>
+                      ۱٤۳۰ - ۱٤۳۱{" "}
+                    </h2>
                     <p class="card-text" style={{ fontSize: "20px" }}>
                       <i className="fa fa-map-marker" aria-hidden="true">
                         Masjid Abdur Rahman Al-khas
@@ -605,19 +584,17 @@ export default class khutbah extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
             <div class="timelinecontainer right">
               <div class="content">
-                <h2>2009</h2>
                 <div class="card text-center">
-                  <div class="card-header">جمعة خطبة</div>
+                  <div class="card-header">2009</div>
                   <div class="card-body">
-                    <h5 class="card-title" style={{ color: "#2e856e" }}>
-                      29th,November,'2016 - 03,December,'2016
-                    </h5>
+                    <h2 class="card-title" style={{ color: "#2e856e" }}>
+                      ۱٤۲۹ - ۱٤۳۰
+                    </h2>
                     <p class="card-text" style={{ fontSize: "20px" }}>
                       <i className="fa fa-map-marker" aria-hidden="true">
                         Masjid Abdur Rahman Al-khas
@@ -656,19 +633,17 @@ export default class khutbah extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
             <div class="timelinecontainer left">
               <div class="content">
-                <h2>2008</h2>
                 <div class="card text-center">
-                  <div class="card-header">جمعة خطبة</div>
+                  <div class="card-header">2008</div>
                   <div class="card-body">
-                    <h5 class="card-title" style={{ color: "#2e856e" }}>
-                      29th,November,'2016 - 03,December,'2016
-                    </h5>
+                    <h2 class="card-title" style={{ color: "#2e856e" }}>
+                      ۱٤۲۸ - ۱٤۲۹
+                    </h2>
                     <p class="card-text" style={{ fontSize: "20px" }}>
                       <i className="fa fa-map-marker" aria-hidden="true">
                         Masjid Abdur Rahman Al-khas
@@ -707,19 +682,17 @@ export default class khutbah extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
             <div class="timelinecontainer right">
               <div class="content">
-                <h2>2007</h2>
                 <div class="card text-center">
-                  <div class="card-header">جمعة خطبة</div>
+                  <div class="card-header">2007</div>
                   <div class="card-body">
-                    <h5 class="card-title" style={{ color: "#2e856e" }}>
-                      29th,November,'2016 - 03,December,'2016
-                    </h5>
+                    <h2 class="card-title" style={{ color: "#2e856e" }}>
+                      ۱٤۲۷ - ۱٤۲۸
+                    </h2>
                     <p class="card-text" style={{ fontSize: "20px" }}>
                       <i className="fa fa-map-marker" aria-hidden="true">
                         Masjid Abdur Rahman Al-khas
@@ -758,7 +731,6 @@ export default class khutbah extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>

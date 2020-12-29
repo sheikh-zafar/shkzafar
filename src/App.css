@@ -187,26 +187,7 @@ a:active {
   top: 80%;
   width: 8em;
 }
-#vertical {
-  border-left: 5px dotted beige;
-  height: 400vh;
-  padding-left: 60px;
-  padding-top: 20px;
-}
-.vertical {
-  border-left: 5px dotted beige;
-  height: 400vh;
-  padding-left: 60px;
-  padding-top: 20px;
-}
-.horizontal {
-  border-bottom: 5px dotted beige;
-  width: 700px;
-  padding-left: 5rem;
-}
-.twenty {
-  padding-top: "60px";
-}
+
 .timeline {
   position: relative;
   max-width: 1200px;
