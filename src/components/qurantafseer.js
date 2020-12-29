@@ -6,39 +6,75 @@ export default class tadweensunnah extends Component {
     return (
       <div>
         <Navbar />
-        <div className="container d-flex justify-content-center">
-          <div className="row text-center">
-            <h3> Tadween sunnah from Archive Embed</h3>
-            <div className="container d-flex justify-content-center">
-              <iframe
-                title="sheikh-zafar"
-                src="https://archive.org/embed/tadween-as-sunnah&playlist=1&autoplay=1"
-                frameborder="0"
-              ></iframe>
+        <section className="embed-section">
+          <div className="container">
+            <div className="row text-center">
+              <div class="col-md-12">
+                <h5 className="audio-display-head">قرآن تفسير</h5>
+                <hr />
+              </div>
             </div>
           </div>
-        </div>
-
-        <div className="container">
-          <div className="row">
-            <h3>Using iframe embed - Grid view</h3>
-            <iframe
-              title="sheikh-zafar"
-              src="https://drive.google.com/embeddedfolderview?id=1F7mRlSHiaPJH0ugBAdYLIVc5vD7FyVLh#grid"
-              scrolling="no"
-              style={{ width: "100%", height: "1000px", border: 0 }}
-            ></iframe>
+        </section>
+        {/*Surah al-Fathiha */}
+        <section className="embed-section">
+          <div className="container">
+            <div className="row text-center">
+              <div className="col-md-12 d-flex justify-content-center">
+                <div class="card text-center">
+                  <div class="card-header">
+                    شرح السنة
+                    <br />
+                    <p>Surah al-Fathiha</p>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" style={{ color: "#2e856e" }}>
+                      29th,November,'2016 - 03,December,'2016
+                    </h5>
+                    <p class="card-text" style={{ fontSize: "20px" }}>
+                      <i className="fa fa-map-marker" aria-hidden="true">
+                        Masjid Abdur Rahman Al-khas
+                      </i>
+                    </p>
+                    <div className="row">
+                      <div className="col">
+                        <a
+                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          className="btn btn btn-lg btn-outline-dark"
+                          target="_newtab"
+                          style={{
+                            width: "170px",
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Listen
+                        </a>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://drive.google.com/drive/u/0/folders/1FHmnB17RfmCYfZdjSpuyQ6XCt1zELR-o"
+                          target="_newtab"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            width: "170px",
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Download
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer text-muted">2 days ago</div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="row">
-            <h3>Using iframe embed - List view</h3>
-            <iframe
-              title="sheikh-zafar"
-              src="https://drive.google.com/embeddedfolderview?id=1F7mRlSHiaPJH0ugBAdYLIVc5vD7FyVLh#list"
-              scrolling="no"
-              style={{ width: "100%", height: "1000px", border: 0 }}
-            ></iframe>
-          </div>
-        </div>
+        </section>
       </div>
     );
   }

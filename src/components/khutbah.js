@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Navbar from "./Navbar";
 import bamslide from "../img/bamslide.jpg";
 import Footer from "./footer";
+import { Link } from "react-router-dom";
 
 export default class khutbah extends Component {
   render() {
@@ -47,6 +48,57 @@ export default class khutbah extends Component {
             </div>
           </div>
 
+          <div className="container pt-5">
+            <div className="row text-center ">
+              <div class="col-md-4  d-flex justify-content-center">
+                <a href="/" target="_newtab">
+                  <div className="rounded-links rounded-circle">
+                    <i
+                      className="fa fa-5x fa-map-marker pt-4"
+                      style={{ color: "#2e856e" }}
+                      aria-hidden="true"
+                    ></i>
+                  </div>
+                  <div>
+                    <h3 className="rounded-headname">Location</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4  d-flex justify-content-center">
+                <a href="/" target="_newtab">
+                  <div className="rounded-links rounded-circle">
+                    <i
+                      className="fa fa-5x fa-youtube-play pt-4"
+                      style={{ color: "#2e856e" }}
+                      aria-hidden="true"
+                    ></i>
+                  </div>
+                  <div>
+                    <h3 className="rounded-headname">YouTube</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4  d-flex justify-content-center">
+                <a href="/" target="_newtab">
+                  <div className="rounded-links rounded-circle">
+                    <i
+                      className="fa fa-5x fa-calendar pt-4"
+                      style={{ color: "#2e856e" }}
+                      aria-hidden="true"
+                    ></i>
+                  </div>
+                  <div>
+                    <h3 className="rounded-headname">Mixlr</h3>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="container d-flex justify-content-center">
+            <h2 className="rounded-headname">Latest Khutbah</h2>
+          </div>
+
           <div class="timeline">
             <div class="timelinecontainer left">
               <div class="content">
@@ -64,7 +116,7 @@ export default class khutbah extends Component {
                     <div className="row">
                       <div className="col">
                         <a
-                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          href="https://archive.org/details/2020-jumuah-khutbah-zafarulhasan-madani"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_newtab"
                           style={{
@@ -113,7 +165,7 @@ export default class khutbah extends Component {
                     <div className="row">
                       <div className="col">
                         <a
-                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          href="https://archive.org/details/2019-jumuah-khutbah-zafarulhasan-madani"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_newtab"
                           style={{
@@ -162,7 +214,7 @@ export default class khutbah extends Component {
                     <div className="row">
                       <div className="col">
                         <a
-                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          href="https://archive.org/details/2018-jumuah-khutbah-zafarulhasan-madani"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_newtab"
                           style={{
@@ -211,7 +263,7 @@ export default class khutbah extends Component {
                     <div className="row">
                       <div className="col">
                         <a
-                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          href="https://archive.org/details/2017-jumuah-khutbah-zafarulhasan-madani"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_newtab"
                           style={{
@@ -260,7 +312,7 @@ export default class khutbah extends Component {
                     <div className="row">
                       <div className="col">
                         <a
-                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          href="https://archive.org/details/2016-jumuah-khutbah-zafarulhasan-madani"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_newtab"
                           style={{
@@ -309,7 +361,7 @@ export default class khutbah extends Component {
                     <div className="row">
                       <div className="col">
                         <a
-                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          href="https://archive.org/details/2015-jumuah-khutbah-zafarulhasan-madani"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_newtab"
                           style={{
@@ -358,7 +410,7 @@ export default class khutbah extends Component {
                     <div className="row">
                       <div className="col">
                         <a
-                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          href="https://archive.org/details/2014-jumuah-khutbah-zafarulhasan-madani"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_newtab"
                           style={{
@@ -407,7 +459,7 @@ export default class khutbah extends Component {
                     <div className="row">
                       <div className="col">
                         <a
-                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          href="https://archive.org/details/2013-jumuah-khutbah-zafarulhasan-madani"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_newtab"
                           style={{

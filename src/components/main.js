@@ -24,7 +24,6 @@ const Main = () => (
       <Route exact path="/shkzafar/audio/aam" component={aam} />
       <Route exact path="/shkzafar/audio/arkan" component={arkan} />
       <Route exact path="/shkzafar/audio/taweel" component={taweel} />
-
       <Route exact path="/shkzafar/audio/muktasar" component={muktasar} />
       <Route exact path="/shkzafar/audio/khutbah" component={khutbah} />
       <Route exact path="/shkzafar/books" component={books} />
