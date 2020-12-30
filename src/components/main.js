@@ -14,16 +14,16 @@ import taweel from "./taweel";
 const Main = () => (
   <BrowserRouter>
     <Switch>
-      <Route exact path="/" component={Home} />
-      <Route path="/audio" component={audio} />
-      <Route path="/audio/qurantafseer" component={qurantafseer} />
-      <Route path="/audio/aam" component={aam} />
-      <Route path="/audio/arkan" component={arkan} />
-      <Route path="/audio/taweel" component={taweel} />
-      <Route path="/audio/muktasar" component={muktasar} />
-      <Route path="/audio/khutbah" component={khutbah} />
-      <Route path="/books" component={books} />
-      <Route path="/about" component={about} />
+      <Route exact path="/shkzafar" component={Home} />
+      <Route path="/shkzafar/audio" component={audio} />
+      <Route path="/shkzafar/audio/qurantafseer" component={qurantafseer} />
+      <Route path="/shkzafar/audio/aam" component={aam} />
+      <Route path="/shkzafar/audio/arkan" component={arkan} />
+      <Route path="/shkzafar/audio/taweel" component={taweel} />
+      <Route path="/shkzafar/audio/muktasar" component={muktasar} />
+      <Route path="/shkzafar/audio/khutbah" component={khutbah} />
+      <Route path="/shkzafar/books" component={books} />
+      <Route path="/shkzafar/about" component={about} />
     </Switch>
   </BrowserRouter>
 );
