@@ -312,7 +312,7 @@ export default class Home extends Component {
                   <div class="embed-responsive embed-responsive-16by9">
                     <iframe
                       title="shaikh zafar class"
-                      src="https://calendar.google.com/calendar/embed?src=9pttne6lpue9vdlm7qfn6s89lc@group.calendar.google.com&ctz=Asia/Dubai"
+                      src="https://calendar.google.com/calendar/embed?src=3b8poos1bsipthgbp95hcbvni4@group.calendar.google.com&ctz=Asia/Dubai"
                       height="270px"
                       frameborder="0"
                       scrolling="no"
@@ -322,12 +322,6 @@ export default class Home extends Component {
               </div>
             </div>
           </div>
-          <iframe
-            title="calendar"
-            src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=#2e856e&amp;ctz=Asia/Dubai&amp;src=M2I4cG9vczFic2lwdGhnYnA5NWhjYnZuaTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=#0B8043&amp;showPrint=0&amp;showCalendars=0"
-            frameborder="0"
-            scrolling="no"
-          ></iframe>
         </section>
         <section className="embed-section">
           <div className="col-md-12 text-center">
