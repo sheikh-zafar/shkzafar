@@ -15,15 +15,19 @@ const Main = () => (
   <BrowserRouter>
     <Switch>
       <Route exact path="/shkzafar" component={Home} />
-      <Route path="/shkzafar/audio" component={audio} />
-      <Route path="/shkzafar/audio/qurantafseer" component={qurantafseer} />
-      <Route path="/shkzafar/audio/aam" component={aam} />
-      <Route path="/shkzafar/audio/arkan" component={arkan} />
-      <Route path="/shkzafar/audio/taweel" component={taweel} />
-      <Route path="/shkzafar/audio/muktasar" component={muktasar} />
-      <Route path="/shkzafar/audio/khutbah" component={khutbah} />
-      <Route path="/shkzafar/books" component={books} />
-      <Route path="/shkzafar/about" component={about} />
+      <Route exact path="/shkzafar/audio" component={audio} />
+      <Route
+        exact
+        path="/shkzafar/audio/qurantafseer"
+        component={qurantafseer}
+      />
+      <Route exact path="/shkzafar/audio/aam" component={aam} />
+      <Route exact path="/shkzafar/audio/arkan" component={arkan} />
+      <Route exact path="/shkzafar/audio/taweel" component={taweel} />
+      <Route exact path="/shkzafar/audio/muktasar" component={muktasar} />
+      <Route exact path="/shkzafar/audio/khutbah" component={khutbah} />
+      <Route exact path="/shkzafar/books" component={books} />
+      <Route exact path="/shkzafar/about" component={about} />
     </Switch>
   </BrowserRouter>
 );
