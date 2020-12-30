@@ -32,74 +32,30 @@ export default class khutbah extends Component {
 
         {/*Timeline */}
         <section className="embed-section">
-          <div className="container">
-            <div className="row text-center d-flex justify-content-center">
-              <div class="col-md-12 ">
-                <iframe
-                  title="sheikh-zafar"
-                  src="https://archive.org/embed/2020-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=150"
-                  width="100%"
-                  frameborder="0"
-                  webkitallowfullscreen="true"
-                  mozallowfullscreen="true"
-                  allowfullscreen
-                ></iframe>
-              </div>
-            </div>
-          </div>
-
-          <div className="container pt-5">
-            <div className="row text-center ">
-              <div class="col-md-4  d-flex justify-content-center">
-                <a href="/" target="_newtab">
-                  <div className="rounded-links rounded-circle">
-                    <i
-                      className="fa fa-5x fa-map-marker pt-4"
-                      style={{ color: "#2e856e" }}
-                      aria-hidden="true"
-                    ></i>
-                  </div>
-                  <div>
-                    <h3 className="rounded-headname">Location</h3>
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-4  d-flex justify-content-center">
-                <a href="/" target="_newtab">
-                  <div className="rounded-links rounded-circle">
-                    <i
-                      className="fa fa-5x fa-youtube-play pt-4"
-                      style={{ color: "#2e856e" }}
-                      aria-hidden="true"
-                    ></i>
-                  </div>
-                  <div>
-                    <h3 className="rounded-headname">YouTube</h3>
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-4  d-flex justify-content-center">
-                <a href="/" target="_newtab">
-                  <div className="rounded-links rounded-circle">
-                    <i
-                      className="fa fa-5x fa-calendar pt-4"
-                      style={{ color: "#2e856e" }}
-                      aria-hidden="true"
-                    ></i>
-                  </div>
-                  <div>
-                    <h3 className="rounded-headname">Mixlr</h3>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-
           <div className="container d-flex justify-content-center">
             <h2 className="rounded-headname">Latest Khutbah</h2>
           </div>
 
           <div class="timeline">
+            <div class="timelinecontainer right">
+              <div class="card text-center">
+                <div class="card-header">2021</div>
+                <div class="card-body">
+                  <h2 class="card-title" style={{ color: "#2e856e" }}>
+                    ۱٤٤۰ - ۱٤٤۱{" "}
+                  </h2>
+                  <iframe
+                    title="sheikh-zafar"
+                    src="https://archive.org/embed/2020-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=150"
+                    width="100%"
+                    frameborder="0"
+                    webkitallowfullscreen="true"
+                    mozallowfullscreen="true"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
             <div class="timelinecontainer left">
               <div class="content">
                 <div class="card text-center">
@@ -108,11 +64,7 @@ export default class khutbah extends Component {
                     <h2 class="card-title" style={{ color: "#2e856e" }}>
                       ۱٤٤۰ - ۱٤٤۱{" "}
                     </h2>
-                    <p class="card-text" style={{ fontSize: "20px" }}>
-                      <i className="fa fa-map-marker" aria-hidden="true">
-                        Masjid Abdur Rahman Al-khas
-                      </i>
-                    </p>
+
                     <div className="row">
                       <div className="col">
                         <a
@@ -157,11 +109,7 @@ export default class khutbah extends Component {
                     <h2 class="card-title" style={{ color: "#2e856e" }}>
                       ۱٤۳۹ - ۱٤٤۰{" "}
                     </h2>
-                    <p class="card-text" style={{ fontSize: "20px" }}>
-                      <i className="fa fa-map-marker" aria-hidden="true">
-                        Masjid Abdur Rahman Al-khas
-                      </i>
-                    </p>
+
                     <div className="row">
                       <div className="col">
                         <a
@@ -206,11 +154,7 @@ export default class khutbah extends Component {
                     <h2 class="card-title" style={{ color: "#2e856e" }}>
                       ۱٤۳۸ - ۱٤۳۹{" "}
                     </h2>
-                    <p class="card-text" style={{ fontSize: "20px" }}>
-                      <i className="fa fa-map-marker" aria-hidden="true">
-                        Masjid Abdur Rahman Al-khas
-                      </i>
-                    </p>
+
                     <div className="row">
                       <div className="col">
                         <a
@@ -255,11 +199,7 @@ export default class khutbah extends Component {
                     <h2 class="card-title" style={{ color: "#2e856e" }}>
                       ۱٤۳۷ - ۱٤۳۸{" "}
                     </h2>
-                    <p class="card-text" style={{ fontSize: "20px" }}>
-                      <i className="fa fa-map-marker" aria-hidden="true">
-                        Masjid Abdur Rahman Al-khas
-                      </i>
-                    </p>
+
                     <div className="row">
                       <div className="col">
                         <a
@@ -304,11 +244,7 @@ export default class khutbah extends Component {
                     <h2 class="card-title" style={{ color: "#2e856e" }}>
                       ۱٤۳٦ - ۱٤۳۷{" "}
                     </h2>
-                    <p class="card-text" style={{ fontSize: "20px" }}>
-                      <i className="fa fa-map-marker" aria-hidden="true">
-                        Masjid Abdur Rahman Al-khas
-                      </i>
-                    </p>
+
                     <div className="row">
                       <div className="col">
                         <a
@@ -353,11 +289,7 @@ export default class khutbah extends Component {
                     <h2 class="card-title" style={{ color: "#2e856e" }}>
                       ۱٤۳٥ - ۱٤۳٦{" "}
                     </h2>
-                    <p class="card-text" style={{ fontSize: "20px" }}>
-                      <i className="fa fa-map-marker" aria-hidden="true">
-                        Masjid Abdur Rahman Al-khas
-                      </i>
-                    </p>
+
                     <div className="row">
                       <div className="col">
                         <a
@@ -402,11 +334,7 @@ export default class khutbah extends Component {
                     <h2 class="card-title" style={{ color: "#2e856e" }}>
                       ۱٤۳٤ - ۱٤۳٥{" "}
                     </h2>
-                    <p class="card-text" style={{ fontSize: "20px" }}>
-                      <i className="fa fa-map-marker" aria-hidden="true">
-                        Masjid Abdur Rahman Al-khas
-                      </i>
-                    </p>
+
                     <div className="row">
                       <div className="col">
                         <a
@@ -451,11 +379,7 @@ export default class khutbah extends Component {
                     <h2 class="card-title" style={{ color: "#2e856e" }}>
                       ۱٤۳۳ - ۱٤۳٤{" "}
                     </h2>
-                    <p class="card-text" style={{ fontSize: "20px" }}>
-                      <i className="fa fa-map-marker" aria-hidden="true">
-                        Masjid Abdur Rahman Al-khas
-                      </i>
-                    </p>
+
                     <div className="row">
                       <div className="col">
                         <a
@@ -500,11 +424,7 @@ export default class khutbah extends Component {
                     <h2 class="card-title" style={{ color: "#2e856e" }}>
                       ۱٤۳۲ - ۱٤۳۳{" "}
                     </h2>
-                    <p class="card-text" style={{ fontSize: "20px" }}>
-                      <i className="fa fa-map-marker" aria-hidden="true">
-                        Masjid Abdur Rahman Al-khas
-                      </i>
-                    </p>
+
                     <div className="row">
                       <div className="col">
                         <a
@@ -549,11 +469,7 @@ export default class khutbah extends Component {
                     <h2 class="card-title" style={{ color: "#2e856e" }}>
                       ۱٤۳۱ - ۱٤۳۲
                     </h2>
-                    <p class="card-text" style={{ fontSize: "20px" }}>
-                      <i className="fa fa-map-marker" aria-hidden="true">
-                        Masjid Abdur Rahman Al-khas
-                      </i>
-                    </p>
+
                     <div className="row">
                       <div className="col">
                         <a
@@ -598,11 +514,7 @@ export default class khutbah extends Component {
                     <h2 class="card-title" style={{ color: "#2e856e" }}>
                       ۱٤۳۰ - ۱٤۳۱{" "}
                     </h2>
-                    <p class="card-text" style={{ fontSize: "20px" }}>
-                      <i className="fa fa-map-marker" aria-hidden="true">
-                        Masjid Abdur Rahman Al-khas
-                      </i>
-                    </p>
+
                     <div className="row">
                       <div className="col">
                         <a
@@ -696,11 +608,7 @@ export default class khutbah extends Component {
                     <h2 class="card-title" style={{ color: "#2e856e" }}>
                       ۱٤۲۸ - ۱٤۲۹
                     </h2>
-                    <p class="card-text" style={{ fontSize: "20px" }}>
-                      <i className="fa fa-map-marker" aria-hidden="true">
-                        Masjid Abdur Rahman Al-khas
-                      </i>
-                    </p>
+
                     <div className="row">
                       <div className="col">
                         <a
@@ -745,11 +653,7 @@ export default class khutbah extends Component {
                     <h2 class="card-title" style={{ color: "#2e856e" }}>
                       ۱٤۲۷ - ۱٤۲۸
                     </h2>
-                    <p class="card-text" style={{ fontSize: "20px" }}>
-                      <i className="fa fa-map-marker" aria-hidden="true">
-                        Masjid Abdur Rahman Al-khas
-                      </i>
-                    </p>
+
                     <div className="row">
                       <div className="col">
                         <a

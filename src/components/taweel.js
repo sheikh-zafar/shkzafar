@@ -25,12 +25,9 @@ export default class taweel extends Component {
                   <div class="card-header">
                     شرح السنة
                     <br />
-                    <p>Sharh As-Sunnah</p>
+                    <p className="lead">Sharh As-Sunnah</p>
                   </div>
                   <div class="card-body">
-                    <h5 class="card-title" style={{ color: "#2e856e" }}>
-                      29th,November,'2016 - 03,December,'2016
-                    </h5>
                     <p class="card-text" style={{ fontSize: "20px" }}>
                       <i className="fa fa-map-marker" aria-hidden="true">
                         Masjid Abdur Rahman Al-khas
@@ -84,12 +81,9 @@ export default class taweel extends Component {
                   <div class="card-header">
                     بلوغ المرام
                     <br />
-                    <p>Bulugh al-Maram</p>
+                    <p className="lead">Bulugh al-Maram</p>
                   </div>
                   <div class="card-body">
-                    <h5 class="card-title" style={{ color: "#2e856e" }}>
-                      29th,November,'2016 - 03,December,'2016
-                    </h5>
                     <p class="card-text" style={{ fontSize: "20px" }}>
                       <i className="fa fa-map-marker" aria-hidden="true">
                         Masjid Abdur Rahman Al-khas
@@ -143,12 +137,9 @@ export default class taweel extends Component {
                   <div class="card-header">
                     كتاب التوحيد
                     <br />
-                    <p>Kitab at-Tawheed</p>
+                    <p className="lead">Kitab at-Tawheed</p>
                   </div>
                   <div class="card-body">
-                    <h5 class="card-title" style={{ color: "#2e856e" }}>
-                      29th,November,'2016 - 03,December,'2016
-                    </h5>
                     <p class="card-text" style={{ fontSize: "20px" }}>
                       <i className="fa fa-map-marker" aria-hidden="true">
                         Masjid Abdur Rahman Al-khas
@@ -202,12 +193,9 @@ export default class taweel extends Component {
                   <div class="card-header">
                     الأصول الثلاثة
                     <br />
-                    <p>Usool al-Thalatha</p>
+                    <p className="lead">Usool al-Thalatha</p>
                   </div>
                   <div class="card-body">
-                    <h5 class="card-title" style={{ color: "#2e856e" }}>
-                      29th,November,'2016 - 03,December,'2016
-                    </h5>
                     <p class="card-text" style={{ fontSize: "20px" }}>
                       <i className="fa fa-map-marker" aria-hidden="true">
                         Masjid Abdur Rahman Al-khas
@@ -262,12 +250,9 @@ export default class taweel extends Component {
                   <div class="card-header">
                     الشمائل المحمدية
                     <br />
-                    <p>Shamail al-Muhammadiyah</p>
+                    <p className="lead">Shamail al-Muhammadiyah</p>
                   </div>
                   <div class="card-body">
-                    <h5 class="card-title" style={{ color: "#2e856e" }}>
-                      29th,November,'2016 - 03,December,'2016
-                    </h5>
                     <p class="card-text" style={{ fontSize: "20px" }}>
                       <i className="fa fa-map-marker" aria-hidden="true">
                         Masjid Abdur Rahman Al-khas

@@ -173,6 +173,9 @@ a:hover {
 a:active {
   text-decoration: none;
 }
+.btn {
+  width: 170px;
+}
 .card-header {
   font-family: "Tajawal", sans-serif;
   font-size: 40px;
@@ -260,9 +263,6 @@ a:active {
   left: -16px;
 }
 
-.content {
-}
-
 @media (min-width: 1200px) {
 }
 @media (max-width: 991.98px) {
@@ -330,6 +330,13 @@ a:active {
 
   .right {
     left: 0%;
+  }
+  .btn {
+    width: 90px;
+    font-size: 14px;
+  }
+  .card {
+    font-size: 15px;
   }
 }
 

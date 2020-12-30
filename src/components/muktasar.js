@@ -16,6 +16,60 @@ export default class muktasar extends Component {
             </div>
           </div>
         </section>
+        {/*Raf'ul maram*/}
+        <section className="embed-section">
+          <div className="container">
+            <div className="row text-center">
+              <div className="col-md-12 d-flex justify-content-center">
+                <div class="card text-center">
+                  <div class="card-header">رفع المرام</div>
+                  <p className="lead">Raf'ul Maram</p>
+                  <div class="card-body">
+                    <h5 class="card-title" style={{ color: "#2e856e" }}>
+                      29th,November,'2016 - 03,December,'2016
+                    </h5>
+                    <p class="card-text" style={{ fontSize: "20px" }}>
+                      <i className="fa fa-map-marker" aria-hidden="true">
+                        Masjid Abdur Rahman Al-khas
+                      </i>
+                    </p>
+                    <div className="row">
+                      <div className="col-md-6 col-xs-6 col-sm-6">
+                        <a
+                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          className="btn btn btn-lg btn-outline-dark"
+                          target="_newtab"
+                          style={{
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Listen
+                        </a>
+                      </div>
+                      <div className="col-md-6 col-xs-6 col-sm-6">
+                        <a
+                          href="https://drive.google.com/drive/folders/1-lsbdF9fKIoVkT5l2HMBv_0jsD8VoapL"
+                          target="_newtab"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Download
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer text-muted">2 days ago</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         {/*Tadween card */}
         <section className="embed-section">
           <div className="container">
@@ -23,6 +77,7 @@ export default class muktasar extends Component {
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
                   <div class="card-header">تدوين السنة</div>
+                  <p className="lead">Tadween Sunnah</p>
                   <div class="card-body">
                     <h5 class="card-title" style={{ color: "#2e856e" }}>
                       29th,November,'2016 - 03,December,'2016
@@ -39,7 +94,6 @@ export default class muktasar extends Component {
                           className="btn btn btn-lg btn-outline-dark"
                           target="_newtab"
                           style={{
-                            width: "170px",
                             backgroundColor: "#2e856e",
                             color: "beige",
                             fontFamily: "Righteous",
@@ -54,7 +108,6 @@ export default class muktasar extends Component {
                           target="_newtab"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
-                            width: "170px",
                             backgroundColor: "#2e856e",
                             color: "beige",
                             fontFamily: "Righteous",
@@ -77,7 +130,8 @@ export default class muktasar extends Component {
             <div className="row text-center">
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
-                  <div class="card-header">أربعين نووى</div>
+                  <div class="card-header">الربعين النووى</div>
+                  <p className="lead">Al-Arba'oona An-Nawawi</p>
                   <div class="card-body">
                     <h5 class="card-title" style={{ color: "#2e856e" }}>
                       29th,November,'2016 - 03,December,'2016
@@ -94,7 +148,6 @@ export default class muktasar extends Component {
                           target="_newtab"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
-                            width: "170px",
                             backgroundColor: "#2e856e",
                             color: "beige",
                             fontFamily: "Righteous",
@@ -109,7 +162,6 @@ export default class muktasar extends Component {
                           rel="noreferrer"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
-                            width: "170px",
                             backgroundColor: "#2e856e",
                             color: "beige",
                             fontFamily: "Righteous",
