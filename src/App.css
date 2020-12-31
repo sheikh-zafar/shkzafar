@@ -262,7 +262,13 @@ a:active {
 .right::after {
   left: -16px;
 }
-
+.caption {
+  font-size: 30px;
+}
+.iframe {
+  width: 1200px;
+  object-fit: cover;
+}
 @media (min-width: 1200px) {
 }
 @media (max-width: 991.98px) {
@@ -282,6 +288,9 @@ a:active {
   li .nav-link {
     font-size: 1.6rem;
     border-right: none;
+  }
+  .caption {
+    font-size: 40px;
   }
 }
 
@@ -337,6 +346,14 @@ a:active {
   }
   .card {
     font-size: 15px;
+  }
+  .figure-caption {
+    color: beige;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .caption {
+    font-size: 10px;
   }
 }
 

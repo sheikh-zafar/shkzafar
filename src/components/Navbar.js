@@ -42,30 +42,30 @@ export default class Navbar extends Component {
               >
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <Link to="/shkzafar">
-                      <a className="nav-link" href="/shkzafar">
+                    <Link to="/">
+                      <a className="nav-link" href="/">
                         Home
                       </a>
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="/shkzafar/audio">
-                      <a className="nav-link" href="/shkzafar/audio">
+                    <Link to="/audio">
+                      <a className="nav-link" href="/audio">
                         Audios
                       </a>
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="/shkzafar/books">
-                      <a className="nav-link" href="/shkzafar/books">
+                    <Link to="/books">
+                      <a className="nav-link" href="/books">
                         Books
                       </a>
                     </Link>
                   </li>
 
-                  <Link to="/shkzafar/about">
+                  <Link to="/about">
                     <li className="nav-item">
-                      <a className="nav-link" href="/shkzafar/about">
+                      <a className="nav-link" href="/about">
                         About Shaikh
                       </a>
                     </li>

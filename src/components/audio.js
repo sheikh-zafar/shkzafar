@@ -37,7 +37,7 @@ export default class audio extends Component {
           <div className="container-fluid py-3">
             <div className="row text-center">
               <div className="col-md-3 col-sm-6 col-xs-6 d-md-flex justify-content-center d-sm-flex justify-content-center">
-                <Link to="/shkzafar/audio/khutbah">
+                <Link to="/audio/jummuah">
                   <div className="rounded-links rounded-circle">
                     <i
                       className="fa fa-5x fa-calendar pt-4"
@@ -51,7 +51,7 @@ export default class audio extends Component {
                 </Link>
               </div>
               <div className="col-md-3 col-sm-6 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center">
-                <Link to="/shkzafar/audio/qurantafseer">
+                <Link to="/audio/qurantafseer">
                   <div className="rounded-links rounded-circle">
                     <i
                       className="fa fa-5x fa-calendar pt-4"
@@ -66,7 +66,7 @@ export default class audio extends Component {
               </div>
 
               <div className="col-md-3 col-sm-6 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center">
-                <Link to="/shkzafar/audio/muktasar">
+                <Link to="/audio/muktasar">
                   <div className="rounded-links rounded-circle">
                     <i
                       className="fa fa-5x fa-calendar pt-4"
@@ -80,7 +80,7 @@ export default class audio extends Component {
                 </Link>
               </div>
               <div className="col-md-3 col-sm-6 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center">
-                <Link to="/shkzafar/audio/mausamiat">
+                <Link to="/audio/mausamiat">
                   <div className="rounded-links rounded-circle">
                     <i
                       className="fa fa-5x fa-calendar pt-4"
@@ -101,7 +101,7 @@ export default class audio extends Component {
           <div className="container py-3">
             <div className="row text-center">
               <div className="col-md-4 col-sm-4 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center">
-                <Link to="/shkzafar/audio/taweel">
+                <Link to="/audio/taweel">
                   <div className="rounded-links rounded-circle">
                     <i
                       className="fa fa-5x fa-calendar pt-4"
@@ -116,7 +116,7 @@ export default class audio extends Component {
               </div>
 
               <div className="col-md-4 col-sm-8 col-xs-6 d-flex justify-content-center d-md-inline-flex justify-content-end ">
-                <Link to="/shkzafar/audio/muktasar">
+                <Link to="/audio/muktasar">
                   <div className="rounded-links rounded-circle">
                     <i
                       className="fa fa-5x fa-calendar pt-4"
@@ -131,7 +131,7 @@ export default class audio extends Component {
               </div>
 
               <div className="col-md-4 col-sm-3 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center">
-                <Link to="/shkzafar/audio/aam">
+                <Link to="/audio/aam">
                   <div className="rounded-links rounded-circle">
                     <i
                       className="fa fa-5x fa-calendar pt-4"
