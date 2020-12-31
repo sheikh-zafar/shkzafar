@@ -73,54 +73,7 @@ export default class jummuah extends Component {
             ></iframe>
           </div>
         </div>
-        {/*2010*/}
-        <section className="embed-section">
-          <div className="container d-flex justify-content-center">
-            <div className="row text-center">
-              <div class="card text-center">
-                <div class="card-header">2020</div>
-                <div class="card-body">
-                  <h2 class="card-title" style={{ color: "#2e856e" }}>
-                    ۱٤٤۰ - ۱٤٤۱{" "}
-                  </h2>
 
-                  <div className="row">
-                    <div className="col">
-                      <a
-                        href="https://archive.org/details/2020-jumuah-khutbah-zafarulhasan-madani"
-                        className="btn btn btn-lg btn-outline-dark"
-                        target="_newtab"
-                        style={{
-                          width: "170px",
-                          backgroundColor: "#2e856e",
-                          color: "beige",
-                          fontFamily: "Righteous",
-                        }}
-                      >
-                        Listen
-                      </a>
-                    </div>
-                    <div className="col">
-                      <a
-                        href="https://drive.google.com/drive/u/0/folders/1WGuAmSMs0TVhFniVcLvjxWHZptcysHn7"
-                        target="_newtab"
-                        className="btn btn btn-lg btn-outline-dark"
-                        style={{
-                          width: "170px",
-                          backgroundColor: "#2e856e",
-                          color: "beige",
-                          fontFamily: "Righteous",
-                        }}
-                      >
-                        Download
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         {/*2019 */}
         <section className="embed-section">
           <div className="container d-flex justify-content-center">
