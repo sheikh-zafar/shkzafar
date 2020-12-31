@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import bamslide from "../img/bamslide.jpg";
 import Navbar from "./Navbar";
+import Footer from "./footer";
 
 export default class jummuah extends Component {
   render() {
@@ -732,6 +733,12 @@ export default class jummuah extends Component {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+        {/*Footer section */}
+        <section className="embed-section">
+          <div className="col-md-12 text-center">
+            <Footer />
           </div>
         </section>
       </div>
