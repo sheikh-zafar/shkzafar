@@ -312,8 +312,8 @@ export default class Home extends Component {
                   <div class="embed-responsive embed-responsive-16by9">
                     <iframe
                       title="shaikh zafar class"
+                      className="calendra"
                       src="https://calendar.google.com/calendar/embed?src=3b8poos1bsipthgbp95hcbvni4@group.calendar.google.com&ctz=Asia/Dubai"
-                      height="270px"
                       frameborder="0"
                       scrolling="no"
                     ></iframe>

@@ -274,10 +274,12 @@ a:active {
 }
 .aboutheader {
   font-family: "Langar", sans-serif;
+  color: #5c4033;
+  text-shadow: beige;
 }
 .about {
   font-size: 20px;
-  font-family: "Righteous", sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 .orderlist {
   font-family: "Poppins", sans-serif;

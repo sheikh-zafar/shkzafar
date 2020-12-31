@@ -31,33 +31,35 @@ export default class about extends Component {
                 Zafar-ul-Hasan was interested in Islam and had a burning desire
                 to call people to Islam when he grew up.
               </p>
-              <h1 className="aboutheader">Education:</h1>
-              <p className="about">
-                Shaikh Zafar-ul-Hasan completed his primary schooling in his
-                home town Changhaipur, in the year 1970. Then, with an intention
-                of working towards the fulfillment of his childhood ambition –
-                i.e. of being actively involved in Da’wah and various other
-                Islamic activities, he embarked on the path of gaining Islamic
-                Education and knowledge. In the year 1975 he shifted to Jami’a
-                Salafiya in Banaras, UP, India and acquired the ‘Alimiyat and
-                Fadhilat degree in the year1978.
-              </p>
-              <p className="about">
-                He also availed the Munshi and Maulvi degree from Jami’a
-                Salafia, Banaras, in the year 1976. All of these degrees are
-                authenticated by the Allahabad board (Darse Nizamia)
-              </p>
-              <p className="about">
-                Having successfully completed his studies from Jam’ia Salafiya,
-                for a year he was chosen to be a Teacher in Jam’ia Mohammadiya
-                Malegaon.
-              </p>
-              <p className="about">
-                Later, in the year 1980 (1403HJ), owing to his excellent
-                performance, he was conferred the honour of being chosen to go
-                to Jam’ia Islamiya in Madina Al Munawwarah for higher studies,
-                wherein he completed his degree from the Hadith faculty.
-              </p>
+              <section className="embed-section">
+                <h1 className="aboutheader">Education:</h1>
+                <p className="about">
+                  Shaikh Zafar-ul-Hasan completed his primary schooling in his
+                  home town Changhaipur, in the year 1970. Then, with an
+                  intention of working towards the fulfillment of his childhood
+                  ambition – i.e. of being actively involved in Da’wah and
+                  various other Islamic activities, he embarked on the path of
+                  gaining Islamic Education and knowledge. In the year 1975 he
+                  shifted to Jami’a Salafiya in Banaras, UP, India and acquired
+                  the ‘Alimiyat and Fadhilat degree in the year1978.
+                </p>
+                <p className="about">
+                  He also availed the Munshi and Maulvi degree from Jami’a
+                  Salafia, Banaras, in the year 1976. All of these degrees are
+                  authenticated by the Allahabad board (Darse Nizamia)
+                </p>
+                <p className="about">
+                  Having successfully completed his studies from Jam’ia
+                  Salafiya, for a year he was chosen to be a Teacher in Jam’ia
+                  Mohammadiya Malegaon.
+                </p>
+                <p className="about">
+                  Later, in the year 1980 (1403HJ), owing to his excellent
+                  performance, he was conferred the honour of being chosen to go
+                  to Jam’ia Islamiya in Madina Al Munawwarah for higher studies,
+                  wherein he completed his degree from the Hadith faculty.
+                </p>
+              </section>
               <h1 className="aboutheader">His Teachers and Shuyookh:</h1>
               <p className="about">
                 By the Grace of Almighty Allah azza wa jal, Shaikh Zafar had the
@@ -113,21 +115,25 @@ export default class about extends Component {
                 people from all around the World and provides an excellent
                 opportunity to call people to Islam.
               </p>
-              <h1 className="aboutheader">His Authored Books:</h1>
-              By the Grace of Allah azza wa jal, Shaikh Zafar, with his immense
-              knowledge has had the privilege of authoring a few books in Urdu,
-              some of which are mentioned here below:
-              <ol className="orderlist pt-3">
-                <li>Tariqai Hajj (published)</li>
-                <li>Mamnou As-Salah Ind-Al Iqamah (published)</li>
-                <li>Ithibaat Ar-Rakatayn Qabl Al-Magreb (published)</li>
-                <li>Ahkam-e- Aqiqa</li>
-                <li>Khutbaat Wa Maqalaat</li>
-                <li>Duroos-e- Hadith</li>
-              </ol>
-              <div>
-                <h4>source : shaikhzafar.com</h4>
-              </div>
+              <section className="embed-section">
+                <h1 className="aboutheader">His Authored Books:</h1>
+                By the Grace of Allah azza wa jal, Shaikh Zafar, with his
+                immense knowledge has had the privilege of authoring a few books
+                in Urdu, some of which are mentioned here below:
+                <ol className="orderlist pt-3">
+                  <li>Tariqai Hajj (published)</li>
+                  <li>Mamnou As-Salah Ind-Al Iqamah (published)</li>
+                  <li>Ithibaat Ar-Rakatayn Qabl Al-Magreb (published)</li>
+                  <li>Ahkam-e- Aqiqa</li>
+                  <li>Khutbaat Wa Maqalaat</li>
+                  <li>Duroos-e- Hadith</li>
+                </ol>
+              </section>
+              <section className="embed-section ">
+                <div className="container d-flex justify-content-center">
+                  <h4>Source : shaikhzafar.com</h4>
+                </div>
+              </section>
             </div>
           </div>
         </section>

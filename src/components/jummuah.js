@@ -49,7 +49,21 @@ export default class jummuah extends Component {
             </div>
           </div>
         </div>
+        <div className="container">
+          <div className="row">
+            <h2 className="headername">Latest khutbah</h2>
+          </div>
+        </div>
         <div className="container  pt-3">
+          <iframe
+            title="sheikh-zafar"
+            src="https://archive.org/embed/2020-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
+            width="100%"
+            height="30"
+            frameborder="0"
+          ></iframe>
+        </div>
+        <div className="container pt-5">
           <div className="row ">
             <iframe
               title="sheikh-zafar"
@@ -457,7 +471,7 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                        href="https://archive.org/details/2012-jumuah-khutbah-zafarulhasan-madani"
                         className="btn btn btn-lg btn-outline-dark"
                         target="_newtab"
                         style={{
@@ -505,7 +519,7 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                        href="https://archive.org/details/2011-jumuah-khutbah-zafarulhasan-madani"
                         className="btn btn btn-lg btn-outline-dark"
                         target="_newtab"
                         style={{
@@ -553,7 +567,7 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                        href="https://archive.org/details/2010-jumuah-khutbah-zafarulhasan-madani"
                         className="btn btn btn-lg btn-outline-dark"
                         target="_newtab"
                         style={{
@@ -605,7 +619,7 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                        href="https://archive.org/details/2009-jumuah-khutbah-zafarulhasan-madani"
                         className="btn btn btn-lg btn-outline-dark"
                         target="_newtab"
                         style={{
@@ -653,7 +667,7 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                        href="https://archive.org/details/2008-jumuah-khutbah-zafarulhasan-madani"
                         className="btn btn btn-lg btn-outline-dark"
                         target="_newtab"
                         style={{
@@ -701,7 +715,7 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                        href="https://archive.org/details/2007-jumuah-khutbah-zafarulhasan-madani"
                         className="btn btn btn-lg btn-outline-dark"
                         target="_newtab"
                         style={{
