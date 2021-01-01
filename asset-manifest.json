@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/shkzafar/static/css/main.81df16b6.chunk.css",
-    "main.js": "/shkzafar/static/js/main.f5e07bca.chunk.js",
-    "main.js.map": "/shkzafar/static/js/main.f5e07bca.chunk.js.map",
+    "main.css": "/shkzafar/static/css/main.b112db20.chunk.css",
+    "main.js": "/shkzafar/static/js/main.18e94a41.chunk.js",
+    "main.js.map": "/shkzafar/static/js/main.18e94a41.chunk.js.map",
     "runtime-main.js": "/shkzafar/static/js/runtime-main.41e20d40.js",
     "runtime-main.js.map": "/shkzafar/static/js/runtime-main.41e20d40.js.map",
     "static/css/2.f1a1079b.chunk.css": "/shkzafar/static/css/2.f1a1079b.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.2fca369d.chunk.js.map": "/shkzafar/static/js/2.2fca369d.chunk.js.map",
     "index.html": "/shkzafar/index.html",
     "static/css/2.f1a1079b.chunk.css.map": "/shkzafar/static/css/2.f1a1079b.chunk.css.map",
-    "static/css/main.81df16b6.chunk.css.map": "/shkzafar/static/css/main.81df16b6.chunk.css.map",
+    "static/css/main.b112db20.chunk.css.map": "/shkzafar/static/css/main.b112db20.chunk.css.map",
     "static/js/2.2fca369d.chunk.js.LICENSE.txt": "/shkzafar/static/js/2.2fca369d.chunk.js.LICENSE.txt",
     "static/media/bamslide.68730c66.jpg": "/shkzafar/static/media/bamslide.68730c66.jpg",
     "static/media/mosque.0cea690a.jpg": "/shkzafar/static/media/mosque.0cea690a.jpg",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.41e20d40.js",
     "static/css/2.f1a1079b.chunk.css",
     "static/js/2.2fca369d.chunk.js",
-    "static/css/main.81df16b6.chunk.css",
-    "static/js/main.f5e07bca.chunk.js"
+    "static/css/main.b112db20.chunk.css",
+    "static/js/main.18e94a41.chunk.js"
   ]
 }
