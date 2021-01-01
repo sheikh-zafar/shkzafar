@@ -109,7 +109,7 @@ export default class Home extends Component {
                 <section className="mixlr-section calendar">
                   <iframe
                     title="calendar"
-                    src="https://calendar.google.com/calendar/embed?height=250&amp;wkst=1&amp;bgcolor=%23009688&amp;ctz=Asia%2FDubai&amp;src=OXB0dG5lNmxwdWU5dmRsbTdxZm42czg5bGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%230B8043&amp;showPrint=0&amp;showCalendars=0&amp;showDate=1&amp;mode=AGENDA&amp;showTabs=0&amp;showNav=0"
+                    src="https://calendar.google.com/calendar/embed?height=420&amp;wkst=1&amp;bgcolor=#2e856e&amp;ctz=Asia/Dubai&amp;src=M2I4cG9vczFic2lwdGhnYnA5NWhjYnZuaTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=#0B8043&amp;mode=AGENDA&amp;showPrint=0&amp;showNav=0"
                     frameborder="0"
                     width="100%"
                     height="100%"
@@ -309,7 +309,7 @@ export default class Home extends Component {
               </div>
               <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <section className="calendar-section">
-                  <div class="embed-responsive embed-responsive-16by9">
+                  <div class="responsiveCal">
                     <iframe
                       title="shaikh zafar class"
                       className="calendra"
