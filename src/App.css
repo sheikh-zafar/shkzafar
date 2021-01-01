@@ -381,9 +381,11 @@ a:active {
   .btn {
     width: 90px;
     font-size: 14px;
+    margin-top: 5px;
   }
   .card {
     font-size: 15px;
+    margin: 3px;
   }
   .figure-caption {
     color: beige;
