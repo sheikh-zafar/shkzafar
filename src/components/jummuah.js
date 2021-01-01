@@ -92,7 +92,6 @@ export default class jummuah extends Component {
                         className="btn btn btn-lg btn-outline-dark"
                         target="_newtab"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -107,7 +106,6 @@ export default class jummuah extends Component {
                         target="_newtab"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -140,7 +138,6 @@ export default class jummuah extends Component {
                         className="btn btn btn-lg btn-outline-dark"
                         target="_newtab"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -155,7 +152,6 @@ export default class jummuah extends Component {
                         target="_newtab"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -188,7 +184,6 @@ export default class jummuah extends Component {
                         className="btn btn btn-lg btn-outline-dark"
                         target="_newtab"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -203,7 +198,6 @@ export default class jummuah extends Component {
                         target="_newtab"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -236,7 +230,6 @@ export default class jummuah extends Component {
                         className="btn btn btn-lg btn-outline-dark"
                         target="_newtab"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -251,7 +244,6 @@ export default class jummuah extends Component {
                         target="_newtab"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -284,7 +276,6 @@ export default class jummuah extends Component {
                         className="btn btn btn-lg btn-outline-dark"
                         target="_newtab"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -299,7 +290,6 @@ export default class jummuah extends Component {
                         target="_newtab"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -332,7 +322,6 @@ export default class jummuah extends Component {
                         className="btn btn btn-lg btn-outline-dark"
                         target="_newtab"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -347,7 +336,6 @@ export default class jummuah extends Component {
                         target="_newtab"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -380,7 +368,6 @@ export default class jummuah extends Component {
                         className="btn btn btn-lg btn-outline-dark"
                         target="_newtab"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -395,7 +382,6 @@ export default class jummuah extends Component {
                         target="_newtab"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -428,7 +414,6 @@ export default class jummuah extends Component {
                         className="btn btn btn-lg btn-outline-dark"
                         target="_newtab"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -443,7 +428,6 @@ export default class jummuah extends Component {
                         target="_newtab"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -476,7 +460,6 @@ export default class jummuah extends Component {
                         className="btn btn btn-lg btn-outline-dark"
                         target="_newtab"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -491,7 +474,6 @@ export default class jummuah extends Component {
                         target="_newtab"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -524,7 +506,6 @@ export default class jummuah extends Component {
                         className="btn btn btn-lg btn-outline-dark"
                         target="_newtab"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -539,7 +520,6 @@ export default class jummuah extends Component {
                         target="_newtab"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -576,7 +556,6 @@ export default class jummuah extends Component {
                         className="btn btn btn-lg btn-outline-dark"
                         target="_newtab"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -591,7 +570,6 @@ export default class jummuah extends Component {
                         target="_newtab"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -624,7 +602,6 @@ export default class jummuah extends Component {
                         className="btn btn btn-lg btn-outline-dark"
                         target="_newtab"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -639,7 +616,6 @@ export default class jummuah extends Component {
                         target="_newtab"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -672,7 +648,6 @@ export default class jummuah extends Component {
                         className="btn btn btn-lg btn-outline-dark"
                         target="_newtab"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",
@@ -687,7 +662,6 @@ export default class jummuah extends Component {
                         target="_newtab"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
-                          width: "170px",
                           backgroundColor: "#2e856e",
                           color: "beige",
                           fontFamily: "Righteous",

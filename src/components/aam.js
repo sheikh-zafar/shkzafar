@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
+import Footer from "./footer";
 
 export default class aam extends Component {
   render() {
@@ -43,7 +44,6 @@ export default class aam extends Component {
                           className="btn btn btn-lg btn-outline-dark"
                           target="_newtab"
                           style={{
-                            width: "170px",
                             backgroundColor: "#2e856e",
                             color: "beige",
                             fontFamily: "Righteous",
@@ -58,7 +58,6 @@ export default class aam extends Component {
                           target="_newtab"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
-                            width: "170px",
                             backgroundColor: "#2e856e",
                             color: "beige",
                             fontFamily: "Righteous",
@@ -73,6 +72,12 @@ export default class aam extends Component {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+        {/*Footer section */}
+        <section className="embed-section">
+          <div className="col-md-12 text-center">
+            <Footer />
           </div>
         </section>
       </div>
