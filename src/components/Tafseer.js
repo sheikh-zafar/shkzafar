@@ -48,7 +48,6 @@ export default class Products extends Component {
                             target="_newtab"
                             className="btn btn btn-lg btn-outline-dark"
                             style={{
-                              width: "170px",
                               backgroundColor: "#2e856e",
                               color: "beige",
                               fontFamily: "Righteous",

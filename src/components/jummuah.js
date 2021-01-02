@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import bamslide from "../img/bamslide.jpg";
 import Navbar from "./Navbar";
 import Footer from "./footer";
+import youtube from "../img/youtube.jpg";
+import mixlr from "../img/mixlr.png";
 
 export default class jummuah extends Component {
   render() {
@@ -35,26 +37,43 @@ export default class jummuah extends Component {
           <div
             class="col-md-12 caption d-flex justify-content-between
             "
-            style={{ color: "#5c4033" }}
           >
-            <div className="p-2">
-              <i className="fa fa-map-marker " aria-hidden="true">
-                Masjid Abdur Rahman Al-khas
-              </i>{" "}
-            </div>
-            <div className="p-2">
-              <i class="fa fa-youtube-play mr-auto" aria-hidden="true">
+            <a href="/" style={{ color: "#2e856e" }}>
+              <div className="p-2 boardcard">
+                <i className="fa fa-map-marker " aria-hidden="true">
+                  Masjid Abdur Rahman Al-khas
+                </i>{" "}
+              </div>
+            </a>
+
+            <div className="p-2 ">
+              <a href="/" style={{ color: "#2e856e" }}>
+                <i
+                  class="fa fa-youtube-play "
+                  style={{ color: "red" }}
+                  aria-hidden="true"
+                ></i>
                 YouTube
-              </i>
+              </a>
+            </div>
+            <div className="p-2 pt-0 boardcard">
+              <a href="/" style={{ color: "#2e856e" }}>
+                <img
+                  src={mixlr}
+                  className="rounded mr-auto mixlricon"
+                  alt="zafarul hasan"
+                />
+                Mixlr
+              </a>
             </div>
           </div>
         </div>
-        <div className="container">
-          <div className="row">
-            <h2 className="headername">Latest khutbah</h2>
+        <div className="container text-center">
+          <div className="row ">
+            <h5>Latest khutbah</h5>
           </div>
         </div>
-        <div className="container  pt-3">
+        <div className="container-fluid pt-3 ">
           <iframe
             title="sheikh-zafar"
             src="https://archive.org/embed/2020-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
@@ -63,7 +82,7 @@ export default class jummuah extends Component {
             frameborder="0"
           ></iframe>
         </div>
-        <div className="container pt-5">
+        <div className="container  pt-5 ">
           <div className="row ">
             <iframe
               title="sheikh-zafar"
