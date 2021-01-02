@@ -69,8 +69,10 @@ export default class jummuah extends Component {
           </div>
         </div>
         <div className="container text-center">
-          <div className="row ">
-            <h5>Latest khutbah</h5>
+          <div className="row">
+            <div className="col-md-12 d-flex justify-content-center">
+              <h4>Latest khutbah</h4>
+            </div>
           </div>
         </div>
         <div className="container-fluid pt-3 ">
@@ -89,6 +91,7 @@ export default class jummuah extends Component {
               src="https://archive.org/embed/2020-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
               className="w-100"
               frameborder="0"
+              allowfullscreen=""
             ></iframe>
           </div>
         </div>
