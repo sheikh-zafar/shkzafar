@@ -38,15 +38,7 @@ export default class jummuah extends Component {
             class="col-md-12 caption d-flex justify-content-between
             "
           >
-            <a href="/" style={{ color: "#2e856e" }}>
-              <div className="p-2 boardcard">
-                <i className="fa fa-map-marker " aria-hidden="true">
-                  Masjid Abdur Rahman Al-khas
-                </i>{" "}
-              </div>
-            </a>
-
-            <div className="p-2 ">
+            <div className="p-2 boardcard">
               <a href="/" style={{ color: "#2e856e" }}>
                 <i
                   class="fa fa-youtube-play "
@@ -54,6 +46,18 @@ export default class jummuah extends Component {
                   aria-hidden="true"
                 ></i>
                 YouTube
+              </a>
+            </div>
+
+            <div className="p-2 boardcard">
+              <a href="/" style={{ color: "#2e856e" }}>
+                <i
+                  className="fa fa-map-marker "
+                  style={{ color: "#000000" }}
+                  aria-hidden="true"
+                >
+                  Masjid Abdur Rahman Al-khas
+                </i>{" "}
               </a>
             </div>
             <div className="p-2 pt-0 boardcard">
@@ -68,14 +72,22 @@ export default class jummuah extends Component {
             </div>
           </div>
         </div>
-        <div className="container text-center">
+
+        <div className="container  text-center">
           <div className="row">
-            <div className="col-md-12 d-flex justify-content-center">
-              <h4>Latest khutbah</h4>
+            <div className="col-md-12 pt-3 text-center">
+              <h2>Latest khutbah</h2>
             </div>
           </div>
-        </div>
-        <div className="container-fluid pt-3 ">
+
+          <div className="row">
+            <div className="col-md-12 pt-3 text-center">
+              <h3 class="card-title" style={{ color: "beige" }}>
+                2021 (۱٤٤۲ - ۱٤٤۳)
+              </h3>
+            </div>
+          </div>
+
           <iframe
             title="sheikh-zafar"
             src="https://archive.org/embed/2020-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
@@ -95,6 +107,52 @@ export default class jummuah extends Component {
             ></iframe>
           </div>
         </div>
+        {/*2020 */}
+        <section className="embed-section">
+          <div className="container d-flex justify-content-center">
+            <div className="row text-center">
+              <div class="card text-center">
+                <div class="card-header">2020</div>
+                <div class="card-body">
+                  <h2 class="card-title" style={{ color: "#2e856e" }}>
+                    ۱٤٤۱-۱٤٤۲{" "}
+                  </h2>
+
+                  <div className="row">
+                    <div className="col">
+                      <a
+                        href="https://archive.org/embed/2020-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
+                        className="btn btn btn-lg btn-outline-dark"
+                        target="_newtab"
+                        style={{
+                          backgroundColor: "#2e856e",
+                          color: "beige",
+                          fontFamily: "Righteous",
+                        }}
+                      >
+                        Listen
+                      </a>
+                    </div>
+                    <div className="col">
+                      <a
+                        href="https://drive.google.com/drive/u/0/folders/1Gqwi3Mbw00PHkcI3NWyakVe-zsr0M9HV"
+                        target="_newtab"
+                        className="btn btn btn-lg btn-outline-dark"
+                        style={{
+                          backgroundColor: "#2e856e",
+                          color: "beige",
+                          fontFamily: "Righteous",
+                        }}
+                      >
+                        Download
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/*2019 */}
         <section className="embed-section">
@@ -104,7 +162,7 @@ export default class jummuah extends Component {
                 <div class="card-header">2019</div>
                 <div class="card-body">
                   <h2 class="card-title" style={{ color: "#2e856e" }}>
-                    ۱٤۳۹ - ۱٤٤۰{" "}
+                    ۱٤٤۰-۱٤٤۱{" "}
                   </h2>
 
                   <div className="row">
@@ -150,7 +208,7 @@ export default class jummuah extends Component {
                 <div class="card-header">2018</div>
                 <div class="card-body">
                   <h2 class="card-title" style={{ color: "#2e856e" }}>
-                    ۱٤۳۸ - ۱٤۳۹{" "}
+                    ۱٤۳۹ - ۱٤٤۰{" "}
                   </h2>
 
                   <div className="row">
@@ -196,7 +254,7 @@ export default class jummuah extends Component {
                 <div class="card-header">2017</div>
                 <div class="card-body">
                   <h2 class="card-title" style={{ color: "#2e856e" }}>
-                    ۱٤۳۷ - ۱٤۳۸{" "}
+                    ۱٤۳۸ - ۱٤۳۹{" "}
                   </h2>
 
                   <div className="row">
@@ -288,7 +346,7 @@ export default class jummuah extends Component {
                 <div class="card-header">2015</div>
                 <div class="card-body">
                   <h2 class="card-title" style={{ color: "#2e856e" }}>
-                    ۱٤۳٥ - ۱٤۳٦{" "}
+                    ۱٤۳۷ - ۱٤۳۸{" "}
                   </h2>
 
                   <div className="row">
@@ -334,7 +392,7 @@ export default class jummuah extends Component {
                 <div class="card-header">2014</div>
                 <div class="card-body">
                   <h2 class="card-title" style={{ color: "#2e856e" }}>
-                    ۱٤۳٤ - ۱٤۳٥{" "}
+                    ۱٤۳٦ - ۱٤۳۷{" "}
                   </h2>
 
                   <div className="row">
@@ -380,7 +438,7 @@ export default class jummuah extends Component {
                 <div class="card-header">2013</div>
                 <div class="card-body">
                   <h2 class="card-title" style={{ color: "#2e856e" }}>
-                    ۱٤۳۳ - ۱٤۳٤{" "}
+                    ۱٤۳٥ - ۱٤۳٦{" "}
                   </h2>
 
                   <div className="row">
@@ -472,7 +530,7 @@ export default class jummuah extends Component {
                 <div class="card-header">2011</div>
                 <div class="card-body">
                   <h2 class="card-title" style={{ color: "#2e856e" }}>
-                    ۱٤۳۱ - ۱٤۳۲
+                    ۱٤۳٤ - ۱٤۳٥
                   </h2>
 
                   <div className="row">
@@ -518,7 +576,7 @@ export default class jummuah extends Component {
                 <div class="card-header">2010</div>
                 <div class="card-body">
                   <h2 class="card-title" style={{ color: "#2e856e" }}>
-                    ۱٤۳۰ - ۱٤۳۱{" "}
+                    ۱٤۳۳ - ۱٤۳٤{" "}
                   </h2>
 
                   <div className="row">
@@ -564,7 +622,7 @@ export default class jummuah extends Component {
                 <div class="card-header">2009</div>
                 <div class="card-body">
                   <h2 class="card-title" style={{ color: "#2e856e" }}>
-                    ۱٤۲۹ - ۱٤۳۰
+                    ۱٤۳۲ - ۱٤۳۳
                   </h2>
                   <p class="card-text" style={{ fontSize: "20px" }}>
                     <i className="fa fa-map-marker" aria-hidden="true">
@@ -614,7 +672,7 @@ export default class jummuah extends Component {
                 <div class="card-header">2008</div>
                 <div class="card-body">
                   <h2 class="card-title" style={{ color: "#2e856e" }}>
-                    ۱٤۲۸ - ۱٤۲۹
+                    ۱٤۳۱ - ۱٤۳۲
                   </h2>
 
                   <div className="row">
@@ -660,7 +718,7 @@ export default class jummuah extends Component {
                 <div class="card-header">2007</div>
                 <div class="card-body">
                   <h2 class="card-title" style={{ color: "#2e856e" }}>
-                    ۱٤۲۷ - ۱٤۲۸
+                    ۱٤۳۰ - ۱٤۳۱
                   </h2>
 
                   <div className="row">

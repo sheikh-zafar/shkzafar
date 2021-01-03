@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
+import Footer from "./footer";
 
 export default class muktasar extends Component {
   render() {
@@ -23,8 +24,10 @@ export default class muktasar extends Component {
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
                   <div class="card-header">رفع المرام</div>
-                  <p className="lead">Raf'ul Maram</p>
                   <div class="card-body">
+                    <div className="card-header2">
+                      <h3>Raf'ul Maram</h3>
+                    </div>
                     <h5 class="card-title" style={{ color: "#2e856e" }}>
                       29th,November,'2016 - 03,December,'2016
                     </h5>
@@ -64,7 +67,6 @@ export default class muktasar extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
@@ -77,8 +79,9 @@ export default class muktasar extends Component {
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
                   <div class="card-header">تدوين السنة</div>
-                  <p className="lead">Tadween Sunnah</p>
+
                   <div class="card-body">
+                    <h3>Tadween Sunnah</h3>
                     <h5 class="card-title" style={{ color: "#2e856e" }}>
                       29th,November,'2016 - 03,December,'2016
                     </h5>
@@ -118,7 +121,6 @@ export default class muktasar extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
@@ -131,8 +133,8 @@ export default class muktasar extends Component {
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
                   <div class="card-header">الربعين النووى</div>
-                  <p className="lead">Al-Arba'oona An-Nawawi</p>
                   <div class="card-body">
+                    <h3>Al-Arba'oona An-Nawawi</h3>
                     <h5 class="card-title" style={{ color: "#2e856e" }}>
                       29th,November,'2016 - 03,December,'2016
                     </h5>
@@ -172,10 +174,15 @@ export default class muktasar extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+        {/*Footer section */}
+        <section className="embed-section">
+          <div className="col-md-12 text-center">
+            <Footer />
           </div>
         </section>
       </div>

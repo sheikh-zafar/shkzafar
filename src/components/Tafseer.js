@@ -19,14 +19,9 @@ export default class Products extends Component {
                     <div class="card-header">
                       {qurantafseer.arabictitle}
                       <br />
-                      <p className="lead">{qurantafseer.englishtitle}</p>
+                      <p className="lead pt-3">{qurantafseer.englishtitle}</p>
                     </div>
                     <div class="card-body">
-                      <p class="card-text" style={{ fontSize: "20px" }}>
-                        <i className="fa fa-map-marker" aria-hidden="true">
-                          {qurantafseer.masjid}
-                        </i>
-                      </p>
                       <div className="row">
                         <div className="col">
                           <a
@@ -58,7 +53,6 @@ export default class Products extends Component {
                         </div>
                       </div>
                     </div>
-                    <div class="card-footer text-muted">2 days ago</div>
                   </div>
                 </div>
               </div>

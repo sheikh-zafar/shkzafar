@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
+import Footer from "./footer";
 
 export default class taweel extends Component {
   render() {
@@ -25,7 +26,7 @@ export default class taweel extends Component {
                   <div class="card-header">
                     شرح السنة
                     <br />
-                    <p className="lead">Sharh As-Sunnah</p>
+                    <p className="lead pt-3">Sharh As-Sunnah</p>
                   </div>
                   <div class="card-body">
                     <p class="card-text" style={{ fontSize: "20px" }}>
@@ -64,7 +65,6 @@ export default class taweel extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
@@ -79,7 +79,7 @@ export default class taweel extends Component {
                   <div class="card-header">
                     بلوغ المرام
                     <br />
-                    <p className="lead">Bulugh al-Maram</p>
+                    <p className="lead pt-3">Bulugh al-Maram</p>
                   </div>
                   <div class="card-body">
                     <p class="card-text" style={{ fontSize: "20px" }}>
@@ -118,7 +118,6 @@ export default class taweel extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
@@ -133,7 +132,7 @@ export default class taweel extends Component {
                   <div class="card-header">
                     كتاب التوحيد
                     <br />
-                    <p className="lead">Kitab at-Tawheed</p>
+                    <p className="lead pt-3">Kitab at-Tawheed</p>
                   </div>
                   <div class="card-body">
                     <p class="card-text" style={{ fontSize: "20px" }}>
@@ -172,7 +171,6 @@ export default class taweel extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
@@ -187,7 +185,7 @@ export default class taweel extends Component {
                   <div class="card-header">
                     الأصول الثلاثة
                     <br />
-                    <p className="lead">Usool al-Thalatha</p>
+                    <p className="lead pt-3">Usool al-Thalatha</p>
                   </div>
                   <div class="card-body">
                     <p class="card-text" style={{ fontSize: "20px" }}>
@@ -226,7 +224,6 @@ export default class taweel extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
@@ -242,7 +239,7 @@ export default class taweel extends Component {
                   <div class="card-header">
                     الشمائل المحمدية
                     <br />
-                    <p className="lead">Shamail al-Muhammadiyah</p>
+                    <p className="lead pt-3">Shamail al-Muhammadiyah</p>
                   </div>
                   <div class="card-body">
                     <p class="card-text" style={{ fontSize: "20px" }}>
@@ -281,10 +278,15 @@ export default class taweel extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+        {/*Footer section */}
+        <section className="embed-section">
+          <div className="col-md-12 text-center">
+            <Footer />
           </div>
         </section>
       </div>
