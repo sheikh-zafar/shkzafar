@@ -73,31 +73,29 @@ export default class jummuah extends Component {
           </div>
         </div>
 
-        <div className="container  text-center">
-          <div className="row">
-            <div className="col-md-12 pt-3 text-center">
-              <h2>Latest khutbah</h2>
+        <div className="container  pt-5 ">
+          <div className="row ">
+            <div className="col-md-12 text-center">
+              <h3 class="card-title" style={{ color: "beige" }}>
+                Latest Khutbah
+              </h3>
             </div>
+            <iframe
+              title="sheikh-zafar"
+              src="https://archive.org/embed/2020-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
+              width="100%"
+              height="30"
+              frameborder="0"
+            ></iframe>
           </div>
-
-          <div className="row">
-            <div className="col-md-12 pt-3 text-center">
+        </div>
+        <div className="container  pt-5 ">
+          <div className="row ">
+            <div className="col-md-12  text-center">
               <h3 class="card-title" style={{ color: "beige" }}>
                 2021 (۱٤٤۲ - ۱٤٤۳)
               </h3>
             </div>
-          </div>
-
-          <iframe
-            title="sheikh-zafar"
-            src="https://archive.org/embed/2020-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
-            width="100%"
-            height="30"
-            frameborder="0"
-          ></iframe>
-        </div>
-        <div className="container  pt-5 ">
-          <div className="row ">
             <iframe
               title="sheikh-zafar"
               src="https://archive.org/embed/2020-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
