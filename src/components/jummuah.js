@@ -38,36 +38,66 @@ export default class jummuah extends Component {
             class="col-md-12 caption d-flex justify-content-between
             "
           >
-            <div className="p-2 boardcard">
-              <a href="/" style={{ color: "#2e856e" }}>
+            <div>
+              <a href="/">
                 <i
-                  class="fa fa-youtube-play "
+                  className="fa fa-youtube-play icon-bar"
                   style={{ color: "red" }}
                   aria-hidden="true"
                 ></i>
-                YouTube
+              </a>
+              <a href="/">
+                <i
+                  className="fa fa-map-marker icon-bar"
+                  style={{ color: "#000000" }}
+                  aria-hidden="true"
+                ></i>
+              </a>
+              <a href="/">
+                {" "}
+                <img
+                  src={mixlr}
+                  className="rounded mr-auto icon-bar"
+                  alt="zafarul hasan"
+                />{" "}
+              </a>
+            </div>
+            <div className="boardcard">
+              <a href="/" style={{ color: "#2e856e" }}>
+                <p className="mixlrtext">
+                  <i
+                    class="fa fa-youtube-play mixlricon"
+                    style={{ color: "red" }}
+                    aria-hidden="true"
+                  ></i>
+                  YouTube
+                </p>
               </a>
             </div>
 
-            <div className="p-2 boardcard">
+            <div className="boardcard">
               <a href="/" style={{ color: "#2e856e" }}>
-                <i
-                  className="fa fa-map-marker "
-                  style={{ color: "#000000" }}
-                  aria-hidden="true"
-                >
+                <p className="mixlrtext">
+                  <i
+                    className="fa fa-map-marker mixlricon"
+                    style={{ color: "#000000" }}
+                    aria-hidden="true"
+                  ></i>
                   Masjid Abdur Rahman Al-khas
-                </i>{" "}
+                </p>
               </a>
             </div>
-            <div className="p-2 pt-0 boardcard">
+            <div className="boardcard">
               <a href="/" style={{ color: "#2e856e" }}>
-                <img
-                  src={mixlr}
-                  className="rounded mr-auto mixlricon"
-                  alt="zafarul hasan"
-                />
-                Mixlr
+                <p className="mixlrtext">
+                  {" "}
+                  <img
+                    src={mixlr}
+                    className="rounded mr-auto mixlricon"
+                    alt="zafarul hasan"
+                  />{" "}
+                  Mixlr
+                </p>
               </a>
             </div>
           </div>
@@ -76,13 +106,14 @@ export default class jummuah extends Component {
         <div className="container  pt-5 ">
           <div className="row ">
             <div className="col-md-12 text-center">
-              <h3 class="card-title" style={{ color: "beige" }}>
+              <h3 class="heading-name" style={{ color: "beige" }}>
                 Latest Khutbah
               </h3>
             </div>
             <iframe
               title="sheikh-zafar"
               src="https://archive.org/embed/2020-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
+              className="m-3"
               width="100%"
               height="30"
               frameborder="0"
@@ -92,15 +123,29 @@ export default class jummuah extends Component {
         <div className="container  pt-5 ">
           <div className="row ">
             <div className="col-md-12  text-center">
-              <h3 class="card-title" style={{ color: "beige" }}>
-                2021 (۱٤٤۲ - ۱٤٤۳)
+              <h3 className="heading-name" style={{ color: "beige" }}>
+                2021 (۱٤٤۲ - ۱٤٤۳)&nbsp;&nbsp;
+                <a
+                  href="https://drive.google.com/drive/folders/1l9T-CQ1PCrhLlLAa5c3-aQAokT0jLyXh"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn btn-lg btn-outline-dark"
+                  style={{
+                    backgroundColor: "beige",
+                    color: "#2e856e",
+                    fontFamily: "Righteous",
+                  }}
+                >
+                  Download
+                </a>
               </h3>
             </div>
             <iframe
               title="sheikh-zafar"
               src="https://archive.org/embed/2020-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
-              className="w-100"
               frameborder="0"
+              className="m-3"
+              width="100%"
               allowfullscreen=""
             ></iframe>
           </div>
@@ -121,7 +166,8 @@ export default class jummuah extends Component {
                       <a
                         href="https://archive.org/embed/2020-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
                         className="btn btn btn-lg btn-outline-dark"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         style={{
                           backgroundColor: "#2e856e",
                           color: "beige",
@@ -134,7 +180,8 @@ export default class jummuah extends Component {
                     <div className="col">
                       <a
                         href="https://drive.google.com/drive/u/0/folders/1Gqwi3Mbw00PHkcI3NWyakVe-zsr0M9HV"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
                           backgroundColor: "#2e856e",
@@ -166,9 +213,10 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/details/2019-jumuah-khutbah-zafarulhasan-madani"
+                        href="https://archive.org/embed/2019-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
                         className="btn btn btn-lg btn-outline-dark"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         style={{
                           backgroundColor: "#2e856e",
                           color: "beige",
@@ -181,7 +229,8 @@ export default class jummuah extends Component {
                     <div className="col">
                       <a
                         href="https://drive.google.com/drive/u/0/folders/1Gqwi3Mbw00PHkcI3NWyakVe-zsr0M9HV"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
                           backgroundColor: "#2e856e",
@@ -212,9 +261,10 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/details/2018-jumuah-khutbah-zafarulhasan-madani"
+                        href="https://archive.org/embed/2018-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
                         className="btn btn btn-lg btn-outline-dark"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         style={{
                           backgroundColor: "#2e856e",
                           color: "beige",
@@ -227,7 +277,8 @@ export default class jummuah extends Component {
                     <div className="col">
                       <a
                         href="https://drive.google.com/drive/u/0/folders/1YPqmTZnpHKUANnFPNz21vDEmPis9dUno"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
                           backgroundColor: "#2e856e",
@@ -258,9 +309,10 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/details/2017-jumuah-khutbah-zafarulhasan-madani"
+                        href="https://archive.org/embed/2017-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
                         className="btn btn btn-lg btn-outline-dark"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         style={{
                           backgroundColor: "#2e856e",
                           color: "beige",
@@ -273,7 +325,8 @@ export default class jummuah extends Component {
                     <div className="col">
                       <a
                         href="https://drive.google.com/drive/u/0/folders/15RHnNDUDY1cIYa6DtJLCuDPkCI36S21s"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
                           backgroundColor: "#2e856e",
@@ -304,9 +357,10 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/details/2016-jumuah-khutbah-zafarulhasan-madani"
+                        href="https://archive.org/embed/2016-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
                         className="btn btn btn-lg btn-outline-dark"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         style={{
                           backgroundColor: "#2e856e",
                           color: "beige",
@@ -319,7 +373,8 @@ export default class jummuah extends Component {
                     <div className="col">
                       <a
                         href="https://drive.google.com/drive/u/0/folders/1LyS5vLN6BzwUn2Gx2dGSQ5nwpUVUxoOX"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
                           backgroundColor: "#2e856e",
@@ -350,9 +405,10 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/details/2015-jumuah-khutbah-zafarulhasan-madani"
+                        href="https://archive.org/embed/2015-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
                         className="btn btn btn-lg btn-outline-dark"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         style={{
                           backgroundColor: "#2e856e",
                           color: "beige",
@@ -365,7 +421,8 @@ export default class jummuah extends Component {
                     <div className="col">
                       <a
                         href="https://drive.google.com/drive/u/0/folders/19x2wef8L4a6T0GNuHgEtSf5Ie-e3Ali4"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
                           backgroundColor: "#2e856e",
@@ -396,9 +453,10 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/details/2014-jumuah-khutbah-zafarulhasan-madani"
+                        href="https://archive.org/embed/2014-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
                         className="btn btn btn-lg btn-outline-dark"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         style={{
                           backgroundColor: "#2e856e",
                           color: "beige",
@@ -411,7 +469,8 @@ export default class jummuah extends Component {
                     <div className="col">
                       <a
                         href="https://drive.google.com/drive/u/0/folders/1VKkGtyDWXiImGgyP2gG1IiB_NFGtE7Fq"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
                           backgroundColor: "#2e856e",
@@ -442,9 +501,10 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/details/2013-jumuah-khutbah-zafarulhasan-madani"
+                        href="https://archive.org/embed/2013-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
                         className="btn btn btn-lg btn-outline-dark"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         style={{
                           backgroundColor: "#2e856e",
                           color: "beige",
@@ -457,7 +517,8 @@ export default class jummuah extends Component {
                     <div className="col">
                       <a
                         href="https://drive.google.com/drive/u/0/folders/1I25CEplT11AHxIfeg1zTJxl6uwAXcnnn"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
                           backgroundColor: "#2e856e",
@@ -488,9 +549,10 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/details/2012-jumuah-khutbah-zafarulhasan-madani"
+                        href="https://archive.org/embed/2012-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
                         className="btn btn btn-lg btn-outline-dark"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         style={{
                           backgroundColor: "#2e856e",
                           color: "beige",
@@ -503,7 +565,8 @@ export default class jummuah extends Component {
                     <div className="col">
                       <a
                         href="https://drive.google.com/drive/u/0/folders/1Q6Ex1u-JthpGDZ3G4NAxDY2iPdrvYJMg"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
                           backgroundColor: "#2e856e",
@@ -534,9 +597,10 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/details/2011-jumuah-khutbah-zafarulhasan-madani"
+                        href="https://archive.org/embed/2011-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
                         className="btn btn btn-lg btn-outline-dark"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         style={{
                           backgroundColor: "#2e856e",
                           color: "beige",
@@ -549,7 +613,8 @@ export default class jummuah extends Component {
                     <div className="col">
                       <a
                         href="https://drive.google.com/drive/u/0/folders/1_4WYdFIBOiCZOjB812NpzyKaxYgikFyj"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
                           backgroundColor: "#2e856e",
@@ -580,9 +645,10 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/details/2010-jumuah-khutbah-zafarulhasan-madani"
+                        href="https://archive.org/embed/2010-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
                         className="btn btn btn-lg btn-outline-dark"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         style={{
                           backgroundColor: "#2e856e",
                           color: "beige",
@@ -595,7 +661,8 @@ export default class jummuah extends Component {
                     <div className="col">
                       <a
                         href="https://drive.google.com/drive/u/0/folders/1DVWwypnsMNuJvVZ4v_2FA8IpptwxRxg9"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
                           backgroundColor: "#2e856e",
@@ -630,9 +697,10 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/details/2009-jumuah-khutbah-zafarulhasan-madani"
+                        href="https://archive.org/embed/2009-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
                         className="btn btn btn-lg btn-outline-dark"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         style={{
                           backgroundColor: "#2e856e",
                           color: "beige",
@@ -645,7 +713,8 @@ export default class jummuah extends Component {
                     <div className="col">
                       <a
                         href="https://drive.google.com/drive/u/0/folders/1EJ1JPE4M8bPyJNwhgkEi_pOTGrVsLYgC"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
                           backgroundColor: "#2e856e",
@@ -676,9 +745,10 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/details/2008-jumuah-khutbah-zafarulhasan-madani"
+                        href="https://archive.org/embed/2008-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
                         className="btn btn btn-lg btn-outline-dark"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         style={{
                           backgroundColor: "#2e856e",
                           color: "beige",
@@ -691,7 +761,8 @@ export default class jummuah extends Component {
                     <div className="col">
                       <a
                         href="https://drive.google.com/drive/u/0/folders/195tqUcLmuZ3RKeVNqBA5JI_PzxzIbwMx"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
                           backgroundColor: "#2e856e",
@@ -722,9 +793,10 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/details/2007-jumuah-khutbah-zafarulhasan-madani"
+                        href="https://archive.org/embed/2007-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
                         className="btn btn btn-lg btn-outline-dark"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         style={{
                           backgroundColor: "#2e856e",
                           color: "beige",
@@ -737,7 +809,8 @@ export default class jummuah extends Component {
                     <div className="col">
                       <a
                         href="https://drive.google.com/drive/u/0/folders/1MkU2NBaWv1JoybsyJf1nh7Ehu5vRArrs"
-                        target="_newtab"
+                        target="_blank"
+                        rel="noreferrer"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
                           backgroundColor: "#2e856e",

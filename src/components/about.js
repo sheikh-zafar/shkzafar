@@ -129,11 +129,6 @@ export default class about extends Component {
                   <li>Duroos-e- Hadith</li>
                 </ol>
               </section>
-              <section className="embed-section ">
-                <div className="container d-flex justify-content-center">
-                  <h4>Source : shaikhzafar.com</h4>
-                </div>
-              </section>
             </div>
           </div>
         </section>

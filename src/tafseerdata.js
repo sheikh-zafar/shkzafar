@@ -82,7 +82,7 @@ export const tafseerdata = [
   },
   {
     _id: "audio12",
-    arabictitle: "कुछ लम्हात",
+    arabictitle: "کچھ لمحات سیریز",
     englishtitle: "Kuch Lamhaat ki sath",
     archive: "https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani",
     drive:

@@ -197,77 +197,6 @@ a:active {
   width: 8em;
 }
 
-.timeline {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.timeline::after {
-  content: "";
-  position: absolute;
-  width: 6px;
-  background-color: white;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -3px;
-}
-.timelinecontainer {
-  padding: 10px 40px;
-  position: relative;
-  background-color: inherit;
-  width: 50%;
-}
-
-.timelinecontainer::after {
-  content: "";
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
-  background-color: white;
-  border: 4px solid #ff9f55;
-  top: 15px;
-  border-radius: 50%;
-  z-index: 1;
-}
-.left {
-  left: 0;
-}
-
-.right {
-  left: 50%;
-}
-
-.left::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid white;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
-}
-
-.right::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
-}
-
-.right::after {
-  left: -16px;
-}
 .caption {
   font-size: 30px;
 }
@@ -316,9 +245,112 @@ a:active {
   height: 100%;
 }
 .mixlricon {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
 }
+.mixlrtext {
+  font-size: 35px;
+}
+.icon-bar {
+  display: none;
+}
+.timeline {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
+  box-sizing: border-box;
+}
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background-color: beige;
+}
+.timeline ul {
+  margin: 0;
+  padding: 0;
+}
+.timeline ul li {
+  list-style: none;
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+}
+.timeline ul li:nth-child(odd) {
+  float: left;
+  text-align: right;
+  clear: both;
+}
+.timeline ul li:nth-child(even) {
+  float: right;
+  text-align: left;
+  clear: both;
+}
+.content {
+  padding-bottom: 20px;
+  border: 1px solid beige;
+  padding: 10px 10px;
+  border-radius: 5px;
+  background: #fff;
+  text-align: justify;
+}
+.timeline ul li:nth-child(odd)::before {
+  content: "";
+  position: absolute;
+  top: 24px;
+  right: -11px;
+  width: 20px;
+  height: 20px;
+  background: #c23941;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2);
+}
+.timeline ul li:nth-child(even)::before {
+  content: "";
+  position: absolute;
+  top: 24px;
+  left: -9px;
+  width: 20px;
+  height: 20px;
+  background: #c23941;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2);
+}
+.timeline ul li h3 {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  color: beige;
+}
+.timeline ul li p {
+  margin: 10px 0 0;
+  padding: 0%;
+  line-height: 1.7;
+  color: #2e856e;
+}
+.timeline ul li:nth-child(odd) .time {
+  position: absolute;
+  top: 12px;
+  right: -165px;
+  margin: 0;
+  padding: 8px 16px;
+  background: #303243;
+  color: beige;
+  border-radius: 18px;
+}
+.timeline ul li:nth-child(even) .time {
+  position: absolute;
+  top: 12px;
+  left: -165px;
+  margin: 0;
+  padding: 8px 16px;
+  background: #303243;
+  color: beige;
+  border-radius: 18px;
+}
+
 @media (min-width: 1200px) {
 }
 @media (max-width: 991.98px) {
@@ -350,6 +382,13 @@ a:active {
   .responsiveCal iframe {
     position: absolute;
   }
+  .mixlricon {
+    height: 25px;
+    width: 25px;
+  }
+  .mixlrtext {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -370,34 +409,7 @@ a:active {
   #menu {
     display: none;
   }
-  .vertical {
-    display: none;
-  }
-  .timeline::after {
-    left: 31px;
-  }
 
-  .timelinecontainer {
-    width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
-  }
-
-  .timelinecontainer::before {
-    left: 60px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-  }
-
-  .left::after,
-  .right::after {
-    left: 15px;
-  }
-
-  .right {
-    left: 0%;
-  }
   .btn {
     width: 120px;
     font-size: 14px;
@@ -427,8 +439,11 @@ a:active {
     font-size: 15px;
   }
   .mixlricon {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
+  }
+  .mixlrtext {
+    display: none;
   }
 }
 
