@@ -67,7 +67,7 @@ export default class about extends Component {
                 renowned Shuyookh and ‘Ulama. A few of them have been named
                 below:
               </p>
-              <ol className="orderlist pt-3">
+              <ol className="about orderlist pt-3">
                 <li>Shaikh Al Hadith Shams Al-haq Salafi (Rahimahullah).</li>
                 <li>
                   Shaikh Al Jam’ia Salafiya Moulana Abdul Waheed Rahmani
@@ -120,7 +120,7 @@ export default class about extends Component {
                 By the Grace of Allah azza wa jal, Shaikh Zafar, with his
                 immense knowledge has had the privilege of authoring a few books
                 in Urdu, some of which are mentioned here below:
-                <ol className="orderlist pt-3">
+                <ol className="about orderlist pt-3">
                   <li>Tariqai Hajj (published)</li>
                   <li>Mamnou As-Salah Ind-Al Iqamah (published)</li>
                   <li>Ithibaat Ar-Rakatayn Qabl Al-Magreb (published)</li>

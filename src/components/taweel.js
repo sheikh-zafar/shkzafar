@@ -34,9 +34,10 @@ export default class taweel extends Component {
                     <div className="row">
                       <div className="col">
                         <a
-                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani&playlist=1&list_height=215"
                           className="btn btn btn-lg btn-outline-dark"
-                          target="_newtab"
+                          target="_blank"
+                          rel="noreferrer"
                           style={{
                             backgroundColor: "#2e856e",
                             color: "beige",
@@ -49,7 +50,8 @@ export default class taweel extends Component {
                       <div className="col">
                         <a
                           href="https://drive.google.com/drive/u/0/folders/1FHmnB17RfmCYfZdjSpuyQ6XCt1zELR-o"
-                          target="_newtab"
+                          target="_blank"
+                          rel="noreferrer"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
                             backgroundColor: "#2e856e",
@@ -84,9 +86,10 @@ export default class taweel extends Component {
                     <div className="row">
                       <div className="col">
                         <a
-                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          href="https://archive.org/embed/sharh-bulugh-al-maram-zafarulhasan-madani&playlist=1&list_height=215"
                           className="btn btn btn-lg btn-outline-dark"
-                          target="_newtab"
+                          target="_blank"
+                          rel="noreferrer"
                           style={{
                             backgroundColor: "#2e856e",
                             color: "beige",
@@ -99,7 +102,8 @@ export default class taweel extends Component {
                       <div className="col">
                         <a
                           href="https://drive.google.com/drive/u/0/folders/1msQrFTXsWmG2M76nb373wHtJFeFgl85Y"
-                          target="_newtab"
+                          target="_blank"
+                          rel="noreferrer"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
                             backgroundColor: "#2e856e",
@@ -136,7 +140,8 @@ export default class taweel extends Component {
                         <a
                           href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
                           className="btn btn btn-lg btn-outline-dark"
-                          target="_newtab"
+                          target="_blank"
+                          rel="noreferrer"
                           style={{
                             backgroundColor: "#2e856e",
                             color: "beige",
@@ -149,7 +154,8 @@ export default class taweel extends Component {
                       <div className="col">
                         <a
                           href="https://drive.google.com/drive/u/0/folders/1dt9ClL2vhPPiz9UtfzwRyWNvFpHOj1dw"
-                          target="_newtab"
+                          target="_blank"
+                          rel="noreferrer"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
                             backgroundColor: "#2e856e",
@@ -186,7 +192,8 @@ export default class taweel extends Component {
                         <a
                           href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
                           className="btn btn btn-lg btn-outline-dark"
-                          target="_newtab"
+                          target="_blank"
+                          rel="noreferrer"
                           style={{
                             backgroundColor: "#2e856e",
                             color: "beige",
@@ -199,7 +206,8 @@ export default class taweel extends Component {
                       <div className="col">
                         <a
                           href="https://drive.google.com/drive/u/0/folders/1b_iM6DBbrbbMP7p7-KzuRVeH-wZDPwts"
-                          target="_newtab"
+                          target="_blank"
+                          rel="noreferrer"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
                             backgroundColor: "#2e856e",
@@ -236,7 +244,8 @@ export default class taweel extends Component {
                         <a
                           href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
                           className="btn btn btn-lg btn-outline-dark"
-                          target="_newtab"
+                          target="_blank"
+                          rel="noreferrer"
                           style={{
                             backgroundColor: "#2e856e",
                             color: "beige",
@@ -249,7 +258,8 @@ export default class taweel extends Component {
                       <div className="col">
                         <a
                           href="https://drive.google.com/drive/u/0/folders/1SNvR6J81FrBQjwmWofW5U3PLeCQKEIvN"
-                          target="_newtab"
+                          target="_blank"
+                          rel="noreferrer"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
                             backgroundColor: "#2e856e",

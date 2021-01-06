@@ -217,12 +217,7 @@ a:active {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
 }
-.responsiveCal {
-  position: relative;
-  padding-bottom: 40%;
-  height: 0;
-  overflow: hidden;
-}
+
 .responsiveArchives {
   position: absolute;
   top: 100px;
@@ -236,7 +231,12 @@ a:active {
   height: 100%;
   border: none;
 }
-
+.responsiveCal {
+  position: relative;
+  padding-bottom: 40%;
+  height: 100%;
+  overflow: hidden;
+}
 .responsiveCal iframe {
   position: absolute;
   top: 0;
@@ -249,7 +249,10 @@ a:active {
   width: 40px;
 }
 .mixlrtext {
-  font-size: 35px;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: #5c4033;
+  padding-top: 10px;
 }
 .icon-bar {
   display: none;
@@ -330,6 +333,11 @@ a:active {
   line-height: 1.7;
   color: #2e856e;
 }
+.timeline ul li h4 {
+  margin: 0;
+  padding: 0;
+  font-size: "16px";
+}
 .timeline ul li:nth-child(odd) .time {
   position: absolute;
   top: 12px;
@@ -350,12 +358,18 @@ a:active {
   color: beige;
   border-radius: 18px;
 }
+.phoneicon {
+  display: none;
+}
 
 @media (min-width: 1200px) {
 }
 @media (max-width: 991.98px) {
   .latest-section {
     height: 215px;
+  }
+  .phoneicon {
+    display: none;
   }
 }
 
@@ -431,6 +445,13 @@ a:active {
     position: relative;
     padding-bottom: 100%;
   }
+  .aboutheader {
+    font-size: 30px;
+  }
+  .about {
+    font-size: 16px;
+    margin: 5px;
+  }
 
   .responsiveCal iframe {
     position: absolute;
@@ -439,6 +460,7 @@ a:active {
     font-size: 15px;
   }
   .mixlricon {
+    display: block;
     height: 30px;
     width: 30px;
   }

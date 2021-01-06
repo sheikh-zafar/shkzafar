@@ -2,6 +2,7 @@ export const mausamiyatdhulhijjah = [
   {
     _id: "audio1",
     year: "2020",
+    arabicyear: "۱٤٤۱-۱٤٤۲",
     archive: "https://www.google.com",
     drive:
       "https://drive.google.com/drive/folders/1hQ36oXv8fGQR5tbDmkUdaEAwoX5IyW8X",
@@ -9,6 +10,7 @@ export const mausamiyatdhulhijjah = [
   {
     _id: "audio2",
     year: "2015",
+    arabicyear: "۱٤۳۷ - ۱٤۳۸",
     archive: "https://www.google.com",
     drive:
       "https://drive.google.com/drive/folders/1CmasEOKoBaz5qhz4LqF5D0Qg1ZsaVSZV",
@@ -16,6 +18,7 @@ export const mausamiyatdhulhijjah = [
   {
     _id: "audio3",
     year: "2014",
+    arabicyear: "۱٤۳٦ - ۱٤۳۷",
     archive: "https://www.google.com",
     drive:
       "https://drive.google.com/drive/folders/1cS7BHbsLTwnCEQWZktB2BtMiuPrdxk5u",
@@ -23,6 +26,7 @@ export const mausamiyatdhulhijjah = [
   {
     _id: "audio4",
     year: "2013",
+    arabicyear: "۱٤۳٥ - ۱٤۳٦",
     archive: "https://www.google.com",
     drive:
       "https://drive.google.com/drive/folders/1xLg3zMC2X6d-BC7I9CnDlwD5WE2-G04S",
@@ -30,6 +34,7 @@ export const mausamiyatdhulhijjah = [
   {
     _id: "audio4",
     year: "2012",
+    arabicyear: "۱٤۳۲ - ۱٤۳۳",
     archive: "https://www.google.com",
     drive:
       "https://drive.google.com/drive/folders/1cd8Rc4upJtFgdI4412GXTwLfeyYcfhr9",
@@ -37,6 +42,7 @@ export const mausamiyatdhulhijjah = [
   {
     _id: "audio4",
     year: "2011",
+    arabicyear: "۱٤۳٤ - ۱٤۳٥",
     archive: "https://www.google.com",
     drive:
       "https://drive.google.com/drive/folders/1L__GPazNquGenjOzLL1T2mLIWkXvj0an",

@@ -36,7 +36,7 @@ export default class khutbah extends Component {
                     </p>
                   </div>
                   <div className="time">
-                    <h3>2020</h3>
+                    <h4>2020</h4>
                   </div>
                 </li>
                 <li>
@@ -52,7 +52,7 @@ export default class khutbah extends Component {
                     </p>
                   </div>
                   <div className="time">
-                    <h3>2020</h3>
+                    <h4>2020</h4>
                   </div>
                 </li>
                 <li>
@@ -68,7 +68,7 @@ export default class khutbah extends Component {
                     </p>
                   </div>
                   <div className="time">
-                    <h3>2020</h3>
+                    <h4>2020</h4>
                   </div>
                 </li>
                 <li>
@@ -84,7 +84,7 @@ export default class khutbah extends Component {
                     </p>
                   </div>
                   <div className="time">
-                    <h3>2020</h3>
+                    <h4>2020</h4>
                   </div>
                 </li>
                 <li>
@@ -100,7 +100,7 @@ export default class khutbah extends Component {
                     </p>
                   </div>
                   <div className="time">
-                    <h3>2020</h3>
+                    <h4>2020</h4>
                   </div>
                 </li>
 

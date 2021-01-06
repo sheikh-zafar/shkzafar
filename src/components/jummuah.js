@@ -23,7 +23,7 @@ export default class jummuah extends Component {
         </section>
         {/*Background */}
         <div
-          className="container pt-3 rounded"
+          className="container pt-3 rounded "
           style={{
             backgroundColor: "beige",
             border: "5px solid #5c4033",
@@ -31,74 +31,82 @@ export default class jummuah extends Component {
         >
           <img
             src={bamslide}
-            className="img-fluid header-img"
+            className="img-fluid header-img pb-3"
             alt="Jumu'ah Khutbah"
           />
-          <div
-            class="col-md-12 caption d-flex justify-content-between
-            "
-          >
-            <div>
-              <a href="/">
-                <i
-                  className="fa fa-youtube-play icon-bar"
-                  style={{ color: "red" }}
-                  aria-hidden="true"
-                ></i>
-              </a>
-              <a href="/">
-                <i
-                  className="fa fa-map-marker icon-bar"
-                  style={{ color: "#000000" }}
-                  aria-hidden="true"
-                ></i>
-              </a>
-              <a href="/">
-                {" "}
-                <img
-                  src={mixlr}
-                  className="rounded mr-auto icon-bar"
-                  alt="zafarul hasan"
-                />{" "}
-              </a>
+          <div className="container">
+            <div class="row caption d-flex justify-content-between">
+              <div className="boardcard">
+                <a href="/" style={{ color: "#2e856e" }}>
+                  <p className="mixlrtext">
+                    <i
+                      class="fa fa-youtube-play mixlricon"
+                      style={{ color: "red" }}
+                      aria-hidden="true"
+                    ></i>
+                    YouTube
+                  </p>
+                </a>
+              </div>
+
+              <div className="boardcard">
+                <a href="/" style={{ color: "#2e856e" }}>
+                  <p className="mixlrtext">
+                    <i
+                      className="fa fa-map-marker mixlricon"
+                      style={{ color: "#000000" }}
+                      aria-hidden="true"
+                    ></i>
+                    Masjid Abdur Rahman Al-khas
+                  </p>
+                </a>
+              </div>
+              <div className="boardcard">
+                <a href="/" style={{ color: "#2e856e" }}>
+                  <p className="mixlrtext">
+                    {" "}
+                    <img
+                      src={mixlr}
+                      className="rounded mr-auto mixlricon"
+                      alt="zafarul hasan"
+                    />{" "}
+                    Mixlr
+                  </p>
+                </a>
+              </div>
             </div>
-            <div className="boardcard">
-              <a href="/" style={{ color: "#2e856e" }}>
-                <p className="mixlrtext">
+          </div>
+          <div className="container ">
+            <div class="row caption d-flex justify-content-between">
+              <div className="boardcard">
+                <a href="/" style={{ color: "#2e856e" }}>
                   <i
-                    class="fa fa-youtube-play mixlricon"
+                    class="fa fa-youtube-play phoneicon"
                     style={{ color: "red" }}
                     aria-hidden="true"
                   ></i>
-                  YouTube
-                </p>
-              </a>
-            </div>
+                </a>
+              </div>
 
-            <div className="boardcard">
-              <a href="/" style={{ color: "#2e856e" }}>
-                <p className="mixlrtext">
+              <div className="boardcard">
+                <a href="/" style={{ color: "#2e856e" }}>
                   <i
-                    className="fa fa-map-marker mixlricon"
+                    className="fa fa-map-marker phoneicon"
                     style={{ color: "#000000" }}
                     aria-hidden="true"
                   ></i>
-                  Masjid Abdur Rahman Al-khas
-                </p>
-              </a>
-            </div>
-            <div className="boardcard">
-              <a href="/" style={{ color: "#2e856e" }}>
-                <p className="mixlrtext">
+                </a>
+              </div>
+              <div className="boardcard">
+                <a href="/" style={{ color: "#2e856e" }}>
                   {" "}
                   <img
                     src={mixlr}
-                    className="rounded mr-auto mixlricon"
+                    className="rounded mr-auto phoneicon"
                     alt="zafarul hasan"
                   />{" "}
-                  Mixlr
-                </p>
-              </a>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -112,7 +120,7 @@ export default class jummuah extends Component {
             </div>
             <iframe
               title="sheikh-zafar"
-              src="https://archive.org/embed/2020-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
+              src="https://archive.org/embed/2021-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
               className="m-3"
               width="100%"
               height="30"
@@ -142,7 +150,7 @@ export default class jummuah extends Component {
             </div>
             <iframe
               title="sheikh-zafar"
-              src="https://archive.org/embed/2020-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
+              src="https://archive.org/embed/2021-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
               frameborder="0"
               className="m-3"
               width="100%"
@@ -179,7 +187,7 @@ export default class jummuah extends Component {
                     </div>
                     <div className="col">
                       <a
-                        href="https://drive.google.com/drive/u/0/folders/1Gqwi3Mbw00PHkcI3NWyakVe-zsr0M9HV"
+                        href="https://drive.google.com/drive/folders/1WGuAmSMs0TVhFniVcLvjxWHZptcysHn7"
                         target="_blank"
                         rel="noreferrer"
                         className="btn btn btn-lg btn-outline-dark"
@@ -612,7 +620,7 @@ export default class jummuah extends Component {
                     </div>
                     <div className="col">
                       <a
-                        href="https://drive.google.com/drive/u/0/folders/1_4WYdFIBOiCZOjB812NpzyKaxYgikFyj"
+                        href="https://drive.google.com/drive/folders/1U20FC1YKlrugtiMVTUAi27JZRkqRLZso"
                         target="_blank"
                         rel="noreferrer"
                         className="btn btn btn-lg btn-outline-dark"
@@ -660,7 +668,7 @@ export default class jummuah extends Component {
                     </div>
                     <div className="col">
                       <a
-                        href="https://drive.google.com/drive/u/0/folders/1DVWwypnsMNuJvVZ4v_2FA8IpptwxRxg9"
+                        href="https://drive.google.com/drive/folders/1J21s8KS8baM6W0wqJdw58VZae9puvfrq"
                         target="_blank"
                         rel="noreferrer"
                         className="btn btn btn-lg btn-outline-dark"
@@ -712,7 +720,7 @@ export default class jummuah extends Component {
                     </div>
                     <div className="col">
                       <a
-                        href="https://drive.google.com/drive/u/0/folders/1EJ1JPE4M8bPyJNwhgkEi_pOTGrVsLYgC"
+                        href="https://drive.google.com/drive/folders/1yMPYX3DjUItz5P-xKL57ISAqSeXjc122"
                         target="_blank"
                         rel="noreferrer"
                         className="btn btn btn-lg btn-outline-dark"
@@ -760,7 +768,7 @@ export default class jummuah extends Component {
                     </div>
                     <div className="col">
                       <a
-                        href="https://drive.google.com/drive/u/0/folders/195tqUcLmuZ3RKeVNqBA5JI_PzxzIbwMx"
+                        href="https://drive.google.com/drive/folders/1BDGm9FORnaAab_BIyYck4PdYXVW5PSwV"
                         target="_blank"
                         rel="noreferrer"
                         className="btn btn btn-lg btn-outline-dark"

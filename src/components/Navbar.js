@@ -32,6 +32,7 @@ export default class Navbar extends Component {
                 style={{
                   backgroundColor: "beige",
                   border: "black",
+                  color: "#5c4033",
                 }}
               ></span>
             </button>

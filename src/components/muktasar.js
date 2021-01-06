@@ -41,7 +41,8 @@ export default class muktasar extends Component {
                         <a
                           href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
                           className="btn btn btn-lg btn-outline-dark"
-                          target="_newtab"
+                          target="_blank"
+                          rel="noreferrer"
                           style={{
                             backgroundColor: "#2e856e",
                             color: "beige",
@@ -54,7 +55,8 @@ export default class muktasar extends Component {
                       <div className="col-md-6 col-xs-6 col-sm-6">
                         <a
                           href="https://drive.google.com/drive/folders/1-lsbdF9fKIoVkT5l2HMBv_0jsD8VoapL"
-                          target="_newtab"
+                          target="_blank"
+                          rel="noreferrer"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
                             backgroundColor: "#2e856e",
@@ -95,7 +97,8 @@ export default class muktasar extends Component {
                         <a
                           href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
                           className="btn btn btn-lg btn-outline-dark"
-                          target="_newtab"
+                          target="_blank"
+                          rel="noreferrer"
                           style={{
                             backgroundColor: "#2e856e",
                             color: "beige",
@@ -108,7 +111,8 @@ export default class muktasar extends Component {
                       <div className="col">
                         <a
                           href="https://drive.google.com/drive/folders/1Fx6WbJG3y2mmkrSuKSWXJZz3FBwd80mf"
-                          target="_newtab"
+                          target="_blank"
+                          rel="noreferrer"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
                             backgroundColor: "#2e856e",
@@ -147,7 +151,8 @@ export default class muktasar extends Component {
                       <div className="col">
                         <a
                           href="https://drive.google.com/drive/folders/1azueqYmaJAcOntjy9hxks029gnVIGyky"
-                          target="_newtab"
+                          target="_blank"
+                          rel="noreferrer"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
                             backgroundColor: "#2e856e",
@@ -160,7 +165,8 @@ export default class muktasar extends Component {
                       </div>
                       <div className="col">
                         <a
-                          href="/"
+                          href="https://drive.google.com/drive/folders/1-lsbdF9fKIoVkT5l2HMBv_0jsD8VoapL"
+                          target="_blank"
                           rel="noreferrer"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
