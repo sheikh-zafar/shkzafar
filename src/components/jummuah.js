@@ -159,17 +159,15 @@ export default class jummuah extends Component {
             ></iframe>
             <div className="container d-flex justify-content-center">
               <div className="row">
-                <div className="col">
-                  <h5
-                    class="heading-name"
+                <div className="col rounded">
+                  <h3
                     style={{
-                      backgroundColor: "beige",
-                      color: "#2e856e",
+                      color: "beige",
                       fontFamily: "Righteous",
                     }}
                   >
                     Listen
-                  </h5>
+                  </h3>
                 </div>{" "}
                 <div className="col">
                   <a

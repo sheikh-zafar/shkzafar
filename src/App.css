@@ -363,6 +363,13 @@ a:active {
 .phoneicon {
   display: none;
 }
+.subscribe-links {
+  border: 9px solid #5c4033;
+  height: 9rem;
+  width: 9rem;
+  background-color: beige;
+  background-image: url(../src/img/beigebg.jpeg);
+}
 
 @media (min-width: 1200px) {
 }
@@ -393,6 +400,11 @@ a:active {
   .responsiveCal {
     position: relative;
     padding-bottom: 100%;
+  }
+  .subscribe-links {
+    border: 5px solid #5c4033;
+    height: 6rem;
+    width: 6rem;
   }
 
   .responsiveCal iframe {

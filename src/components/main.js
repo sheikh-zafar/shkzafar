@@ -12,6 +12,7 @@ import arkan from "./arkan";
 import taweel from "./taweel";
 import jummuah from "./jummuah";
 import mausamiyat from "./mausamiyat";
+import subscribe from "./subscribe";
 
 const Main = () => (
   <Switch>
@@ -27,6 +28,7 @@ const Main = () => (
     <Route exact path="/audio/mausamiyat" component={mausamiyat} />
     <Route exact path="/books" component={books} />
     <Route exact path="/about" component={about} />
+    <Route exact path="/subscribe" component={subscribe} />
   </Switch>
 );
 

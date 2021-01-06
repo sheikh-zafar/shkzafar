@@ -29,7 +29,7 @@ export default class aam extends Component {
                     <br />
                     <p className="lead pt-3">Isteqamat</p>
                   </div>
-                  <div class="card-body">
+                  <div class="card-body pt-0">
                     <h5 class="card-title" style={{ color: "#2e856e" }}>
                       29th,November,'2016 - 03,December,'2016
                     </h5>

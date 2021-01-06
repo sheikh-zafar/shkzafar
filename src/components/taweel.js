@@ -24,12 +24,9 @@ export default class taweel extends Component {
             <div className="row text-center">
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
-                  <div class="card-header">
+                  <div class="card-header pb-0">
                     شرح السنة
-                    <br />
-                    <div className="card-header2">
-                      <h3>Sharh As-Sunnah</h3>
-                    </div>
+                    <p className="lead pt-3">Sharh As-Sunnah</p>
                   </div>
                   <div class="card-body">
                     <div className="row">
@@ -76,12 +73,9 @@ export default class taweel extends Component {
             <div className="row text-center">
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
-                  <div class="card-header">
+                  <div class="card-header pb-0">
                     بلوغ المرام
-                    <br />
-                    <div className="card-header2">
-                      <h3>Bulugh al-Maram</h3>
-                    </div>
+                    <p className="lead pt-3">Bulugh al-Maram</p>
                   </div>
                   <div class="card-body">
                     <div className="row">
@@ -128,12 +122,9 @@ export default class taweel extends Component {
             <div className="row text-center">
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
-                  <div class="card-header">
+                  <div class="card-header pb-0">
                     كتاب التوحيد
-                    <br />
-                    <div className="card-header2">
-                      <h3>Kitab at-Tawheed</h3>
-                    </div>
+                    <p className="lead pt-3">Kitab at-Tawheed</p>
                   </div>
                   <div class="card-body">
                     <div className="row">
@@ -180,44 +171,41 @@ export default class taweel extends Component {
             <div className="row text-center">
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
-                  <div class="card-header">
+                  <div class="card-header pb-0">
                     الأصول الثلاثة
-                    <br />
-                    <div className="card-header2">
-                      <h3>Usool al-Thalatha</h3>
-                    </div>
-                  </div>
-                  <div class="card-body">
-                    <div className="row">
-                      <div className="col">
-                        <a
-                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
-                          className="btn btn btn-lg btn-outline-dark"
-                          target="_blank"
-                          rel="noreferrer"
-                          style={{
-                            backgroundColor: "#2e856e",
-                            color: "beige",
-                            fontFamily: "Righteous",
-                          }}
-                        >
-                          Listen
-                        </a>
-                      </div>
-                      <div className="col">
-                        <a
-                          href="https://drive.google.com/drive/u/0/folders/1b_iM6DBbrbbMP7p7-KzuRVeH-wZDPwts"
-                          target="_blank"
-                          rel="noreferrer"
-                          className="btn btn btn-lg btn-outline-dark"
-                          style={{
-                            backgroundColor: "#2e856e",
-                            color: "beige",
-                            fontFamily: "Righteous",
-                          }}
-                        >
-                          Download
-                        </a>
+                    <p className="lead pt-3">Usool al-Thalatha</p>
+                    <div class="card-body">
+                      <div className="row">
+                        <div className="col">
+                          <a
+                            href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                            className="btn btn btn-lg btn-outline-dark"
+                            target="_blank"
+                            rel="noreferrer"
+                            style={{
+                              backgroundColor: "#2e856e",
+                              color: "beige",
+                              fontFamily: "Righteous",
+                            }}
+                          >
+                            Listen
+                          </a>
+                        </div>
+                        <div className="col">
+                          <a
+                            href="https://drive.google.com/drive/u/0/folders/1b_iM6DBbrbbMP7p7-KzuRVeH-wZDPwts"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="btn btn btn-lg btn-outline-dark"
+                            style={{
+                              backgroundColor: "#2e856e",
+                              color: "beige",
+                              fontFamily: "Righteous",
+                            }}
+                          >
+                            Download
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -233,43 +221,41 @@ export default class taweel extends Component {
             <div className="row text-center">
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
-                  <div class="card-header">
+                  <div class="card-header pb-0">
                     الشمائل المحمدية
-                    <br />
-                    <div className="card-header2"></div>
-                    <h3>Shamail al-Muhammadiyah</h3>
-                  </div>
-                  <div class="card-body">
-                    <div className="row">
-                      <div className="col">
-                        <a
-                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
-                          className="btn btn btn-lg btn-outline-dark"
-                          target="_blank"
-                          rel="noreferrer"
-                          style={{
-                            backgroundColor: "#2e856e",
-                            color: "beige",
-                            fontFamily: "Righteous",
-                          }}
-                        >
-                          Listen
-                        </a>
-                      </div>
-                      <div className="col">
-                        <a
-                          href="https://drive.google.com/drive/u/0/folders/1SNvR6J81FrBQjwmWofW5U3PLeCQKEIvN"
-                          target="_blank"
-                          rel="noreferrer"
-                          className="btn btn btn-lg btn-outline-dark"
-                          style={{
-                            backgroundColor: "#2e856e",
-                            color: "beige",
-                            fontFamily: "Righteous",
-                          }}
-                        >
-                          Download
-                        </a>
+                    <p className="lead pt-3">Shamail al-Muhammadiyah</p>
+                    <div class="card-body">
+                      <div className="row">
+                        <div className="col">
+                          <a
+                            href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                            className="btn btn btn-lg btn-outline-dark"
+                            target="_blank"
+                            rel="noreferrer"
+                            style={{
+                              backgroundColor: "#2e856e",
+                              color: "beige",
+                              fontFamily: "Righteous",
+                            }}
+                          >
+                            Listen
+                          </a>
+                        </div>
+                        <div className="col">
+                          <a
+                            href="https://drive.google.com/drive/u/0/folders/1SNvR6J81FrBQjwmWofW5U3PLeCQKEIvN"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="btn btn btn-lg btn-outline-dark"
+                            style={{
+                              backgroundColor: "#2e856e",
+                              color: "beige",
+                              fontFamily: "Righteous",
+                            }}
+                          >
+                            Download
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>

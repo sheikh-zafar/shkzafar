@@ -22,19 +22,33 @@ export default class Home extends Component {
       <div>
         {/*Heading name and Navigation bar*/}
         <Navbar />
-
         {/*Banner section*/}
         <div className="container">
           <div className="row">
             <div className="col-md-12">
               <section className="banner-section">
                 <div
-                  id="carouselExampleInterval"
-                  className="carousel slide"
+                  id="carouselExampleIndicators"
+                  class="carousel slide"
                   data-ride="carousel"
                 >
+                  <ol class="carousel-indicators">
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="0"
+                      class="active"
+                    ></li>
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="1"
+                    ></li>
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="2"
+                    ></li>
+                  </ol>
                   <div class="carousel-inner">
-                    <div class="carousel-item active" data-interval="5000">
+                    <div class="carousel-item active">
                       <img
                         src={sharhsunnah2}
                         className="d-block w-100"
@@ -43,7 +57,7 @@ export default class Home extends Component {
                         width="100%"
                       />
                     </div>
-                    <div class="carousel-item" data-interval="2000">
+                    <div class="carousel-item">
                       <img
                         src={shamail1}
                         className="d-block w-100"
@@ -81,20 +95,26 @@ export default class Home extends Component {
                     </div>
                   </div>
                   <a
-                    className="left carousel-control"
-                    href="#myCarousel"
+                    class="carousel-control-prev"
+                    href="#carouselExampleIndicators"
+                    role="button"
                     data-slide="prev"
                   >
-                    <span className="glyphicon glyphicon-chevron-left"></span>
-                    <span className="sr-only">Previous</span>
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
                   </a>
                   <a
-                    class="right carousel-control"
-                    href="#myCarousel"
+                    class="carousel-control-next"
+                    href="#carouselExampleIndicators"
+                    role="button"
                     data-slide="next"
                   >
-                    <span className="glyphicon glyphicon-chevron-right"></span>
-                    <span className="sr-only">Next</span>
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
                   </a>
                 </div>
               </section>
@@ -169,8 +189,11 @@ export default class Home extends Component {
                     >
                       Calendar
                     </a>
-                    <div className="container  px-0 pt-1">
-                      Complete Lecture schedule
+                    <div
+                      className="container  px-0 pt-1"
+                      style={{ fontFamily: "Fredoka One", fontSize: "15px" }}
+                    >
+                      Complete Lecture Schedule
                     </div>
                   </div>
                 </div>
@@ -182,7 +205,12 @@ export default class Home extends Component {
                       data-layout="full"
                       data-count="default"
                     ></div>
-                    <div className="container px-0 pt-1">YouTube Channel</div>
+                  </div>
+                  <div
+                    className="container  px-0 pt-1"
+                    style={{ fontFamily: "Fredoka One", fontSize: "15px" }}
+                  >
+                    YouTube Channel
                   </div>
                 </div>
                 <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
@@ -202,7 +230,10 @@ export default class Home extends Component {
                     >
                       Mixlr Show Reel
                     </a>
-                    <div className="container px-0 pt-1">
+                    <div
+                      className="container  px-0 pt-1"
+                      style={{ fontFamily: "Fredoka One", fontSize: "15px" }}
+                    >
                       Catch up on missed duroos
                     </div>
                   </div>

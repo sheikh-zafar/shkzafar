@@ -18,7 +18,6 @@ export default class Products extends Component {
                   <div class="card text-center">
                     <div class="card-header pb-0">
                       {qurantafseer.arabictitle}
-                      <br />
                       <p className="lead pt-3">{qurantafseer.englishtitle}</p>
                     </div>
                     <div class="card-body">
