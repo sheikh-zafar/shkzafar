@@ -19,7 +19,8 @@ export default class tadweensunnah extends Component {
           <div className="container">
             <div className="row text-center">
               <div class="col-md-12">
-                <h5 className="audio-display-head">قرآن تفسير</h5>
+                <h5 className="audio-display-head">تفسير القرآن</h5>
+                <p className="lead">Tafseerul Qur'an</p>
                 <hr />
               </div>
             </div>

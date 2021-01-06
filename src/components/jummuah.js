@@ -15,7 +15,8 @@ export default class jummuah extends Component {
           <div className="container">
             <div className="row text-center">
               <div class="col-md-12">
-                <h5 className="audio-display-head">جمعة خطبة</h5>
+                <h5 className="audio-display-head"> خطبة الجمعة</h5>
+                <p className="lead">Khutbah Al-Jumu'ah</p>
                 <hr />
               </div>
             </div>
@@ -156,6 +157,25 @@ export default class jummuah extends Component {
               width="100%"
               allowfullscreen=""
             ></iframe>
+            <div className="col-md-12 text-center">
+              <h3 class="heading-name" style={{ color: "beige" }}>
+                Listen
+              </h3>
+              &nbsp;&nbsp;
+              <a
+                href="https://drive.google.com/drive/folders/1l9T-CQ1PCrhLlLAa5c3-aQAokT0jLyXh"
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn btn-lg btn-outline-dark"
+                style={{
+                  backgroundColor: "beige",
+                  color: "#2e856e",
+                  fontFamily: "Righteous",
+                }}
+              >
+                Download
+              </a>
+            </div>
           </div>
         </div>
         {/*2020 */}

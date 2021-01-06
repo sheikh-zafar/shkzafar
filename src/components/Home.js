@@ -10,6 +10,7 @@ import shamailslide from "../img/shamailslide.jpg";
 import sharhsunnah2 from "../img/sharhsunnah2.jpg";
 import sharhsunnah3 from "../img/sharhsunnah3.jpg";
 import mosque from "../img/mosque.jpg";
+import { Link } from "react-router-dom";
 
 export default class Home extends Component {
   state = {
@@ -227,7 +228,9 @@ export default class Home extends Component {
                 </div>
                 <div className=" container text-center">
                   <div className="row justify-content-center">
-                    <h5 className="display-title">Jumu'ah Khutba</h5>
+                    <Link to="/audio/jummuah">
+                      <h5 className="display-title">Jumu'ah Khutbah</h5>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -246,7 +249,9 @@ export default class Home extends Component {
                 <div className="container">
                   <div className="row justify-content-center">
                     <div className="text-center">
-                      <h5 className="display-title">Sharh as-Sunnah</h5>
+                      <Link to="/audio/taweel">
+                        <h5 className="display-title">Sharh as-Sunnah</h5>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -265,7 +270,9 @@ export default class Home extends Component {
                 <div className="container">
                   <div className="row justify-content-center">
                     <div className="text-center">
-                      <h5 className="display-title">Bulugh Al Maram</h5>
+                      <Link to="/audio/taweel">
+                        <h5 className="display-title">Bulugh Al Maram</h5>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -283,7 +290,9 @@ export default class Home extends Component {
                 <div className="container">
                   <div className="row justify-content-center">
                     <div className="text-center">
-                      <h5 className="display-title">Shama'il at Tirmidhi</h5>
+                      <Link to="/audio/taweel">
+                        <h5 className="display-title">Shama'il at Tirmidhi</h5>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -296,17 +305,6 @@ export default class Home extends Component {
         <section className="embed-section" id="link">
           <div className="container">
             <div className="row">
-              <div class="container-fluid ">
-                <div class="row text-center">
-                  <div class="col-md-12">
-                    <h5 className="display-head">
-                      <i class="fa fa-2x fa-calendar" aria-hidden="true"></i>
-                      Event List
-                    </h5>
-                    <hr />
-                  </div>
-                </div>
-              </div>
               <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <section className="calendar-section">
                   <div class="embed-responsive embed-responsive-16by9">

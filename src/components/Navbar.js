@@ -27,14 +27,12 @@ export default class Navbar extends Component {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span
-                className="navbar-toggler-icon"
+              <i
+                className="fa fa-2x fa-bars"
                 style={{
-                  backgroundColor: "beige",
                   border: "black",
-                  color: "#5c4033",
                 }}
-              ></span>
+              ></i>
             </button>
             <div className="d-flex d-block flex-row mx-auto mx-0">
               <div

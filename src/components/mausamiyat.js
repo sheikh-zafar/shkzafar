@@ -32,6 +32,7 @@ class mausamiat extends Component {
             <div className="row text-center">
               <div class="col-md-12">
                 <h5 className="audio-display-head">موساميات</h5>
+                <p className="lead">Mausamiyat</p>
                 <hr />
               </div>
             </div>

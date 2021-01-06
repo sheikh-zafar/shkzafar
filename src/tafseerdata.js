@@ -1,37 +1,47 @@
 export const tafseerdata = [
   {
     _id: "audio1",
-    arabictitle: "جزء تبارك",
-    englishtitle: "Juz Tabarak",
+    arabictitle: "سورة فاتحة",
+    englishtitle: "Surah Fathiha",
     archive: "https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani",
     drive:
-      "https://drive.google.com/drive/folders/17UNI3BabAtn21SfincwBlOhOMSk9gImA",
+      "https://drive.google.com/drive/folders/1nkn6uvAhcVPAeLqURfsUN0mw-Vg4PhrQ",
   },
 
   {
-    _id: "audio3",
-    arabictitle: "سورة سبا",
-    englishtitle: "Surah Saba",
+    _id: "audio2",
+    arabictitle: "سورة بقرة",
+    englishtitle: "Surah Baqarah",
     archive: "https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani",
     drive:
-      "https://drive.google.com/drive/folders/1EbMJ6STpDm-uXSXKYT6-HR96GxCq6eeK",
+      "https://drive.google.com/drive/folders/1_DVbZm2rItVlUumvpvsMN_grNisfZvgY",
+  },
+  {
+    _id: "audio3",
+    arabictitle: "سورة أنعام",
+    englishtitle: "Surah An'aam",
+    archive: "https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani",
+    drive:
+      "https://drive.google.com/drive/folders/1wtOGs_z1LXPLo4mSQ_-efg_-v5SJTQ9q",
   },
   {
     _id: "audio4",
+    arabictitle: "سورة أعراف",
+    englishtitle: "Surah A'raf",
+    archive: "https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani",
+    drive:
+      "https://drive.google.com/drive/folders/1G8aGJm0FBAJTwDbTfaVIVhqwXbaX6jDa",
+  },
+
+  {
+    _id: "audio5",
     arabictitle: "سورة إبراهم",
     englishtitle: "Surah Ibrahim",
     archive: "https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani",
     drive:
       "https://drive.google.com/drive/folders/1scvzQY1-AMhyCHtEHt-pWpeh7VLlHN2u",
   },
-  {
-    _id: "audio5",
-    arabictitle: "سورة حجرات",
-    englishtitle: "Surah Hujurat",
-    archive: "https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani",
-    drive:
-      "https://drive.google.com/drive/folders/1pO-2yC0C4PJQ3IJKWYKzuM5W9Zl-DQ5h",
-  },
+
   {
     _id: "audio6",
     arabictitle: "سورة حجر",
@@ -40,24 +50,9 @@ export const tafseerdata = [
     drive:
       "https://drive.google.com/drive/folders/1c2HpapauLcvqa6QTRZaBLe1ab4CAsA_d",
   },
+
   {
     _id: "audio7",
-    arabictitle: "سورة أعراف",
-    englishtitle: "Surah A'raf",
-    archive: "https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani",
-    drive:
-      "https://drive.google.com/drive/folders/1G8aGJm0FBAJTwDbTfaVIVhqwXbaX6jDa",
-  },
-  {
-    _id: "audio8",
-    arabictitle: "سورة أنعام",
-    englishtitle: "Surah An'aam",
-    archive: "https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani",
-    drive:
-      "https://drive.google.com/drive/folders/1wtOGs_z1LXPLo4mSQ_-efg_-v5SJTQ9q",
-  },
-  {
-    _id: "audio9",
     arabictitle: "سورة أحزاب",
     englishtitle: "Surah Ahzab",
     archive: "https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani",
@@ -65,23 +60,31 @@ export const tafseerdata = [
       "https://drive.google.com/drive/folders/1TvmsuTMhQOYuvL8vqdChlFLqlo9GUupJ",
   },
   {
-    _id: "audio10",
-    arabictitle: "سورة فاتحة",
-    englishtitle: "Surah Fathiha",
+    _id: "audio8",
+    arabictitle: "سورة سبا",
+    englishtitle: "Surah Saba",
     archive: "https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani",
     drive:
-      "https://drive.google.com/drive/folders/1nkn6uvAhcVPAeLqURfsUN0mw-Vg4PhrQ",
+      "https://drive.google.com/drive/folders/1EbMJ6STpDm-uXSXKYT6-HR96GxCq6eeK",
+  },
+  {
+    _id: "audio9",
+    arabictitle: "سورة حجرات",
+    englishtitle: "Surah Hujurat",
+    archive: "https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani",
+    drive:
+      "https://drive.google.com/drive/folders/1pO-2yC0C4PJQ3IJKWYKzuM5W9Zl-DQ5h",
+  },
+  {
+    _id: "audio10",
+    arabictitle: "جزء تبارك",
+    englishtitle: "Juz Tabarak",
+    archive: "https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani",
+    drive:
+      "https://drive.google.com/drive/folders/17UNI3BabAtn21SfincwBlOhOMSk9gImA",
   },
   {
     _id: "audio11",
-    arabictitle: "سورة بقرة",
-    englishtitle: "Surah Baqarah",
-    archive: "https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani",
-    drive:
-      "https://drive.google.com/drive/folders/1_DVbZm2rItVlUumvpvsMN_grNisfZvgY",
-  },
-  {
-    _id: "audio12",
     arabictitle: "کچھ لمحات سیریز",
     englishtitle: "Kuch Lamhaat ki sath",
     archive: "https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani",

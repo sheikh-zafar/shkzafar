@@ -134,7 +134,9 @@ img .logo {
 .display-title {
   font-family: "Fredoka One", sans-serif;
   color: beige;
+  text-shadow: 2px 2px 4px #000000;
 }
+
 .displayimg {
   height: 215px;
   width: 1000px;
@@ -181,7 +183,7 @@ a:active {
 }
 .card-header {
   font-family: "Tajawal", sans-serif;
-  font-size: 25px;
+  font-size: 30px;
 }
 .card-header2 {
   font-size: 40px;
@@ -249,7 +251,7 @@ a:active {
   width: 40px;
 }
 .mixlrtext {
-  font-size: 30px;
+  font-size: 25px;
   font-family: "Poppins", sans-serif;
   color: #5c4033;
   padding-top: 10px;

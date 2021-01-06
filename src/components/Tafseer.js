@@ -16,7 +16,7 @@ export default class Products extends Component {
               <div className="row text-center">
                 <div className="col-md-12 d-flex justify-content-center">
                   <div class="card text-center">
-                    <div class="card-header">
+                    <div class="card-header pb-0">
                       {qurantafseer.arabictitle}
                       <br />
                       <p className="lead pt-3">{qurantafseer.englishtitle}</p>

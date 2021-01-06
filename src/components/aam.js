@@ -12,6 +12,7 @@ export default class aam extends Component {
             <div className="row text-center">
               <div class="col-md-12">
                 <h5 className="audio-display-head">عام دروس</h5>
+                <p className="lead">Aam Duroos</p>
                 <hr />
               </div>
             </div>
@@ -23,10 +24,10 @@ export default class aam extends Component {
             <div className="row text-center">
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
-                  <div class="card-header">
+                  <div class="card-header pb-0">
                     إستقامت
                     <br />
-                    <p className="lead">Isteqamat</p>
+                    <p className="lead pt-3">Isteqamat</p>
                   </div>
                   <div class="card-body">
                     <h5 class="card-title" style={{ color: "#2e856e" }}>
@@ -68,7 +69,6 @@ export default class aam extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer text-muted">2 days ago</div>
                 </div>
               </div>
             </div>

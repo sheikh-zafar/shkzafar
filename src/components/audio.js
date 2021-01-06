@@ -2,9 +2,7 @@ import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "./footer";
 import { audios } from "../data";
-import AudioEmbed from "./AudioEmbed";
 import { Link } from "react-router-dom";
-import history from "./history";
 
 export default class audio extends Component {
   handleClick() {
@@ -21,17 +19,7 @@ export default class audio extends Component {
     return (
       <div>
         <Navbar />
-        <ul id="menu">
-          <li>
-            <a href="#L384">Section 1</a>
-          </li>
-          <li>
-            <a href="#details">Section 2</a>
-          </li>
-          <li>
-            <a href="#FAQ">Section 3</a>
-          </li>
-        </ul>
+
         {/*Rounded button links 1*/}
         <section className="embed-section">
           <div className="container-fluid py-3">
@@ -110,7 +98,12 @@ export default class audio extends Component {
                     ></i>
                   </div>
                   <div>
-                    <h3 className="rounded-headname">Taweel Dawrah</h3>
+                    <h3 className="rounded-headname">
+                      {" "}
+                      Dawrah Ilmiyyah
+                      <br />
+                      <p className="lead">(Taweel)</p>
+                    </h3>
                   </div>
                 </Link>
               </div>
@@ -125,7 +118,11 @@ export default class audio extends Component {
                     ></i>
                   </div>
                   <div>
-                    <h3 className="rounded-headname">Mukhtasar Dawrah</h3>
+                    <h3 className="rounded-headname">
+                      Dawrah ilmiyyah
+                      <br />
+                      <p className="lead">(Mukhtasar)</p>
+                    </h3>
                   </div>
                 </Link>
               </div>
