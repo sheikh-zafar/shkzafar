@@ -116,7 +116,7 @@ export default class jummuah extends Component {
           <div className="row ">
             <div className="col-md-12 text-center">
               <h3 class="heading-name" style={{ color: "beige" }}>
-                Latest Khutbah
+                Latest Khutbah | آخر خطبة
               </h3>
             </div>
             <iframe
@@ -157,24 +157,36 @@ export default class jummuah extends Component {
               width="100%"
               allowfullscreen=""
             ></iframe>
-            <div className="col-md-12 text-center">
-              <h3 class="heading-name" style={{ color: "beige" }}>
-                Listen
-              </h3>
-              &nbsp;&nbsp;
-              <a
-                href="https://drive.google.com/drive/folders/1l9T-CQ1PCrhLlLAa5c3-aQAokT0jLyXh"
-                target="_blank"
-                rel="noreferrer"
-                className="btn btn btn-lg btn-outline-dark"
-                style={{
-                  backgroundColor: "beige",
-                  color: "#2e856e",
-                  fontFamily: "Righteous",
-                }}
-              >
-                Download
-              </a>
+            <div className="container d-flex justify-content-center">
+              <div className="row">
+                <div className="col">
+                  <h5
+                    class="heading-name"
+                    style={{
+                      backgroundColor: "beige",
+                      color: "#2e856e",
+                      fontFamily: "Righteous",
+                    }}
+                  >
+                    Listen
+                  </h5>
+                </div>{" "}
+                <div className="col">
+                  <a
+                    href="https://drive.google.com/drive/folders/1l9T-CQ1PCrhLlLAa5c3-aQAokT0jLyXh"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn btn-lg btn-outline-dark"
+                    style={{
+                      backgroundColor: "beige",
+                      color: "#2e856e",
+                      fontFamily: "Righteous",
+                    }}
+                  >
+                    Download
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
