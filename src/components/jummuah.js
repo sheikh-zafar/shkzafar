@@ -133,20 +133,7 @@ export default class jummuah extends Component {
           <div className="row ">
             <div className="col-md-12  text-center">
               <h3 className="heading-name" style={{ color: "beige" }}>
-                2021 (۱٤٤۲ - ۱٤٤۳)&nbsp;&nbsp;
-                <a
-                  href="https://drive.google.com/drive/folders/1l9T-CQ1PCrhLlLAa5c3-aQAokT0jLyXh"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="btn btn btn-lg btn-outline-dark"
-                  style={{
-                    backgroundColor: "beige",
-                    color: "#2e856e",
-                    fontFamily: "Righteous",
-                  }}
-                >
-                  Download
-                </a>
+                2021 (۱٤٤۲ - ۱٤٤۳)
               </h3>
             </div>
             <iframe
@@ -159,16 +146,6 @@ export default class jummuah extends Component {
             ></iframe>
             <div className="container d-flex justify-content-center">
               <div className="row">
-                <div className="col rounded">
-                  <h3
-                    style={{
-                      color: "beige",
-                      fontFamily: "Righteous",
-                    }}
-                  >
-                    Listen
-                  </h3>
-                </div>{" "}
                 <div className="col">
                   <a
                     href="https://drive.google.com/drive/folders/1l9T-CQ1PCrhLlLAa5c3-aQAokT0jLyXh"
@@ -202,7 +179,7 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/embed/2020-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
+                        href="https://archive.org/embed/2020-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=900"
                         className="btn btn btn-lg btn-outline-dark"
                         target="_blank"
                         rel="noreferrer"
