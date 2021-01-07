@@ -363,12 +363,32 @@ a:active {
 .phoneicon {
   display: none;
 }
-.subscribe-links {
+
+.subscribe-circle {
   border: 9px solid #5c4033;
-  height: 9rem;
-  width: 9rem;
+  height: 10rem;
+  width: 10rem;
   background-color: beige;
   background-image: url(../src/img/beigebg.jpeg);
+}
+.subscribe-links {
+  border: 9px solid #5c4033;
+  height: 10rem;
+  width: 10rem;
+  padding-top: 50px;
+  background-color: beige;
+  background-image: url(../src/img/beigebg.jpeg);
+}
+.subscribeicon {
+  padding-top: 20px;
+  padding-left: 15px;
+  font-size: 80px;
+}
+.subscribemixlr {
+  padding-bottom: 10px;
+  padding-left: 5px;
+  height: 10rem;
+  width: 10rem;
 }
 
 @media (min-width: 1200px) {
@@ -401,7 +421,7 @@ a:active {
     position: relative;
     padding-bottom: 100%;
   }
-  .subscribe-links {
+  .subscribe-circle {
     border: 5px solid #5c4033;
     height: 6rem;
     width: 6rem;
@@ -480,6 +500,10 @@ a:active {
   }
   .mixlrtext {
     display: none;
+  }
+  .subscribe-circle {
+    height: 4px;
+    width: 4px;
   }
 }
 

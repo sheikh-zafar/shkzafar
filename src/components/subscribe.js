@@ -12,10 +12,10 @@ export default class subscribe extends Component {
           <div className="container ">
             <div className="row justify-content-center ">
               <div className="d-flex d-md-flex d-sm-flex d-xs-flex mr-1">
-                <div className="p-2 subscribe-links subscribe-circle">
+                <div className="p-2 subscribe-circle rounded-circle">
                   <i
-                    className="fa  fa-youtube-play pt-4"
-                    style={{ color: "#2e856e" }}
+                    className="fa fa-youtube-play subscribeicon"
+                    style={{ color: "red" }}
                     aria-hidden="true"
                   ></i>
                 </div>
@@ -24,29 +24,26 @@ export default class subscribe extends Component {
                 Subscribe to Sheikh zafar's Youtube channel
               </div>
             </div>
-            <div className="row">
-              <div className="col-md-4">
-                <img
-                  src={mixlr}
-                  className="subscribe-img rounded-circle"
-                  alt="Jumu'ah Khutbah"
-                />
-              </div>
-              <div className="col-md-8">Follow Sheikh zafar's on Mixlr</div>
-            </div>
-            <div className="row">
-              <div className="col-md-4"></div>
-              <div className="col-md-8"></div>
-            </div>
-            <div className="row">
-              <div className="col-md-4"></div>
-              <div className="col-md-8"></div>
-            </div>
-            <div className="row">
-              <div className="col-md-4"></div>
-              <div className="col-md-8"></div>
-            </div>
           </div>
+
+          <section className="embed-section">
+            <div className="container">
+              <div className="row justify-content-center ">
+                <div className="d-flex d-md-flex d-sm-flex d-xs-flex mr-1">
+                  <div className="p-2 subscribe-circle rounded-circle ">
+                    <img
+                      src={mixlr}
+                      className="img-responsive rounded-circle subscribemixlr"
+                      alt="Jumu'ah Khutbah"
+                    />
+                  </div>
+                </div>
+                <div className="col-md-5 col-lg-6 col-sm-7 col-xs-9 subscribe-links">
+                  Subscribe to Sheikh zafar's Youtube channel
+                </div>
+              </div>
+            </div>
+          </section>
         </section>
       </div>
     );

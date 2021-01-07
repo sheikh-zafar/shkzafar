@@ -12,6 +12,7 @@ export default class muktasar extends Component {
             <div className="row text-center">
               <div class="col-md-12">
                 <h5 className="audio-display-head">مختصر دورة</h5>
+                <p className="lead">Dawrah ilmiyah (Mukhtasar)</p>
                 <hr />
               </div>
             </div>
