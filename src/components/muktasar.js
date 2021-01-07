@@ -23,9 +23,9 @@ export default class muktasar extends Component {
             <div className="row text-center">
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
-                  <div class="card-header pb-0">رفع المرام</div>
-                  <p className="lead pt-3">Raf'ul Maram</p>
-                  <div class="card-body">
+                  <div class="card-header pb-0">
+                    رفع المرام
+                    <p className="lead pt-3">Raf'ul Maram</p>
                     <h5 class="card-title" style={{ color: "#2e856e" }}>
                       29th,November,'2016 - 03,December,'2016
                     </h5>
@@ -34,6 +34,8 @@ export default class muktasar extends Component {
                         Masjid Abdur Rahman Al-khas
                       </i>
                     </p>
+                  </div>
+                  <div class="card-body">
                     <div className="row">
                       <div className="col-md-6 col-xs-6 col-sm-6">
                         <a
@@ -78,9 +80,9 @@ export default class muktasar extends Component {
             <div className="row text-center">
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
-                  <div class="card-header pb-0">تدوين السنة</div>
-                  <p className="lead pt-3">Tadween Sunnah</p>
-                  <div class="card-body">
+                  <div class="card-header pb-0">
+                    تدوين السنة
+                    <p className="lead pt-3">Tadween Sunnah</p>
                     <h5 class="card-title" style={{ color: "#2e856e" }}>
                       29th,November,'2016 - 03,December,'2016
                     </h5>
@@ -89,6 +91,8 @@ export default class muktasar extends Component {
                         Masjid Abdur Rahman Al-khas
                       </i>
                     </p>
+                  </div>
+                  <div class="card-body">
                     <div className="row">
                       <div className="col">
                         <a
@@ -133,9 +137,9 @@ export default class muktasar extends Component {
             <div className="row text-center">
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
-                  <div class="card-header pb-0">الربعين النووى</div>
-                  <p className="lead pt-3">Al-Arba'oona An-Nawawi</p>
-                  <div class="card-body">
+                  <div class="card-header pb-0">
+                    الربعين النووى
+                    <p className="lead pt-3">Al-Arba'oona An-Nawawi</p>
                     <h5 class="card-title" style={{ color: "#2e856e" }}>
                       29th,November,'2016 - 03,December,'2016
                     </h5>
@@ -144,6 +148,8 @@ export default class muktasar extends Component {
                         Masjid Abdur Rahman Al-khas
                       </i>
                     </p>
+                  </div>
+                  <div class="card-body">
                     <div className="row">
                       <div className="col">
                         <a

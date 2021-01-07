@@ -727,11 +727,6 @@ export default class jummuah extends Component {
                   <h2 class="card-title" style={{ color: "#2e856e" }}>
                     ۱٤۳۲ - ۱٤۳۳
                   </h2>
-                  <p class="card-text" style={{ fontSize: "20px" }}>
-                    <i className="fa fa-map-marker" aria-hidden="true">
-                      Masjid Abdur Rahman Al-khas
-                    </i>
-                  </p>
                   <div className="row">
                     <div className="col">
                       <a

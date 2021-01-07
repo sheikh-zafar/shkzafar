@@ -22,26 +22,26 @@ export default class about extends Component {
                 </div>
               </section>
               <p className="about">
-                Zafar-ul-Hasan Ahmedullah was born in the year 1956. He hails
-                from religious family comprising of eight members from
-                Changhaipur (Padtabgadh), a small town in Uttar Pradesh, India.
-                His father was a farmer and Quran teacher, use to attend
-                lectures of Moulana Ahmedullah Padtabgadhi, Moulana Sanaullah
-                Amratseri and others ulamas. Right from childhood Shaikh
-                Zafar-ul-Hasan was interested in Islam and had a burning desire
-                to call people to Islam when he grew up.
+                Zafar-ul-Hasan Ahmedullah was born in 1956. He hails from a
+                religious family of eight members from Changhaipur (Pratapgarh),
+                a small town in Uttar Pradesh, India. His father was a farmer
+                and Quran teacher, used to attend lectures of Moulana Ahmedullah
+                Pratapgadhi, Moulana Sanaullah Amritseri and others ulamas.
+                Right from childhood Shaikh Zafar-ul-Hasan was interested in
+                Islam and had a burning desire to call people to Islam when he
+                grew up
               </p>
               <section className="embed-section">
                 <h1 className="aboutheader">Education:</h1>
                 <p className="about">
                   Shaikh Zafar-ul-Hasan completed his primary schooling in his
-                  home town Changhaipur, in the year 1970. Then, with an
+                  hometown Changhaipur, in the year 1970. Then, with an
                   intention of working towards the fulfillment of his childhood
                   ambition – i.e. of being actively involved in Da’wah and
                   various other Islamic activities, he embarked on the path of
                   gaining Islamic Education and knowledge. In the year 1975 he
                   shifted to Jami’a Salafiya in Banaras, UP, India and acquired
-                  the ‘Alimiyat and Fadhilat degree in the year1978.
+                  the ‘Alimiyat and Fadhilat degree in the year 1978.
                 </p>
                 <p className="about">
                   He also availed the Munshi and Maulvi degree from Jami’a

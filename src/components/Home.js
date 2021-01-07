@@ -31,6 +31,7 @@ export default class Home extends Component {
                   id="carouselExampleIndicators"
                   class="carousel slide"
                   data-ride="carousel"
+                  data-interval="2000"
                 >
                   <ol class="carousel-indicators">
                     <li
@@ -45,6 +46,14 @@ export default class Home extends Component {
                     <li
                       data-target="#carouselExampleIndicators"
                       data-slide-to="2"
+                    ></li>
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="3"
+                    ></li>
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="4"
                     ></li>
                   </ol>
                   <div class="carousel-inner">
@@ -171,13 +180,15 @@ export default class Home extends Component {
                 color: "#5c4033",
                 fontFamily: "Pacifico family",
                 fontSize: "15px",
+                boxShadow:
+                  "0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9)",
               }}
             >
-              <div className="row justify-content-center ">
+              <div className="row justify-content-center">
                 <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                   <div className="container py-3 ">
                     <a
-                      href="#link"
+                      href="#target"
                       role="button"
                       className="btn btn btn-lg btn-outline-dark"
                       style={{
@@ -245,9 +256,16 @@ export default class Home extends Component {
 
         {/*Banner1*/}
         <section className="mosque">
-          <div className="container">
-            <div className="row" style={{ border: "1px dotted beige" }}>
-              <div className="container py-4">
+          <div className="container ">
+            <div
+              className="row "
+              style={{
+                border: "5px dashed beige",
+                boxShadow:
+                  "0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9)",
+              }}
+            >
+              <div className="container py-4 ">
                 <div className="row justify-content-center">
                   <div className="col-md-10 displayimg  d-flex justify-content-center">
                     <img
@@ -292,8 +310,7 @@ export default class Home extends Component {
                   <div className="col-md-10 displayimg  d-flex justify-content-center">
                     <img
                       src={bam2}
-                      alt="bulugh al maram
-  "
+                      alt="bulugh al maram"
                       className="img-responsive displayimg"
                     />
                   </div>
@@ -333,16 +350,14 @@ export default class Home extends Component {
         </section>
 
         {/*Full month calendar*/}
-        <section className="embed-section" id="link">
+        <section className="embed-section">
           <div className="container">
             <div className="row">
               <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <section className="calendar-section">
+                <section className="calendar-section" id="target">
                   <div class="embed-responsive embed-responsive-16by9">
                     <iframe
                       title="shaikh zafar class"
-                      id="link"
-                      className="calendra"
                       src="https://calendar.google.com/calendar/embed?src=3b8poos1bsipthgbp95hcbvni4@group.calendar.google.com&ctz=Asia/Dubai"
                       frameborder="0"
                       scrolling="no"

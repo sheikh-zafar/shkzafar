@@ -174,38 +174,38 @@ export default class taweel extends Component {
                   <div class="card-header pb-0">
                     الأصول الثلاثة
                     <p className="lead pt-3">Usool al-Thalatha</p>
-                    <div class="card-body">
-                      <div className="row">
-                        <div className="col">
-                          <a
-                            href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
-                            className="btn btn btn-lg btn-outline-dark"
-                            target="_blank"
-                            rel="noreferrer"
-                            style={{
-                              backgroundColor: "#2e856e",
-                              color: "beige",
-                              fontFamily: "Righteous",
-                            }}
-                          >
-                            Listen
-                          </a>
-                        </div>
-                        <div className="col">
-                          <a
-                            href="https://drive.google.com/drive/u/0/folders/1b_iM6DBbrbbMP7p7-KzuRVeH-wZDPwts"
-                            target="_blank"
-                            rel="noreferrer"
-                            className="btn btn btn-lg btn-outline-dark"
-                            style={{
-                              backgroundColor: "#2e856e",
-                              color: "beige",
-                              fontFamily: "Righteous",
-                            }}
-                          >
-                            Download
-                          </a>
-                        </div>
+                  </div>
+                  <div class="card-body">
+                    <div className="row">
+                      <div className="col">
+                        <a
+                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          className="btn btn btn-lg btn-outline-dark"
+                          target="_blank"
+                          rel="noreferrer"
+                          style={{
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Listen
+                        </a>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://drive.google.com/drive/u/0/folders/1b_iM6DBbrbbMP7p7-KzuRVeH-wZDPwts"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Download
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -224,38 +224,38 @@ export default class taweel extends Component {
                   <div class="card-header pb-0">
                     الشمائل المحمدية
                     <p className="lead pt-3">Shamail al-Muhammadiyah</p>
-                    <div class="card-body">
-                      <div className="row">
-                        <div className="col">
-                          <a
-                            href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
-                            className="btn btn btn-lg btn-outline-dark"
-                            target="_blank"
-                            rel="noreferrer"
-                            style={{
-                              backgroundColor: "#2e856e",
-                              color: "beige",
-                              fontFamily: "Righteous",
-                            }}
-                          >
-                            Listen
-                          </a>
-                        </div>
-                        <div className="col">
-                          <a
-                            href="https://drive.google.com/drive/u/0/folders/1SNvR6J81FrBQjwmWofW5U3PLeCQKEIvN"
-                            target="_blank"
-                            rel="noreferrer"
-                            className="btn btn btn-lg btn-outline-dark"
-                            style={{
-                              backgroundColor: "#2e856e",
-                              color: "beige",
-                              fontFamily: "Righteous",
-                            }}
-                          >
-                            Download
-                          </a>
-                        </div>
+                  </div>
+                  <div class="card-body">
+                    <div className="row">
+                      <div className="col">
+                        <a
+                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          className="btn btn btn-lg btn-outline-dark"
+                          target="_blank"
+                          rel="noreferrer"
+                          style={{
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Listen
+                        </a>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://drive.google.com/drive/u/0/folders/1SNvR6J81FrBQjwmWofW5U3PLeCQKEIvN"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Download
+                        </a>
                       </div>
                     </div>
                   </div>

@@ -100,7 +100,7 @@ export default class audio extends Component {
                   <div>
                     <h3 className="rounded-headname">
                       {" "}
-                      Dawrah Ilmiyyah
+                      Dawrah ilmiyyah
                       <br />
                       <p className="lead">(Taweel)</p>
                     </h3>
