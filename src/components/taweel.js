@@ -264,6 +264,55 @@ export default class taweel extends Component {
             </div>
           </div>
         </section>
+        {/*Riyad us-saliheen */}
+        <section className="embed-section">
+          <div className="container">
+            <div className="row text-center">
+              <div className="col-md-12 d-flex justify-content-center">
+                <div class="card text-center">
+                  <div class="card-header pb-0">
+                    رياض الصالحين
+                    <p className="lead pt-3">Riyad us-saliheen</p>
+                  </div>
+                  <div class="card-body">
+                    <div className="row">
+                      <div className="col">
+                        <a
+                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          className="btn btn btn-lg btn-outline-dark"
+                          target="_blank"
+                          rel="noreferrer"
+                          style={{
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Listen
+                        </a>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://drive.google.com/drive/u/0/folders/1MxPz38wGwGKZHumOMAU6ZaJemvDG9PTn"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          Download
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         {/*Footer section */}
         <section className="embed-section">
           <div className="col-md-12 text-center">
