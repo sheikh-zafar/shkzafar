@@ -12,7 +12,7 @@ export default class taweel extends Component {
             <div className="row text-center">
               <div class="col-md-12">
                 <h5 className="audio-display-head">طويل دورة</h5>
-                <p className="lead">Taweel Dawrah</p>
+                <p className="lead">Dawrah ilmiyyah (Taweel)</p>
                 <hr />
               </div>
             </div>
@@ -75,7 +75,7 @@ export default class taweel extends Component {
                 <div class="card text-center">
                   <div class="card-header pb-0">
                     بلوغ المرام
-                    <p className="lead pt-3">Bulugh al-Maram</p>
+                    <p className="lead ">Bulugh al-Maram</p>
                   </div>
                   <div class="card-body">
                     <div className="row">

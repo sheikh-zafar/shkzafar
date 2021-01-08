@@ -10,6 +10,8 @@ import shamailslide from "../img/shamailslide.jpg";
 import sharhsunnah2 from "../img/sharhsunnah2.jpg";
 import sharhsunnah3 from "../img/sharhsunnah3.jpg";
 import mosque from "../img/mosque.jpg";
+import bulugh from "../img/bulugh.png";
+import riyadh from "../img/riyadh.png";
 import { Link } from "react-router-dom";
 
 export default class Home extends Component {
@@ -59,6 +61,15 @@ export default class Home extends Component {
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <img
+                        src={bulugh}
+                        className="d-block w-100"
+                        alt="bulugh al maram"
+                        height="400px"
+                        width="100%"
+                      />
+                    </div>
+                    <div class="carousel-item ">
+                      <img
                         src={sharhsunnah2}
                         className="d-block w-100"
                         alt="sharh as sunnah"
@@ -68,16 +79,7 @@ export default class Home extends Component {
                     </div>
                     <div class="carousel-item">
                       <img
-                        src={shamail1}
-                        className="d-block w-100"
-                        alt="shamail"
-                        height="400px"
-                        width="100%"
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src={shamail2}
+                        src={riyadh}
                         className="d-block w-100"
                         alt="shamail"
                         height="400px"
@@ -89,15 +91,6 @@ export default class Home extends Component {
                         src={shamailslide}
                         className="d-block w-100"
                         alt="shamail"
-                        height="400px"
-                        width="100%"
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src={bamslide}
-                        className="d-block w-100"
-                        alt="bulugh al maram"
                         height="400px"
                         width="100%"
                       />
