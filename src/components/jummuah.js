@@ -122,7 +122,7 @@ export default class jummuah extends Component {
           </div>
         </div>
 
-        <div className="container  pt-5 ">
+        <div className="container  ">
           <div className="row ">
             <div className="col-md-12 text-center">
               <h3 class="heading-name" style={{ color: "beige" }}>
@@ -139,7 +139,7 @@ export default class jummuah extends Component {
             ></iframe>
           </div>
         </div>
-        <div className="container  pt-5 ">
+        <div className="container">
           <div className="row ">
             <div className="col-md-12  text-center">
               <h3 className="heading-name" style={{ color: "beige" }}>
@@ -148,31 +148,27 @@ export default class jummuah extends Component {
             </div>
             <iframe
               title="sheikh-zafar"
-              src="https://archive.org/embed/2021-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
+              style={{ overflow: "hidden" }}
+              src="https://archive.org/embed/2021-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=300"
               frameborder="0"
               className="m-3"
               width="100%"
-              scroll="no"
-              allowfullscreen=""
+              scrolling="no"
             ></iframe>
             <div className="container d-flex justify-content-center">
-              <div className="row">
-                <div className="col">
-                  <a
-                    href="https://drive.google.com/drive/folders/1l9T-CQ1PCrhLlLAa5c3-aQAokT0jLyXh"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="btn btn btn-lg btn-outline-dark"
-                    style={{
-                      backgroundColor: "beige",
-                      color: "#2e856e",
-                      fontFamily: "Righteous",
-                    }}
-                  >
-                    Download
-                  </a>
-                </div>
-              </div>
+              <a
+                href="https://drive.google.com/drive/folders/1l9T-CQ1PCrhLlLAa5c3-aQAokT0jLyXh"
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn btn-lg btn-outline-dark"
+                style={{
+                  backgroundColor: "beige",
+                  color: "#2e856e",
+                  fontFamily: "Righteous",
+                }}
+              >
+                Download
+              </a>
             </div>
           </div>
         </div>
