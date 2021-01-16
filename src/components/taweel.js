@@ -35,7 +35,7 @@ export default class taweel extends Component {
                           href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani&playlist=1&list_height=215"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_blank"
-                          rel="noreferrer"
+                          rel="noopener noreferrer"
                           style={{
                             backgroundColor: "#2e856e",
                             color: "beige",

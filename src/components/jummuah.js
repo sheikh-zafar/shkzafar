@@ -40,6 +40,8 @@ export default class jummuah extends Component {
               <div className="boardcard">
                 <a
                   href="https://www.youtube.com/channel/UC2zD7wY_3TCGCyA9Cy_Nu9w"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   style={{ color: "#2e856e" }}
                 >
                   <p className="mixlrtext">
@@ -68,6 +70,8 @@ export default class jummuah extends Component {
               <div className="boardcard">
                 <a
                   href="https://mixlr.com/zafarulhasan/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   style={{ color: "#2e856e" }}
                 >
                   <p className="mixlrtext">
