@@ -38,6 +38,19 @@ class mausamiat extends Component {
             </div>
           </div>
         </section>
+        <section className="embed-section">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-4"></div>
+              <div className="col-md-4"></div>
+              <div className="col-md-4"></div>
+            </div>
+            <div className="row">
+              <div className="col-md-6"></div>
+              <div className="col-md-6"></div>
+            </div>
+          </div>
+        </section>
         <div class="card-header text-center">شهر ذو الحجة</div>
         <MausamiyatDhulhijjah
           mausamiyatdhulhijjah={this.state.mausamiyatdhulhijjah}

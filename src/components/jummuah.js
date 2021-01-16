@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import bamslide from "../img/bamslide.jpg";
+import jummuahkhutbah from "../img/jummuahkhutbah.jpg";
 import Navbar from "./Navbar";
 import Footer from "./footer";
 import youtube from "../img/youtube.jpg";
@@ -31,14 +31,17 @@ export default class jummuah extends Component {
           }}
         >
           <img
-            src={bamslide}
+            src={jummuahkhutbah}
             className="img-fluid header-img pb-3"
             alt="Jumu'ah Khutbah"
           />
           <div className="container">
             <div class="row caption d-flex justify-content-between">
               <div className="boardcard">
-                <a href="/" style={{ color: "#2e856e" }}>
+                <a
+                  href="https://www.youtube.com/channel/UC2zD7wY_3TCGCyA9Cy_Nu9w"
+                  style={{ color: "#2e856e" }}
+                >
                   <p className="mixlrtext">
                     <i
                       class="fa fa-youtube-play mixlricon"
@@ -58,12 +61,15 @@ export default class jummuah extends Component {
                       style={{ color: "#000000" }}
                       aria-hidden="true"
                     ></i>
-                    Masjid Abdur Rahman Al-khas
+                    Masjid bin Darwish
                   </p>
                 </a>
               </div>
               <div className="boardcard">
-                <a href="/" style={{ color: "#2e856e" }}>
+                <a
+                  href="https://mixlr.com/zafarulhasan/"
+                  style={{ color: "#2e856e" }}
+                >
                   <p className="mixlrtext">
                     {" "}
                     <img
@@ -142,6 +148,7 @@ export default class jummuah extends Component {
               frameborder="0"
               className="m-3"
               width="100%"
+              scroll="no"
               allowfullscreen=""
             ></iframe>
             <div className="container d-flex justify-content-center">
