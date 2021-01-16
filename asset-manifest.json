@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/shkzafar/static/css/main.ef548ad4.chunk.css",
-    "main.js": "/shkzafar/static/js/main.75a1fa27.chunk.js",
-    "main.js.map": "/shkzafar/static/js/main.75a1fa27.chunk.js.map",
+    "main.js": "/shkzafar/static/js/main.eb72489b.chunk.js",
+    "main.js.map": "/shkzafar/static/js/main.eb72489b.chunk.js.map",
     "runtime-main.js": "/shkzafar/static/js/runtime-main.41e20d40.js",
     "runtime-main.js.map": "/shkzafar/static/js/runtime-main.41e20d40.js.map",
     "static/css/2.f1a1079b.chunk.css": "/shkzafar/static/css/2.f1a1079b.chunk.css",
@@ -14,6 +14,7 @@
     "static/js/2.fd46498c.chunk.js.LICENSE.txt": "/shkzafar/static/js/2.fd46498c.chunk.js.LICENSE.txt",
     "static/media/bamslide.68730c66.jpg": "/shkzafar/static/media/bamslide.68730c66.jpg",
     "static/media/bulugh.f8250d20.png": "/shkzafar/static/media/bulugh.f8250d20.png",
+    "static/media/jummuahkhutbah.6c24fce3.jpg": "/shkzafar/static/media/jummuahkhutbah.6c24fce3.jpg",
     "static/media/mosque.0cea690a.jpg": "/shkzafar/static/media/mosque.0cea690a.jpg",
     "static/media/riyadh.7189289a.png": "/shkzafar/static/media/riyadh.7189289a.png",
     "static/media/shamail1.bf35a4ea.jpg": "/shkzafar/static/media/shamail1.bf35a4ea.jpg",
@@ -28,6 +29,6 @@
     "static/css/2.f1a1079b.chunk.css",
     "static/js/2.fd46498c.chunk.js",
     "static/css/main.ef548ad4.chunk.css",
-    "static/js/main.75a1fa27.chunk.js"
+    "static/js/main.eb72489b.chunk.js"
   ]
 }
