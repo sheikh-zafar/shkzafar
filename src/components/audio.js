@@ -54,7 +54,11 @@ export default class audio extends Component {
               </div>
 
               <div className="col-md-3 col-sm-12 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center">
-                <Link to="/audio/arkan">
+                <Link
+                  to="/comingsoon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <div className="rounded-links rounded-circle">
                     <i
                       className="fa fa-5x fa-calendar pt-4"

@@ -32,7 +32,12 @@ class mausamiat extends Component {
             <div className="row text-center">
               <div class="col-md-12">
                 <h5 className="audio-display-head">موساميات</h5>
-                <p className="lead">Mausamiyat</p>
+                <p
+                  className="lead"
+                  style={{ fontFamily: "Fredoka One", fontSize: "20px" }}
+                >
+                  Mausamiyat
+                </p>
                 <hr />
               </div>
             </div>

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "./footer";
+import { Link } from "react-router-dom";
 
 export default class aam extends Component {
   render() {
@@ -12,7 +13,12 @@ export default class aam extends Component {
             <div className="row text-center">
               <div class="col-md-12">
                 <h5 className="audio-display-head">عام دروس</h5>
-                <p className="lead">Aam Duroos</p>
+                <p
+                  className="lead"
+                  style={{ fontFamily: "Fredoka One", fontSize: "20px" }}
+                >
+                  Aam Duroos
+                </p>
                 <hr />
               </div>
             </div>
@@ -37,8 +43,8 @@ export default class aam extends Component {
                     </p>
                     <div className="row">
                       <div className="col">
-                        <a
-                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                        <Link
+                          to="/comingsoon"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_newtab"
                           style={{
@@ -48,7 +54,7 @@ export default class aam extends Component {
                           }}
                         >
                           Listen
-                        </a>
+                        </Link>
                       </div>
                       <div className="col">
                         <a

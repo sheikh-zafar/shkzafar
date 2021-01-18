@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export default class Products extends Component {
   constructor(props) {
@@ -23,8 +24,8 @@ export default class Products extends Component {
                     <div class="card-body">
                       <div className="row">
                         <div className="col">
-                          <a
-                            href={qurantafseer.archive}
+                          <Link
+                            to="/comingsoon"
                             className="btn btn btn-lg btn-outline-dark"
                             target="_newtab"
                             style={{
@@ -34,12 +35,13 @@ export default class Products extends Component {
                             }}
                           >
                             Listen
-                          </a>
+                          </Link>
                         </div>
                         <div className="col">
                           <a
                             href={qurantafseer.drive}
-                            target="_newtab"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="btn btn btn-lg btn-outline-dark"
                             style={{
                               backgroundColor: "#2e856e",

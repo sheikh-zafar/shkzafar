@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "./footer";
+import { Link } from "react-router-dom";
 
 export default class muktasar extends Component {
   render() {
@@ -14,7 +15,7 @@ export default class muktasar extends Component {
                 <h5 className="audio-display-head">مختصر دورة</h5>
                 <p
                   className="lead pt-3"
-                  style={{ fontFamily: "Fredoka One", fontSize: "15px" }}
+                  style={{ fontFamily: "Fredoka One", fontSize: "20px" }}
                 >
                   Dawrah ilmiyah (Mukhtasar)
                 </p>
@@ -44,8 +45,8 @@ export default class muktasar extends Component {
                   <div class="card-body">
                     <div className="row">
                       <div className="col-md-6 col-xs-6 col-sm-6">
-                        <a
-                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                        <Link
+                          to="/comingsoon"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_blank"
                           rel="noreferrer"
@@ -56,7 +57,7 @@ export default class muktasar extends Component {
                           }}
                         >
                           Listen
-                        </a>
+                        </Link>
                       </div>
                       <div className="col-md-6 col-xs-6 col-sm-6">
                         <a
@@ -158,8 +159,8 @@ export default class muktasar extends Component {
                   <div class="card-body">
                     <div className="row">
                       <div className="col">
-                        <a
-                          href="https://drive.google.com/drive/folders/1azueqYmaJAcOntjy9hxks029gnVIGyky"
+                        <Link
+                          to="/comingsoon"
                           target="_blank"
                           rel="noreferrer"
                           className="btn btn btn-lg btn-outline-dark"
@@ -170,7 +171,7 @@ export default class muktasar extends Component {
                           }}
                         >
                           Listen
-                        </a>
+                        </Link>
                       </div>
                       <div className="col">
                         <a

@@ -20,7 +20,12 @@ export default class tadweensunnah extends Component {
             <div className="row text-center">
               <div class="col-md-12">
                 <h5 className="audio-display-head">تفسير القرآن</h5>
-                <p className="lead">Tafseerul Qur'an</p>
+                <p
+                  className="lead"
+                  style={{ fontFamily: "Fredoka One", fontSize: "20px" }}
+                >
+                  Tafseerul Qur'an
+                </p>
                 <hr />
               </div>
             </div>

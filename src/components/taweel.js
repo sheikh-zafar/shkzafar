@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "./footer";
+import { Link } from "react-router-dom";
 
 export default class taweel extends Component {
   render() {
@@ -12,7 +13,12 @@ export default class taweel extends Component {
             <div className="row text-center">
               <div class="col-md-12">
                 <h5 className="audio-display-head">طويل دورة</h5>
-                <p className="lead">Dawrah ilmiyyah (Taweel)</p>
+                <p
+                  className="lead"
+                  style={{ fontFamily: "Fredoka One", fontSize: "20px" }}
+                >
+                  Dawrah ilmiyyah (Taweel)
+                </p>
                 <hr />
               </div>
             </div>
@@ -75,13 +81,13 @@ export default class taweel extends Component {
                 <div class="card text-center">
                   <div class="card-header pb-0">
                     بلوغ المرام
-                    <p className="lead ">Bulugh al-Maram</p>
+                    <p className="lead pt-3">Bulugh al-Maram</p>
                   </div>
                   <div class="card-body">
                     <div className="row">
                       <div className="col">
                         <a
-                          href="https://archive.org/embed/sharh-bulugh-al-maram-zafarulhasan-madani&playlist=1&list_height=215"
+                          href="https://archive.org/embed/sharh-bulugh-al-maram-zafarulhasan-madani&playlist=1&list_height=550"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_blank"
                           rel="noreferrer"
@@ -129,8 +135,8 @@ export default class taweel extends Component {
                   <div class="card-body">
                     <div className="row">
                       <div className="col">
-                        <a
-                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                        <Link
+                          to="/comingsoon"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_blank"
                           rel="noreferrer"
@@ -141,7 +147,7 @@ export default class taweel extends Component {
                           }}
                         >
                           Listen
-                        </a>
+                        </Link>
                       </div>
                       <div className="col">
                         <a
@@ -179,7 +185,7 @@ export default class taweel extends Component {
                     <div className="row">
                       <div className="col">
                         <a
-                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          href="https://archive.org/embed/3-fundamental-principles-zafarulhasan-madani&playlist=1&list_height=550"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_blank"
                           rel="noreferrer"
@@ -229,7 +235,7 @@ export default class taweel extends Component {
                     <div className="row">
                       <div className="col">
                         <a
-                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          href="https://archive.org/embed/sharh-shamail-muhammadiyah-zafarulhasan-madani&playlist=1&list_height=550"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_blank"
                           rel="noreferrer"
@@ -277,8 +283,8 @@ export default class taweel extends Component {
                   <div class="card-body">
                     <div className="row">
                       <div className="col">
-                        <a
-                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                        <Link
+                          to="/comingsoon"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_blank"
                           rel="noreferrer"
@@ -289,7 +295,7 @@ export default class taweel extends Component {
                           }}
                         >
                           Listen
-                        </a>
+                        </Link>
                       </div>
                       <div className="col">
                         <a

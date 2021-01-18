@@ -16,7 +16,12 @@ export default class jummuah extends Component {
             <div className="row text-center">
               <div class="col-md-12">
                 <h5 className="audio-display-head"> خطبة الجمعة</h5>
-                <p className="lead">Khutbah Al-Jumu'ah</p>
+                <p
+                  className="lead"
+                  style={{ fontFamily: "Fredoka One", fontSize: "20px" }}
+                >
+                  Khutbah Al-Jumu'ah
+                </p>
                 <hr />
               </div>
             </div>
@@ -39,7 +44,7 @@ export default class jummuah extends Component {
             <div class="row caption d-flex justify-content-between">
               <div className="boardcard">
                 <a
-                  href="https://www.youtube.com/channel/UC2zD7wY_3TCGCyA9Cy_Nu9w"
+                  href="https://www.youtube.com/playlist?list=PLmZP1KIsC-hmuVCpduAT3dMDd-kZG6l4f"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ color: "#2e856e" }}
@@ -56,14 +61,17 @@ export default class jummuah extends Component {
               </div>
 
               <div className="boardcard">
-                <a href="/" style={{ color: "#2e856e" }}>
+                <a
+                  href="https://maps.app.goo.gl/YUVc2PvFgb9hhKsq6"
+                  style={{ color: "#2e856e" }}
+                >
                   <p className="mixlrtext">
                     <i
                       className="fa fa-map-marker mixlricon"
                       style={{ color: "#000000" }}
                       aria-hidden="true"
                     ></i>
-                    Masjid bin Darwish
+                    Location
                   </p>
                 </a>
               </div>
@@ -87,7 +95,7 @@ export default class jummuah extends Component {
               </div>
             </div>
           </div>
-          <div className="container ">
+          <div className="container">
             <div class="row caption d-flex justify-content-between">
               <div className="boardcard">
                 <a href="/" style={{ color: "#2e856e" }}>
@@ -98,7 +106,6 @@ export default class jummuah extends Component {
                   ></i>
                 </a>
               </div>
-
               <div className="boardcard">
                 <a href="/" style={{ color: "#2e856e" }}>
                   <i
@@ -139,7 +146,14 @@ export default class jummuah extends Component {
             ></iframe>
           </div>
         </div>
-        <div className="container">
+        <div
+          className="container"
+          style={{
+            border: "5px dashed beige",
+            boxShadow:
+              "0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9)",
+          }}
+        >
           <div className="row ">
             <div className="col-md-12  text-center">
               <h3 className="heading-name" style={{ color: "beige" }}>
@@ -149,9 +163,8 @@ export default class jummuah extends Component {
             <iframe
               title="sheikh-zafar"
               style={{ overflow: "hidden" }}
-              src="https://archive.org/embed/2021-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=300"
+              src="https://archive.org/embed/2021-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=400"
               frameborder="0"
-              className="m-3"
               width="100%"
               scrolling="no"
             ></iframe>
@@ -165,6 +178,7 @@ export default class jummuah extends Component {
                   backgroundColor: "beige",
                   color: "#2e856e",
                   fontFamily: "Righteous",
+                  marginBottom: "5px",
                 }}
               >
                 Download

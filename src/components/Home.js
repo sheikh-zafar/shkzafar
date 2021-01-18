@@ -3,8 +3,6 @@ import Navbar from "./Navbar";
 import Footer from "./footer";
 import "react-calendar/dist/Calendar.css";
 import bam2 from "../img/bam2.jpg";
-import bamslide from "../img/bamslide.jpg";
-import shamail1 from "../img/shamail1.jpg";
 import shamail2 from "../img/shamail2.jpg";
 import shamailslide from "../img/shamailslide.jpg";
 import sharhsunnah2 from "../img/sharhsunnah2.jpg";
@@ -181,8 +179,10 @@ export default class Home extends Component {
                 <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                   <div className="container py-3 ">
                     <a
-                      href="#target"
+                      href="https://calendar.google.com/calendar/u/0/r/month?tab=wc&pli=1"
                       role="button"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="btn btn btn-lg btn-outline-dark"
                       style={{
                         width: "170px",

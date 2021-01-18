@@ -9,6 +9,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
 .App {
   text-align: center;
 }
@@ -362,6 +363,8 @@ a:active {
   border-radius: 18px;
 }
 .phoneicon {
+  height: 40px;
+  width: 40px;
   display: none;
 }
 
@@ -390,6 +393,16 @@ a:active {
   padding-left: 5px;
   height: 10rem;
   width: 10rem;
+}
+.jumbotron {
+  background-image: url(../src/img/beigebg.jpeg);
+  width: 500px;
+  height: 350px;
+  text-align: center;
+  color: #5c4033;
+}
+.jumbotron .display-4 {
+  font-family: "Potta One", sans-serif;
 }
 
 @media (min-width: 1200px) {
@@ -441,6 +454,10 @@ a:active {
 }
 
 @media (max-width: 575.98px) {
+  .jumbotron {
+    width: 300px;
+    height: 350px;
+  }
   .card-header {
     font-size: 35px;
   }
@@ -460,7 +477,7 @@ a:active {
   }
 
   .btn {
-    width: 120px;
+    width: 150px;
     font-size: 14px;
     margin-top: 5px;
   }
@@ -505,6 +522,10 @@ a:active {
   .subscribe-circle {
     height: 4px;
     width: 4px;
+  }
+  .phoneicon {
+    height: 40px;
+    width: 40px;
   }
 }
 
