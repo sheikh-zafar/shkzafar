@@ -103,7 +103,7 @@ export default class muktasar extends Component {
                     <div className="row">
                       <div className="col">
                         <a
-                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani"
+                          href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani&playlist=1&list_height=550"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_blank"
                           rel="noreferrer"

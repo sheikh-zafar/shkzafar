@@ -57,9 +57,11 @@ class mausamiat extends Component {
           </div>
         </section>
         <div class="card-header text-center">شهر ذو الحجة</div>
+
         <MausamiyatDhulhijjah
           mausamiyatdhulhijjah={this.state.mausamiyatdhulhijjah}
         />
+
         <div class="card-header text-center">شهر محرم</div>
         <MausamiyatMuharram
           mausamiyatmuharram={this.state.mausamiyatmuharram}

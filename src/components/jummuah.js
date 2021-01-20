@@ -138,7 +138,7 @@ export default class jummuah extends Component {
             </div>
             <iframe
               title="sheikh-zafar"
-              src="https://archive.org/embed/2021-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
+              src="https://archive.org/embed/2021-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=550"
               className="m-3"
               width="100%"
               height="30"
@@ -200,7 +200,7 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/embed/2020-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=900"
+                        href="https://archive.org/embed/2020-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=550"
                         className="btn btn btn-lg btn-outline-dark"
                         target="_blank"
                         rel="noreferrer"
@@ -249,7 +249,7 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/embed/2019-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
+                        href="https://archive.org/embed/2019-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=550"
                         className="btn btn btn-lg btn-outline-dark"
                         target="_blank"
                         rel="noreferrer"
@@ -297,7 +297,7 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/embed/2018-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
+                        href="https://archive.org/embed/2018-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=550"
                         className="btn btn btn-lg btn-outline-dark"
                         target="_blank"
                         rel="noreferrer"
@@ -345,7 +345,7 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/embed/2017-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
+                        href="https://archive.org/embed/2017-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=550"
                         className="btn btn btn-lg btn-outline-dark"
                         target="_blank"
                         rel="noreferrer"
@@ -393,7 +393,7 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/embed/2016-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
+                        href="https://archive.org/embed/2016-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=550"
                         className="btn btn btn-lg btn-outline-dark"
                         target="_blank"
                         rel="noreferrer"
@@ -441,7 +441,7 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/embed/2015-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
+                        href="https://archive.org/embed/2015-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=550"
                         className="btn btn btn-lg btn-outline-dark"
                         target="_blank"
                         rel="noreferrer"
@@ -489,7 +489,7 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/embed/2014-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
+                        href="https://archive.org/embed/2014-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=550"
                         className="btn btn btn-lg btn-outline-dark"
                         target="_blank"
                         rel="noreferrer"
@@ -537,7 +537,7 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/embed/2013-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
+                        href="https://archive.org/embed/2013-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=550"
                         className="btn btn btn-lg btn-outline-dark"
                         target="_blank"
                         rel="noreferrer"
@@ -585,7 +585,7 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/embed/2012-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
+                        href="https://archive.org/embed/2012-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=550"
                         className="btn btn btn-lg btn-outline-dark"
                         target="_blank"
                         rel="noreferrer"
@@ -633,7 +633,7 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/embed/2011-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
+                        href="https://archive.org/embed/2011-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=550"
                         className="btn btn btn-lg btn-outline-dark"
                         target="_blank"
                         rel="noreferrer"
@@ -681,7 +681,7 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/embed/2010-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
+                        href="https://archive.org/embed/2010-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=550"
                         className="btn btn btn-lg btn-outline-dark"
                         target="_blank"
                         rel="noreferrer"
@@ -728,7 +728,7 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/embed/2009-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
+                        href="https://archive.org/embed/2009-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=550"
                         className="btn btn btn-lg btn-outline-dark"
                         target="_blank"
                         rel="noreferrer"
@@ -776,7 +776,7 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/embed/2008-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
+                        href="https://archive.org/embed/2008-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=550"
                         className="btn btn btn-lg btn-outline-dark"
                         target="_blank"
                         rel="noreferrer"
@@ -824,7 +824,7 @@ export default class jummuah extends Component {
                   <div className="row">
                     <div className="col">
                       <a
-                        href="https://archive.org/embed/2007-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=215"
+                        href="https://archive.org/embed/2007-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=550"
                         className="btn btn btn-lg btn-outline-dark"
                         target="_blank"
                         rel="noreferrer"
