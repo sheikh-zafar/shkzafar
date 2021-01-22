@@ -20,7 +20,7 @@ export default class jummuah extends Component {
                   className="lead"
                   style={{ fontFamily: "Fredoka One", fontSize: "20px" }}
                 >
-                  Khutbah Al-Jumu'ah
+                  Khutbah Al-Jummu'ah
                 </p>
                 <hr />
               </div>
