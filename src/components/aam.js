@@ -43,8 +43,8 @@ export default class aam extends Component {
                     </p>
                     <div className="row">
                       <div className="col">
-                        <Link
-                          to="/comingsoon"
+                        <a
+                          href="https://archive.org/embed/istiqamah-zafarulhasan-madani&playlist=1&list_height=550"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_newtab"
                           style={{
@@ -54,7 +54,7 @@ export default class aam extends Component {
                           }}
                         >
                           Listen
-                        </Link>
+                        </a>
                       </div>
                       <div className="col">
                         <a

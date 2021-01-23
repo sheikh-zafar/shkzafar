@@ -45,8 +45,8 @@ export default class muktasar extends Component {
                   <div class="card-body">
                     <div className="row">
                       <div className="col-md-6 col-xs-6 col-sm-6">
-                        <Link
-                          to="/comingsoon"
+                        <a
+                          href="https://archive.org/embed/raf-al-malam-an-al-aimmat-al-alam-zafarulhasan-madani&playlist=1&list_height=550"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_blank"
                           rel="noreferrer"
@@ -57,7 +57,7 @@ export default class muktasar extends Component {
                           }}
                         >
                           Listen
-                        </Link>
+                        </a>
                       </div>
                       <div className="col-md-6 col-xs-6 col-sm-6">
                         <a

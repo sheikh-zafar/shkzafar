@@ -37,8 +37,8 @@ export default class taweel extends Component {
                   <div class="card-body">
                     <div className="row">
                       <div className="col">
-                        <Link
-                          to="/comingsoon"
+                        <a
+                          href="https://archive.org/embed/sharh-as-sunnah-barbaharee-zafarulhasan-madani&playlist=1&list_height=550"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -49,7 +49,7 @@ export default class taweel extends Component {
                           }}
                         >
                           Listen
-                        </Link>
+                        </a>
                       </div>
                       <div className="col">
                         <a
