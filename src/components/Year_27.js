@@ -1,19 +1,19 @@
 import React, { Component } from "react";
 
-export default class MausamiyatDhulhijjah extends Component {
+export default class Year_27 extends Component {
   render() {
-    return this.props.mausamiyatdhulhijjah.map((dhulhijjah) => {
+    return this.props.year1427.map((year27) => {
       return (
         <div
           id="collapseOne"
-          class="accordion-collapse collapse show"
+          class="accordion-collapse collapse"
           aria-labelledby="headingOne"
           data-bs-parent="#accordionExample"
         >
           <div class="accordion-body">
-            <div className="d-flex justify-content-end">
+            <div className="d-flex justify-content-center">
               <a
-                href={dhulhijjah.archive}
+                href={year27.archive}
                 className="btn btn btn-lg btn-outline-dark"
                 target="_blank"
                 rel="noreferrer"
@@ -25,8 +25,9 @@ export default class MausamiyatDhulhijjah extends Component {
               >
                 Listen
               </a>
+
               <a
-                href={dhulhijjah.drive}
+                href={year27.drive}
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn btn-lg btn-outline-dark"
@@ -39,7 +40,6 @@ export default class MausamiyatDhulhijjah extends Component {
                 Download
               </a>
             </div>
-            <div className="float-right"></div>
           </div>
         </div>
       );

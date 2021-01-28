@@ -405,6 +405,17 @@ a:active {
   font-family: "Potta One", sans-serif;
 }
 
+.accordion-body {
+  background-image: url(../src/img/beigebg.jpeg);
+}
+.accordion-button {
+  background-color: beige;
+  color: #5c4033;
+  font-size: 2rem;
+  font-family: "Potta One", sans-serif;
+  align-items: center;
+}
+
 @media (min-width: 1200px) {
 }
 @media (max-width: 991.98px) {

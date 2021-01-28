@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 import MausamiyatDhulhijjah from "./MausamiyatDhulhijjah";
+import Year_27 from "./Year_27";
+import { year_1427 } from "../year_1427";
 import MausamiyatMuharram from "./MausamiyatMuharram";
 import MausamiyatSafar from "./MausamiyatSafar";
 import MausamiyatShaban from "./MausamiyatShaban";
@@ -16,6 +18,7 @@ class mausamiat extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      year_1427: year_1427,
       mausamiyatramadan: mausamiyatramadan,
       mausamiyatmuharram: mausamiyatmuharram,
       mausamiyatsafar: mausamiyatsafar,
@@ -43,24 +46,34 @@ class mausamiat extends Component {
             </div>
           </div>
         </section>
+
         <section className="embed-section">
           <div className="container">
             <div className="row">
-              <div className="col-md-4"></div>
-              <div className="col-md-4"></div>
-              <div className="col-md-4"></div>
-            </div>
-            <div className="row">
-              <div className="col-md-6"></div>
-              <div className="col-md-6"></div>
+              <div
+                class="accordion"
+                id="accordionExample"
+                style={{ color: "#2e856e" }}
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      1441
+                    </button>
+                    <Year_27 year1427={this.state.year_1427} />
+                  </h2>
+                </div>
+              </div>
             </div>
           </div>
         </section>
-        <div class="card-header text-center">شهر ذو الحجة</div>
-
-        <MausamiyatDhulhijjah
-          mausamiyatdhulhijjah={this.state.mausamiyatdhulhijjah}
-        />
 
         <div class="card-header text-center">شهر محرم</div>
         <MausamiyatMuharram
