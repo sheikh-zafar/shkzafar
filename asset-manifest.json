@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.043e073e.chunk.css",
-    "main.js": "/static/js/main.2d126010.chunk.js",
-    "main.js.map": "/static/js/main.2d126010.chunk.js.map",
+    "main.css": "/static/css/main.a3d738e7.chunk.css",
+    "main.js": "/static/js/main.ccf830e2.chunk.js",
+    "main.js.map": "/static/js/main.ccf830e2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3dbf9d90.js",
     "runtime-main.js.map": "/static/js/runtime-main.3dbf9d90.js.map",
     "static/css/2.f1a1079b.chunk.css": "/static/css/2.f1a1079b.chunk.css",
-    "static/js/2.fd46498c.chunk.js": "/static/js/2.fd46498c.chunk.js",
-    "static/js/2.fd46498c.chunk.js.map": "/static/js/2.fd46498c.chunk.js.map",
+    "static/js/2.c4233296.chunk.js": "/static/js/2.c4233296.chunk.js",
+    "static/js/2.c4233296.chunk.js.map": "/static/js/2.c4233296.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.f1a1079b.chunk.css.map": "/static/css/2.f1a1079b.chunk.css.map",
-    "static/css/main.043e073e.chunk.css.map": "/static/css/main.043e073e.chunk.css.map",
-    "static/js/2.fd46498c.chunk.js.LICENSE.txt": "/static/js/2.fd46498c.chunk.js.LICENSE.txt",
-    "static/media/bamslide.68730c66.jpg": "/static/media/bamslide.68730c66.jpg",
+    "static/css/main.a3d738e7.chunk.css.map": "/static/css/main.a3d738e7.chunk.css.map",
+    "static/js/2.c4233296.chunk.js.LICENSE.txt": "/static/js/2.c4233296.chunk.js.LICENSE.txt",
     "static/media/bulugh.f8250d20.png": "/static/media/bulugh.f8250d20.png",
+    "static/media/covid.9d399de8.jpeg": "/static/media/covid.9d399de8.jpeg",
     "static/media/jummuahkhutbah.6c24fce3.jpg": "/static/media/jummuahkhutbah.6c24fce3.jpg",
     "static/media/mosque.0cea690a.jpg": "/static/media/mosque.0cea690a.jpg",
+    "static/media/muharram.af67ecfe.jpg": "/static/media/muharram.af67ecfe.jpg",
     "static/media/riyadh.7189289a.png": "/static/media/riyadh.7189289a.png",
+    "static/media/safar.9592d0a3.jpg": "/static/media/safar.9592d0a3.jpg",
     "static/media/shamail2.7b6ab84b.jpg": "/static/media/shamail2.7b6ab84b.jpg",
     "static/media/shamailslide.b85f8dc1.jpg": "/static/media/shamailslide.b85f8dc1.jpg",
     "static/media/sharhsunnah2.9f34a0e8.jpg": "/static/media/sharhsunnah2.9f34a0e8.jpg",
@@ -26,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.3dbf9d90.js",
     "static/css/2.f1a1079b.chunk.css",
-    "static/js/2.fd46498c.chunk.js",
-    "static/css/main.043e073e.chunk.css",
-    "static/js/main.2d126010.chunk.js"
+    "static/js/2.c4233296.chunk.js",
+    "static/css/main.a3d738e7.chunk.css",
+    "static/js/main.ccf830e2.chunk.js"
   ]
 }
