@@ -10,6 +10,7 @@ import sharhsunnah3 from "../img/sharhsunnah3.jpg";
 import mosque from "../img/mosque.jpg";
 import bulugh from "../img/bulugh.png";
 import riyadh from "../img/riyadh.png";
+import Covid from "../img/covid.jpeg";
 import { Link } from "react-router-dom";
 
 export default class Home extends Component {
@@ -258,86 +259,109 @@ export default class Home extends Component {
                   "0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9)",
               }}
             >
-              <div className="container py-4 ">
-                <div className="row justify-content-center">
-                  <div className="col-md-10 displayimg  d-flex justify-content-center">
-                    <img
-                      src={mosque}
-                      alt="jumuah khutbah"
-                      className="img-responsive"
-                    />
-                  </div>
-                </div>
-                <div className=" container text-center">
+              <Link to="/audio/jummuah">
+                <div className="container py-4 ">
                   <div className="row justify-content-center">
-                    <Link to="/audio/jummuah">
+                    <div className="col-md-10 displayimg  d-flex justify-content-center">
+                      <img
+                        src={mosque}
+                        alt="jumuah khutbah"
+                        className="img-responsive displayimg"
+                      />
+                    </div>
+                  </div>
+                  <div className=" container text-center pt-4">
+                    <div className="row justify-content-center">
                       <h5 className="display-title">Jumu'ah Khutbah</h5>
-                    </Link>
+                    </div>
                   </div>
                 </div>
-              </div>
-
-              <div className="container py-4 ">
-                <div className="row justify-content-center">
-                  <div className="col-md-10 displayimg  d-flex justify-content-center">
-                    <img
-                      src={sharhsunnah3}
-                      alt="Sharh as-Sunnah
+              </Link>
+              <a
+                href="https://drive.google.com/drive/folders/1Zc_fkwZOBT74_wjYolbEPPzucJHA7ewJ"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="container py-4 ">
+                  <div className="row justify-content-center">
+                    <div className="col-md-10 displayimg  d-flex justify-content-center">
+                      <img
+                        src={Covid}
+                        alt="Covid-19"
+                        className="img-responsive displayimg"
+                      />
+                    </div>
+                  </div>
+                  <div className="container pt-4">
+                    <div className="row justify-content-center">
+                      <div className="text-center">
+                        <h5 className="display-title">Covid-19 Lectures</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <Link to="/audio/taweel">
+                <div className="container py-4 ">
+                  <div className="row justify-content-center">
+                    <div className="col-md-10 displayimg  d-flex justify-content-center">
+                      <img
+                        src={sharhsunnah3}
+                        alt="Sharh as-Sunnah
                 "
-                      className="img-responsive displayimg"
-                    />
+                        className="img-responsive displayimg"
+                      />
+                    </div>
                   </div>
-                </div>
-                <div className="container">
-                  <div className="row justify-content-center">
-                    <div className="text-center">
-                      <Link to="/audio/taweel">
+                  <div className="container pt-4">
+                    <div className="row justify-content-center">
+                      <div className="text-center">
                         <h5 className="display-title">Sharh as-Sunnah</h5>
-                      </Link>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div className="container py-4">
-                <div className="row justify-content-center">
-                  <div className="col-md-10 displayimg  d-flex justify-content-center">
-                    <img
-                      src={bam2}
-                      alt="bulugh al maram"
-                      className="img-responsive displayimg"
-                    />
-                  </div>
-                </div>
-                <div className="container">
+                </div>{" "}
+              </Link>
+              <Link to="/audio/taweel">
+                <div className="container py-4">
                   <div className="row justify-content-center">
-                    <div className="text-center">
-                      <Link to="/audio/taweel">
+                    <div className="col-md-10 displayimg  d-flex justify-content-center">
+                      <img
+                        src={bam2}
+                        alt="bulugh al maram"
+                        className="img-responsive displayimg"
+                      />
+                    </div>
+                  </div>
+                  <div className="container pt-4">
+                    <div className="row justify-content-center">
+                      <div className="text-center">
                         <h5 className="display-title">Bulugh Al Maram</h5>
-                      </Link>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="container py-4 ">
-                <div className="row justify-content-center">
-                  <div className="col-md-10 displayimg  d-flex justify-content-center">
-                    <img
-                      src={shamail2}
-                      alt="at tirmidhi"
-                      className="img-responsive displayimg"
-                    />
-                  </div>
-                </div>
-                <div className="container">
+              </Link>{" "}
+              <Link to="/audio/taweel">
+                <div className="container py-4 ">
                   <div className="row justify-content-center">
-                    <div className="text-center">
-                      <Link to="/audio/taweel">
+                    <div className="col-md-10 displayimg  d-flex justify-content-center">
+                      <img
+                        src={shamail2}
+                        alt="at tirmidhi"
+                        className="img-responsive displayimg"
+                      />
+                    </div>
+                  </div>
+                  <div className="container pt-4">
+                    <div className="row justify-content-center">
+                      <div className="text-center">
                         <h5 className="display-title">Shama'il at Tirmidhi</h5>
-                      </Link>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
         </section>

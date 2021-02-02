@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import jummuahkhutbah from "../img/jummuahkhutbah.jpg";
 import Navbar from "./Navbar";
 import Footer from "./footer";
-import youtube from "../img/youtube.jpg";
 import mixlr from "../img/mixlr.png";
 
 export default class jummuah extends Component {

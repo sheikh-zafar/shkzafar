@@ -27,7 +27,8 @@ export default class Products extends Component {
                           <Link
                             to="/comingsoon"
                             className="btn btn btn-lg btn-outline-dark"
-                            target="_newtab"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             style={{
                               backgroundColor: "#2e856e",
                               color: "beige",

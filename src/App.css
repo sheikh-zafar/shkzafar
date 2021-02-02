@@ -404,16 +404,23 @@ a:active {
 .jumbotron .display-4 {
   font-family: "Potta One", sans-serif;
 }
+.accordion {
+  background-color: #2e856e;
+}
 
 .accordion-body {
   background-image: url(../src/img/beigebg.jpeg);
 }
+
 .accordion-button {
   background-color: beige;
   color: #5c4033;
   font-size: 2rem;
-  font-family: "Potta One", sans-serif;
-  align-items: center;
+  font-family: "Patua One", sans-serif;
+}
+.mausamiyatPoster {
+  height: 250px;
+  width: 250px;
 }
 
 @media (min-width: 1200px) {

@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
-import bamslide from "../img/bamslide.jpg";
 import Footer from "./footer";
-import { Link } from "react-router-dom";
 
 export default class khutbah extends Component {
   render() {

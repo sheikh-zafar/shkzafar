@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-export default class Year_40 extends Component {
+export default class Year_29 extends Component {
   render() {
-    return this.props.year1440.map((year40) => {
+    return this.props.year1429.map((year29) => {
       return (
         <div
-          id="collapseThirteen"
+          id="collapseThree"
           class="accordion-collapse collapse"
-          aria-labelledby="headingThirteen"
+          aria-labelledby="headingThree"
           data-bs-parent="#accordionExample"
         >
           <div class="accordion-body d-flex justify-content-center">
@@ -21,11 +21,11 @@ export default class Year_40 extends Component {
                   color: "#5c4033",
                 }}
               >
-                {year40.month}
+                {year29.month}
               </div>
               <div className="col-md-4 col-xs-4 col-sm-4">
                 <Link
-                  to="/comingsoon"
+                  to="comingsoon"
                   className="lead pt-3"
                   style={{
                     fontFamily: "Fredoka One",
@@ -41,7 +41,7 @@ export default class Year_40 extends Component {
               </div>
               <div className="col-md-4 col-xs-4 col-sm-4">
                 <a
-                  href={year40.drive}
+                  href={year29.drive}
                   className="lead pt-3"
                   style={{
                     fontFamily: "Fredoka One",
