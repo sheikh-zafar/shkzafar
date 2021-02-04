@@ -30,6 +30,14 @@ body {
   height: 55vh;
 }
 
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border-right: none;
+  border-left: none;
+}
+
 .heading-section {
   color: beige;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
@@ -404,9 +412,6 @@ a:active {
 .jumbotron .display-4 {
   font-family: "Potta One", sans-serif;
 }
-.accordion {
-  background-color: #2e856e;
-}
 
 .accordion-body {
   background-image: url(../src/img/beigebg.jpeg);
@@ -418,9 +423,14 @@ a:active {
   font-size: 2rem;
   font-family: "Patua One", sans-serif;
 }
+.accordion-collapse {
+  background-color: beige;
+}
 .mausamiyatPoster {
   height: 250px;
   width: 250px;
+  margin: 3px;
+  padding: 3px;
 }
 
 @media (min-width: 1200px) {

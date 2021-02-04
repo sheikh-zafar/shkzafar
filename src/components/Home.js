@@ -32,9 +32,9 @@ export default class Home extends Component {
                   id="carouselExampleIndicators"
                   class="carousel slide"
                   data-ride="carousel"
-                  data-interval="2000"
+                  data-interval="1500"
                 >
-                  <ol class="carousel-indicators">
+                  <ol id="myCarousel-indicators" class="carousel-indicators">
                     <li
                       data-target="#carouselExampleIndicators"
                       data-slide-to="0"

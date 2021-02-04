@@ -14,6 +14,7 @@ import jummuah from "./jummuah";
 import mausamiyat from "./mausamiyat";
 import subscribe from "./subscribe";
 import comingsoon from "./comingsoon";
+import HitCount from "./HitCount";
 
 const Main = () => (
   <Switch>
@@ -31,6 +32,7 @@ const Main = () => (
     <Route exact path="/about" component={about} />
     <Route exact path="/subscribe" component={subscribe} />
     <Route exact path="/comingsoon" component={comingsoon} />
+    <Route exact path="/HitCount" component={HitCount} />
   </Switch>
 );
 
