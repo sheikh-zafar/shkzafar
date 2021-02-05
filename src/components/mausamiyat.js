@@ -28,7 +28,7 @@ import { year_1438 } from "../year_1438";
 import { year_1439 } from "../year_1439";
 import { year_1440 } from "../year_1440";
 import { year_1441 } from "../year_1441";
-import Ramadan from "../img/ramadan.jpeg";
+import Ramadan from "../img/ramadan.png";
 import Shaban from "../img/shaban.jpeg";
 import Safar from "../img/safar.jpg";
 import Muharram from "../img/muharram.jpg";

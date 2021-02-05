@@ -3,6 +3,8 @@ import Navbar from "./Navbar";
 import Footer from "./footer";
 import { audios } from "../data";
 import { Link } from "react-router-dom";
+import Jummuah from "../img/jummaicon.jpg";
+import tafseer from "../img/tafseericon.jpg";
 
 export default class audio extends Component {
   handleClick() {
@@ -27,11 +29,11 @@ export default class audio extends Component {
               <div className="col-md-3 col-sm-12 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center mx-auto">
                 <Link to="/audio/jummuah">
                   <div className="rounded-links rounded-circle">
-                    <i
-                      className="fa fa-5x fa-calendar pt-4"
-                      style={{ color: "#2e856e" }}
-                      aria-hidden="true"
-                    ></i>
+                    <img
+                      src={Jummuah}
+                      className="img-fluid rounded-circle"
+                      alt="jummuah khutbah"
+                    />
                   </div>
                   <div>
                     <h3 className="rounded-headname">Jumu'ah Khutbah</h3>
@@ -41,11 +43,11 @@ export default class audio extends Component {
               <div className="col-md-3 col-sm-12 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center mx-auto">
                 <Link to="/audio/qurantafseer">
                   <div className="rounded-links rounded-circle">
-                    <i
-                      className="fa fa-5x fa-calendar pt-4"
-                      style={{ color: "#2e856e" }}
-                      aria-hidden="true"
-                    ></i>
+                    <img
+                      src={tafseer}
+                      className="img-fluid rounded-circle"
+                      alt="jummuah khutbah"
+                    />
                   </div>
                   <div>
                     <h3 className="rounded-headname">Quran Tafseer</h3>
