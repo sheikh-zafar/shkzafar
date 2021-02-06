@@ -5,6 +5,7 @@ import { audios } from "../data";
 import { Link } from "react-router-dom";
 import Jummuah from "../img/jummaicon.jpg";
 import tafseer from "../img/tafseericon.jpg";
+import Moon from "../img/moon.jpg";
 
 export default class audio extends Component {
   handleClick() {
@@ -76,11 +77,11 @@ export default class audio extends Component {
               <div className="col-md-3 col-sm-12 col-xs-6 d-flex justify-content-end d-sm-flex justify-content-center ">
                 <Link to="/audio/mausamiyat">
                   <div className="rounded-links rounded-circle">
-                    <i
-                      className="fa fa-5x fa-calendar pt-4"
-                      style={{ color: "#2e856e" }}
-                      aria-hidden="true"
-                    ></i>
+                  <img
+                      src={Moon}
+                      className="img-fluid rounded-circle"
+                      alt="jummuah khutbah"
+                    />
                   </div>
                   <div>
                     <h3 className="rounded-headname">Mausamiat</h3>
