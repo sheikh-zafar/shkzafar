@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.8a01b782.chunk.css",
-    "main.js": "/static/js/main.d50b4983.chunk.js",
-    "main.js.map": "/static/js/main.d50b4983.chunk.js.map",
+    "main.css": "/static/css/main.3400794f.chunk.css",
+    "main.js": "/static/js/main.d09f81c8.chunk.js",
+    "main.js.map": "/static/js/main.d09f81c8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3dbf9d90.js",
     "runtime-main.js.map": "/static/js/runtime-main.3dbf9d90.js.map",
     "static/css/2.f1a1079b.chunk.css": "/static/css/2.f1a1079b.chunk.css",
-    "static/js/2.34bc4192.chunk.js": "/static/js/2.34bc4192.chunk.js",
-    "static/js/2.34bc4192.chunk.js.map": "/static/js/2.34bc4192.chunk.js.map",
+    "static/js/2.16ec0b24.chunk.js": "/static/js/2.16ec0b24.chunk.js",
+    "static/js/2.16ec0b24.chunk.js.map": "/static/js/2.16ec0b24.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.f1a1079b.chunk.css.map": "/static/css/2.f1a1079b.chunk.css.map",
-    "static/css/main.8a01b782.chunk.css.map": "/static/css/main.8a01b782.chunk.css.map",
-    "static/js/2.34bc4192.chunk.js.LICENSE.txt": "/static/js/2.34bc4192.chunk.js.LICENSE.txt",
+    "static/css/main.3400794f.chunk.css.map": "/static/css/main.3400794f.chunk.css.map",
+    "static/js/2.16ec0b24.chunk.js.LICENSE.txt": "/static/js/2.16ec0b24.chunk.js.LICENSE.txt",
+    "static/media/arkan.7cdb85d3.jpg": "/static/media/arkan.7cdb85d3.jpg",
     "static/media/bulugh.f8250d20.png": "/static/media/bulugh.f8250d20.png",
+    "static/media/coffee": "/static/media/coffee.a3444b2c.bin",
     "static/media/covid.9d399de8.jpeg": "/static/media/covid.9d399de8.jpeg",
+    "static/media/gapi.coffee": "/static/media/gapi.110a734a.coffee",
     "static/media/jummaicon.32769a2c.jpg": "/static/media/jummaicon.32769a2c.jpg",
     "static/media/jummuahkhutbah.6c24fce3.jpg": "/static/media/jummuahkhutbah.6c24fce3.jpg",
     "static/media/moon.84a92c5d.jpg": "/static/media/moon.84a92c5d.jpg",
     "static/media/mosque.0cea690a.jpg": "/static/media/mosque.0cea690a.jpg",
     "static/media/muharram.af67ecfe.jpg": "/static/media/muharram.af67ecfe.jpg",
+    "static/media/mukhtasar.fd17867c.jpeg": "/static/media/mukhtasar.fd17867c.jpeg",
     "static/media/riyadh.7189289a.png": "/static/media/riyadh.7189289a.png",
     "static/media/safar.9592d0a3.jpg": "/static/media/safar.9592d0a3.jpg",
     "static/media/shamail2.7b6ab84b.jpg": "/static/media/shamail2.7b6ab84b.jpg",
@@ -26,13 +30,14 @@
     "static/media/sharhsunnah2.9f34a0e8.jpg": "/static/media/sharhsunnah2.9f34a0e8.jpg",
     "static/media/sharhsunnah3.b782ecca.jpg": "/static/media/sharhsunnah3.b782ecca.jpg",
     "static/media/tafseericon.aeb0a638.jpg": "/static/media/tafseericon.aeb0a638.jpg",
+    "static/media/taweel.1db7e9bf.jpeg": "/static/media/taweel.1db7e9bf.jpeg",
     "static/media/youtube.e62636bd.jpg": "/static/media/youtube.e62636bd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.3dbf9d90.js",
     "static/css/2.f1a1079b.chunk.css",
-    "static/js/2.34bc4192.chunk.js",
-    "static/css/main.8a01b782.chunk.css",
-    "static/js/main.d50b4983.chunk.js"
+    "static/js/2.16ec0b24.chunk.js",
+    "static/css/main.3400794f.chunk.css",
+    "static/js/main.d09f81c8.chunk.js"
   ]
 }
