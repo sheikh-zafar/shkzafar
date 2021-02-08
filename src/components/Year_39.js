@@ -6,9 +6,9 @@ export default class Year_39 extends Component {
     return this.props.year1439.map((year39) => {
       return (
         <div
-          id="collapseTwelve"
+          id="collapseThirteen"
           class="accordion-collapse collapse"
-          aria-labelledby="headingTwelve"
+          aria-labelledby="headingThirteen"
           data-bs-parent="#accordionExample"
         >
           <div class="accordion-body d-flex justify-content-center">

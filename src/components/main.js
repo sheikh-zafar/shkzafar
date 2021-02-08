@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Redirect,
+  Route,
+  Switch,
+} from "react-router-dom";
 import Home from "./Home";
 import audio from "./audio";
 import books from "./books";
@@ -15,6 +20,8 @@ import mausamiyat from "./mausamiyat";
 import subscribe from "./subscribe";
 import comingsoon from "./comingsoon";
 import HitCount from "./HitCount";
+import SignIn from "./signIn";
+import Analytics from "./analytics";
 
 const Main = () => (
   <Switch>
@@ -33,6 +40,7 @@ const Main = () => (
     <Route exact path="/subscribe" component={subscribe} />
     <Route exact path="/comingsoon" component={comingsoon} />
     <Route exact path="/HitCount" component={HitCount} />
+    <Route exact path="/signIn" component={SignIn} />
   </Switch>
 );
 

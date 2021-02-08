@@ -159,11 +159,11 @@ export default class muktasar extends Component {
                   <div class="card-body">
                     <div className="row">
                       <div className="col">
-                        <Link
-                          to="/comingsoon"
+                        <a
+                          href="https://archive.org/embed/40-ahaadeth-imaam-an-nawawi--zafarulhasan-madani&playlist=1&list_height=550"
+                          className="btn btn btn-lg btn-outline-dark"
                           target="_blank"
                           rel="noreferrer"
-                          className="btn btn btn-lg btn-outline-dark"
                           style={{
                             backgroundColor: "#2e856e",
                             color: "beige",
@@ -171,7 +171,7 @@ export default class muktasar extends Component {
                           }}
                         >
                           Listen
-                        </Link>
+                        </a>
                       </div>
                       <div className="col">
                         <a

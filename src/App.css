@@ -412,7 +412,12 @@ a:active {
 .jumbotron .display-4 {
   font-family: "Potta One", sans-serif;
 }
-
+.accordion-flush {
+  background-color: beige;
+}
+h2 .accordion-header {
+  color: #5c4033;
+}
 .accordion-body {
   background-image: url(../src/img/beigebg.jpeg);
 }
@@ -423,7 +428,11 @@ a:active {
   font-size: 2rem;
   font-family: "Patua One", sans-serif;
 }
-.accordion-collapse {
+.accordion-collapse .collapse {
+  background-color: beige;
+}
+
+.panel-default > .panel-heading {
   background-color: beige;
 }
 .mausamiyatPoster {
@@ -431,6 +440,10 @@ a:active {
   width: 250px;
   margin: 3px;
   padding: 3px;
+}
+.mausamiyatmargin {
+  margin-right: 40vh;
+  margin-left: 40vh;
 }
 
 @media (min-width: 1200px) {
@@ -478,6 +491,10 @@ a:active {
   }
   .mixlrtext {
     font-size: 20px;
+  }
+  .mausamiyatmargin {
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 
@@ -554,6 +571,10 @@ a:active {
   .phoneicon {
     height: 40px;
     width: 40px;
+  }
+  .mausamiyatmargin {
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 

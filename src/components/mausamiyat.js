@@ -1,9 +1,11 @@
+/* eslint-disable react/jsx-pascal-case */
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Year_27 from "./Year_27";
 import Year_28 from "./Year_28";
 import Year_29 from "./Year_29";
 import Year_30 from "./Year_30";
+import Year_31 from "./Year_31";
 import Year_32 from "./Year_32";
 import Year_33 from "./Year_33";
 import Year_34 from "./Year_34";
@@ -18,6 +20,7 @@ import { year_1427 } from "../year_1427";
 import { year_1428 } from "../year_1428";
 import { year_1429 } from "../year_1429";
 import { year_1430 } from "../year_1430";
+import { year_1431 } from "../year_1431";
 import { year_1432 } from "../year_1432";
 import { year_1433 } from "../year_1433";
 import { year_1434 } from "../year_1434";
@@ -43,7 +46,7 @@ class mausamiat extends Component {
       year_1428: year_1428,
       year_1429: year_1429,
       year_1430: year_1430,
-
+      year_1431: year_1431,
       year_1432: year_1432,
       year_1433: year_1433,
       year_1434: year_1434,
@@ -128,7 +131,7 @@ class mausamiat extends Component {
         {/*1427 */}
         <section className="embed-section">
           <div className="container">
-            <div className="row">
+            <div className="row mausamiyatmargin">
               <div
                 class="accordion"
                 id="accordionExample"
@@ -156,7 +159,7 @@ class mausamiat extends Component {
         {/*1428 */}
         <section className="embed-section">
           <div className="container">
-            <div className="row">
+            <div className="row mausamiyatmargin">
               <div
                 class="accordion"
                 id="accordionExample"
@@ -184,7 +187,7 @@ class mausamiat extends Component {
         {/*1429 */}
         <section className="embed-section">
           <div className="container">
-            <div className="row">
+            <div className="row mausamiyatmargin">
               <div
                 class="accordion"
                 id="accordionExample"
@@ -212,7 +215,7 @@ class mausamiat extends Component {
 
         <section className="embed-section">
           <div className="container">
-            <div className="row">
+            <div className="row mausamiyatmargin">
               {/*Year 30 */}
               <div
                 class="accordion"
@@ -241,8 +244,8 @@ class mausamiat extends Component {
 
         <section className="embed-section">
           <div className="container">
-            <div className="row">
-              {/*Year 32 */}
+            <div className="row mausamiyatmargin">
+              {/*Year 31 */}
               <div
                 class="accordion"
                 id="accordionExample"
@@ -258,9 +261,9 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseFive"
                     >
-                      1432
+                      1431
                     </button>
-                    <Year_32 year1432={this.state.year_1432} />
+                    <Year_31 year1431={this.state.year_1431} />
                   </h2>
                 </div>
               </div>
@@ -270,8 +273,8 @@ class mausamiat extends Component {
 
         <section className="embed-section">
           <div className="container">
-            <div className="row">
-              {/*Year 33 */}
+            <div className="row mausamiyatmargin">
+              {/*Year 32 */}
               <div
                 class="accordion"
                 id="accordionExample"
@@ -287,9 +290,9 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseSix"
                     >
-                      1433
+                      1432
                     </button>
-                    <Year_33 year1433={this.state.year_1433} />
+                    <Year_32 year1432={this.state.year_1432} />
                   </h2>
                 </div>
               </div>
@@ -299,8 +302,8 @@ class mausamiat extends Component {
 
         <section className="embed-section">
           <div className="container">
-            <div className="row">
-              {/*Year 34 */}
+            <div className="row mausamiyatmargin">
+              {/*Year 33 */}
               <div
                 class="accordion"
                 id="accordionExample"
@@ -316,9 +319,9 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseSeven"
                     >
-                      1434
+                      1433
                     </button>
-                    <Year_34 year1434={this.state.year_1434} />
+                    <Year_33 year1433={this.state.year_1433} />
                   </h2>
                 </div>
               </div>
@@ -328,8 +331,8 @@ class mausamiat extends Component {
 
         <section className="embed-section">
           <div className="container">
-            <div className="row">
-              {/*Year 35 */}
+            <div className="row mausamiyatmargin">
+              {/*Year 34 */}
               <div
                 class="accordion"
                 id="accordionExample"
@@ -345,9 +348,9 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseEight"
                     >
-                      1435
+                      1434
                     </button>
-                    <Year_35 year1435={this.state.year_1435} />
+                    <Year_34 year1434={this.state.year_1434} />
                   </h2>
                 </div>
               </div>
@@ -357,8 +360,8 @@ class mausamiat extends Component {
 
         <section className="embed-section">
           <div className="container">
-            <div className="row">
-              {/*Year 36 */}
+            <div className="row mausamiyatmargin">
+              {/*Year 35 */}
               <div
                 class="accordion"
                 id="accordionExample"
@@ -374,9 +377,9 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseNine"
                     >
-                      1436
+                      1435
                     </button>
-                    <Year_36 year1436={this.state.year_1436} />
+                    <Year_35 year1435={this.state.year_1435} />
                   </h2>
                 </div>
               </div>
@@ -386,8 +389,8 @@ class mausamiat extends Component {
 
         <section className="embed-section">
           <div className="container">
-            <div className="row">
-              {/*Year 37 */}
+            <div className="row mausamiyatmargin">
+              {/*Year 36 */}
               <div
                 class="accordion"
                 id="accordionExample"
@@ -403,9 +406,9 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseTen"
                     >
-                      1437
+                      1436
                     </button>
-                    <Year_37 year1437={this.state.year_1437} />
+                    <Year_36 year1436={this.state.year_1436} />
                   </h2>
                 </div>
               </div>
@@ -415,8 +418,8 @@ class mausamiat extends Component {
 
         <section className="embed-section">
           <div className="container">
-            <div className="row">
-              {/*Year 38 */}
+            <div className="row mausamiyatmargin">
+              {/*Year 37 */}
               <div
                 class="accordion"
                 id="accordionExample"
@@ -432,9 +435,9 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseEleven"
                     >
-                      1438
+                      1437
                     </button>
-                    <Year_38 year1438={this.state.year_1438} />
+                    <Year_37 year1437={this.state.year_1437} />
                   </h2>
                 </div>
               </div>
@@ -444,8 +447,8 @@ class mausamiat extends Component {
 
         <section className="embed-section">
           <div className="container">
-            <div className="row">
-              {/*Year 39 */}
+            <div className="row mausamiyatmargin">
+              {/*Year 38 */}
               <div
                 class="accordion"
                 id="accordionExample"
@@ -461,9 +464,9 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseTwelve"
                     >
-                      1439
+                      1438
                     </button>
-                    <Year_39 year1439={this.state.year_1439} />
+                    <Year_38 year1438={this.state.year_1438} />
                   </h2>
                 </div>
               </div>
@@ -473,8 +476,8 @@ class mausamiat extends Component {
 
         <section className="embed-section">
           <div className="container">
-            <div className="row">
-              {/*Year 40 */}
+            <div className="row mausamiyatmargin">
+              {/*Year 39 */}
               <div
                 class="accordion"
                 id="accordionExample"
@@ -490,9 +493,9 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseThirteen"
                     >
-                      1440
+                      1439
                     </button>
-                    <Year_40 year1440={this.state.year_1440} />
+                    <Year_39 year1439={this.state.year_1439} />
                   </h2>
                 </div>
               </div>
@@ -502,8 +505,8 @@ class mausamiat extends Component {
 
         <section className="embed-section">
           <div className="container">
-            <div className="row">
-              {/*Year 41 */}
+            <div className="row mausamiyatmargin">
+              {/*Year 40 */}
               <div
                 class="accordion"
                 id="accordionExample"
@@ -518,6 +521,35 @@ class mausamiat extends Component {
                       data-bs-target="#collapseFourteen"
                       aria-expanded="true"
                       aria-controls="collapseFourteen"
+                    >
+                      1440
+                    </button>
+                    <Year_40 year1440={this.state.year_1440} />
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="embed-section">
+          <div className="container">
+            <div className="row mausamiyatmargin">
+              {/*Year 41 */}
+              <div
+                class="accordion"
+                id="accordionExample"
+                style={{ color: "#2e856e" }}
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFifteen">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFifteen"
+                      aria-expanded="true"
+                      aria-controls="collapseFifteen"
                     >
                       1441
                     </button>

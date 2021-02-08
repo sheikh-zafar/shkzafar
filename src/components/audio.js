@@ -6,6 +6,9 @@ import { Link } from "react-router-dom";
 import Jummuah from "../img/jummaicon.jpg";
 import tafseer from "../img/tafseericon.jpg";
 import Moon from "../img/moon.jpg";
+import Arkan from "../img/arkan.jpg";
+import Taweel from "../img/taweel.jpeg";
+import Mukhtasar from "../img/mukhtasar.jpeg";
 
 export default class audio extends Component {
   handleClick() {
@@ -63,11 +66,11 @@ export default class audio extends Component {
                   rel="noopener noreferrer"
                 >
                   <div className="rounded-links rounded-circle">
-                    <i
-                      className="fa fa-5x fa-calendar pt-4"
-                      style={{ color: "#2e856e" }}
-                      aria-hidden="true"
-                    ></i>
+                    <img
+                      src={Arkan}
+                      className="img-fluid rounded-circle"
+                      alt="Pillars of Islam"
+                    />
                   </div>
                   <div>
                     <h3 className="rounded-headname">Arkan al-Islam</h3>
@@ -77,7 +80,7 @@ export default class audio extends Component {
               <div className="col-md-3 col-sm-12 col-xs-6 d-flex justify-content-end d-sm-flex justify-content-center ">
                 <Link to="/audio/mausamiyat">
                   <div className="rounded-links rounded-circle">
-                  <img
+                    <img
                       src={Moon}
                       className="img-fluid rounded-circle"
                       alt="jummuah khutbah"
@@ -98,11 +101,11 @@ export default class audio extends Component {
               <div className="col-md-4 col-sm-12 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center">
                 <Link to="/audio/taweel">
                   <div className="rounded-links rounded-circle">
-                    <i
-                      className="fa fa-5x fa-calendar pt-4"
-                      style={{ color: "#2e856e" }}
-                      aria-hidden="true"
-                    ></i>
+                    <img
+                      src={Taweel}
+                      className="img-fluid rounded-circle"
+                      alt="Lectures of Sheikh zafarul hasan madani(Taweel)"
+                    />
                   </div>
                   <div>
                     <h3 className="rounded-headname">
@@ -118,11 +121,11 @@ export default class audio extends Component {
               <div className="col-md-4 col-sm-12 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-end ">
                 <Link to="/audio/muktasar">
                   <div className="rounded-links rounded-circle">
-                    <i
-                      className="fa fa-5x fa-calendar pt-4"
-                      style={{ color: "#2e856e" }}
-                      aria-hidden="true"
-                    ></i>
+                    <img
+                      src={Mukhtasar}
+                      className="img-fluid rounded-circle"
+                      alt="Lectures of Sheikh zafarul hasan madani(Mukhtasar)"
+                    />
                   </div>
                   <div>
                     <h3 className="rounded-headname">
