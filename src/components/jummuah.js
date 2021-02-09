@@ -39,9 +39,9 @@ export default class jummuah extends Component {
             className="img-fluid header-img pb-3"
             alt="Jumu'ah Khutbah"
           />
-          <div className="container">
-            <div class="row caption d-flex justify-content-between">
-              <div className="boardcard">
+          <div className="container-fluid">
+            <div class="row d-flex justify-content-between">
+              <div className="col">
                 <a
                   href="https://www.youtube.com/playlist?list=PLmZP1KIsC-hmuVCpduAT3dMDd-kZG6l4f"
                   target="_blank"
@@ -59,7 +59,7 @@ export default class jummuah extends Component {
                 </a>
               </div>
 
-              <div className="boardcard">
+              <div className="col">
                 <a
                   href="https://maps.app.goo.gl/YUVc2PvFgb9hhKsq6"
                   style={{ color: "#2e856e" }}
@@ -74,7 +74,7 @@ export default class jummuah extends Component {
                   </p>
                 </a>
               </div>
-              <div className="boardcard">
+              <div className="col">
                 <a
                   href="https://mixlr.com/zafarulhasan/"
                   target="_blank"
@@ -94,80 +94,34 @@ export default class jummuah extends Component {
               </div>
             </div>
           </div>
-          <div className="container">
-            <div class="row caption d-flex justify-content-between">
-              <div className="boardcard">
-                <a href="/" style={{ color: "#2e856e" }}>
-                  <i
-                    class="fa fa-youtube-play phoneicon"
-                    style={{ color: "red" }}
-                    aria-hidden="true"
-                  ></i>
-                </a>
-              </div>
-              <div className="boardcard">
-                <a href="/" style={{ color: "#2e856e" }}>
-                  <i
-                    className="fa fa-map-marker phoneicon"
-                    style={{ color: "#000000" }}
-                    aria-hidden="true"
-                  ></i>
-                </a>
-              </div>
-              <div className="boardcard">
-                <a href="/" style={{ color: "#2e856e" }}>
-                  {" "}
-                  <img
-                    src={mixlr}
-                    className="rounded mr-auto phoneicon"
-                    alt="zafarul hasan"
-                  />{" "}
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
 
         <div className="container  ">
           <div className="row ">
             <div className="col-md-12 text-center">
               <h3 class="heading-name" style={{ color: "beige" }}>
-                Latest Khutbah | آخر خطبة
+                آخر خطبة
               </h3>
             </div>
-            <iframe
-              title="sheikh-zafar"
-              src="https://archive.org/embed/2021-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=550"
-              className="m-3"
-              width="100%"
-              height="30"
-              frameborder="0"
-            ></iframe>
+            <div className="container">
+              <iframe
+                title="sheikh-zafar"
+                src="https://archive.org/embed/2021-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=550"
+                width="100%"
+                height="30"
+                frameborder="0"
+              ></iframe>
+            </div>
           </div>
         </div>
-        <div
-          className="container"
-          style={{
-            border: "5px dashed beige",
-            boxShadow:
-              "0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9)",
-          }}
-        >
+        <div className="container">
           <div className="row ">
-            <div className="col-md-12  text-center">
+            <div className="col d-flex justify-content-end">
               <h3 className="heading-name" style={{ color: "beige" }}>
                 2021 (۱٤٤۲ - ۱٤٤۳)
               </h3>
             </div>
-            <iframe
-              title="sheikh-zafar"
-              style={{ overflow: "hidden" }}
-              src="https://archive.org/embed/2021-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=400"
-              frameborder="0"
-              width="100%"
-              scrolling="no"
-            ></iframe>
-            <div className="container d-flex justify-content-center">
+            <div className="col pt-4">
               <a
                 href="https://drive.google.com/drive/folders/1l9T-CQ1PCrhLlLAa5c3-aQAokT0jLyXh"
                 target="_blank"
@@ -180,9 +134,17 @@ export default class jummuah extends Component {
                   marginBottom: "5px",
                 }}
               >
-                Download
+                <i class="fa fa-2x fa-download" aria-hidden="true"></i>
               </a>
             </div>
+            <iframe
+              title="sheikh-zafar"
+              style={{ overflow: "hidden" }}
+              src="https://archive.org/embed/2021-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=400"
+              frameborder="0"
+              width="100%"
+              scrolling="no"
+            ></iframe>
           </div>
         </div>
         {/*2020 */}

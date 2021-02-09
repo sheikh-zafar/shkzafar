@@ -83,419 +83,107 @@ class mausamiat extends Component {
           <div className="container">
             <div className="row text-center">
               <div class="col-md-6">
-                <img
-                  src={Muharram}
-                  className="img-fluid mausamiyatPoster"
-                  alt="muharram"
-                />
+                <a
+                  href="https://drive.google.com/drive/folders/1b5HZv_HcOAhF7X01w3iovI0KzIqCpprK"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={Muharram}
+                    className="img-fluid mausamiyatPoster"
+                    alt="muharram"
+                  />
+                </a>
               </div>
+
               <div class="col-md-6">
-                <img
-                  src={Safar}
-                  className="img-fluid mausamiyatPoster"
-                  alt="Safar"
-                />
+                <a
+                  href="https://drive.google.com/drive/folders/1QLxr6xTkaik9HDA9jn02Wrz5Ghp64i0p"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={Safar}
+                    className="img-fluid mausamiyatPoster"
+                    alt="Safar"
+                  />
+                </a>
               </div>
             </div>
           </div>
+
           <div className="container">
             <div className="row text-center">
               <div class="col-md-12">
-                <img
-                  src={Ramadan}
-                  className="img-fluid mausamiyatPoster"
-                  alt="muharram"
-                />
+                <a
+                  href="https://drive.google.com/drive/folders/18LVDJ92tAnbNLpjgXneExixWImoOF8mo"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={Ramadan}
+                    className="img-fluid mausamiyatPoster"
+                    alt="Ramadan"
+                  />
+                </a>
               </div>
             </div>
           </div>
+
           <div className="container">
             <div className="row text-center">
               <div class="col-md-6">
-                <img
-                  src={Dhulhijjah}
-                  className="img-fluid mausamiyatPoster"
-                  alt="Dhulhijjah"
-                />
+                <a
+                  href="https://drive.google.com/drive/folders/1PiPdszibzFuRKipSHQvlVe79TdWNZoWW"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={Dhulhijjah}
+                    className="img-fluid mausamiyatPoster"
+                    alt="Dhulhijjah"
+                  />{" "}
+                </a>
               </div>
+
               <div class="col-md-6">
-                <img
-                  src={Shaban}
-                  className="img-fluid mausamiyatPoster"
-                  alt="Shaban"
-                />
+                <a
+                  href="https://drive.google.com/drive/folders/13laZlvbf1xL-pA-g1Y23AjYlDbW2ck2P"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={Shaban}
+                    className="img-fluid mausamiyatPoster"
+                    alt="Shaban"
+                  />{" "}
+                </a>
               </div>
             </div>
           </div>
         </section>
-        {/*1427 */}
         <section className="embed-section">
           <div className="container">
             <div className="row mausamiyatmargin">
+              {/*Year 41 */}
               <div
                 class="accordion"
                 id="accordionExample"
                 style={{ color: "#2e856e" }}
               >
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
+                <div class="accordion-item ">
+                  <h2 class="accordion-header " id="headingFifteen">
                     <button
                       class="accordion-button"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne"
+                      data-bs-target="#collapseFifteen"
                       aria-expanded="true"
-                      aria-controls="collapseOne"
+                      aria-controls="collapseFifteen"
                     >
-                      1427
+                      1441
                     </button>
-                    <Year_27 year1427={this.state.year_1427} />
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/*1428 */}
-        <section className="embed-section">
-          <div className="container">
-            <div className="row mausamiyatmargin">
-              <div
-                class="accordion"
-                id="accordionExample"
-                style={{ color: "#2e856e" }}
-              >
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button
-                      class="accordion-button"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwo"
-                      aria-expanded="true"
-                      aria-controls="collapseTwo"
-                    >
-                      1428
-                    </button>
-                    <Year_28 year1428={this.state.year_1428} />
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/*1429 */}
-        <section className="embed-section">
-          <div className="container">
-            <div className="row mausamiyatmargin">
-              <div
-                class="accordion"
-                id="accordionExample"
-                style={{ color: "#2e856e" }}
-              >
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button
-                      class="accordion-button"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseThree"
-                      aria-expanded="true"
-                      aria-controls="collapseThree"
-                    >
-                      1429
-                    </button>
-                    <Year_29 year1429={this.state.year_1429} />
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="embed-section">
-          <div className="container">
-            <div className="row mausamiyatmargin">
-              {/*Year 30 */}
-              <div
-                class="accordion"
-                id="accordionExample"
-                style={{ color: "#2e856e" }}
-              >
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingFour">
-                    <button
-                      class="accordion-button"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseFour"
-                      aria-expanded="true"
-                      aria-controls="collapseFour"
-                    >
-                      1430
-                    </button>
-                    <Year_30 year1430={this.state.year_1430} />
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="embed-section">
-          <div className="container">
-            <div className="row mausamiyatmargin">
-              {/*Year 31 */}
-              <div
-                class="accordion"
-                id="accordionExample"
-                style={{ color: "#2e856e" }}
-              >
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingFive">
-                    <button
-                      class="accordion-button"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseFive"
-                      aria-expanded="true"
-                      aria-controls="collapseFive"
-                    >
-                      1431
-                    </button>
-                    <Year_31 year1431={this.state.year_1431} />
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="embed-section">
-          <div className="container">
-            <div className="row mausamiyatmargin">
-              {/*Year 32 */}
-              <div
-                class="accordion"
-                id="accordionExample"
-                style={{ color: "#2e856e" }}
-              >
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingSix">
-                    <button
-                      class="accordion-button"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseSix"
-                      aria-expanded="true"
-                      aria-controls="collapseSix"
-                    >
-                      1432
-                    </button>
-                    <Year_32 year1432={this.state.year_1432} />
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="embed-section">
-          <div className="container">
-            <div className="row mausamiyatmargin">
-              {/*Year 33 */}
-              <div
-                class="accordion"
-                id="accordionExample"
-                style={{ color: "#2e856e" }}
-              >
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingSeven">
-                    <button
-                      class="accordion-button"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseSeven"
-                      aria-expanded="true"
-                      aria-controls="collapseSeven"
-                    >
-                      1433
-                    </button>
-                    <Year_33 year1433={this.state.year_1433} />
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="embed-section">
-          <div className="container">
-            <div className="row mausamiyatmargin">
-              {/*Year 34 */}
-              <div
-                class="accordion"
-                id="accordionExample"
-                style={{ color: "#2e856e" }}
-              >
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingEight">
-                    <button
-                      class="accordion-button"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseEight"
-                      aria-expanded="true"
-                      aria-controls="collapseEight"
-                    >
-                      1434
-                    </button>
-                    <Year_34 year1434={this.state.year_1434} />
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="embed-section">
-          <div className="container">
-            <div className="row mausamiyatmargin">
-              {/*Year 35 */}
-              <div
-                class="accordion"
-                id="accordionExample"
-                style={{ color: "#2e856e" }}
-              >
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingNine">
-                    <button
-                      class="accordion-button"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseNine"
-                      aria-expanded="true"
-                      aria-controls="collapseNine"
-                    >
-                      1435
-                    </button>
-                    <Year_35 year1435={this.state.year_1435} />
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="embed-section">
-          <div className="container">
-            <div className="row mausamiyatmargin">
-              {/*Year 36 */}
-              <div
-                class="accordion"
-                id="accordionExample"
-                style={{ color: "#2e856e" }}
-              >
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTen">
-                    <button
-                      class="accordion-button"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseTen"
-                      aria-expanded="true"
-                      aria-controls="collapseTen"
-                    >
-                      1436
-                    </button>
-                    <Year_36 year1436={this.state.year_1436} />
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="embed-section">
-          <div className="container">
-            <div className="row mausamiyatmargin">
-              {/*Year 37 */}
-              <div
-                class="accordion"
-                id="accordionExample"
-                style={{ color: "#2e856e" }}
-              >
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingEleven">
-                    <button
-                      class="accordion-button"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseEleven"
-                      aria-expanded="true"
-                      aria-controls="collapseEleven"
-                    >
-                      1437
-                    </button>
-                    <Year_37 year1437={this.state.year_1437} />
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="embed-section">
-          <div className="container">
-            <div className="row mausamiyatmargin">
-              {/*Year 38 */}
-              <div
-                class="accordion"
-                id="accordionExample"
-                style={{ color: "#2e856e" }}
-              >
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwelve">
-                    <button
-                      class="accordion-button"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwelve"
-                      aria-expanded="true"
-                      aria-controls="collapseTwelve"
-                    >
-                      1438
-                    </button>
-                    <Year_38 year1438={this.state.year_1438} />
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="embed-section">
-          <div className="container">
-            <div className="row mausamiyatmargin">
-              {/*Year 39 */}
-              <div
-                class="accordion"
-                id="accordionExample"
-                style={{ color: "#2e856e" }}
-              >
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingThirteen">
-                    <button
-                      class="accordion-button"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseThirteen"
-                      aria-expanded="true"
-                      aria-controls="collapseThirteen"
-                    >
-                      1439
-                    </button>
-                    <Year_39 year1439={this.state.year_1439} />
+                    <Year_41 year1441={this.state.year_1441} />
                   </h2>
                 </div>
               </div>
@@ -535,25 +223,370 @@ class mausamiat extends Component {
         <section className="embed-section">
           <div className="container">
             <div className="row mausamiyatmargin">
-              {/*Year 41 */}
+              {/*Year 39 */}
               <div
                 class="accordion"
                 id="accordionExample"
                 style={{ color: "#2e856e" }}
               >
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingFifteen">
+                  <h2 class="accordion-header" id="headingThirteen">
                     <button
                       class="accordion-button"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#collapseFifteen"
+                      data-bs-target="#collapseThirteen"
                       aria-expanded="true"
-                      aria-controls="collapseFifteen"
+                      aria-controls="collapseThirteen"
                     >
-                      1441
+                      1439
                     </button>
-                    <Year_41 year1441={this.state.year_1441} />
+                    <Year_39 year1439={this.state.year_1439} />
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="embed-section">
+          <div className="container">
+            <div className="row mausamiyatmargin">
+              {/*Year 38 */}
+              <div
+                class="accordion"
+                id="accordionExample"
+                style={{ color: "#2e856e" }}
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwelve">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwelve"
+                      aria-expanded="true"
+                      aria-controls="collapseTwelve"
+                    >
+                      1438
+                    </button>
+                    <Year_38 year1438={this.state.year_1438} />
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="embed-section">
+          <div className="container">
+            <div className="row mausamiyatmargin">
+              {/*Year 37 */}
+              <div
+                class="accordion"
+                id="accordionExample"
+                style={{ color: "#2e856e" }}
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingEleven">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseEleven"
+                      aria-expanded="true"
+                      aria-controls="collapseEleven"
+                    >
+                      1437
+                    </button>
+                    <Year_37 year1437={this.state.year_1437} />
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="embed-section">
+          <div className="container">
+            <div className="row mausamiyatmargin">
+              {/*Year 36 */}
+              <div
+                class="accordion"
+                id="accordionExample"
+                style={{ color: "#2e856e" }}
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTen">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTen"
+                      aria-expanded="true"
+                      aria-controls="collapseTen"
+                    >
+                      1436
+                    </button>
+                    <Year_36 year1436={this.state.year_1436} />
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="embed-section">
+          <div className="container">
+            <div className="row mausamiyatmargin">
+              {/*Year 35 */}
+              <div
+                class="accordion"
+                id="accordionExample"
+                style={{ color: "#2e856e" }}
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingNine">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseNine"
+                      aria-expanded="true"
+                      aria-controls="collapseNine"
+                    >
+                      1435
+                    </button>
+                    <Year_35 year1435={this.state.year_1435} />
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="embed-section">
+          <div className="container">
+            <div className="row mausamiyatmargin">
+              {/*Year 34 */}
+              <div
+                class="accordion"
+                id="accordionExample"
+                style={{ color: "#2e856e" }}
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingEight">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseEight"
+                      aria-expanded="true"
+                      aria-controls="collapseEight"
+                    >
+                      1434
+                    </button>
+                    <Year_34 year1434={this.state.year_1434} />
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="embed-section">
+          <div className="container">
+            <div className="row mausamiyatmargin">
+              {/*Year 33 */}
+              <div
+                class="accordion"
+                id="accordionExample"
+                style={{ color: "#2e856e" }}
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingSeven">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSeven"
+                      aria-expanded="true"
+                      aria-controls="collapseSeven"
+                    >
+                      1433
+                    </button>
+                    <Year_33 year1433={this.state.year_1433} />
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="embed-section">
+          <div className="container">
+            <div className="row mausamiyatmargin">
+              {/*Year 32 */}
+              <div
+                class="accordion"
+                id="accordionExample"
+                style={{ color: "#2e856e" }}
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingSix">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSix"
+                      aria-expanded="true"
+                      aria-controls="collapseSix"
+                    >
+                      1432
+                    </button>
+                    <Year_32 year1432={this.state.year_1432} />
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="embed-section">
+          <div className="container">
+            <div className="row mausamiyatmargin">
+              {/*Year 31 */}
+              <div
+                class="accordion"
+                id="accordionExample"
+                style={{ color: "#2e856e" }}
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFive">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFive"
+                      aria-expanded="true"
+                      aria-controls="collapseFive"
+                    >
+                      1431
+                    </button>
+                    <Year_31 year1431={this.state.year_1431} />
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="embed-section">
+          <div className="container">
+            <div className="row mausamiyatmargin">
+              {/*Year 30 */}
+              <div
+                class="accordion"
+                id="accordionExample"
+                style={{ color: "#2e856e" }}
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                      aria-expanded="true"
+                      aria-controls="collapseFour"
+                    >
+                      1430
+                    </button>
+                    <Year_30 year1430={this.state.year_1430} />
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/*1429 */}
+        <section className="embed-section">
+          <div className="container">
+            <div className="row mausamiyatmargin">
+              <div
+                class="accordion"
+                id="accordionExample"
+                style={{ color: "#2e856e" }}
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="true"
+                      aria-controls="collapseThree"
+                    >
+                      1429
+                    </button>
+                    <Year_29 year1429={this.state.year_1429} />
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/*1428 */}
+        <section className="embed-section">
+          <div className="container">
+            <div className="row mausamiyatmargin">
+              <div
+                class="accordion"
+                id="accordionExample"
+                style={{ color: "#2e856e" }}
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="true"
+                      aria-controls="collapseTwo"
+                    >
+                      1428
+                    </button>
+                    <Year_28 year1428={this.state.year_1428} />
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/*1427 */}
+        <section className="embed-section">
+          <div className="container">
+            <div className="row mausamiyatmargin">
+              <div
+                class="accordion"
+                id="accordionExample"
+                style={{ color: "#2e856e" }}
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      1427
+                    </button>
+                    <Year_27 year1427={this.state.year_1427} />
                   </h2>
                 </div>
               </div>
