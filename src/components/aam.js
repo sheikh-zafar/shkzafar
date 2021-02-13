@@ -35,11 +35,7 @@ export default class aam extends Component {
                     <p className="lead pt-3">Isteqamat</p>
                   </div>
                   <div class="card-body pt-0">
-                    <p class="card-text" style={{ fontSize: "20px" }}>
-                      <i className="fa fa-map-marker" aria-hidden="true">
-                        Masjid Abdur Rahman Al-khas
-                      </i>
-                    </p>
+                    
                     <div className="row">
                       <div className="col">
                         <a
