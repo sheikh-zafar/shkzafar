@@ -19,8 +19,8 @@ export const tafseerdata = [
   },
   {
     _id: "audio3",
-    arabictitle: "کچھ لمحات سیریز",
-    englishtitle: "Kuch Lamhaat ki sath",
+    arabictitle: "کچھ لمحات قرآن کی آیتوں کے ساتھ",
+    englishtitle: "kuch lamhaat quran ki ayaton ke sath",
     archive: element,
     drive:
       "https://drive.google.com/drive/folders/1SiLCTL3E3qZi-l_EZKEgJDZqublAzWmi",
