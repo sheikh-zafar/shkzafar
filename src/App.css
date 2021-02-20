@@ -37,7 +37,10 @@ body {
   border-right: none;
   border-left: none;
 }
-
+.scholar {
+  height: 180px;
+  width: auto;
+}
 .heading-section {
   color: beige;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
@@ -445,6 +448,9 @@ h2 .accordion-header {
   margin: 3px;
   padding: 3px;
 }
+.paddingVideo {
+  padding-left: 30px;
+}
 .mausamiyatmargin {
   margin-right: 40vh;
   margin-left: 40vh;
@@ -499,6 +505,9 @@ h2 .accordion-header {
   .mausamiyatmargin {
     margin-right: 0;
     margin-left: 0;
+  }
+  .paddingVideo {
+    padding-left: 0%;
   }
 }
 
@@ -576,6 +585,9 @@ h2 .accordion-header {
   .mausamiyatmargin {
     margin-right: 0;
     margin-left: 0;
+  }
+  .paddingVideo {
+    padding-left: 0%;
   }
 }
 

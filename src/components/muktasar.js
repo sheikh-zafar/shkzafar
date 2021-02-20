@@ -113,6 +113,7 @@ export default class muktasar extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
+                          <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                           Listen
                         </a>
                       </div>
@@ -128,8 +129,20 @@ export default class muktasar extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
+                          <i class="fa fa-download" aria-hidden="true"></i>{" "}
                           Download
                         </a>
+                      </div>
+                      <div className="col">
+                        <Link to="/comingsoon" target="_blank" rel="noreferrer">
+                          <sup>
+                            <i
+                              class="fa fa-5x fa-youtube-play"
+                              style={{ color: "red" }}
+                              aria-hidden="true"
+                            ></i>
+                          </sup>
+                        </Link>
                       </div>
                     </div>
                   </div>

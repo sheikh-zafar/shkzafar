@@ -14,7 +14,7 @@ export default class Year_27 extends Component {
           <div class="accordion-body d-flex justify-content-center">
             <div className="row">
               <div
-                className="col-md-4 col-xs-4 col-sm-4"
+                className="col-md-3 col-xs-3 col-sm-3"
                 style={{
                   fontFamily: "Fredoka One",
                   fontSize: "20px",
@@ -23,7 +23,7 @@ export default class Year_27 extends Component {
               >
                 {year27.month}
               </div>
-              <div className="col-md-4 col-xs-4 col-sm-4">
+              <div className="col-md-3 col-xs-3 col-sm-3">
                 <Link
                   to="/comingsoon"
                   className="lead pt-3"
@@ -39,7 +39,7 @@ export default class Year_27 extends Component {
                   Listen
                 </Link>
               </div>
-              <div className="col-md-4 col-xs-4 col-sm-4">
+              <div className="col-md-3 col-xs-3 col-sm-3">
                 <a
                   href={year27.drive}
                   className="lead pt-3"
@@ -54,6 +54,22 @@ export default class Year_27 extends Component {
                 >
                   Download
                 </a>
+              </div>
+              <div className="col-md-3 col-xs-3 col-sm-3">
+                <Link
+                  to="/comingsoon"
+                  className="lead pt-3 paddingVideo"
+                  style={{
+                    fontFamily: "Fredoka One",
+                    fontSize: "20px",
+                    color: "#2e856e",
+                    textDecoration: "underline",
+                  }}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Watch
+                </Link>
               </div>
             </div>
           </div>

@@ -1,22 +1,23 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import SheikhName from "../img/sheikhname.jpg";
 
 export default class Navbar extends Component {
   render() {
     return (
       <div>
         <section className="heading-section">
-          <div className="container d-flex justify-content-center">
+          <div className="container d-flex justify-content-end">
             <div>
-              <h1 className="heading-name">
-                فضيلة الشيخ ظفر الحسن مدني حفظه اللّه
-              </h1>
+              <img
+                className="img-fluid scholar"
+                src={SheikhName}
+                alt="Sheikh Zafar ul hasan"
+              />
             </div>
             <hr />
           </div>
-          <div className="text-center mt-0">
-            <p className="heading-lead mt-0">SHAIKH ZAFAR UL HASAN MADANI</p>
-          </div>
+
           <nav class="navbar navbar-expand-lg navbar-color center">
             <button
               class="navbar-toggler"
