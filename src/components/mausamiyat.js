@@ -16,6 +16,7 @@ import Year_38 from "./Year_38";
 import Year_39 from "./Year_39";
 import Year_40 from "./Year_40";
 import Year_41 from "./Year_41";
+import Year_42 from "./Year_42";
 import { year_1427 } from "../year_1427";
 import { year_1428 } from "../year_1428";
 import { year_1429 } from "../year_1429";
@@ -31,11 +32,13 @@ import { year_1438 } from "../year_1438";
 import { year_1439 } from "../year_1439";
 import { year_1440 } from "../year_1440";
 import { year_1441 } from "../year_1441";
+import { year_1442 } from "../year_1442";
 import Ramadan from "../img/ramadan.png";
 import Shaban from "../img/shaban.jpeg";
 import Safar from "../img/safar.jpg";
 import Muharram from "../img/muharram.jpg";
 import Dhulhijjah from "../img/dhulhijjah.jpeg";
+import Rajab from "../img/rajab.png";
 import Footer from "./footer";
 
 class mausamiat extends Component {
@@ -57,6 +60,7 @@ class mausamiat extends Component {
       year_1439: year_1439,
       year_1440: year_1440,
       year_1441: year_1441,
+      year_1442: year_1442,
     };
   }
   render() {
@@ -80,8 +84,8 @@ class mausamiat extends Component {
           </div>
         </section>
         <section className="embed-section">
-          <div className="container">
-            <div className="row text-center">
+          <div className="container ">
+            <div className="row text-center ">
               <div class="col-md-6">
                 <a
                   href="https://drive.google.com/drive/folders/1b5HZv_HcOAhF7X01w3iovI0KzIqCpprK"
@@ -114,7 +118,7 @@ class mausamiat extends Component {
 
           <div className="container">
             <div className="row text-center">
-              <div class="col-md-12">
+              <div class="col-md-6">
                 <a
                   href="https://drive.google.com/drive/folders/18LVDJ92tAnbNLpjgXneExixWImoOF8mo"
                   target="_blank"
@@ -122,6 +126,19 @@ class mausamiat extends Component {
                 >
                   <img
                     src={Ramadan}
+                    className="img-fluid mausamiyatPoster"
+                    alt="Ramadan"
+                  />
+                </a>
+              </div>
+              <div class="col-md-6">
+                <a
+                  href="https://drive.google.com/drive/folders/1D57h2I6_UyjknJBqtn6PWaNhGe8Hx7fR"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={Rajab}
                     className="img-fluid mausamiyatPoster"
                     alt="Ramadan"
                   />
@@ -140,7 +157,7 @@ class mausamiat extends Component {
                 >
                   <img
                     src={Dhulhijjah}
-                    className="img-fluid mausamiyatPoster"
+                    className="img-fluid mausamiyatPoster "
                     alt="Dhulhijjah"
                   />{" "}
                 </a>
@@ -158,6 +175,34 @@ class mausamiat extends Component {
                     alt="Shaban"
                   />{" "}
                 </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="embed-section">
+          <div className="container">
+            <div className="row mausamiyatmargin">
+              {/*Year 42 */}
+              <div
+                class="accordion"
+                id="accordionExample"
+                style={{ color: "#2e856e" }}
+              >
+                <div class="accordion-item ">
+                  <h2 class="accordion-header " id="headingSixteen">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSixteen"
+                      aria-expanded="true"
+                      aria-controls="collapseSixteen"
+                    >
+                      1442
+                    </button>
+                    <Year_42 year1442={this.state.year_1442} />
+                  </h2>
+                </div>
               </div>
             </div>
           </div>

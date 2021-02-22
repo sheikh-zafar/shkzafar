@@ -31,8 +31,8 @@ export default class muktasar extends Component {
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
                   <div class="card-header pb-0">
-                    رفع المرام
-                    <p className="lead pt-3">Raf'ul Maram</p>
+                    رفع الملام
+                    <p className="lead pt-3">Raf'ul Malam</p>
                     <h5 class="card-title" style={{ color: "#2e856e" }}>
                       29th,November,'2016 - 03,December,'2016
                     </h5>
@@ -44,7 +44,7 @@ export default class muktasar extends Component {
                   </div>
                   <div class="card-body">
                     <div className="row">
-                      <div className="col-md-6 col-xs-6 col-sm-6">
+                      <div className="col">
                         <a
                           href="https://archive.org/embed/raf-al-malam-an-al-aimmat-al-alam-zafarulhasan-madani&playlist=1&list_height=550"
                           className="btn btn btn-lg btn-outline-dark"
@@ -56,10 +56,11 @@ export default class muktasar extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
+                          <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                           Listen
                         </a>
                       </div>
-                      <div className="col-md-6 col-xs-6 col-sm-6">
+                      <div className="col">
                         <a
                           href="https://drive.google.com/drive/folders/1-lsbdF9fKIoVkT5l2HMBv_0jsD8VoapL"
                           target="_blank"
@@ -71,7 +72,24 @@ export default class muktasar extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
+                          <i class="fa fa-download" aria-hidden="true"></i>{" "}
                           Download
+                        </a>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://www.youtube.com/watch?v=pNvjCyK7zs4&list=PLmZP1KIsC-hn__yls0YW0POpbt-Hp4APZ"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          <i class="fa fa-video-camera" aria-hidden="true"></i>{" "}
+                          Watch
                         </a>
                       </div>
                     </div>
@@ -101,7 +119,7 @@ export default class muktasar extends Component {
                   </div>
                   <div class="card-body">
                     <div className="row">
-                      <div className="col">
+                      <div className="col col-xs-12">
                         <a
                           href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani&playlist=1&list_height=550"
                           className="btn btn btn-lg btn-outline-dark"
@@ -117,7 +135,7 @@ export default class muktasar extends Component {
                           Listen
                         </a>
                       </div>
-                      <div className="col">
+                      <div className="col col-xs-12">
                         <a
                           href="https://drive.google.com/drive/folders/1Fx6WbJG3y2mmkrSuKSWXJZz3FBwd80mf"
                           target="_blank"
@@ -134,15 +152,20 @@ export default class muktasar extends Component {
                         </a>
                       </div>
                       <div className="col">
-                        <Link to="/comingsoon" target="_blank" rel="noreferrer">
-                          <sup>
-                            <i
-                              class="fa fa-5x fa-youtube-play"
-                              style={{ color: "red" }}
-                              aria-hidden="true"
-                            ></i>
-                          </sup>
-                        </Link>
+                        <a
+                          href="https://www.youtube.com/c/ZafarulHasan/featured"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          <i class="fa fa-video-camera" aria-hidden="true"></i>{" "}
+                          Watch
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -183,6 +206,7 @@ export default class muktasar extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
+                          <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                           Listen
                         </a>
                       </div>
@@ -198,8 +222,25 @@ export default class muktasar extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
+                          <i class="fa fa-download" aria-hidden="true"></i>{" "}
                           Download
                         </a>
+                      </div>
+                      <div className="col">
+                        <Link
+                          to="/comingsoon"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          <i class="fa fa-video-camera" aria-hidden="true"></i>{" "}
+                          Watch
+                        </Link>
                       </div>
                     </div>
                   </div>

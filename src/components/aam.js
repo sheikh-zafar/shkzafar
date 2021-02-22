@@ -48,6 +48,7 @@ export default class aam extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
+                          <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                           Listen
                         </a>
                       </div>
@@ -62,7 +63,23 @@ export default class aam extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
+                          <i class="fa fa-download" aria-hidden="true"></i>{" "}
                           Download
+                        </a>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://www.youtube.com/c/ZafarulHasan/featured"
+                          target="_newtab"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          <i class="fa fa-youtube-play" aria-hidden="true"></i>{" "}
+                          Watch
                         </a>
                       </div>
                     </div>
@@ -96,6 +113,7 @@ export default class aam extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
+                          <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                           Listen
                         </Link>
                       </div>
@@ -110,7 +128,23 @@ export default class aam extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
+                          <i class="fa fa-download" aria-hidden="true"></i>{" "}
                           Download
+                        </a>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://www.youtube.com/watch?v=9aaM8FaCXBo&list=PLmZP1KIsC-hk9I9izzkKXm2DO05-5-YsY"
+                          target="_newtab"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          <i class="fa fa-youtube-play" aria-hidden="true"></i>{" "}
+                          Watch
                         </a>
                       </div>
                     </div>

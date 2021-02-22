@@ -48,6 +48,7 @@ export default class taweel extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
+                          <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                           Listen
                         </a>
                       </div>
@@ -63,7 +64,24 @@ export default class taweel extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
+                          <i class="fa fa-download" aria-hidden="true"></i>{" "}
                           Download
+                        </a>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://www.youtube.com/watch?v=A_GfTdyV0Y0&list=PLmZP1KIsC-hnmXQn8oulAyQDd3l8xjyDo"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          <i class="fa fa-youtube-play" aria-hidden="true"></i>{" "}
+                          Watch
                         </a>
                       </div>
                     </div>
@@ -97,6 +115,7 @@ export default class taweel extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
+                          <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                           Listen
                         </a>
                       </div>
@@ -112,7 +131,24 @@ export default class taweel extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
+                          <i class="fa fa-download" aria-hidden="true"></i>{" "}
                           Download
+                        </a>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://www.youtube.com/watch?v=uWYV4PLluxw&list=PLmZP1KIsC-hltNDJamXol6XA04VzJKIng"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          <i class="fa fa-youtube-play" aria-hidden="true"></i>{" "}
+                          Watch
                         </a>
                       </div>
                     </div>
@@ -146,6 +182,7 @@ export default class taweel extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
+                          <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                           Listen
                         </Link>
                       </div>
@@ -161,7 +198,24 @@ export default class taweel extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
+                          <i class="fa fa-download" aria-hidden="true"></i>{" "}
                           Download
+                        </a>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://www.youtube.com/c/ZafarulHasan/featured"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          <i class="fa fa-youtube-play" aria-hidden="true"></i>{" "}
+                          Watch
                         </a>
                       </div>
                     </div>
@@ -195,6 +249,7 @@ export default class taweel extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
+                          <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                           Listen
                         </a>
                       </div>
@@ -210,7 +265,24 @@ export default class taweel extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
+                          <i class="fa fa-download" aria-hidden="true"></i>{" "}
                           Download
+                        </a>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://www.youtube.com/watch?v=pUz6chLXUfw&list=PLmZP1KIsC-hlVgAZOuDvaowaj9uPKoYWL"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          <i class="fa fa-youtube-play" aria-hidden="true"></i>{" "}
+                          Watch
                         </a>
                       </div>
                     </div>
@@ -245,6 +317,7 @@ export default class taweel extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
+                          <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                           Listen
                         </a>
                       </div>
@@ -260,7 +333,24 @@ export default class taweel extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
+                          <i class="fa fa-download" aria-hidden="true"></i>{" "}
                           Download
+                        </a>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://www.youtube.com/watch?v=L1HK1mwyLbI&list=PLmZP1KIsC-hk_6GGFntSM-IwahZs_cJb6"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          <i class="fa fa-youtube-play" aria-hidden="true"></i>{" "}
+                          Watch
                         </a>
                       </div>
                     </div>
@@ -294,6 +384,7 @@ export default class taweel extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
+                          <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                           Listen
                         </Link>
                       </div>
@@ -309,7 +400,24 @@ export default class taweel extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
+                          <i class="fa fa-download" aria-hidden="true"></i>{" "}
                           Download
+                        </a>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://www.youtube.com/watch?v=BfXHHDUZZmw&list=PLmZP1KIsC-hm8ojp4-oHK9GMrHKjcIDyB"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          <i class="fa fa-youtube-play" aria-hidden="true"></i>{" "}
+                          Watch
                         </a>
                       </div>
                     </div>

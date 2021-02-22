@@ -35,6 +35,7 @@ export default class Products extends Component {
                               fontFamily: "Righteous",
                             }}
                           >
+                            <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                             Listen
                           </Link>
                         </div>
@@ -50,7 +51,27 @@ export default class Products extends Component {
                               fontFamily: "Righteous",
                             }}
                           >
+                            <i class="fa fa-download" aria-hidden="true"></i>{" "}
                             Download
+                          </a>
+                        </div>
+                        <div className="col">
+                          <a
+                            href={qurantafseer.youtube}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="btn btn btn-lg btn-outline-dark"
+                            style={{
+                              backgroundColor: "#2e856e",
+                              color: "beige",
+                              fontFamily: "Righteous",
+                            }}
+                          >
+                            <i
+                              class="fa fa-youtube-play"
+                              aria-hidden="true"
+                            ></i>{" "}
+                            Watch
                           </a>
                         </div>
                       </div>

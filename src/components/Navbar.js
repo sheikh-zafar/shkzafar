@@ -51,7 +51,7 @@ export default class Navbar extends Component {
                   <li className="nav-item">
                     <Link to="/audio">
                       <a className="nav-link" href="/audio">
-                        Audios
+                        Duroos
                       </a>
                     </Link>
                   </li>

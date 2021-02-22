@@ -96,13 +96,8 @@ export default class jummuah extends Component {
           </div>
         </div>
 
-        <div className="container  ">
+        <div className="container  pt-3">
           <div className="row ">
-            <div className="col-md-12 text-center">
-              <h3 class="heading-name" style={{ color: "beige" }}>
-                آخر خطبة
-              </h3>
-            </div>
             <div className="container">
               <iframe
                 title="sheikh-zafar"
@@ -171,6 +166,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                         Listen
                       </a>
                     </div>
@@ -186,6 +182,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-download" aria-hidden="true"></i>{" "}
                         Download
                       </a>
                     </div>
@@ -220,6 +217,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                         Listen
                       </a>
                     </div>
@@ -235,6 +233,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-download" aria-hidden="true"></i>{" "}
                         Download
                       </a>
                     </div>
@@ -268,6 +267,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                         Listen
                       </a>
                     </div>
@@ -283,6 +283,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-download" aria-hidden="true"></i>{" "}
                         Download
                       </a>
                     </div>
@@ -316,6 +317,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                         Listen
                       </a>
                     </div>
@@ -331,6 +333,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-download" aria-hidden="true"></i>{" "}
                         Download
                       </a>
                     </div>
@@ -364,6 +367,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                         Listen
                       </a>
                     </div>
@@ -379,6 +383,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-download" aria-hidden="true"></i>{" "}
                         Download
                       </a>
                     </div>
@@ -412,6 +417,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                         Listen
                       </a>
                     </div>
@@ -427,6 +433,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-download" aria-hidden="true"></i>{" "}
                         Download
                       </a>
                     </div>
@@ -460,6 +467,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                         Listen
                       </a>
                     </div>
@@ -475,6 +483,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-download" aria-hidden="true"></i>{" "}
                         Download
                       </a>
                     </div>
@@ -508,6 +517,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                         Listen
                       </a>
                     </div>
@@ -523,6 +533,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-download" aria-hidden="true"></i>{" "}
                         Download
                       </a>
                     </div>
@@ -556,6 +567,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                         Listen
                       </a>
                     </div>
@@ -571,6 +583,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-download" aria-hidden="true"></i>{" "}
                         Download
                       </a>
                     </div>
@@ -604,6 +617,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                         Listen
                       </a>
                     </div>
@@ -619,6 +633,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-download" aria-hidden="true"></i>{" "}
                         Download
                       </a>
                     </div>
@@ -652,6 +667,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                         Listen
                       </a>
                     </div>
@@ -667,6 +683,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-download" aria-hidden="true"></i>{" "}
                         Download
                       </a>
                     </div>
@@ -699,6 +716,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                         Listen
                       </a>
                     </div>
@@ -714,6 +732,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-download" aria-hidden="true"></i>{" "}
                         Download
                       </a>
                     </div>
@@ -747,6 +766,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                         Listen
                       </a>
                     </div>
@@ -762,6 +782,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-download" aria-hidden="true"></i>{" "}
                         Download
                       </a>
                     </div>
@@ -795,6 +816,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                         Listen
                       </a>
                     </div>
@@ -810,6 +832,7 @@ export default class jummuah extends Component {
                           fontFamily: "Righteous",
                         }}
                       >
+                        <i class="fa fa-download" aria-hidden="true"></i>{" "}
                         Download
                       </a>
                     </div>
