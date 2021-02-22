@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "./footer";
 import "react-calendar/dist/Calendar.css";
-import bam2 from "../img/bam2.jpg";
+import bam2 from "../img/bulugh.jpg";
 import shamail2 from "../img/shamail2.jpg";
 import shamailslide from "../img/shamailslide.jpg";
 import sharhsunnah2 from "../img/sharhsunnah2.jpg";
