@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e90cbf33.chunk.css",
-    "main.js": "/static/js/main.fb76aceb.chunk.js",
-    "main.js.map": "/static/js/main.fb76aceb.chunk.js.map",
+    "main.js": "/static/js/main.4c422945.chunk.js",
+    "main.js.map": "/static/js/main.4c422945.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3dbf9d90.js",
     "runtime-main.js.map": "/static/js/runtime-main.3dbf9d90.js.map",
     "static/css/2.f1a1079b.chunk.css": "/static/css/2.f1a1079b.chunk.css",
@@ -13,6 +13,7 @@
     "static/css/main.e90cbf33.chunk.css.map": "/static/css/main.e90cbf33.chunk.css.map",
     "static/js/2.804a6e7a.chunk.js.LICENSE.txt": "/static/js/2.804a6e7a.chunk.js.LICENSE.txt",
     "static/media/arkan.7cdb85d3.jpg": "/static/media/arkan.7cdb85d3.jpg",
+    "static/media/bulugh.4a954cde.jpg": "/static/media/bulugh.4a954cde.jpg",
     "static/media/bulugh.f8250d20.png": "/static/media/bulugh.f8250d20.png",
     "static/media/coffee": "/static/media/coffee.a3444b2c.bin",
     "static/media/covid.9d399de8.jpeg": "/static/media/covid.9d399de8.jpeg",
@@ -39,6 +40,6 @@
     "static/css/2.f1a1079b.chunk.css",
     "static/js/2.804a6e7a.chunk.js",
     "static/css/main.e90cbf33.chunk.css",
-    "static/js/main.fb76aceb.chunk.js"
+    "static/js/main.4c422945.chunk.js"
   ]
 }
