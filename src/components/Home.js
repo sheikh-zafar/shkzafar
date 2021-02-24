@@ -301,6 +301,22 @@ export default class Home extends Component {
                         Download
                       </a>
                     </div>
+                    <div className="col">
+                      <a
+                        href="https://www.youtube.com/watch?v=-Zy5GaMI2_U&list=PLmZP1KIsC-hmuVCpduAT3dMDd-kZG6l4f"
+                        className="lead pt-3"
+                        style={{
+                          fontFamily: "Fredoka One",
+                          fontSize: "20px",
+                          color: "beige",
+                          textDecoration: "underline",
+                        }}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Watch
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -353,6 +369,22 @@ export default class Home extends Component {
                         rel="noreferrer"
                       >
                         Download
+                      </a>
+                    </div>
+                    <div className="col">
+                      <a
+                        href="https://www.youtube.com/watch?v=2iinT78L7Jo&list=PLmZP1KIsC-hnPUPMq7dyV3r8KVP-0G9Vi"
+                        className="lead pt-3"
+                        style={{
+                          fontFamily: "Fredoka One",
+                          fontSize: "20px",
+                          color: "beige",
+                          textDecoration: "underline",
+                        }}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Watch
                       </a>
                     </div>
                   </div>
@@ -410,6 +442,22 @@ export default class Home extends Component {
                         Download
                       </a>
                     </div>
+                    <div className="col">
+                      <a
+                        href="https://www.youtube.com/watch?v=A_GfTdyV0Y0&list=PLmZP1KIsC-hnmXQn8oulAyQDd3l8xjyDo"
+                        className="lead pt-3"
+                        style={{
+                          fontFamily: "Fredoka One",
+                          fontSize: "20px",
+                          color: "beige",
+                          textDecoration: "underline",
+                        }}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Watch
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>{" "}
@@ -462,6 +510,22 @@ export default class Home extends Component {
                         rel="noreferrer"
                       >
                         Download
+                      </a>
+                    </div>
+                    <div className="col">
+                      <a
+                        href="https://www.youtube.com/watch?v=uWYV4PLluxw&list=PLmZP1KIsC-hltNDJamXol6XA04VzJKIng"
+                        className="lead pt-3"
+                        style={{
+                          fontFamily: "Fredoka One",
+                          fontSize: "20px",
+                          color: "beige",
+                          textDecoration: "underline",
+                        }}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Watch
                       </a>
                     </div>
                   </div>
@@ -517,6 +581,22 @@ export default class Home extends Component {
                       >
                         Download
                       </Link>
+                    </div>
+                    <div className="col">
+                      <a
+                        href="https://www.youtube.com/watch?v=L1HK1mwyLbI&list=PLmZP1KIsC-hk_6GGFntSM-IwahZs_cJb6"
+                        className="lead pt-3"
+                        style={{
+                          fontFamily: "Fredoka One",
+                          fontSize: "20px",
+                          color: "beige",
+                          textDecoration: "underline",
+                        }}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Watch
+                      </a>
                     </div>
                   </div>
                 </div>
