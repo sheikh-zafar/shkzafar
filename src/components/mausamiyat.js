@@ -71,7 +71,7 @@ class mausamiat extends Component {
           <div className="container">
             <div className="row text-center">
               <div class="col-md-12">
-                <h5 className="audio-display-head">موساميات</h5>
+                <h5 className="audio-display-head">موسمية</h5>
                 <p
                   className="lead"
                   style={{ fontFamily: "Fredoka One", fontSize: "20px" }}
