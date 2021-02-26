@@ -140,12 +140,7 @@ export default class Home extends Component {
                 </section>
               </div>
               <div className=" col-lg-7 col-md-7 col-sm-10 col-xs-12">
-                <div
-                  className="container  px-0 pt-1"
-                  style={{ fontFamily: "Fredoka One", fontSize: "20px" }}
-                >
-                  Live Broadcast on Mixlr
-                </div>
+                
                 <section className="mixlr-section">
                   <iframe
                     title="shaikh-zafar"
