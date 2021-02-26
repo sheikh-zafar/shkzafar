@@ -127,7 +127,7 @@ export default class Home extends Component {
         <section className="embed-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-5 col-md-5 col-sm-10 col-xs-12 py-4">
+              <div className="col-lg-5 col-md-5 col-sm-10 col-xs-12 ">
                 <section className="mixlr-section calendar">
                   <iframe
                     title="calendar"
@@ -140,7 +140,6 @@ export default class Home extends Component {
                 </section>
               </div>
               <div className=" col-lg-7 col-md-7 col-sm-10 col-xs-12">
-                
                 <section className="mixlr-section">
                   <iframe
                     title="shaikh-zafar"
