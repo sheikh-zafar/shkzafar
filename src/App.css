@@ -72,6 +72,10 @@ Link .nav-link:hover {
 .navbar-color {
   background: url("../src/img/beigebg.jpeg");
 }
+.homeYoutube {
+  height: 50px;
+  width: 50px;
+}
 
 .heading-section h1 {
   color: beige;

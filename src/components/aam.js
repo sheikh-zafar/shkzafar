@@ -69,7 +69,7 @@ export default class aam extends Component {
                       </div>
                       <div className="col">
                         <a
-                          href="https://www.youtube.com/c/ZafarulHasan/featured"
+                          href="https://www.youtube.com/playlist?list=PLmZP1KIsC-hmd_vS2BTCk6n43tGG5IaIr"
                           target="_newtab"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
@@ -134,7 +134,7 @@ export default class aam extends Component {
                       </div>
                       <div className="col">
                         <a
-                          href="https://www.youtube.com/watch?v=9aaM8FaCXBo&list=PLmZP1KIsC-hk9I9izzkKXm2DO05-5-YsY"
+                          href="https://www.youtube.com/playlist?list=PLmZP1KIsC-hk9I9izzkKXm2DO05-5-YsY"
                           target="_newtab"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{

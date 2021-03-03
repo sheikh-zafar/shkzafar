@@ -70,7 +70,7 @@ export default class taweel extends Component {
                       </div>
                       <div className="col">
                         <a
-                          href="https://www.youtube.com/watch?v=A_GfTdyV0Y0&list=PLmZP1KIsC-hnmXQn8oulAyQDd3l8xjyDo"
+                          href="https://www.youtube.com/playlist?list=PLmZP1KIsC-hnmXQn8oulAyQDd3l8xjyDo"
                           target="_blank"
                           rel="noreferrer"
                           className="btn btn btn-lg btn-outline-dark"
@@ -137,7 +137,7 @@ export default class taweel extends Component {
                       </div>
                       <div className="col">
                         <a
-                          href="https://www.youtube.com/watch?v=uWYV4PLluxw&list=PLmZP1KIsC-hltNDJamXol6XA04VzJKIng"
+                          href="https://www.youtube.com/playlist?list=PLmZP1KIsC-hltNDJamXol6XA04VzJKIng"
                           target="_blank"
                           rel="noreferrer"
                           className="btn btn btn-lg btn-outline-dark"
@@ -271,7 +271,7 @@ export default class taweel extends Component {
                       </div>
                       <div className="col">
                         <a
-                          href="https://www.youtube.com/watch?v=pUz6chLXUfw&list=PLmZP1KIsC-hlVgAZOuDvaowaj9uPKoYWL"
+                          href="https://www.youtube.com/playlist?list=PLmZP1KIsC-hlVgAZOuDvaowaj9uPKoYWL"
                           target="_blank"
                           rel="noreferrer"
                           className="btn btn btn-lg btn-outline-dark"
@@ -339,7 +339,7 @@ export default class taweel extends Component {
                       </div>
                       <div className="col">
                         <a
-                          href="https://www.youtube.com/watch?v=L1HK1mwyLbI&list=PLmZP1KIsC-hk_6GGFntSM-IwahZs_cJb6"
+                          href="https://www.youtube.com/playlist?list=PLmZP1KIsC-hk_6GGFntSM-IwahZs_cJb6"
                           target="_blank"
                           rel="noreferrer"
                           className="btn btn btn-lg btn-outline-dark"
@@ -406,7 +406,7 @@ export default class taweel extends Component {
                       </div>
                       <div className="col">
                         <a
-                          href="https://www.youtube.com/watch?v=BfXHHDUZZmw&list=PLmZP1KIsC-hm8ojp4-oHK9GMrHKjcIDyB"
+                          href="https://www.youtube.com/playlist?list=PLmZP1KIsC-hm8ojp4-oHK9GMrHKjcIDyB"
                           target="_blank"
                           rel="noreferrer"
                           className="btn btn btn-lg btn-outline-dark"

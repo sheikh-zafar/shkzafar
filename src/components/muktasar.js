@@ -78,7 +78,7 @@ export default class muktasar extends Component {
                       </div>
                       <div className="col">
                         <a
-                          href="https://www.youtube.com/watch?v=pNvjCyK7zs4&list=PLmZP1KIsC-hn__yls0YW0POpbt-Hp4APZ"
+                          href="https://www.youtube.com/playlist?list=PLmZP1KIsC-hn__yls0YW0POpbt-Hp4APZ"
                           target="_blank"
                           rel="noreferrer"
                           className="btn btn btn-lg btn-outline-dark"
@@ -153,7 +153,7 @@ export default class muktasar extends Component {
                       </div>
                       <div className="col">
                         <a
-                          href="https://www.youtube.com/c/ZafarulHasan/featured"
+                          href="https://www.youtube.com/playlist?list=PLmZP1KIsC-hn_EzJv5bmRNWRmC2eJSTvO"
                           target="_blank"
                           rel="noreferrer"
                           className="btn btn btn-lg btn-outline-dark"

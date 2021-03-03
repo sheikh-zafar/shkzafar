@@ -1,14 +1,17 @@
 import { Link } from "react-router-dom";
 const element = <Link to="/comingsoon" />;
+
 export const tafseerdata = [
   {
     _id: "audio1",
     arabictitle: "سورة فاتحة",
     englishtitle: "Surah Fathiha",
-    archive: element,
+    archive:
+      "https://archive.org/embed/tafseer-surah-al-fatihah-zafarulhasan-madani&playlist=1&list_height=400",
     drive:
       "https://drive.google.com/drive/folders/1nkn6uvAhcVPAeLqURfsUN0mw-Vg4PhrQ",
-    youtube: "https://www.youtube.com/c/ZafarulHasan/featured",
+    youtube:
+      "https://www.youtube.com/playlist?list=PLmZP1KIsC-hmrbtAWVVqCe3I_ckqaZ80L",
   },
   {
     _id: "audio2",
@@ -18,7 +21,7 @@ export const tafseerdata = [
     drive:
       "https://drive.google.com/drive/folders/17UNI3BabAtn21SfincwBlOhOMSk9gImA",
     youtube:
-      "https://www.youtube.com/watch?v=6K09G7PaWbM&list=PLmZP1KIsC-hnAHHcPBXl9Dp4mFY5aLUTs",
+      "https://www.youtube.com/playlist?list=PLmZP1KIsC-hnAHHcPBXl9Dp4mFY5aLUTs",
   },
   {
     _id: "audio3",
@@ -27,7 +30,8 @@ export const tafseerdata = [
     archive: element,
     drive:
       "https://drive.google.com/drive/folders/1SiLCTL3E3qZi-l_EZKEgJDZqublAzWmi",
-    youtube: "https://www.youtube.com/c/ZafarulHasan/featured",
+    youtube:
+      "https://www.youtube.com/playlist?list=PLmZP1KIsC-hnrazfbhgRG98SxE3j-8lTf",
   },
 
   {
@@ -38,7 +42,7 @@ export const tafseerdata = [
     drive:
       "https://drive.google.com/drive/folders/1_DVbZm2rItVlUumvpvsMN_grNisfZvgY",
     youtube:
-      "https://www.youtube.com/watch?v=kEP5RvTvqNI&list=PLmZP1KIsC-hkqk4C-GaDhjeeJ6EOMrKQn",
+      "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqk4C-GaDhjeeJ6EOMrKQn",
   },
   {
     _id: "audio5",
@@ -48,7 +52,7 @@ export const tafseerdata = [
     drive:
       "https://drive.google.com/drive/folders/1wtOGs_z1LXPLo4mSQ_-efg_-v5SJTQ9q",
     youtube:
-      "https://www.youtube.com/watch?v=vd_s6yyGWDQ&list=PLmZP1KIsC-hnUIJCsllm7pOS69SFVYp6s",
+      "https://www.youtube.com/playlist?list=PLmZP1KIsC-hnUIJCsllm7pOS69SFVYp6s",
   },
   {
     _id: "audio6",
@@ -58,7 +62,7 @@ export const tafseerdata = [
     drive:
       "https://drive.google.com/drive/folders/1G8aGJm0FBAJTwDbTfaVIVhqwXbaX6jDa",
     youtube:
-      "https://www.youtube.com/watch?v=iISgqWx__Ak&list=PLmZP1KIsC-hlONJRQuaZVQbEo4-GXi6P_",
+      "https://www.youtube.com/playlist?list=PLmZP1KIsC-hlONJRQuaZVQbEo4-GXi6P_",
   },
 
   {
@@ -69,7 +73,7 @@ export const tafseerdata = [
     drive:
       "https://drive.google.com/drive/folders/1scvzQY1-AMhyCHtEHt-pWpeh7VLlHN2u",
     youtube:
-      "https://www.youtube.com/watch?v=r3Pk1MdpBKI&list=PLmZP1KIsC-hnh7frFqrdGfN4jpYBlVpwR",
+      "https://www.youtube.com/playlist?list=PLmZP1KIsC-hnh7frFqrdGfN4jpYBlVpwR",
   },
 
   {
@@ -80,7 +84,7 @@ export const tafseerdata = [
     drive:
       "https://drive.google.com/drive/folders/1c2HpapauLcvqa6QTRZaBLe1ab4CAsA_d",
     youtube:
-      "https://www.youtube.com/watch?v=qVQYDiS_h6Q&list=PLmZP1KIsC-hlyzrdduZWffLfCD6Hn-r3N",
+      "https://www.youtube.com/playlist?list=PLmZP1KIsC-hlyzrdduZWffLfCD6Hn-r3N",
   },
 
   {
@@ -91,7 +95,7 @@ export const tafseerdata = [
     drive:
       "https://drive.google.com/drive/folders/1TvmsuTMhQOYuvL8vqdChlFLqlo9GUupJ",
     youtube:
-      "https://www.youtube.com/watch?v=qW0oiBDbi_g&list=PLmZP1KIsC-hnOkXpPxX13u9XeTMuIuOeF",
+      "https://www.youtube.com/playlist?list=PLmZP1KIsC-hnOkXpPxX13u9XeTMuIuOeF",
   },
   {
     _id: "audio10",
@@ -101,7 +105,7 @@ export const tafseerdata = [
     drive:
       "https://drive.google.com/drive/folders/1EbMJ6STpDm-uXSXKYT6-HR96GxCq6eeK",
     youtube:
-      "https://www.youtube.com/watch?v=0vUbM35213o&list=PLmZP1KIsC-hnOS3IxjbBwIVxR5v_hhU7X",
+      "https://www.youtube.com/playlist?list=PLmZP1KIsC-hnOS3IxjbBwIVxR5v_hhU7X",
   },
   {
     _id: "audio11",
@@ -111,6 +115,6 @@ export const tafseerdata = [
     drive:
       "https://drive.google.com/drive/folders/1pO-2yC0C4PJQ3IJKWYKzuM5W9Zl-DQ5h",
     youtube:
-      "https://www.youtube.com/watch?v=1mZhqmGcRFM&list=PLmZP1KIsC-hnB5SYT-dP55VpAM4jFuwtW",
+      "https://www.youtube.com/playlist?list=PLmZP1KIsC-hnB5SYT-dP55VpAM4jFuwtW",
   },
 ];
