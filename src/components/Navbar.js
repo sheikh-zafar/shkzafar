@@ -1,21 +1,31 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import SheikhName from "../img/sheikhname.jpg";
+import quranic from "../img/quranicayah.jpeg";
 
 export default class Navbar extends Component {
   render() {
     return (
       <div>
         <section className="heading-section">
-          <div className="container d-flex justify-content-end">
-            <div>
+          <div className="row">
+            <div className="col-md-7 d-flex justify-content-end">
               <img
-                className="img-fluid scholar"
-                src={SheikhName}
-                alt="Sheikh Zafar ul hasan"
+                className="img-fluid scholarimg"
+                src={quranic}
+                alt="Glad tidings message"
               />
             </div>
-            <hr />
+            <div className="col-md-3 d-flex justify-content-end">
+              <div>
+                <img
+                  className="img-fluid scholar"
+                  src={SheikhName}
+                  alt="Sheikh Zafar ul hasan"
+                />
+              </div>
+              <hr />
+            </div>
           </div>
 
           <nav class="navbar navbar-expand-lg navbar-color center">
