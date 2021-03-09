@@ -38,11 +38,12 @@ body {
   border-left: none;
 }
 .scholar {
-  height: 180px;
-  width: auto;
+  height: 270px;
+  width: 500px;
 }
 .scholarimg {
-  height: 300px;
+  height: 270px;
+  width: 700px;
 }
 .heading-section {
   color: beige;

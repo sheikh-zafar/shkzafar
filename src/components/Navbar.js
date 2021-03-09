@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import SheikhName from "../img/sheikhname.jpg";
-import quranic from "../img/quranicayah.jpeg";
+import quranic from "../img/quranicayah2.jpeg";
 
 export default class Navbar extends Component {
   render() {
@@ -9,14 +9,14 @@ export default class Navbar extends Component {
       <div>
         <section className="heading-section">
           <div className="row">
-            <div className="col-md-7 d-flex justify-content-end">
+            <div className=" col-md-7 d-flex justify-content-end">
               <img
                 className="img-fluid scholarimg"
                 src={quranic}
                 alt="Glad tidings message"
               />
             </div>
-            <div className="col-md-3 d-flex justify-content-end">
+            <div className=" col-md-5 d-flex justify-content-start">
               <div>
                 <img
                   className="img-fluid scholar"
