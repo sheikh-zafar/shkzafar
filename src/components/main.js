@@ -20,8 +20,7 @@ import mausamiyat from "./mausamiyat";
 import subscribe from "./subscribe";
 import comingsoon from "./comingsoon";
 import SignIn from "./signIn";
-import Analytics from "./analytics";
-
+import header from "./header";
 const Main = () => (
   <Switch>
     <Route exact path="/" component={Home} />
@@ -39,6 +38,7 @@ const Main = () => (
     <Route exact path="/subscribe" component={subscribe} />
     <Route exact path="/comingsoon" component={comingsoon} />
     <Route exact path="/signIn" component={SignIn} />
+    <Route exact path="/header" component={header} />
   </Switch>
 );
 

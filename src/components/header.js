@@ -2,73 +2,36 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import SheikhName from "../img/sheikhname.jpg";
 import quranic from "../img/quranicayah2.jpeg";
-import ayah1 from "../img/ayah1.jpeg";
 
-export default class Navbar extends Component {
+export default class header extends Component {
   render() {
     return (
       <div>
         <section className="heading-section">
           <div className="row">
-            <div className="container">
-              <div className="col-md-7 pt-3">
-                <div
-                  id="carouselExampleFade"
-                  class="carousel slide carousel-fade"
-                  data-ride="carousel"
-                  data-interval="3000"
-                >
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src={ayah1} alt="Glad tidings message" />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        class="d-block w-100"
-                        src={quranic}
-                        alt="Second slide"
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img src={ayah1} alt="Glad tidings message" />
-                    </div>
-                  </div>
-                  <a
-                    class="carousel-control-prev"
-                    href="#carouselExampleFade"
-                    role="button"
-                    data-slide="prev"
-                  >
-                    <span
-                      class="carousel-control-prev-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a
-                    class="carousel-control-next"
-                    href="#carouselExampleFade"
-                    role="button"
-                    data-slide="next"
-                  >
-                    <span
-                      class="carousel-control-next-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
+            <div className="container col-md-3 d-flex justify-content-end">
+              <h4>
+                سنن الترمذي أبواب العلم عن رسول الله صلى الله عليه وسلم | باب :
+                ما جاء في فضل الفقه على العبادة عن أبي سعيد الخدري عن رسول الله
+                صلى الله عليه وسلم قال : " لن يشبع المؤمن من خير يسمعه حتى يكون
+                منتهاه الجنة ".
+              </h4>
+            </div>
+            <div className="container col-md-3 d-flex justify-content-end">
+              <h5>
+                فبشر عباد ¤ الذين يستمعون القول فيتّبعون أحسنه ، أولائك الّذين
+                هداهم الله وأولائك هم أولوا الألباب ¤ سورة الزمر
+              </h5>
+            </div>
+            <div className=" col-md-4 d-flex justify-content-start">
+              <div>
+                <img
+                  className="img-fluid scholar"
+                  src={SheikhName}
+                  alt="Sheikh Zafar ul hasan"
+                />
               </div>
-              <div className=" col-md-5 d-flex justify-content-start">
-                <div>
-                  <img
-                    className="img-fluid scholar"
-                    src={SheikhName}
-                    alt="Sheikh Zafar ul hasan"
-                  />
-                </div>
-                <hr />
-              </div>
+              <hr />
             </div>
           </div>
 
