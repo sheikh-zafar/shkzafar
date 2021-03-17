@@ -96,19 +96,6 @@ export default class jummuah extends Component {
           </div>
         </div>
 
-        <div className="container  pt-3">
-          <div className="row ">
-            <div className="container">
-              <iframe
-                title="sheikh-zafar"
-                src="https://archive.org/embed/2021-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=550"
-                width="100%"
-                height="30"
-                frameborder="0"
-              ></iframe>
-            </div>
-          </div>
-        </div>
         <div className="container">
           <div className="row ">
             <div className="col d-flex justify-content-end">
