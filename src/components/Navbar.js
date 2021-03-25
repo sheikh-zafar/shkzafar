@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import SheikhName from "../img/sheikhname.jpg";
 import quranic from "../img/quranicayah2.jpeg";
+import quranicayah3 from "../img/quranicayah3.jpeg";
 import ayah1 from "../img/ayah1.jpeg";
 
 export default class Navbar extends Component {
@@ -16,21 +17,25 @@ export default class Navbar extends Component {
                   id="carouselExampleFade"
                   class="carousel slide carousel-fade"
                   data-ride="carousel"
-                  data-interval="3000"
+                  data-interval="2500"
                 >
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img src={ayah1} alt="Glad tidings message" />
-                    </div>
-                    <div class="carousel-item">
                       <img
-                        class="d-block w-100"
-                        src={quranic}
-                        alt="Second slide"
+                        src={quranicayah3}
+                        className="ayah"
+                        alt="salaf scholar"
+                      />
+                    </div>
+                    <div class="carousel-item ">
+                      <img
+                        src={ayah1}
+                        className="ayah"
+                        alt="Glad tidings message"
                       />
                     </div>
                     <div class="carousel-item">
-                      <img src={ayah1} alt="Glad tidings message" />
+                      <img className="ayah" src={quranic} alt="Second slide" />
                     </div>
                   </div>
                   <a
