@@ -9,6 +9,7 @@ import Moon from "../img/moon.jpg";
 import Arkan from "../img/arkan.jpg";
 import Taweel from "../img/taweel.jpeg";
 import Mukhtasar from "../img/mukhtasar.jpeg";
+import Aam from "../img/aam.jpg";
 
 export default class audio extends Component {
   handleClick() {
@@ -140,11 +141,11 @@ export default class audio extends Component {
               <div className="col-md-4 col-sm-12 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center">
                 <Link to="/audio/aam">
                   <div className="rounded-links rounded-circle">
-                    <i
-                      className="fa fa-5x fa-calendar pt-4"
-                      style={{ color: "#2e856e" }}
-                      aria-hidden="true"
-                    ></i>
+                    <img
+                      src={Aam}
+                      className="img-fluid rounded-circle"
+                      alt="Lectures of Sheikh zafarul hasan madani(Mukhtasar)"
+                    />
                   </div>
                   <div>
                     <h3 className="rounded-headname">Aam Duroos</h3>

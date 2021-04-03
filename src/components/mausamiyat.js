@@ -40,6 +40,7 @@ import Muharram from "../img/muharram.jpg";
 import Dhulhijjah from "../img/dhulhijjah.jpeg";
 import Rajab from "../img/rajab.png";
 import Footer from "./footer";
+import { Link } from "react-router-dom";
 
 class mausamiat extends Component {
   constructor(props) {
@@ -86,100 +87,282 @@ class mausamiat extends Component {
         <section className="embed-section">
           <div className="container ">
             <div className="row text-center ">
-              <div class="col-md-6">
-                <a
-                  href="https://drive.google.com/drive/folders/1b5HZv_HcOAhF7X01w3iovI0KzIqCpprK"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src={Muharram}
-                    className="img-fluid mausamiyatPoster"
-                    alt="muharram"
-                  />
-                </a>
+              <div class="col-md-4">
+                <img
+                  src={Muharram}
+                  className="img-fluid mausamiyatPoster"
+                  alt="muharram"
+                />
+                <br />
+                <div className="container-fluid">
+                  <div class="row d-flex justify-content-between">
+                    <div className="col">
+                      <Link
+                        to="/comingsoon"
+                        rel="nooperner noreferrer"
+                        target="_blank"
+                        style={{ color: "beige" }}
+                      >
+                        Listen
+                      </Link>
+                    </div>
+
+                    <div className="col">
+                      <a
+                        href="https://drive.google.com/drive/folders/1b5HZv_HcOAhF7X01w3iovI0KzIqCpprK"
+                        style={{ color: "beige" }}
+                      >
+                        Download
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
 
-              <div class="col-md-6">
-                <a
-                  href="https://drive.google.com/drive/folders/1QLxr6xTkaik9HDA9jn02Wrz5Ghp64i0p"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src={Safar}
-                    className="img-fluid mausamiyatPoster"
-                    alt="Safar"
-                  />
-                </a>
+              <div class="col-md-4">
+                <img
+                  src={Safar}
+                  className="img-fluid mausamiyatPoster"
+                  alt="Safar"
+                />
+                <div class="row d-flex justify-content-between">
+                  <div className="col">
+                    <Link
+                      to="/comingsoon"
+                      rel="nooperner noreferrer"
+                      target="_blank"
+                      style={{ color: "beige" }}
+                    >
+                      Listen
+                    </Link>
+                  </div>
+
+                  <div className="col">
+                    <a
+                      href="https://drive.google.com/drive/folders/1QLxr6xTkaik9HDA9jn02Wrz5Ghp64i0p"
+                      style={{ color: "beige" }}
+                    >
+                      Download
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img
+                  src={Ramadan}
+                  className="img-fluid mausamiyatPoster"
+                  alt="Ramadan"
+                />
+                <div class="row d-flex justify-content-between">
+                  <div className="col">
+                    <Link
+                      to="/comingsoon"
+                      rel="nooperner noreferrer"
+                      target="_blank"
+                      style={{ color: "beige" }}
+                    >
+                      Listen
+                    </Link>
+                  </div>
+
+                  <div className="col">
+                    <a
+                      href="https://drive.google.com/drive/folders/18LVDJ92tAnbNLpjgXneExixWImoOF8mo"
+                      style={{ color: "beige" }}
+                    >
+                      Download
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
           <div className="container">
             <div className="row text-center">
-              <div class="col-md-6">
-                <a
-                  href="https://drive.google.com/drive/folders/18LVDJ92tAnbNLpjgXneExixWImoOF8mo"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src={Ramadan}
-                    className="img-fluid mausamiyatPoster"
-                    alt="Ramadan"
-                  />
-                </a>
-              </div>
-              <div class="col-md-6">
-                <a
-                  href="https://drive.google.com/drive/folders/1D57h2I6_UyjknJBqtn6PWaNhGe8Hx7fR"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src={Rajab}
-                    className="img-fluid mausamiyatPoster"
-                    alt="Ramadan"
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
+              <div class="col-md-4">
+                <img
+                  src={Rajab}
+                  className="img-fluid mausamiyatPoster"
+                  alt="Rajab"
+                />
+                <div class="row d-flex justify-content-between">
+                  <div className="col">
+                    <Link
+                      to="/comingsoon"
+                      rel="nooperner noreferrer"
+                      target="_blank"
+                      style={{ color: "beige" }}
+                    >
+                      Listen
+                    </Link>
+                  </div>
 
-          <div className="container">
-            <div className="row text-center">
-              <div class="col-md-6">
-                <a
-                  href="https://drive.google.com/drive/folders/1PiPdszibzFuRKipSHQvlVe79TdWNZoWW"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src={Dhulhijjah}
-                    className="img-fluid mausamiyatPoster "
-                    alt="Dhulhijjah"
-                  />{" "}
-                </a>
+                  <div className="col">
+                    <a
+                      href="https://drive.google.com/drive/folders/1D57h2I6_UyjknJBqtn6PWaNhGe8Hx7fR"
+                      style={{ color: "beige" }}
+                    >
+                      Download
+                    </a>
+                  </div>
+                </div>
               </div>
+              <div class="col-md-4">
+                <img
+                  src={Dhulhijjah}
+                  className="img-fluid mausamiyatPoster "
+                  alt="Dhulhijjah"
+                />{" "}
+                <div class="row d-flex justify-content-between">
+                  <div className="col">
+                    <Link
+                      to="/comingsoon"
+                      rel="nooperner noreferrer"
+                      target="_blank"
+                      style={{ color: "beige" }}
+                    >
+                      Listen
+                    </Link>
+                  </div>
 
-              <div class="col-md-6">
-                <a
-                  href="https://drive.google.com/drive/folders/13laZlvbf1xL-pA-g1Y23AjYlDbW2ck2P"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src={Shaban}
-                    className="img-fluid mausamiyatPoster"
-                    alt="Shaban"
-                  />{" "}
-                </a>
+                  <div className="col">
+                    <a
+                      href="https://drive.google.com/drive/folders/1PiPdszibzFuRKipSHQvlVe79TdWNZoWW"
+                      style={{ color: "beige" }}
+                    >
+                      Download
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img
+                  src={Shaban}
+                  className="img-fluid mausamiyatPoster"
+                  alt="Shaban"
+                />{" "}
+                <div class="row d-flex justify-content-between">
+                  <div className="col">
+                    <Link
+                      to="/comingsoon"
+                      rel="nooperner noreferrer"
+                      target="_blank"
+                      style={{ color: "beige" }}
+                    >
+                      Listen
+                    </Link>
+                  </div>
+
+                  <div className="col">
+                    <a
+                      href="https://drive.google.com/drive/folders/13laZlvbf1xL-pA-g1Y23AjYlDbW2ck2P"
+                      style={{ color: "beige" }}
+                    >
+                      Download
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </section>
+
         <section className="embed-section">
+          {/*Youtube accordion */}
+          <div className="container">
+            <div className="row mausamiyatmargin">
+              <div
+                class="accordion"
+                id="accordionExample"
+                style={{ color: "#2e856e" }}
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading1">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse1"
+                      aria-expanded="true"
+                      aria-controls="collapse1"
+                    >
+                      Watch On YouTube
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse1"
+                    class="accordion-collapse collapse "
+                    aria-labelledby="heading1"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">
+                          {" "}
+                          <a
+                            href="https://www.youtube.com/watch?v=oybD_6uY-vY&list=PLmZP1KIsC-hn1-9x2ug-sN1KB3gNVDMTn"
+                            title="muharram"
+                            className="orderlist"
+                          >
+                            Muharram
+                          </a>
+                        </li>
+                        <li class="list-group-item">
+                          <a
+                            href="https://www.youtube.com/watch?v=LJ6TRqr-vNU&list=PLmZP1KIsC-hkLgMl1NwJx5QbeyEKDzAp2"
+                            title="safar"
+                            className="orderlist"
+                          >
+                            Safar
+                          </a>
+                        </li>
+                        <li class="list-group-item">
+                          {" "}
+                          <a
+                            href="https://www.youtube.com/c/ZafarulHasan/featured"
+                            title="rajab"
+                            className="orderlist"
+                          >
+                            Rajab
+                          </a>
+                        </li>
+                        <li class="list-group-item">
+                          {" "}
+                          <a
+                            href="https://www.youtube.com/c/ZafarulHasan/featured"
+                            title="shaban"
+                            className="orderlist"
+                          >
+                            Shaban
+                          </a>
+                        </li>
+                        <li class="list-group-item">
+                          <a
+                            href="https://www.youtube.com/watch?v=pVxV0Y545GY&list=PLmZP1KIsC-hlJlkxP7gRWagKJKfm018Qm"
+                            title="ramadan lectures"
+                            className="orderlist"
+                          >
+                            Ramadan
+                          </a>
+                        </li>
+                        <li class="list-group-item">
+                          <a
+                            href="https://www.youtube.com/watch?v=tTbR9WDuBFU&list=PLmZP1KIsC-hk7iLLDpySTIjBwEovtsNS0"
+                            title="dhul hijjah"
+                            className="orderlist"
+                          >
+                            Dhul Hijjah
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="container">
             <div className="row mausamiyatmargin">
               {/*Year 42 */}
@@ -198,7 +381,7 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseSixteen"
                     >
-                      1442
+                      1442 [2020 - 2021]
                     </button>
                     <Year_42 year1442={this.state.year_1442} />
                   </h2>
@@ -226,7 +409,7 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseFifteen"
                     >
-                      1441
+                      1441 [2019 - 2020]
                     </button>
                     <Year_41 year1441={this.state.year_1441} />
                   </h2>
@@ -255,7 +438,7 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseFourteen"
                     >
-                      1440
+                      1440 [2018 - 2019]
                     </button>
                     <Year_40 year1440={this.state.year_1440} />
                   </h2>
@@ -284,7 +467,7 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseThirteen"
                     >
-                      1439
+                      1439 [2017 - 2018]
                     </button>
                     <Year_39 year1439={this.state.year_1439} />
                   </h2>
@@ -313,7 +496,7 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseTwelve"
                     >
-                      1438
+                      1438 [2016 - 2017]
                     </button>
                     <Year_38 year1438={this.state.year_1438} />
                   </h2>
@@ -342,7 +525,7 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseEleven"
                     >
-                      1437
+                      1437 [2015 - 2016]
                     </button>
                     <Year_37 year1437={this.state.year_1437} />
                   </h2>
@@ -371,7 +554,7 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseTen"
                     >
-                      1436
+                      1436 [2014 - 2015]
                     </button>
                     <Year_36 year1436={this.state.year_1436} />
                   </h2>
@@ -400,7 +583,7 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseNine"
                     >
-                      1435
+                      1435 [2013 - 2014]
                     </button>
                     <Year_35 year1435={this.state.year_1435} />
                   </h2>
@@ -429,7 +612,7 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseEight"
                     >
-                      1434
+                      1434 [2012 - 2013]
                     </button>
                     <Year_34 year1434={this.state.year_1434} />
                   </h2>
@@ -458,7 +641,7 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseSeven"
                     >
-                      1433
+                      1433 [2011 - 2012]
                     </button>
                     <Year_33 year1433={this.state.year_1433} />
                   </h2>
@@ -487,7 +670,7 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseSix"
                     >
-                      1432
+                      1432 [2010 - 2011]
                     </button>
                     <Year_32 year1432={this.state.year_1432} />
                   </h2>
@@ -516,7 +699,7 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseFive"
                     >
-                      1431
+                      1431 [2009 - 2010]
                     </button>
                     <Year_31 year1431={this.state.year_1431} />
                   </h2>
@@ -545,7 +728,7 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseFour"
                     >
-                      1430
+                      1430 [2008 - 2009]
                     </button>
                     <Year_30 year1430={this.state.year_1430} />
                   </h2>
@@ -573,7 +756,7 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseThree"
                     >
-                      1429
+                      1429 [2007 - 2008]
                     </button>
                     <Year_29 year1429={this.state.year_1429} />
                   </h2>
@@ -601,7 +784,7 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseTwo"
                     >
-                      1428
+                      1428 [2006 - 2007]
                     </button>
                     <Year_28 year1428={this.state.year_1428} />
                   </h2>
@@ -629,7 +812,7 @@ class mausamiat extends Component {
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      1427
+                      1427 [2005 - 2006]
                     </button>
                     <Year_27 year1427={this.state.year_1427} />
                   </h2>

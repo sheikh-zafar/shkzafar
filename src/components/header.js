@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import SheikhName from "../img/sheikhname.jpg";
-import quranic from "../img/quranicayah2.jpeg";
 
 export default class header extends Component {
   render() {

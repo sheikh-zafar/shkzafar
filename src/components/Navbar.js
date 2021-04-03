@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import SheikhName from "../img/sheikhname.jpg";
-import quranic from "../img/quranicayah2.jpeg";
-import quranicayah3 from "../img/quranicayah3.jpeg";
-import ayah1 from "../img/ayah1.jpeg";
+import QuranHadith1Arabic from "../img/Quran&Hadith1Arabic.jpg";
+import QuranHadith1Urdu from "../img/Quran&Hadith1Urdu.jpg";
+import QuranHadith1English from "../img/Quran&Hadith1English.jpg";
 
 export default class Navbar extends Component {
   render() {
@@ -22,20 +22,24 @@ export default class Navbar extends Component {
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <img
-                        src={quranicayah3}
+                        src={QuranHadith1Arabic}
                         className="ayah"
                         alt="salaf scholar"
                       />
                     </div>
                     <div class="carousel-item ">
                       <img
-                        src={ayah1}
+                        src={QuranHadith1Urdu}
                         className="ayah"
-                        alt="Glad tidings message"
+                        alt="salafi"
                       />
                     </div>
                     <div class="carousel-item">
-                      <img className="ayah" src={quranic} alt="Second slide" />
+                      <img
+                        className="ayah"
+                        src={QuranHadith1English}
+                        alt="salafi"
+                      />
                     </div>
                   </div>
                   <a

@@ -53,7 +53,7 @@ body {
 }
 .ayah {
   height: 250px;
-  width: 500px;
+  margin-left: 30px;
 }
 .heading-section {
   color: beige;
@@ -84,6 +84,9 @@ Link .nav-link:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
 .navbar-color {
+  background: url("../src/img/beigebg.jpeg");
+}
+.bg {
   background: url("../src/img/beigebg.jpeg");
 }
 .homeYoutube {
@@ -249,6 +252,8 @@ a:active {
 .orderlist {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
+  color: #2e856e;
+  text-decoration: underline;
 }
 
 .responsiveArchives {
@@ -449,6 +454,7 @@ h2 .accordion-header {
   font-size: 2rem;
   font-family: "Patua One", sans-serif;
 }
+
 .accordion-collapse .collapse {
   background-color: beige;
 }
@@ -527,6 +533,9 @@ h2 .accordion-header {
   }
   .paddingVideo {
     padding-left: 0%;
+  }
+  .ayah {
+    display: none;
   }
 }
 
@@ -607,6 +616,9 @@ h2 .accordion-header {
   }
   .paddingVideo {
     padding-left: 0%;
+  }
+  .ayah {
+    display: none;
   }
 }
 

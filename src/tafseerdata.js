@@ -48,7 +48,8 @@ export const tafseerdata = [
     _id: "audio5",
     arabictitle: "سورة أنعام",
     englishtitle: "Surah An'aam",
-    archive: element,
+    archive:
+      "https://archive.org/embed/tafseer-surah-al-anaam-zafarulhasan-madani&playlist=1&list_height=400",
     drive:
       "https://drive.google.com/drive/folders/1wtOGs_z1LXPLo4mSQ_-efg_-v5SJTQ9q",
     youtube:
@@ -58,7 +59,8 @@ export const tafseerdata = [
     _id: "audio6",
     arabictitle: "سورة أعراف",
     englishtitle: "Surah A'raf",
-    archive: element,
+    archive:
+      "https://archive.org/embed/tafseer-surah-al-aaraaf-zafarulhasan-madani&playlist=1&list_height=400",
     drive:
       "https://drive.google.com/drive/folders/1G8aGJm0FBAJTwDbTfaVIVhqwXbaX6jDa",
     youtube:
@@ -80,7 +82,8 @@ export const tafseerdata = [
     _id: "audio8",
     arabictitle: "سورة حجر",
     englishtitle: "Surah Hijr",
-    archive: element,
+    archive:
+      "https://archive.org/embed/tafseer-surah-al-hijr-zafarulhasan-madani&playlist=1&list_height=400",
     drive:
       "https://drive.google.com/drive/folders/1c2HpapauLcvqa6QTRZaBLe1ab4CAsA_d",
     youtube:
@@ -91,7 +94,8 @@ export const tafseerdata = [
     _id: "audio9",
     arabictitle: "سورة أحزاب",
     englishtitle: "Surah Ahzab",
-    archive: element,
+    archive:
+      "https://archive.org/embed/tafseer-surah-al-ahzab-zafarulhasan-madani&playlist=1&list_height=400",
     drive:
       "https://drive.google.com/drive/folders/1TvmsuTMhQOYuvL8vqdChlFLqlo9GUupJ",
     youtube:
@@ -111,7 +115,8 @@ export const tafseerdata = [
     _id: "audio11",
     arabictitle: "سورة حجرات",
     englishtitle: "Surah Hujurat",
-    archive: element,
+    archive:
+      "https://archive.org/embed/tafsir-surah-al-hujraat-zafarulhasan-madani&playlist=1&list_height=400",
     drive:
       "https://drive.google.com/drive/folders/1pO-2yC0C4PJQ3IJKWYKzuM5W9Zl-DQ5h",
     youtube:

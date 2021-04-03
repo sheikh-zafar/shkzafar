@@ -13,6 +13,7 @@ import riyadh from "../img/riyadh.png";
 import Covid from "../img/covid.jpeg";
 import { Link } from "react-router-dom";
 import Youtube from "../img/logo192.png";
+import Baqarah from "../img/surahbaqarah.png";
 
 export default class Home extends Component {
   state = {
@@ -57,6 +58,10 @@ export default class Home extends Component {
                       data-target="#carouselExampleIndicators"
                       data-slide-to="4"
                     ></li>
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="5"
+                    ></li>
                   </ol>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -64,6 +69,24 @@ export default class Home extends Component {
                         src={bulugh}
                         className="d-block w-100"
                         alt="bulugh al maram"
+                        height="400px"
+                        width="100%"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src={Baqarah}
+                        className="d-block w-100"
+                        alt="shamail"
+                        height="400px"
+                        width="100%"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src={shamailslide}
+                        className="d-block w-100"
+                        alt="shamail"
                         height="400px"
                         width="100%"
                       />
@@ -80,15 +103,6 @@ export default class Home extends Component {
                     <div class="carousel-item">
                       <img
                         src={riyadh}
-                        className="d-block w-100"
-                        alt="shamail"
-                        height="400px"
-                        width="100%"
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src={shamailslide}
                         className="d-block w-100"
                         alt="shamail"
                         height="400px"
