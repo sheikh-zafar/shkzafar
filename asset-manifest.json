@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.ffd4c40c.chunk.css",
-    "main.js": "/static/js/main.bc367a6f.chunk.js",
-    "main.js.map": "/static/js/main.bc367a6f.chunk.js.map",
+    "main.js": "/static/js/main.0664444a.chunk.js",
+    "main.js.map": "/static/js/main.0664444a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3dbf9d90.js",
     "runtime-main.js.map": "/static/js/runtime-main.3dbf9d90.js.map",
     "static/css/2.f1a1079b.chunk.css": "/static/css/2.f1a1079b.chunk.css",
-    "static/js/2.804a6e7a.chunk.js": "/static/js/2.804a6e7a.chunk.js",
-    "static/js/2.804a6e7a.chunk.js.map": "/static/js/2.804a6e7a.chunk.js.map",
+    "static/js/2.8335fc7c.chunk.js": "/static/js/2.8335fc7c.chunk.js",
+    "static/js/2.8335fc7c.chunk.js.map": "/static/js/2.8335fc7c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.f1a1079b.chunk.css.map": "/static/css/2.f1a1079b.chunk.css.map",
     "static/css/main.ffd4c40c.chunk.css.map": "/static/css/main.ffd4c40c.chunk.css.map",
-    "static/js/2.804a6e7a.chunk.js.LICENSE.txt": "/static/js/2.804a6e7a.chunk.js.LICENSE.txt",
+    "static/js/2.8335fc7c.chunk.js.LICENSE.txt": "/static/js/2.8335fc7c.chunk.js.LICENSE.txt",
     "static/media/Quran&Hadith1Arabic.d5438c28.jpg": "/static/media/Quran&Hadith1Arabic.d5438c28.jpg",
     "static/media/Quran&Hadith1English.0ad327b9.jpg": "/static/media/Quran&Hadith1English.0ad327b9.jpg",
     "static/media/Quran&Hadith1Urdu.b7bca5ca.jpg": "/static/media/Quran&Hadith1Urdu.b7bca5ca.jpg",
@@ -19,9 +19,7 @@
     "static/media/arkan.7cdb85d3.jpg": "/static/media/arkan.7cdb85d3.jpg",
     "static/media/bulugh.4a954cde.jpg": "/static/media/bulugh.4a954cde.jpg",
     "static/media/bulugh.f8250d20.png": "/static/media/bulugh.f8250d20.png",
-    "static/media/coffee": "/static/media/coffee.a3444b2c.bin",
     "static/media/covid.9d399de8.jpeg": "/static/media/covid.9d399de8.jpeg",
-    "static/media/gapi.coffee": "/static/media/gapi.110a734a.coffee",
     "static/media/jummaicon.32769a2c.jpg": "/static/media/jummaicon.32769a2c.jpg",
     "static/media/jummuahkhutbah.6c24fce3.jpg": "/static/media/jummuahkhutbah.6c24fce3.jpg",
     "static/media/logo192.25b218da.png": "/static/media/logo192.25b218da.png",
@@ -38,14 +36,13 @@
     "static/media/sheikhname.0d09d7ad.jpg": "/static/media/sheikhname.0d09d7ad.jpg",
     "static/media/surahbaqarah.1cf23bec.png": "/static/media/surahbaqarah.1cf23bec.png",
     "static/media/tafseericon.aeb0a638.jpg": "/static/media/tafseericon.aeb0a638.jpg",
-    "static/media/taweel.1db7e9bf.jpeg": "/static/media/taweel.1db7e9bf.jpeg",
-    "static/media/youtube.e62636bd.jpg": "/static/media/youtube.e62636bd.jpg"
+    "static/media/taweel.1db7e9bf.jpeg": "/static/media/taweel.1db7e9bf.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.3dbf9d90.js",
     "static/css/2.f1a1079b.chunk.css",
-    "static/js/2.804a6e7a.chunk.js",
+    "static/js/2.8335fc7c.chunk.js",
     "static/css/main.ffd4c40c.chunk.css",
-    "static/js/main.bc367a6f.chunk.js"
+    "static/js/main.0664444a.chunk.js"
   ]
 }
