@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ffd4c40c.chunk.css",
-    "main.js": "/static/js/main.0664444a.chunk.js",
-    "main.js.map": "/static/js/main.0664444a.chunk.js.map",
+    "main.js": "/static/js/main.3bc67895.chunk.js",
+    "main.js.map": "/static/js/main.3bc67895.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3dbf9d90.js",
     "runtime-main.js.map": "/static/js/runtime-main.3dbf9d90.js.map",
     "static/css/2.f1a1079b.chunk.css": "/static/css/2.f1a1079b.chunk.css",
@@ -22,7 +22,6 @@
     "static/media/covid.9d399de8.jpeg": "/static/media/covid.9d399de8.jpeg",
     "static/media/jummaicon.32769a2c.jpg": "/static/media/jummaicon.32769a2c.jpg",
     "static/media/jummuahkhutbah.6c24fce3.jpg": "/static/media/jummuahkhutbah.6c24fce3.jpg",
-    "static/media/logo192.25b218da.png": "/static/media/logo192.25b218da.png",
     "static/media/moon.84a92c5d.jpg": "/static/media/moon.84a92c5d.jpg",
     "static/media/mosque.0cea690a.jpg": "/static/media/mosque.0cea690a.jpg",
     "static/media/muharram.af67ecfe.jpg": "/static/media/muharram.af67ecfe.jpg",
@@ -43,6 +42,6 @@
     "static/css/2.f1a1079b.chunk.css",
     "static/js/2.8335fc7c.chunk.js",
     "static/css/main.ffd4c40c.chunk.css",
-    "static/js/main.0664444a.chunk.js"
+    "static/js/main.3bc67895.chunk.js"
   ]
 }
