@@ -30,8 +30,8 @@ export default class audio extends Component {
         {/*Rounded button links 1*/}
         <section className="embed-section">
           <div className="container-fluid py-3">
-            <div className="row text-center">
-              <div className="col-md-3 col-sm-12 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center mx-auto">
+            <div className="row text-center ">
+              <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginJummahPhone">
                 <Link to="/audio/jummuah">
                   <div className="rounded-links rounded-circle">
                     <img
@@ -45,7 +45,7 @@ export default class audio extends Component {
                   </div>
                 </Link>
               </div>
-              <div className="col-md-3 col-sm-12 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center mx-auto">
+              <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginTafseerPhone">
                 <Link to="/audio/qurantafseer">
                   <div className="rounded-links rounded-circle">
                     <img
@@ -60,7 +60,7 @@ export default class audio extends Component {
                 </Link>
               </div>
 
-              <div className="col-md-3 col-sm-12 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center">
+              <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginArkanPhone">
                 <Link
                   to="/comingsoon"
                   target="_blank"
@@ -99,7 +99,7 @@ export default class audio extends Component {
         <section className="embed-section">
           <div className="container py-3">
             <div className="row text-center">
-              <div className="col-md-4 col-sm-12 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center">
+              <div className="col-md-5 col-sm-12 col-xs-12 d-flex justify-content-center marginTaweelPhone">
                 <Link to="/audio/taweel">
                   <div className="rounded-links rounded-circle">
                     <img
@@ -119,7 +119,7 @@ export default class audio extends Component {
                 </Link>
               </div>
 
-              <div className="col-md-4 col-sm-12 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-end ">
+              <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginMukhtasarPhone">
                 <Link to="/audio/muktasar">
                   <div className="rounded-links rounded-circle">
                     <img
@@ -138,7 +138,7 @@ export default class audio extends Component {
                 </Link>
               </div>
 
-              <div className="col-md-4 col-sm-12 col-xs-6 d-flex justify-content-center d-sm-flex justify-content-center">
+              <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginAamPhone">
                 <Link to="/audio/aam">
                   <div className="rounded-links rounded-circle">
                     <img

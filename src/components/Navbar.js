@@ -49,7 +49,7 @@ export default class Navbar extends Component {
                     data-slide="prev"
                   >
                     <span
-                      class="carousel-control-prev-icon"
+                      class="carousel-control-prev-icon ayah"
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only">Previous</span>
@@ -61,7 +61,7 @@ export default class Navbar extends Component {
                     data-slide="next"
                   >
                     <span
-                      class="carousel-control-next-icon"
+                      class="carousel-control-next-icon ayah"
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only">Next</span>

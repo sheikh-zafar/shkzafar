@@ -53,7 +53,7 @@ body {
 }
 .ayah {
   height: 250px;
-  margin-left: 30px;
+  margin-right: 5px;
 }
 .heading-section {
   color: beige;
@@ -490,6 +490,13 @@ h2 .accordion-header {
   .phoneicon {
     display: none;
   }
+  .ayah {
+    display: none;
+  }
+  .scholar {
+    width: 700px;
+    align-items: stretch;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -619,6 +626,21 @@ h2 .accordion-header {
   }
   .ayah {
     display: none;
+  }
+  .marginJummahPhone {
+    margin-left: 34px;
+  }
+  .marginTafseerPhone {
+    margin-left: 18px;
+  }
+  .marginArkanPhone {
+    margin-left: 18px;
+  }
+  .marginTaweelPhone {
+    margin-left: 22px;
+  }
+  .marginMukhtasarPhone {
+    margin-left: 22px;
   }
 }
 

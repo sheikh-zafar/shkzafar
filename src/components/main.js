@@ -17,10 +17,7 @@ import arkan from "./arkan";
 import taweel from "./taweel";
 import jummuah from "./jummuah";
 import mausamiyat from "./mausamiyat";
-import subscribe from "./subscribe";
 import comingsoon from "./comingsoon";
-import SignIn from "./signIn";
-import header from "./header";
 const Main = () => (
   <Switch>
     <Route exact path="/" component={Home} />
@@ -35,10 +32,7 @@ const Main = () => (
     <Route exact path="/audio/mausamiyat" component={mausamiyat} />
     <Route exact path="/books" component={books} />
     <Route exact path="/about" component={about} />
-    <Route exact path="/subscribe" component={subscribe} />
     <Route exact path="/comingsoon" component={comingsoon} />
-    <Route exact path="/signIn" component={SignIn} />
-    <Route exact path="/header" component={header} />
   </Switch>
 );
 

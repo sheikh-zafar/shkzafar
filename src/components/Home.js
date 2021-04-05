@@ -12,7 +12,6 @@ import bulugh from "../img/bulugh.png";
 import riyadh from "../img/riyadh.png";
 import Covid from "../img/covid.jpeg";
 import { Link } from "react-router-dom";
-import Youtube from "../img/logo192.png";
 import Baqarah from "../img/surahbaqarah.png";
 
 export default class Home extends Component {
