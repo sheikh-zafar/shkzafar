@@ -544,6 +544,21 @@ h2 .accordion-header {
   .ayah {
     display: none;
   }
+  .marginJummahPhone {
+    margin-left: 34px;
+  }
+  .marginTafseerPhone {
+    margin-left: 18px;
+  }
+  .marginArkanPhone {
+    margin-left: 18px;
+  }
+  .marginTaweelPhone {
+    margin-left: 22px;
+  }
+  .marginMukhtasarPhone {
+    margin-left: 22px;
+  }
 }
 
 @media (max-width: 575.98px) {
