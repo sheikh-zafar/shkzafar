@@ -12,9 +12,10 @@ export default class about extends Component {
             <meta charSet="utf-8" />
             <title>Zafar ul hasan madani</title>
             <link rel="canonical" href="https://zafarulhasan.com/#/about" />
+            <meta name="description" content="About Sheikh zafar ul hasan" />
             <meta
-              name="description"
-              content="Biography of Sheikh zafar ul hasan"
+              name="keywords"
+              content="zafar ul hasan madani, salafi , zafar, madani, urdu bayan, bayan, about zafar ul hasan madani, About sheikh zafar, "
             />
           </Helmet>
         </div>
