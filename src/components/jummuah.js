@@ -3,11 +3,26 @@ import jummuahkhutbah from "../img/jummuahkhutbah.jpg";
 import Navbar from "./Navbar";
 import Footer from "./footer";
 import mixlr from "../img/mixlr.png";
+import { Helmet } from "react-helmet";
 
 export default class jummuah extends Component {
   render() {
     return (
       <div>
+        <div className="application">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>zafar ul hasan madani | Jummuah Khutbah </title>
+            <link
+              rel="canonical"
+              href="https://zafarulhasan.com/#/audio/jummuah"
+            />
+            <meta
+              name="description"
+              content="Listen and Download Friday Sermon by zafar ul hasan madani"
+            />
+          </Helmet>
+        </div>
         <Navbar />
         {/*Title */}
         <section className="embed-section">

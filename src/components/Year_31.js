@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 
 export default class Year_31 extends Component {
   render() {
@@ -24,8 +23,8 @@ export default class Year_31 extends Component {
                 {year31.month}
               </div>
               <div className="col-md-4 col-xs-4 col-sm-4">
-                <Link
-                  to="comingsoon"
+                <a
+                  href={year31.archive}
                   className="lead pt-3"
                   style={{
                     fontFamily: "Fredoka One",
@@ -37,7 +36,7 @@ export default class Year_31 extends Component {
                   rel="noreferrer"
                 >
                   Listen
-                </Link>
+                </a>
               </div>
               <div className="col-md-4 col-xs-4 col-sm-4">
                 <a

@@ -32,12 +32,12 @@ export default class audio extends Component {
           <div className="container-fluid py-3">
             <div className="row text-center ">
               <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginJummahPhone">
-                <Link to="/audio/jummuah">
+                <Link to="/audio/jummuah" title="jummuah">
                   <div className="rounded-links rounded-circle">
                     <img
                       src={Jummuah}
                       className="img-fluid rounded-circle"
-                      alt="jummuah khutbah"
+                      alt="bin darwish"
                     />
                   </div>
                   <div>
@@ -46,12 +46,12 @@ export default class audio extends Component {
                 </Link>
               </div>
               <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginTafseerPhone">
-                <Link to="/audio/qurantafseer">
+                <Link to="/audio/qurantafseer" title="tafseer">
                   <div className="rounded-links rounded-circle">
                     <img
                       src={tafseer}
                       className="img-fluid rounded-circle"
-                      alt="jummuah khutbah"
+                      alt="jummuah"
                     />
                   </div>
                   <div>
@@ -63,6 +63,7 @@ export default class audio extends Component {
               <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginArkanPhone">
                 <Link
                   to="/comingsoon"
+                  title="arkan al islam"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -79,12 +80,12 @@ export default class audio extends Component {
                 </Link>
               </div>
               <div className="col-md-3 col-sm-12 col-xs-6 d-flex justify-content-end d-sm-flex justify-content-center ">
-                <Link to="/audio/mausamiyat">
+                <Link to="/audio/mausamiyat" title="islamic monthly duroos">
                   <div className="rounded-links rounded-circle">
                     <img
                       src={Moon}
                       className="img-fluid rounded-circle"
-                      alt="jummuah khutbah"
+                      alt="zafarul hasan madani"
                     />
                   </div>
                   <div>
@@ -100,12 +101,12 @@ export default class audio extends Component {
           <div className="container py-3">
             <div className="row text-center">
               <div className="col-md-5 col-sm-12 col-xs-12 d-flex justify-content-center marginTaweelPhone">
-                <Link to="/audio/taweel">
+                <Link to="/audio/taweel" title="long dars">
                   <div className="rounded-links rounded-circle">
                     <img
                       src={Taweel}
                       className="img-fluid rounded-circle"
-                      alt="Lectures of Sheikh zafarul hasan madani(Taweel)"
+                      alt="zafarul hasan madani"
                     />
                   </div>
                   <div>
@@ -120,7 +121,7 @@ export default class audio extends Component {
               </div>
 
               <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginMukhtasarPhone">
-                <Link to="/audio/muktasar">
+                <Link to="/audio/muktasar" title="Brief dars">
                   <div className="rounded-links rounded-circle">
                     <img
                       src={Mukhtasar}
@@ -139,7 +140,7 @@ export default class audio extends Component {
               </div>
 
               <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginAamPhone">
-                <Link to="/audio/aam">
+                <Link to="/audio/aam" title="yearly dars">
                   <div className="rounded-links rounded-circle">
                     <img
                       src={Aam}

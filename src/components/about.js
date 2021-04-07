@@ -1,11 +1,23 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "./footer";
+import { Helmet } from "react-helmet";
 
 export default class about extends Component {
   render() {
     return (
       <div>
+        <div className="application">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>Zafar ul hasan madani</title>
+            <link rel="canonical" href="https://zafarulhasan.com/#/about" />
+            <meta
+              name="description"
+              content="Biography of Sheikh zafar ul hasan"
+            />
+          </Helmet>
+        </div>
         <Navbar />
         <section className="embed-section">
           <div className="container about">
@@ -116,7 +128,7 @@ export default class about extends Component {
                 opportunity to call people to Islam.
               </p>
               <section className="embed-section">
-                <h1 className="aboutheader">His Authored Books:</h1>
+                <h1 className="aboutheader">Books He (حفظه اللّه) Authored</h1>
                 By the Grace of Allah azza wa jal, Shaikh Zafar, with his
                 immense knowledge has had the privilege of authoring a few books
                 in Urdu, some of which are mentioned here below:

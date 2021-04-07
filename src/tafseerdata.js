@@ -1,11 +1,9 @@
-import { Link } from "react-router-dom";
-const element = <Link to="/comingsoon" />;
+const element = "./#/comingsoon";
 
 export const tafseerdata = [
   {
-    _id: "audio1",
-    arabictitle: "سورة فاتحة",
-    englishtitle: "Surah Fathiha",
+    arabictitle: "سورة الفاتحة",
+    englishtitle: "Surah Al-Fatihah",
     archive:
       "https://archive.org/embed/tafseer-surah-al-fatihah-zafarulhasan-madani&playlist=1&list_height=400",
     drive:
@@ -14,7 +12,6 @@ export const tafseerdata = [
       "https://www.youtube.com/playlist?list=PLmZP1KIsC-hmrbtAWVVqCe3I_ckqaZ80L",
   },
   {
-    _id: "audio2",
     arabictitle: "جزء تبارك",
     englishtitle: "Juz Tabarak",
     archive: element,
@@ -24,7 +21,6 @@ export const tafseerdata = [
       "https://www.youtube.com/playlist?list=PLmZP1KIsC-hnAHHcPBXl9Dp4mFY5aLUTs",
   },
   {
-    _id: "audio3",
     arabictitle: "کچھ لمحات قرآن کی آیتوں کے ساتھ",
     englishtitle: "kuch lamhaat quran ki ayaton ke sath",
     archive: element,
@@ -35,9 +31,8 @@ export const tafseerdata = [
   },
 
   {
-    _id: "audio4",
-    arabictitle: "سورة بقرة",
-    englishtitle: "Surah Baqarah",
+    arabictitle: "سورة البقرة",
+    englishtitle: "Surah Al-Baqarah",
     archive: element,
     drive:
       "https://drive.google.com/drive/folders/1_DVbZm2rItVlUumvpvsMN_grNisfZvgY",
@@ -45,9 +40,8 @@ export const tafseerdata = [
       "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqk4C-GaDhjeeJ6EOMrKQn",
   },
   {
-    _id: "audio5",
-    arabictitle: "سورة أنعام",
-    englishtitle: "Surah An'aam",
+    arabictitle: "سورة الأنعام",
+    englishtitle: "Surah Al-An'aam",
     archive:
       "https://archive.org/embed/tafseer-surah-al-anaam-zafarulhasan-madani&playlist=1&list_height=400",
     drive:
@@ -56,9 +50,8 @@ export const tafseerdata = [
       "https://www.youtube.com/playlist?list=PLmZP1KIsC-hnUIJCsllm7pOS69SFVYp6s",
   },
   {
-    _id: "audio6",
-    arabictitle: "سورة أعراف",
-    englishtitle: "Surah A'raf",
+    arabictitle: "سورة الأعراف",
+    englishtitle: "Surah Al-A'raf",
     archive:
       "https://archive.org/embed/tafseer-surah-al-aaraaf-zafarulhasan-madani&playlist=1&list_height=400",
     drive:
@@ -68,10 +61,10 @@ export const tafseerdata = [
   },
 
   {
-    _id: "audio7",
     arabictitle: "سورة إبراهم",
     englishtitle: "Surah Ibrahim",
-    archive: element,
+    archive:
+      "https://archive.org/embed/tafseer-surah-ibrahim-zafarulhasan-madani&playlist=1&list_height=400",
     drive:
       "https://drive.google.com/drive/folders/1scvzQY1-AMhyCHtEHt-pWpeh7VLlHN2u",
     youtube:
@@ -79,9 +72,8 @@ export const tafseerdata = [
   },
 
   {
-    _id: "audio8",
-    arabictitle: "سورة حجر",
-    englishtitle: "Surah Hijr",
+    arabictitle: "سورة الحجر",
+    englishtitle: "Surah Al-Hijr",
     archive:
       "https://archive.org/embed/tafseer-surah-al-hijr-zafarulhasan-madani&playlist=1&list_height=400",
     drive:
@@ -91,9 +83,8 @@ export const tafseerdata = [
   },
 
   {
-    _id: "audio9",
-    arabictitle: "سورة أحزاب",
-    englishtitle: "Surah Ahzab",
+    arabictitle: "سورة الأحزاب",
+    englishtitle: "Surah Al-Ahzab",
     archive:
       "https://archive.org/embed/tafseer-surah-al-ahzab-zafarulhasan-madani&playlist=1&list_height=400",
     drive:
@@ -102,19 +93,18 @@ export const tafseerdata = [
       "https://www.youtube.com/playlist?list=PLmZP1KIsC-hnOkXpPxX13u9XeTMuIuOeF",
   },
   {
-    _id: "audio10",
     arabictitle: "سورة سبا",
     englishtitle: "Surah Saba",
-    archive: element,
+    archive:
+      "https://archive.org/embed/tafseer-surah-saba-zafarulhasan-madani&playlist=1&list_height=400",
     drive:
       "https://drive.google.com/drive/folders/1EbMJ6STpDm-uXSXKYT6-HR96GxCq6eeK",
     youtube:
       "https://www.youtube.com/playlist?list=PLmZP1KIsC-hnOS3IxjbBwIVxR5v_hhU7X",
   },
   {
-    _id: "audio11",
-    arabictitle: "سورة حجرات",
-    englishtitle: "Surah Hujurat",
+    arabictitle: "سورة الحجرات",
+    englishtitle: "Surah Al-Hujurat",
     archive:
       "https://archive.org/embed/tafsir-surah-al-hujraat-zafarulhasan-madani&playlist=1&list_height=400",
     drive:

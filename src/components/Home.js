@@ -31,7 +31,7 @@ export default class Home extends Component {
               <section className="banner-section">
                 <div
                   id="carouselExampleIndicators"
-                  class="carousel slide"
+                  class="carousel slide carousel-fade"
                   data-ride="carousel"
                   data-interval="2500"
                 >

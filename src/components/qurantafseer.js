@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import { tafseerdata } from "../tafseerdata";
 import Tafseer from "./Tafseer";
 import Footer from "./footer";
+import { Helmet } from "react-helmet";
 
 export default class tadweensunnah extends Component {
   constructor(props) {
@@ -14,6 +15,20 @@ export default class tadweensunnah extends Component {
   render() {
     return (
       <div>
+        <div className="application">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>zafar ul hasan madani | Quran Tafseer</title>
+            <link
+              rel="canonical"
+              href="https://zafarulhasan.com/#/audio/qurantafseer"
+            />
+            <meta
+              name="description"
+              content="Listen and Download Quran Tafseer Explanation by zafar ul hasan madani"
+            />
+          </Helmet>
+        </div>
         <Navbar />
         <section className="embed-section">
           <div className="container">

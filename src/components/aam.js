@@ -2,11 +2,24 @@ import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "./footer";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 export default class aam extends Component {
   render() {
     return (
       <div>
+        <div className="application">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>Yearly Dars</title>
+            <link rel="canonical" href="https://zafarulhasan.com/#/audio/aam" />
+            <meta name="description" content="Isteqamat, Dil ke aamal" />
+            <meta
+              name="keywords"
+              content="zafar ul hasan madani, salafi, salafi scholar,zafar, madani, urdu bayan, bayan, "
+            />
+          </Helmet>
+        </div>
         <Navbar />
         <section className="embed-section">
           <div className="container">
@@ -40,6 +53,7 @@ export default class aam extends Component {
                       <div className="col">
                         <a
                           href="https://archive.org/embed/istiqamah-zafarulhasan-madani&playlist=1&list_height=550"
+                          title="zafarulhasan"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_newtab"
                           style={{
@@ -55,6 +69,7 @@ export default class aam extends Component {
                       <div className="col">
                         <a
                           href="https://drive.google.com/drive/folders/1LVbol0FZAEe8Y2efbnV9jNJLbQN95fkT"
+                          title="isteqamat - zafarulhasan"
                           target="_newtab"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
@@ -70,6 +85,7 @@ export default class aam extends Component {
                       <div className="col">
                         <a
                           href="https://www.youtube.com/playlist?list=PLmZP1KIsC-hmd_vS2BTCk6n43tGG5IaIr"
+                          title="zafarulhasan"
                           target="_newtab"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
@@ -104,6 +120,7 @@ export default class aam extends Component {
                       <div className="col">
                         <Link
                           to="/comingsoon"
+                          title="zafarul hasan madani"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -120,6 +137,7 @@ export default class aam extends Component {
                       <div className="col">
                         <a
                           href="https://drive.google.com/drive/u/1/folders/1rgVlY1adu7MNnOIdl2B4fk7wCiOup-qC"
+                          title="zafarul hasan madani"
                           target="_newtab"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
@@ -135,6 +153,7 @@ export default class aam extends Component {
                       <div className="col">
                         <a
                           href="https://www.youtube.com/playlist?list=PLmZP1KIsC-hk9I9izzkKXm2DO05-5-YsY"
+                          title="zafarul hasan madani"
                           target="_newtab"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{

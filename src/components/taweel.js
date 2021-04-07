@@ -2,11 +2,26 @@ import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "./footer";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 export default class taweel extends Component {
   render() {
     return (
       <div>
+        <div className="application">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>Zafar ul hasan madani | Taweel Duroos</title>
+            <link
+              rel="canonical"
+              href="https://zafarulhasan.com/#/audio/taweel"
+            />
+            <meta
+              name="description"
+              content="Listen and Download Sharh as-sunnah, Bulugh Al-maram, Kitab At-Tawheed, Usool as-Salasah, Shamail al-Muhammadiyah, Riyad as-Saliheen by zafar ul hasan madani"
+            />
+          </Helmet>
+        </div>
         <Navbar />
         <section className="embed-section">
           <div className="container">

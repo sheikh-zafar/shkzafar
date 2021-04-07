@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-const element = <Link to="/comingsoon" />;
+const element = "./#/comingsoon";
 
 export const year_1433 = [
   {

@@ -41,6 +41,7 @@ import Dhulhijjah from "../img/dhulhijjah.jpeg";
 import Rajab from "../img/rajab.png";
 import Footer from "./footer";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 class mausamiat extends Component {
   constructor(props) {
@@ -67,6 +68,20 @@ class mausamiat extends Component {
   render() {
     return (
       <div>
+        <div className="application">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>zafar ul hasan madani | Seasonal Lectures</title>
+            <link
+              rel="canonical"
+              href="https://zafarulhasan.com/#/audio/mausamiyat"
+            />
+            <meta
+              name="description"
+              content="Listen and Download Seasonal Lectures by zafar ul hasan madani"
+            />
+          </Helmet>
+        </div>
         <Navbar />
         <section className="embed-section">
           <div className="container">

@@ -73,7 +73,7 @@ export default class Navbar extends Component {
                   <img
                     className="img-fluid scholar"
                     src={SheikhName}
-                    alt="Sheikh Zafar ul hasan"
+                    alt="zafarul hasan madani"
                   />
                 </div>
                 <hr />

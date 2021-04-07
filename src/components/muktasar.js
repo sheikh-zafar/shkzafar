@@ -2,11 +2,26 @@ import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "./footer";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 export default class muktasar extends Component {
   render() {
     return (
       <div>
+        <div className="application">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>zafar ul hasan madani | Brief Lectures</title>
+            <link
+              rel="canonical"
+              href="https://zafarulhasan.com/#/audio/mukhtasar"
+            />
+            <meta
+              name="description"
+              content="Listen and Download Brief Lectures by zafar ul hasan madani"
+            />
+          </Helmet>
+        </div>
         <Navbar />
         <section className="embed-section">
           <div className="container">
