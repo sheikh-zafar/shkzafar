@@ -9,7 +9,7 @@ export default class books extends Component {
         <div className="application">
           <Helmet>
             <meta charSet="utf-8" />
-            <title>Zafar ul hasan madani</title>
+            <title>فضيلة الشيخ ظفر الحسن مدني حفظه الله</title>
             <link rel="canonical" href="https://zafarulhasan.com/#/books" />
             <meta
               name="description"

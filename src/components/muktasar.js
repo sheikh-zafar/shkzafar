@@ -11,10 +11,14 @@ export default class muktasar extends Component {
         <div className="application">
           <Helmet>
             <meta charSet="utf-8" />
-            <title>zafar ul hasan madani | Brief Lectures</title>
+            <title>فضيلة الشيخ ظفر الحسن مدني حفظه الله</title>
             <link
               rel="canonical"
               href="https://zafarulhasan.com/#/audio/mukhtasar"
+            />
+            <meta
+              name="title"
+              content="Zafar ul hasan madani | Breif Lectures"
             />
             <meta
               name="description"

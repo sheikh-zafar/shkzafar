@@ -11,8 +11,9 @@ export default class aam extends Component {
         <div className="application">
           <Helmet>
             <meta charSet="utf-8" />
-            <title>Yearly Dars</title>
+            <title>فضيلة الشيخ ظفر الحسن مدني حفظه الله</title>
             <link rel="canonical" href="https://zafarulhasan.com/#/audio/aam" />
+            <meta name="title" content="Zafar ul hasan madani" />
             <meta name="description" content="Isteqamat, Dil ke aamal" />
             <meta
               name="keywords"

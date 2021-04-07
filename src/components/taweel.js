@@ -11,10 +11,14 @@ export default class taweel extends Component {
         <div className="application">
           <Helmet>
             <meta charSet="utf-8" />
-            <title>Zafar ul hasan madani | Taweel Duroos</title>
+            <title>فضيلة الشيخ ظفر الحسن مدني حفظه الله</title>
             <link
               rel="canonical"
               href="https://zafarulhasan.com/#/audio/taweel"
+            />
+            <meta
+              name="title"
+              content="Zafar ul hasan madani | Taweel Duroos"
             />
             <meta
               name="description"

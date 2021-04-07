@@ -10,6 +10,7 @@ import Arkan from "../img/arkan.jpg";
 import Taweel from "../img/taweel.jpeg";
 import Mukhtasar from "../img/mukhtasar.jpeg";
 import Aam from "../img/aam.jpg";
+import { Helmet } from "react-helmet";
 
 export default class audio extends Component {
   handleClick() {
@@ -25,8 +26,22 @@ export default class audio extends Component {
   render() {
     return (
       <div>
+        <div className="application">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>فضيلة الشيخ ظفر الحسن مدني حفظه الله</title>
+            <link rel="canonical" href="https://zafarulhasan.com/#/audio" />
+            <meta
+              name="description"
+              content="Duroos of Sheikh zafar ul hasan"
+            />
+            <meta
+              name="keywords"
+              content="zafar ul hasan madani, salafi , zafar, madani, urdu bayan, bayan, about zafar ul hasan madani, About sheikh zafar"
+            />
+          </Helmet>
+        </div>
         <Navbar />
-
         {/*Rounded button links 1*/}
         <section className="embed-section">
           <div className="container-fluid py-3">

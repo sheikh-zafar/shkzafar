@@ -71,10 +71,14 @@ class mausamiat extends Component {
         <div className="application">
           <Helmet>
             <meta charSet="utf-8" />
-            <title>zafar ul hasan madani | Seasonal Lectures</title>
+            <title>فضيلة الشيخ ظفر الحسن مدني حفظه الله</title>
             <link
               rel="canonical"
               href="https://zafarulhasan.com/#/audio/mausamiyat"
+            />
+            <meta
+              name="title"
+              content="Zafar ul hasan madani | Seasonal Lectures"
             />
             <meta
               name="description"

@@ -18,10 +18,14 @@ export default class tadweensunnah extends Component {
         <div className="application">
           <Helmet>
             <meta charSet="utf-8" />
-            <title>zafar ul hasan madani | Quran Tafseer</title>
+            <title>فضيلة الشيخ ظفر الحسن مدني حفظه الله</title>
             <link
               rel="canonical"
               href="https://zafarulhasan.com/#/audio/qurantafseer"
+            />
+            <meta
+              name="title"
+              content="Zafar ul hasan madani | Quran tafseer"
             />
             <meta
               name="description"

@@ -10,7 +10,7 @@ export default class about extends Component {
         <div className="application">
           <Helmet>
             <meta charSet="utf-8" />
-            <title>Zafar ul hasan madani</title>
+            <title>فضيلة الشيخ ظفر الحسن مدني حفظه الله</title>
             <link rel="canonical" href="https://zafarulhasan.com/#/about" />
             <meta name="description" content="About Sheikh zafar ul hasan" />
             <meta
