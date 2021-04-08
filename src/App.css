@@ -657,6 +657,12 @@ h2 .accordion-header {
   .marginMukhtasarPhone {
     margin-left: 22px;
   }
+  .marginAamPhone {
+    margin-left: 5px;
+  }
+  .marginSisterPhone {
+    margin-left: -40px;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {

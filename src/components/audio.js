@@ -158,13 +158,59 @@ export default class audio extends Component {
                 <Link to="/audio/aam" title="yearly dars">
                   <div className="rounded-links rounded-circle">
                     <img
-                      src={Aam}
+                      src={Moon}
                       className="img-fluid rounded-circle"
                       alt="Lectures of Sheikh zafarul hasan madani(Mukhtasar)"
                     />
                   </div>
                   <div>
                     <h3 className="rounded-headname">Aam Duroos</h3>
+                  </div>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/*Rounded button links 2*/}
+        <section className="embed-section">
+          <div className="container-fluid py-3">
+            <div className="row text-center ">
+              <div className="col-md-5 col-sm-12 col-xs-12 d-flex justify-content-end marginSisterPhone">
+                <Link
+                  to="/comingsoon"
+                  title="women in islam"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="rounded-links rounded-circle">
+                    <img
+                      src={Aam}
+                      className="img-fluid rounded-circle"
+                      alt="zafar ul hasan madani"
+                    />
+                  </div>
+                  <div>
+                    <h3 className="rounded-headname">Sister's Section</h3>
+                  </div>
+                </Link>
+              </div>
+
+              <div className="col-md-7 col-sm-12 col-xs-12 d-flex justify-content-center marginAhlulPhone">
+                <Link
+                  to="/comingsoon"
+                  title="Tareeq Ahlul hadith"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="rounded-links rounded-circle">
+                    <img
+                      src={Arkan}
+                      className="img-fluid rounded-circle"
+                      alt="zafar ul hasan madani"
+                    />
+                  </div>
+                  <div>
+                    <h3 className="rounded-headname">Tareeq Ahlul Hadith</h3>
                   </div>
                 </Link>
               </div>
