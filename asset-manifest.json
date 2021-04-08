@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.5d2e7c9d.chunk.css",
-    "main.js": "/static/js/main.7baa32a5.chunk.js",
-    "main.js.map": "/static/js/main.7baa32a5.chunk.js.map",
+    "main.js": "/static/js/main.3baba753.chunk.js",
+    "main.js.map": "/static/js/main.3baba753.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3dbf9d90.js",
     "runtime-main.js.map": "/static/js/runtime-main.3dbf9d90.js.map",
     "static/css/2.f1a1079b.chunk.css": "/static/css/2.f1a1079b.chunk.css",
@@ -19,7 +19,6 @@
     "static/media/arkan.7cdb85d3.jpg": "/static/media/arkan.7cdb85d3.jpg",
     "static/media/baqarah.a5d333ef.jpg": "/static/media/baqarah.a5d333ef.jpg",
     "static/media/bulugh.4a954cde.jpg": "/static/media/bulugh.4a954cde.jpg",
-    "static/media/bulugh.f8250d20.png": "/static/media/bulugh.f8250d20.png",
     "static/media/covid.9d399de8.jpeg": "/static/media/covid.9d399de8.jpeg",
     "static/media/jummaicon.32769a2c.jpg": "/static/media/jummaicon.32769a2c.jpg",
     "static/media/jummuahkhutbah.6c24fce3.jpg": "/static/media/jummuahkhutbah.6c24fce3.jpg",
@@ -27,11 +26,8 @@
     "static/media/mosque.0cea690a.jpg": "/static/media/mosque.0cea690a.jpg",
     "static/media/muharram.af67ecfe.jpg": "/static/media/muharram.af67ecfe.jpg",
     "static/media/mukhtasar.fd17867c.jpeg": "/static/media/mukhtasar.fd17867c.jpeg",
-    "static/media/riyadh.7189289a.png": "/static/media/riyadh.7189289a.png",
     "static/media/safar.9592d0a3.jpg": "/static/media/safar.9592d0a3.jpg",
     "static/media/shamail2.7b6ab84b.jpg": "/static/media/shamail2.7b6ab84b.jpg",
-    "static/media/shamailslide.b85f8dc1.jpg": "/static/media/shamailslide.b85f8dc1.jpg",
-    "static/media/sharhsunnah2.9f34a0e8.jpg": "/static/media/sharhsunnah2.9f34a0e8.jpg",
     "static/media/sharhsunnah3.b782ecca.jpg": "/static/media/sharhsunnah3.b782ecca.jpg",
     "static/media/sheikhname.0d09d7ad.jpg": "/static/media/sheikhname.0d09d7ad.jpg",
     "static/media/sunday.27450ac0.jpg": "/static/media/sunday.27450ac0.jpg",
@@ -43,6 +39,6 @@
     "static/css/2.f1a1079b.chunk.css",
     "static/js/2.e211bd87.chunk.js",
     "static/css/main.5d2e7c9d.chunk.css",
-    "static/js/main.7baa32a5.chunk.js"
+    "static/js/main.3baba753.chunk.js"
   ]
 }
