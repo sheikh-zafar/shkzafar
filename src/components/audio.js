@@ -158,7 +158,7 @@ export default class audio extends Component {
                 <Link to="/audio/aam" title="yearly dars">
                   <div className="rounded-links rounded-circle">
                     <img
-                      src={Moon}
+                      src={Aam}
                       className="img-fluid rounded-circle"
                       alt="Lectures of Sheikh zafarul hasan madani(Mukhtasar)"
                     />
@@ -184,7 +184,7 @@ export default class audio extends Component {
                 >
                   <div className="rounded-links rounded-circle">
                     <img
-                      src={Aam}
+                      src={Moon}
                       className="img-fluid rounded-circle"
                       alt="zafar ul hasan madani"
                     />

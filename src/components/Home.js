@@ -12,7 +12,8 @@ import bulugh from "../img/bulugh.png";
 import riyadh from "../img/riyadh.png";
 import Covid from "../img/covid.jpeg";
 import { Link } from "react-router-dom";
-import Baqarah from "../img/surahbaqarah.png";
+import Baqarah from "../img/baqarah.jpg";
+import Sunday from "../img/sunday.jpg";
 
 export default class Home extends Component {
   state = {
@@ -64,6 +65,15 @@ export default class Home extends Component {
                   </ol>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
+                      <img
+                        src={Sunday}
+                        className="d-block w-100"
+                        alt="shamail"
+                        height="400px"
+                        width="100%"
+                      />
+                    </div>
+                    <div class="carousel-item ">
                       <img
                         src={bulugh}
                         className="d-block w-100"

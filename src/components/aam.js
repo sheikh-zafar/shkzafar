@@ -17,7 +17,7 @@ export default class aam extends Component {
             <meta name="description" content="Isteqamat, Dil ke aamal" />
             <meta
               name="keywords"
-              content="zafar ul hasan madani, salafi, salafi scholar,zafar, madani, urdu bayan, bayan"
+              content="zafar ul hasan madani, salafi, salafi scholar,zafar, madani, urdu bayan, bayan, aam duroos"
             />
           </Helmet>
         </div>
