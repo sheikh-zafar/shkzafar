@@ -4,12 +4,8 @@ import Footer from "./footer";
 import "react-calendar/dist/Calendar.css";
 import bam2 from "../img/bulugh.jpg";
 import shamail2 from "../img/shamail2.jpg";
-import shamailslide from "../img/shamailslide.jpg";
-import sharhsunnah2 from "../img/sharhsunnah2.jpg";
 import sharhsunnah3 from "../img/sharhsunnah3.jpg";
 import mosque from "../img/mosque.jpg";
-import bulugh from "../img/bulugh.png";
-import riyadh from "../img/riyadh.png";
 import Covid from "../img/covid.jpeg";
 import { Link } from "react-router-dom";
 import Baqarah from "../img/baqarah.jpg";
@@ -46,74 +42,23 @@ export default class Home extends Component {
                       data-target="#carouselExampleIndicators"
                       data-slide-to="1"
                     ></li>
-                    <li
-                      data-target="#carouselExampleIndicators"
-                      data-slide-to="2"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators"
-                      data-slide-to="3"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators"
-                      data-slide-to="4"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators"
-                      data-slide-to="5"
-                    ></li>
                   </ol>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <img
                         src={Sunday}
                         className="d-block w-100"
-                        alt="shamail"
+                        alt="sunday dars"
                         height="400px"
                         width="100%"
                       />
                     </div>
-                    <div class="carousel-item ">
-                      <img
-                        src={bulugh}
-                        className="d-block w-100"
-                        alt="bulugh al maram"
-                        height="400px"
-                        width="100%"
-                      />
-                    </div>
+
                     <div class="carousel-item">
                       <img
                         src={Baqarah}
                         className="d-block w-100"
-                        alt="shamail"
-                        height="400px"
-                        width="100%"
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src={shamailslide}
-                        className="d-block w-100"
-                        alt="shamail"
-                        height="400px"
-                        width="100%"
-                      />
-                    </div>
-                    <div class="carousel-item ">
-                      <img
-                        src={sharhsunnah2}
-                        className="d-block w-100"
-                        alt="sharh as sunnah"
-                        height="400px"
-                        width="100%"
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src={riyadh}
-                        className="d-block w-100"
-                        alt="shamail"
+                        alt="surah baqarah"
                         height="400px"
                         width="100%"
                       />
