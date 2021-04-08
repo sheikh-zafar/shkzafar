@@ -210,7 +210,10 @@ export default class audio extends Component {
                     />
                   </div>
                   <div>
-                    <h3 className="rounded-headname">Tareeq Ahlul Hadith</h3>
+                    <h3 className="rounded-headname">
+                      Tareeq Ahlul <br />
+                      Hadith
+                    </h3>
                   </div>
                 </Link>
               </div>
