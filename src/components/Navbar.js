@@ -23,20 +23,20 @@ export default class Navbar extends Component {
                     <div class="carousel-item active">
                       <img
                         src={QuranHadith1Arabic}
-                        className="d-block w-100 ayah"
+                        className="ayah w-100"
                         alt="salaf scholar"
                       />
                     </div>
                     <div class="carousel-item ">
                       <img
                         src={QuranHadith1Urdu}
-                        className="d-block w-100 ayah"
+                        className="ayah w-100"
                         alt="salafi"
                       />
                     </div>
                     <div class="carousel-item">
                       <img
-                        className="d-block w-100 ayah"
+                        className="ayah w-100"
                         src={QuranHadith1English}
                         alt="salafi"
                       />
