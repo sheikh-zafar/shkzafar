@@ -672,6 +672,10 @@ h2 .accordion-header {
   .carousel-item .img-fluid {
     height: 250px;
   }
+  .displayimg {
+    height: 110px;
+    width: 200px;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
