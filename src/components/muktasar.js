@@ -24,6 +24,7 @@ export default class muktasar extends Component {
               name="description"
               content="Listen and Download Brief Lectures by zafar ul hasan madani"
             />
+            <meta name="keywords" content="tadween as sunnah," />
           </Helmet>
         </div>
         <Navbar />
@@ -126,7 +127,7 @@ export default class muktasar extends Component {
                 <div class="card text-center">
                   <div class="card-header pb-0">
                     تدوين السنة
-                    <p className="lead pt-3">Tadween Sunnah</p>
+                    <p className="lead pt-3">Tadween As Sunnah</p>
                     <h5 class="card-title" style={{ color: "#2e856e" }}>
                       29th,November,'2016 - 03,December,'2016
                     </h5>
@@ -141,6 +142,7 @@ export default class muktasar extends Component {
                       <div className="col col-xs-12">
                         <a
                           href="https://archive.org/embed/tadween-as-sunnah-zafarulhasan-madani&playlist=1&list_height=550"
+                          title="tadween as sunnah"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_blank"
                           rel="noreferrer"
@@ -157,6 +159,7 @@ export default class muktasar extends Component {
                       <div className="col col-xs-12">
                         <a
                           href="https://drive.google.com/drive/folders/1Fx6WbJG3y2mmkrSuKSWXJZz3FBwd80mf"
+                          title="tadween as sunnah"
                           target="_blank"
                           rel="noreferrer"
                           className="btn btn btn-lg btn-outline-dark"
@@ -173,6 +176,7 @@ export default class muktasar extends Component {
                       <div className="col">
                         <a
                           href="https://www.youtube.com/playlist?list=PLmZP1KIsC-hn_EzJv5bmRNWRmC2eJSTvO"
+                          title="tadween as sunnah"
                           target="_blank"
                           rel="noreferrer"
                           className="btn btn btn-lg btn-outline-dark"

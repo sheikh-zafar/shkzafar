@@ -33,9 +33,12 @@ body {
   overflow: hidden;
   width: 100%;
 }
-.carousel-item img {
+.carousel-item .img-fluid {
   width: 100%;
+  height: 100%;
+  margin: 0%;
 }
+
 .carousel-indicators li {
   width: 10px;
   height: 10px;
@@ -665,6 +668,9 @@ h2 .accordion-header {
   }
   .marginAhlulPhone {
     margin-left: 15px;
+  }
+  .carousel-item .img-fluid {
+    height: 250px;
   }
 }
 

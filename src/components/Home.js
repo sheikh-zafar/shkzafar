@@ -10,15 +10,27 @@ import Covid from "../img/covid.jpeg";
 import { Link } from "react-router-dom";
 import Baqarah from "../img/baqarah.jpg";
 import Sunday from "../img/sunday.jpg";
+import { Helmet } from "react-helmet";
 
 export default class Home extends Component {
-  state = {
-    date: new Date(),
-  };
-  onChange = (date) => this.setState({ date });
   render() {
     return (
       <div>
+        <div className="application">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>فضيلة الشيخ ظفر الحسن مدني حفظه الله</title>
+            <link rel="canonical" href="https://zafarulhasan.com/#/" />
+            <meta
+              name="description"
+              content="Listen and Download Friday Sermon by zafar ul hasan madani"
+            />
+            <meta
+              name="keywords"
+              content="urdu tafseer, urdu bayan, Dil Ke Aamal, Azmate sahaba, mowsamiyyat shaban, mowsamiyyat ramadan, Tafseer surah baqarah, tadween as sunnah,isteqamat, "
+            />
+          </Helmet>
+        </div>
         {/*Heading name and Navigation bar*/}
         <Navbar />
         {/*Banner section*/}
@@ -47,7 +59,7 @@ export default class Home extends Component {
                     <div class="carousel-item active">
                       <img
                         src={Sunday}
-                        className="d-block w-100"
+                        className="img-fluid"
                         alt="sunday dars"
                         height="400px"
                         width="100%"
@@ -57,7 +69,7 @@ export default class Home extends Component {
                     <div class="carousel-item">
                       <img
                         src={Baqarah}
-                        className="d-block w-100"
+                        className="img-fluid"
                         alt="surah baqarah"
                         height="400px"
                         width="100%"
@@ -93,38 +105,36 @@ export default class Home extends Component {
         </div>
 
         {/*Calendar and Mixlr section*/}
-        <section className="embed-section">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-5 col-md-5 col-sm-10 col-xs-12 ">
-                <section className="mixlr-section calendar">
-                  <iframe
-                    title="calendar"
-                    src="https://calendar.google.com/calendar/embed?height=250&amp;wkst=1&amp;bgcolor=%232e856e&amp;ctz=Asia%2FDubai&amp;src=M2I4cG9vczFic2lwdGhnYnA5NWhjYnZuaTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%230B8043&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;showTabs=0&amp;mode=AGENDA"
-                    width="100%"
-                    height="100%"
-                    frameborder="0"
-                    scrolling="no"
-                  ></iframe>
-                </section>
-              </div>
-              <div className=" col-lg-7 col-md-7 col-sm-10 col-xs-12">
-                <section className="mixlr-section">
-                  <iframe
-                    title="shaikh-zafar"
-                    src="https://mixlr.com/zafarulhasan/embed"
-                    className="mixlr"
-                    width="100%"
-                    scrolling="no"
-                    frameborder="no"
-                    marginheight="0"
-                    marginwidth="0"
-                  ></iframe>
-                </section>
-              </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-5 col-md-5 col-sm-10 col-xs-12 ">
+              <section className="mixlr-section calendar">
+                <iframe
+                  title="calendar"
+                  src="https://calendar.google.com/calendar/embed?height=250&amp;wkst=1&amp;bgcolor=%232e856e&amp;ctz=Asia%2FDubai&amp;src=M2I4cG9vczFic2lwdGhnYnA5NWhjYnZuaTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%230B8043&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;showTabs=0&amp;mode=AGENDA"
+                  width="100%"
+                  height="100%"
+                  frameborder="0"
+                  scrolling="no"
+                ></iframe>
+              </section>
+            </div>
+            <div className=" col-lg-7 col-md-7 col-sm-10 col-xs-12">
+              <section className="mixlr-section">
+                <iframe
+                  title="shaikh-zafar"
+                  src="https://mixlr.com/zafarulhasan/embed"
+                  className="mixlr"
+                  width="100%"
+                  scrolling="no"
+                  frameborder="no"
+                  marginheight="0"
+                  marginwidth="0"
+                ></iframe>
+              </section>
             </div>
           </div>
-        </section>
+        </div>
 
         {/*Youtube, Image ,Showreel*/}
         <div className="container pt-3">
