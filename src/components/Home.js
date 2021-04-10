@@ -11,6 +11,9 @@ import { Link } from "react-router-dom";
 import Baqarah from "../img/baqarah.jpg";
 import Sunday from "../img/sunday.jpg";
 import { Helmet } from "react-helmet";
+import monday from "../img/monday.jpg";
+import wednesday from "../img/wednesday.jpg";
+import saturday from "../img/saturday.jpg";
 
 export default class Home extends Component {
   render() {
@@ -36,71 +39,107 @@ export default class Home extends Component {
         {/*Banner section*/}
         <div className="container">
           <div className="row">
-            <div className="col-md-12">
-              <section className="banner-section">
-                <div
-                  id="carouselExampleIndicators"
-                  class="carousel slide carousel-fade"
-                  data-ride="carousel"
-                  data-interval="2500"
-                >
-                  <ol id="myCarousel-indicators" class="carousel-indicators">
-                    <li
-                      data-target="#carouselExampleIndicators"
-                      data-slide-to="0"
-                      class="active"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators"
-                      data-slide-to="1"
-                    ></li>
-                  </ol>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img
-                        src={Sunday}
-                        className="img-fld"
-                        alt="sunday dars"
-                        height="400px"
-                        width="100%"
-                      />
-                    </div>
-
-                    <div class="carousel-item">
-                      <img
-                        src={Baqarah}
-                        className="img-fld"
-                        alt="surah baqarah"
-                        height="400px"
-                        width="100%"
-                      />
-                    </div>
+            <section className="banner-section">
+              <div
+                id="carouselExampleIndicators"
+                class="carousel slide carousel-fade"
+                data-ride="carousel"
+                data-interval="2500"
+              >
+                <ol id="myCarousel-indicators" class="carousel-indicators">
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="0"
+                    class="active"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="1"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="2"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="3"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="4"
+                  ></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src={Sunday}
+                      className="img-fld"
+                      alt="sunday dars"
+                      height="400px"
+                      width="100%"
+                    />
                   </div>
-                  <a
-                    class="carousel-control-prev"
-                    href="#carouselExampleIndicators"
-                    role="button"
-                    data-slide="prev"
-                  >
-                    <span
-                      class="carousel-control-prev-icon"
-                      aria-hidden="true"
-                    ></span>
-                  </a>
-                  <a
-                    class="carousel-control-next"
-                    href="#carouselExampleIndicators"
-                    role="button"
-                    data-slide="next"
-                  >
-                    <span
-                      class="carousel-control-next-icon"
-                      aria-hidden="true"
-                    ></span>
-                  </a>
+                  <div class="carousel-item ">
+                    <img
+                      src={monday}
+                      className="img-fld"
+                      alt="zafar ul hasan madani"
+                      height="400px"
+                      width="100%"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src={Baqarah}
+                      className="img-fld"
+                      alt="surah baqarah"
+                      height="400px"
+                      width="100%"
+                    />
+                  </div>
+                  <div class="carousel-item ">
+                    <img
+                      src={wednesday}
+                      className="img-fld"
+                      alt="zafar ul hasan madani"
+                      height="400px"
+                      width="100%"
+                    />
+                  </div>
+                  <div class="carousel-item ">
+                    <img
+                      src={saturday}
+                      className="img-fld"
+                      alt="zafar ul hasan madani"
+                      height="400px"
+                      width="100%"
+                    />
+                  </div>
                 </div>
-              </section>
-            </div>
+                <a
+                  class="carousel-control-prev"
+                  href="#carouselExampleIndicators"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                </a>
+                <a
+                  class="carousel-control-next"
+                  href="#carouselExampleIndicators"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                </a>
+              </div>
+            </section>
           </div>
         </div>
 

@@ -670,7 +670,9 @@ h2 .accordion-header {
   }
   .img-fld {
     height: 250px;
+    width: 100%;
   }
+
   .displayimg {
     height: 110px;
     width: 200px;
