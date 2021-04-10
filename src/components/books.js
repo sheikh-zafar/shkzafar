@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 import { Helmet } from "react-helmet";
+import Footer from "./footer";
 
 export default class books extends Component {
   render() {
@@ -19,6 +20,7 @@ export default class books extends Component {
         </div>
         <Navbar />
         <h1>Books</h1>
+        <Footer />
       </div>
     );
   }

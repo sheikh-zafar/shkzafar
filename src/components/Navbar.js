@@ -12,7 +12,7 @@ export default class Navbar extends Component {
         <section className="heading-section">
           <div className="row">
             <div className="container">
-              <div className="col-md-7 pt-3">
+              <div className="col-md-7 ">
                 <div
                   id="carouselExampleFade"
                   class="carousel slide carousel-fade"
@@ -23,20 +23,20 @@ export default class Navbar extends Component {
                     <div class="carousel-item active">
                       <img
                         src={QuranHadith1Arabic}
-                        className="ayah"
+                        className="d-block w-100 ayah"
                         alt="salaf scholar"
                       />
                     </div>
                     <div class="carousel-item ">
                       <img
                         src={QuranHadith1Urdu}
-                        className="ayah"
+                        className="d-block w-100 ayah"
                         alt="salafi"
                       />
                     </div>
                     <div class="carousel-item">
                       <img
-                        className="ayah"
+                        className="d-block w-100 ayah"
                         src={QuranHadith1English}
                         alt="salafi"
                       />

@@ -59,7 +59,7 @@ export default class Home extends Component {
                     <div class="carousel-item active">
                       <img
                         src={Sunday}
-                        className="img-fluid"
+                        className="img-fld"
                         alt="sunday dars"
                         height="400px"
                         width="100%"
@@ -69,7 +69,7 @@ export default class Home extends Component {
                     <div class="carousel-item">
                       <img
                         src={Baqarah}
-                        className="img-fluid"
+                        className="img-fld"
                         alt="surah baqarah"
                         height="400px"
                         width="100%"

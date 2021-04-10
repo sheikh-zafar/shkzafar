@@ -129,6 +129,9 @@ class mausamiat extends Component {
                     <div className="col">
                       <a
                         href="https://drive.google.com/drive/folders/1b5HZv_HcOAhF7X01w3iovI0KzIqCpprK"
+                        title="muharram"
+                        rel="nooperner noreferrer"
+                        target="_blank"
                         style={{ color: "beige" }}
                       >
                         Download
@@ -160,6 +163,9 @@ class mausamiat extends Component {
                     <a
                       href="https://drive.google.com/drive/folders/1QLxr6xTkaik9HDA9jn02Wrz5Ghp64i0p"
                       style={{ color: "beige" }}
+                      rel="nooperner noreferrer"
+                      target="_blank"
+                      title="safar"
                     >
                       Download
                     </a>
@@ -188,6 +194,9 @@ class mausamiat extends Component {
                     <a
                       href="https://drive.google.com/drive/folders/18LVDJ92tAnbNLpjgXneExixWImoOF8mo"
                       style={{ color: "beige" }}
+                      rel="nooperner noreferrer"
+                      target="_blank"
+                      title="ramadan"
                     >
                       Download
                     </a>
@@ -221,6 +230,9 @@ class mausamiat extends Component {
                     <a
                       href="https://drive.google.com/drive/folders/1D57h2I6_UyjknJBqtn6PWaNhGe8Hx7fR"
                       style={{ color: "beige" }}
+                      rel="nooperner noreferrer"
+                      target="_blank"
+                      title="rajab"
                     >
                       Download
                     </a>
@@ -249,6 +261,9 @@ class mausamiat extends Component {
                     <a
                       href="https://drive.google.com/drive/folders/1PiPdszibzFuRKipSHQvlVe79TdWNZoWW"
                       style={{ color: "beige" }}
+                      rel="nooperner noreferrer"
+                      target="_blank"
+                      title="dhulhijjah"
                     >
                       Download
                     </a>
@@ -277,6 +292,9 @@ class mausamiat extends Component {
                     <a
                       href="https://drive.google.com/drive/folders/13laZlvbf1xL-pA-g1Y23AjYlDbW2ck2P"
                       style={{ color: "beige" }}
+                      rel="nooperner noreferrer"
+                      target="_blank"
+                      title="shaban"
                     >
                       Download
                     </a>
@@ -323,6 +341,8 @@ class mausamiat extends Component {
                             href="https://www.youtube.com/watch?v=oybD_6uY-vY&list=PLmZP1KIsC-hn1-9x2ug-sN1KB3gNVDMTn"
                             title="muharram"
                             className="orderlist"
+                            rel="nooperner noreferrer"
+                            target="_blank"
                           >
                             Muharram
                           </a>
@@ -332,6 +352,8 @@ class mausamiat extends Component {
                             href="https://www.youtube.com/watch?v=LJ6TRqr-vNU&list=PLmZP1KIsC-hkLgMl1NwJx5QbeyEKDzAp2"
                             title="safar"
                             className="orderlist"
+                            rel="nooperner noreferrer"
+                            target="_blank"
                           >
                             Safar
                           </a>
@@ -342,6 +364,8 @@ class mausamiat extends Component {
                             href="https://www.youtube.com/c/ZafarulHasan/featured"
                             title="rajab"
                             className="orderlist"
+                            rel="nooperner noreferrer"
+                            target="_blank"
                           >
                             Rajab
                           </a>
@@ -352,6 +376,8 @@ class mausamiat extends Component {
                             href="https://www.youtube.com/c/ZafarulHasan/featured"
                             title="shaban"
                             className="orderlist"
+                            rel="nooperner noreferrer"
+                            target="_blank"
                           >
                             Shaban
                           </a>
@@ -361,6 +387,8 @@ class mausamiat extends Component {
                             href="https://www.youtube.com/watch?v=pVxV0Y545GY&list=PLmZP1KIsC-hlJlkxP7gRWagKJKfm018Qm"
                             title="ramadan lectures"
                             className="orderlist"
+                            rel="nooperner noreferrer"
+                            target="_blank"
                           >
                             Ramadan
                           </a>
@@ -368,8 +396,10 @@ class mausamiat extends Component {
                         <li class="list-group-item">
                           <a
                             href="https://www.youtube.com/watch?v=tTbR9WDuBFU&list=PLmZP1KIsC-hk7iLLDpySTIjBwEovtsNS0"
-                            title="dhul hijjah"
+                            title="ramadan"
                             className="orderlist"
+                            rel="nooperner noreferrer"
+                            target="_blank"
                           >
                             Dhul Hijjah
                           </a>
