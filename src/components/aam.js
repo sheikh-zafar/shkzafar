@@ -54,7 +54,7 @@ export default class aam extends Component {
                       <div className="col">
                         <a
                           href="https://archive.org/embed/istiqamah-zafarulhasan-madani&playlist=1&list_height=550"
-                          title="zafarulhasan"
+                          title="salaf"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_newtab"
                           style={{
@@ -70,7 +70,7 @@ export default class aam extends Component {
                       <div className="col">
                         <a
                           href="https://drive.google.com/drive/folders/1LVbol0FZAEe8Y2efbnV9jNJLbQN95fkT"
-                          title="isteqamat - zafarulhasan"
+                          title="ahle hadith"
                           target="_newtab"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
@@ -86,7 +86,7 @@ export default class aam extends Component {
                       <div className="col">
                         <a
                           href="https://www.youtube.com/playlist?list=PLmZP1KIsC-hmd_vS2BTCk6n43tGG5IaIr"
-                          title="zafarulhasan"
+                          title="zafar ul hasan madani"
                           target="_newtab"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
@@ -121,7 +121,7 @@ export default class aam extends Component {
                       <div className="col">
                         <Link
                           to="/comingsoon"
-                          title="zafarul hasan madani"
+                          title="zafar ul hasan madani"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -138,7 +138,7 @@ export default class aam extends Component {
                       <div className="col">
                         <a
                           href="https://drive.google.com/drive/u/1/folders/1rgVlY1adu7MNnOIdl2B4fk7wCiOup-qC"
-                          title="zafarul hasan madani"
+                          title="manhaj"
                           target="_newtab"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{
@@ -154,7 +154,7 @@ export default class aam extends Component {
                       <div className="col">
                         <a
                           href="https://www.youtube.com/playlist?list=PLmZP1KIsC-hk9I9izzkKXm2DO05-5-YsY"
-                          title="zafarul hasan madani"
+                          title="manhaj"
                           target="_newtab"
                           className="btn btn btn-lg btn-outline-dark"
                           style={{

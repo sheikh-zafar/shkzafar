@@ -27,7 +27,7 @@ export default class Navbar extends Component {
                       <img
                         src={QuranHadith1Arabic}
                         className="ayah w-100"
-                        alt="salaf scholar"
+                        alt="ahle hadith"
                       />
                     </div>
                     <div class="carousel-item ">
@@ -48,7 +48,7 @@ export default class Navbar extends Component {
                       <img
                         src={QuranHadith2Arabic}
                         className="ayah w-100"
-                        alt="salaf scholar"
+                        alt="manhaj salaf"
                       />
                     </div>
                     <div class="carousel-item ">
@@ -97,7 +97,7 @@ export default class Navbar extends Component {
                   <img
                     className="img-fluid scholar"
                     src={SheikhName}
-                    alt="zafarul hasan madani"
+                    alt="zafar ul hasan madani"
                   />
                 </div>
                 <hr />
@@ -130,21 +130,33 @@ export default class Navbar extends Component {
                 <ul className="navbar-nav">
                   <li className="nav-item">
                     <Link to="/">
-                      <a className="nav-link" href="/">
+                      <a
+                        className="nav-link"
+                        href="/"
+                        title="zafar ul hasan madani"
+                      >
                         Home
                       </a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link to="/audio">
-                      <a className="nav-link" href="/audio">
+                      <a
+                        className="nav-link"
+                        href="/audio"
+                        title="zafar ul hasan madani"
+                      >
                         Duroos
                       </a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link to="/comingsoon">
-                      <a className="nav-link" href="/books">
+                      <a
+                        className="nav-link"
+                        href="/books"
+                        title="zafar ul hasan madani"
+                      >
                         Books
                       </a>
                     </Link>
@@ -152,7 +164,11 @@ export default class Navbar extends Component {
 
                   <Link to="/about">
                     <li className="nav-item">
-                      <a className="nav-link" href="/about">
+                      <a
+                        className="nav-link"
+                        href="/about"
+                        title="zafar ul hasan madani"
+                      >
                         About Shaikh
                       </a>
                     </li>

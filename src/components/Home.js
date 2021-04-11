@@ -74,7 +74,7 @@ export default class Home extends Component {
                     <img
                       src={Sunday}
                       className="img-fld"
-                      alt="sunday dars"
+                      alt="ahle hadith"
                       height="400px"
                       width="100%"
                     />
@@ -149,7 +149,7 @@ export default class Home extends Component {
             <div className="col-lg-5 col-md-5 col-sm-10 col-xs-12 ">
               <section className="mixlr-section calendar">
                 <iframe
-                  title="calendar"
+                  title="ahle hadith"
                   src="https://calendar.google.com/calendar/embed?height=250&amp;wkst=1&amp;bgcolor=%232e856e&amp;ctz=Asia%2FDubai&amp;src=M2I4cG9vczFic2lwdGhnYnA5NWhjYnZuaTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%230B8043&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;showTabs=0&amp;mode=AGENDA"
                   width="100%"
                   height="100%"
@@ -161,7 +161,7 @@ export default class Home extends Component {
             <div className=" col-lg-7 col-md-7 col-sm-10 col-xs-12">
               <section className="mixlr-section">
                 <iframe
-                  title="shaikh-zafar"
+                  title="zafarulhasan"
                   src="https://mixlr.com/zafarulhasan/embed"
                   className="mixlr"
                   width="100%"
@@ -234,6 +234,7 @@ export default class Home extends Component {
                   <div className="container py-3">
                     <a
                       href="https://mixlr.com/zafarulhasan/showreel/"
+                      title="salaf"
                       role="button"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -269,7 +270,7 @@ export default class Home extends Component {
                   <div className="col-md-10 displayimg  d-flex justify-content-center">
                     <img
                       src={mosque}
-                      alt="jumuah khutbah"
+                      alt="salaf"
                       className="img-responsive displayimg"
                     />
                   </div>
@@ -284,6 +285,7 @@ export default class Home extends Component {
                     <div className="col">
                       <a
                         href="https://archive.org/embed/2021-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=550"
+                        title="ahle hadith"
                         className="lead pt-3"
                         style={{
                           fontFamily: "Fredoka One",
@@ -300,6 +302,7 @@ export default class Home extends Component {
                     <div className="col">
                       <a
                         href="https://drive.google.com/drive/folders/1al-gkHcSA5yDjFUrjoXRABxoEg5v8FbF"
+                        title="zafar ul hasan madani"
                         className="lead pt-3"
                         style={{
                           fontFamily: "Fredoka One",
@@ -316,6 +319,7 @@ export default class Home extends Component {
                     <div className="col">
                       <a
                         href="https://www.youtube.com/watch?v=-Zy5GaMI2_U&list=PLmZP1KIsC-hmuVCpduAT3dMDd-kZG6l4f"
+                        title="manhaj"
                         className="lead pt-3"
                         style={{
                           fontFamily: "Fredoka One",
@@ -337,7 +341,7 @@ export default class Home extends Component {
                   <div className="col-md-10 displayimg  d-flex justify-content-center">
                     <img
                       src={Covid}
-                      alt="Covid-19"
+                      alt="manhaj"
                       className="img-responsive displayimg"
                     />
                   </div>
@@ -354,6 +358,7 @@ export default class Home extends Component {
                     <div className="col">
                       <a
                         href="https://archive.org/embed/corona-virus-covid-19-lectures-zafarulhasan-madani&playlist=1&list_height=550"
+                        title="manhaj"
                         className="lead pt-3"
                         style={{
                           fontFamily: "Fredoka One",
@@ -370,6 +375,7 @@ export default class Home extends Component {
                     <div className="col">
                       <a
                         href="https://drive.google.com/drive/folders/1Zc_fkwZOBT74_wjYolbEPPzucJHA7ewJ"
+                        title="salaf"
                         className="lead pt-3"
                         style={{
                           fontFamily: "Fredoka One",
@@ -386,6 +392,7 @@ export default class Home extends Component {
                     <div className="col">
                       <a
                         href="https://www.youtube.com/watch?v=2iinT78L7Jo&list=PLmZP1KIsC-hnPUPMq7dyV3r8KVP-0G9Vi"
+                        title="manhaj"
                         className="lead pt-3"
                         style={{
                           fontFamily: "Fredoka One",
@@ -407,8 +414,7 @@ export default class Home extends Component {
                   <div className="col-md-10 displayimg  d-flex justify-content-center">
                     <img
                       src={sharhsunnah3}
-                      alt="Sharh as-Sunnah
-                "
+                      alt="salaf"
                       className="img-responsive displayimg"
                     />
                   </div>
@@ -425,6 +431,7 @@ export default class Home extends Component {
                     <div className="col">
                       <a
                         href="https://archive.org/embed/sharh-as-sunnah-barbaharee-zafarulhasan-madani&playlist=1&list_height=550"
+                        title="zafar ul hasan madani"
                         className="lead pt-3"
                         style={{
                           fontFamily: "Fredoka One",
@@ -441,6 +448,7 @@ export default class Home extends Component {
                     <div className="col">
                       <a
                         href="https://drive.google.com/drive/u/0/folders/1FHmnB17RfmCYfZdjSpuyQ6XCt1zELR-o"
+                        title="zafar ul hasan madani"
                         className="lead pt-3"
                         style={{
                           fontFamily: "Fredoka One",
@@ -457,6 +465,7 @@ export default class Home extends Component {
                     <div className="col">
                       <a
                         href="https://www.youtube.com/watch?v=A_GfTdyV0Y0&list=PLmZP1KIsC-hnmXQn8oulAyQDd3l8xjyDo"
+                        title="quran and sunnah"
                         className="lead pt-3"
                         style={{
                           fontFamily: "Fredoka One",
@@ -478,7 +487,7 @@ export default class Home extends Component {
                   <div className="col-md-10 displayimg  d-flex justify-content-center">
                     <img
                       src={bam2}
-                      alt="bulugh al maram"
+                      alt="fiqh"
                       className="img-responsive displayimg"
                     />
                   </div>
@@ -495,6 +504,7 @@ export default class Home extends Component {
                     <div className="col">
                       <a
                         href="https://archive.org/embed/sharh-bulugh-al-maram-zafarulhasan-madani&playlist=1&list_height=550"
+                        title="fiqh"
                         className="lead pt-3"
                         style={{
                           fontFamily: "Fredoka One",
@@ -511,6 +521,7 @@ export default class Home extends Component {
                     <div className="col">
                       <a
                         href="https://drive.google.com/drive/u/0/folders/1msQrFTXsWmG2M76nb373wHtJFeFgl85Y"
+                        title="fiqh"
                         className="lead pt-3"
                         style={{
                           fontFamily: "Fredoka One",
@@ -527,6 +538,7 @@ export default class Home extends Component {
                     <div className="col">
                       <a
                         href="https://www.youtube.com/watch?v=uWYV4PLluxw&list=PLmZP1KIsC-hltNDJamXol6XA04VzJKIng"
+                        title="zafar ul hasan madani"
                         className="lead pt-3"
                         style={{
                           fontFamily: "Fredoka One",
@@ -548,7 +560,7 @@ export default class Home extends Component {
                   <div className="col-md-10 displayimg  d-flex justify-content-center">
                     <img
                       src={shamail2}
-                      alt="at tirmidhi"
+                      alt="salaf"
                       className="img-responsive displayimg"
                     />
                   </div>
@@ -565,6 +577,7 @@ export default class Home extends Component {
                     <div className="col">
                       <Link
                         to="/comingsoon"
+                        title="zafar ul hasan madani"
                         className="lead pt-3"
                         style={{
                           fontFamily: "Fredoka One",
@@ -597,6 +610,7 @@ export default class Home extends Component {
                     <div className="col">
                       <a
                         href="https://www.youtube.com/watch?v=L1HK1mwyLbI&list=PLmZP1KIsC-hk_6GGFntSM-IwahZs_cJb6"
+                        title="ahle hadith"
                         className="lead pt-3"
                         style={{
                           fontFamily: "Fredoka One",
@@ -625,7 +639,7 @@ export default class Home extends Component {
                 <section className="calendar-section" id="target">
                   <div class="embed-responsive embed-responsive-16by9">
                     <iframe
-                      title="shaikh zafar class"
+                      title="zafar ul hasan madani"
                       src="https://calendar.google.com/calendar/embed?src=3b8poos1bsipthgbp95hcbvni4@group.calendar.google.com&ctz=Asia/Dubai"
                       frameborder="0"
                       scrolling="no"

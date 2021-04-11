@@ -33,7 +33,7 @@ export default class audio extends Component {
             <link rel="canonical" href="https://zafarulhasan.com/#/audio" />
             <meta
               name="description"
-              content="Duroos of Sheikh zafar ul hasan"
+              content="Duroos of Sheikh zafar ul hasan madani"
             />
             <meta
               name="keywords"
@@ -47,12 +47,12 @@ export default class audio extends Component {
           <div className="container-fluid py-3">
             <div className="row text-center ">
               <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginJummahPhone">
-                <Link to="/audio/jummuah" title="jummuah">
+                <Link to="/audio/jummuah" title="manhaj">
                   <div className="rounded-links rounded-circle">
                     <img
                       src={Jummuah}
                       className="img-fluid rounded-circle"
-                      alt="bin darwish"
+                      alt="ahle hadith"
                     />
                   </div>
                   <div>
@@ -61,12 +61,12 @@ export default class audio extends Component {
                 </Link>
               </div>
               <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginTafseerPhone">
-                <Link to="/audio/qurantafseer" title="tafseer">
+                <Link to="/audio/qurantafseer" title="hadeeth">
                   <div className="rounded-links rounded-circle">
                     <img
                       src={tafseer}
                       className="img-fluid rounded-circle"
-                      alt="jummuah"
+                      alt="quran"
                     />
                   </div>
                   <div>
@@ -78,7 +78,7 @@ export default class audio extends Component {
               <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginArkanPhone">
                 <Link
                   to="/comingsoon"
-                  title="arkan al islam"
+                  title="pillars of islam"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -95,12 +95,12 @@ export default class audio extends Component {
                 </Link>
               </div>
               <div className="col-md-3 col-sm-12 col-xs-6 d-flex justify-content-end d-sm-flex justify-content-center ">
-                <Link to="/audio/mausamiyat" title="islamic monthly duroos">
+                <Link to="/audio/mausamiyat" title="pillars of islam">
                   <div className="rounded-links rounded-circle">
                     <img
                       src={Moon}
                       className="img-fluid rounded-circle"
-                      alt="zafarul hasan madani"
+                      alt="zafar ul hasan madani"
                     />
                   </div>
                   <div>
@@ -116,12 +116,12 @@ export default class audio extends Component {
           <div className="container py-3">
             <div className="row text-center">
               <div className="col-md-5 col-sm-12 col-xs-12 d-flex justify-content-center marginTaweelPhone">
-                <Link to="/audio/taweel" title="long dars">
+                <Link to="/audio/taweel" title="islam">
                   <div className="rounded-links rounded-circle">
                     <img
                       src={Taweel}
                       className="img-fluid rounded-circle"
-                      alt="zafarul hasan madani"
+                      alt="islam"
                     />
                   </div>
                   <div>
@@ -136,12 +136,12 @@ export default class audio extends Component {
               </div>
 
               <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginMukhtasarPhone">
-                <Link to="/audio/muktasar" title="Brief dars">
+                <Link to="/audio/muktasar" title="quran">
                   <div className="rounded-links rounded-circle">
                     <img
                       src={Mukhtasar}
                       className="img-fluid rounded-circle"
-                      alt="Lectures of Sheikh zafarul hasan madani(Mukhtasar)"
+                      alt="manhaj"
                     />
                   </div>
                   <div>
@@ -155,12 +155,12 @@ export default class audio extends Component {
               </div>
 
               <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginAamPhone">
-                <Link to="/audio/aam" title="yearly dars">
+                <Link to="/audio/aam" title="ahle hadith">
                   <div className="rounded-links rounded-circle">
                     <img
                       src={Aam}
                       className="img-fluid rounded-circle"
-                      alt="Lectures of Sheikh zafarul hasan madani(Mukhtasar)"
+                      alt="zafar ul hasan madani"
                     />
                   </div>
                   <div>
@@ -178,7 +178,7 @@ export default class audio extends Component {
               <div className="col-md-5 col-sm-12 col-xs-12 d-flex justify-content-end marginSisterPhone">
                 <Link
                   to="/comingsoon"
-                  title="women in islam"
+                  title="ahle hadith"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -186,7 +186,7 @@ export default class audio extends Component {
                     <img
                       src={Moon}
                       className="img-fluid rounded-circle"
-                      alt="zafar ul hasan madani"
+                      alt="manhaj"
                     />
                   </div>
                   <div>
@@ -198,7 +198,7 @@ export default class audio extends Component {
               <div className="col-md-7 col-sm-12 col-xs-12 d-flex justify-content-center marginAhlulPhone">
                 <Link
                   to="/comingsoon"
-                  title="Tareeq Ahlul hadith"
+                  title="ahle hadees"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -206,7 +206,7 @@ export default class audio extends Component {
                     <img
                       src={Arkan}
                       className="img-fluid rounded-circle"
-                      alt="zafar ul hasan madani"
+                      alt="ahle hadith"
                     />
                   </div>
                   <div>

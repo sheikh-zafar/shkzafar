@@ -21,6 +21,7 @@ export default class Products extends Component {
                           <a
                             href={qurantafseer.archive}
                             className="btn btn btn-lg btn-outline-dark"
+                            title="quran tafseer"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{
@@ -36,6 +37,7 @@ export default class Products extends Component {
                         <div className="col">
                           <a
                             href={qurantafseer.drive}
+                            title="quran tafseer"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn btn btn-lg btn-outline-dark"
@@ -52,6 +54,7 @@ export default class Products extends Component {
                         <div className="col">
                           <a
                             href={qurantafseer.youtube}
+                            title="quran tafseer"
                             target="_blank"
                             rel="noreferrer"
                             className="btn btn btn-lg btn-outline-dark"

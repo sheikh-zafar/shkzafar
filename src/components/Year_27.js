@@ -26,6 +26,7 @@ export default class Year_27 extends Component {
               <div className="col-md-3 col-xs-3 col-sm-3">
                 <Link
                   to="/comingsoon"
+                  title="salaf"
                   className="lead pt-3"
                   style={{
                     fontFamily: "Fredoka One",
@@ -42,6 +43,7 @@ export default class Year_27 extends Component {
               <div className="col-md-3 col-xs-3 col-sm-3">
                 <a
                   href={year27.drive}
+                  title="salaf"
                   className="lead pt-3"
                   style={{
                     fontFamily: "Fredoka One",
@@ -58,6 +60,7 @@ export default class Year_27 extends Component {
               <div className="col-md-3 col-xs-3 col-sm-3">
                 <Link
                   to="/comingsoon"
+                  title="salaf"
                   className="lead pt-3 paddingVideo"
                   style={{
                     fontFamily: "Fredoka One",
