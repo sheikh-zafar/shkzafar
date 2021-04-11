@@ -4,6 +4,9 @@ import SheikhName from "../img/sheikhname.jpg";
 import QuranHadith1Arabic from "../img/Quran&Hadith1Arabic.jpg";
 import QuranHadith1Urdu from "../img/Quran&Hadith1Urdu.jpg";
 import QuranHadith1English from "../img/Quran&Hadith1English.jpg";
+import QuranHadith2Arabic from "../img/Quran&Hadith2Arabic.jpg";
+import QuranHadith2Urdu from "../img/Quran&Hadith2Urdu.jpg";
+import QuranHadith2English from "../img/Quran&Hadith2English.jpg";
 
 export default class Navbar extends Component {
   render() {
@@ -41,6 +44,27 @@ export default class Navbar extends Component {
                         alt="salafi"
                       />
                     </div>
+                    <div class="carousel-item">
+                      <img
+                        src={QuranHadith2Arabic}
+                        className="ayah w-100"
+                        alt="salaf scholar"
+                      />
+                    </div>
+                    <div class="carousel-item ">
+                      <img
+                        src={QuranHadith2Urdu}
+                        className="ayah w-100"
+                        alt="salafi"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        className="ayah w-100"
+                        src={QuranHadith2English}
+                        alt="salafi"
+                      />
+                    </div>
                   </div>
                   <a
                     class="carousel-control-prev"
@@ -49,7 +73,7 @@ export default class Navbar extends Component {
                     data-slide="prev"
                   >
                     <span
-                      class="carousel-control-prev-icon ayah"
+                      class="carousel-control-prev-icon"
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only">Previous</span>
@@ -61,7 +85,7 @@ export default class Navbar extends Component {
                     data-slide="next"
                   >
                     <span
-                      class="carousel-control-next-icon ayah"
+                      class="carousel-control-next-icon"
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only">Next</span>
