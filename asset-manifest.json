@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.066f8929.chunk.css",
-    "main.js": "/static/js/main.1466eef7.chunk.js",
-    "main.js.map": "/static/js/main.1466eef7.chunk.js.map",
+    "main.js": "/static/js/main.44efe32d.chunk.js",
+    "main.js.map": "/static/js/main.44efe32d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3dbf9d90.js",
     "runtime-main.js.map": "/static/js/runtime-main.3dbf9d90.js.map",
     "static/css/2.f1a1079b.chunk.css": "/static/css/2.f1a1079b.chunk.css",
@@ -14,7 +14,10 @@
     "static/js/2.99d6c88c.chunk.js.LICENSE.txt": "/static/js/2.99d6c88c.chunk.js.LICENSE.txt",
     "static/media/Quran&Hadith1Arabic.d5438c28.jpg": "/static/media/Quran&Hadith1Arabic.d5438c28.jpg",
     "static/media/Quran&Hadith1English.0ad327b9.jpg": "/static/media/Quran&Hadith1English.0ad327b9.jpg",
-    "static/media/Quran&Hadith1Urdu.b7bca5ca.jpg": "/static/media/Quran&Hadith1Urdu.b7bca5ca.jpg",
+    "static/media/Quran&Hadith1Urdu.edece04a.jpg": "/static/media/Quran&Hadith1Urdu.edece04a.jpg",
+    "static/media/Quran&Hadith2Arabic.90041078.jpg": "/static/media/Quran&Hadith2Arabic.90041078.jpg",
+    "static/media/Quran&Hadith2English.62fdee02.jpg": "/static/media/Quran&Hadith2English.62fdee02.jpg",
+    "static/media/Quran&Hadith2Urdu.60103274.jpg": "/static/media/Quran&Hadith2Urdu.60103274.jpg",
     "static/media/aam.0518d8cd.jpg": "/static/media/aam.0518d8cd.jpg",
     "static/media/arkan.7cdb85d3.jpg": "/static/media/arkan.7cdb85d3.jpg",
     "static/media/baqarah.a5d333ef.jpg": "/static/media/baqarah.a5d333ef.jpg",
@@ -42,6 +45,6 @@
     "static/css/2.f1a1079b.chunk.css",
     "static/js/2.99d6c88c.chunk.js",
     "static/css/main.066f8929.chunk.css",
-    "static/js/main.1466eef7.chunk.js"
+    "static/js/main.44efe32d.chunk.js"
   ]
 }
