@@ -9,7 +9,7 @@ export default class Footer extends Component {
             <div class="row">
               <div class="col-md-12 text-center">
                 <hr />
-                <h5>فضيلة الشيخ ظفر الحسن مدني حفظه اللّه &copy;2020 </h5>
+                <h5>فضيلة الشيخ ظفر الحسن مدني حفظه اللّه &copy;2021 </h5>
               </div>
             </div>
           </div>
