@@ -10,6 +10,8 @@ import Arkan from "../img/arkan.jpg";
 import Taweel from "../img/taweel.jpeg";
 import Mukhtasar from "../img/mukhtasar.jpeg";
 import Aam from "../img/aam.jpg";
+import SisterSection from "../img/sistersection.jpg";
+import AhleHadith from "../img/ahlehadith.jpg";
 import { Helmet } from "react-helmet";
 
 export default class audio extends Component {
@@ -184,7 +186,7 @@ export default class audio extends Component {
                 >
                   <div className="rounded-links rounded-circle">
                     <img
-                      src={Moon}
+                      src={SisterSection}
                       className="img-fluid rounded-circle"
                       alt="manhaj"
                     />
@@ -204,7 +206,7 @@ export default class audio extends Component {
                 >
                   <div className="rounded-links rounded-circle">
                     <img
-                      src={Arkan}
+                      src={AhleHadith}
                       className="img-fluid rounded-circle"
                       alt="ahle hadith"
                     />

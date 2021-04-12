@@ -482,7 +482,6 @@ h2 .accordion-header {
   margin-right: 40vh;
   margin-left: 40vh;
 }
-
 @media (min-width: 1200px) {
 }
 @media (max-width: 991.98px) {
@@ -654,19 +653,19 @@ h2 .accordion-header {
     margin-left: 18px;
   }
   .marginTaweelPhone {
-    margin-left: 22px;
+    margin-left: 28px;
   }
   .marginMukhtasarPhone {
-    margin-left: 22px;
+    margin-left: 28px;
   }
   .marginAamPhone {
     margin-left: 5px;
   }
   .marginSisterPhone {
-    margin-left: -40px;
+    padding-right: 45px;
   }
   .marginAhlulPhone {
-    margin-left: 15px;
+    align-self: center;
   }
   .img-fld {
     height: 250px;
