@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd4e4510.chunk.css",
-    "main.js": "/static/js/main.f119ebd8.chunk.js",
-    "main.js.map": "/static/js/main.f119ebd8.chunk.js.map",
+    "main.css": "/static/css/main.cbc12ae6.chunk.css",
+    "main.js": "/static/js/main.2fa280f6.chunk.js",
+    "main.js.map": "/static/js/main.2fa280f6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3dbf9d90.js",
     "runtime-main.js.map": "/static/js/runtime-main.3dbf9d90.js.map",
     "static/css/2.f1a1079b.chunk.css": "/static/css/2.f1a1079b.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.99d6c88c.chunk.js.map": "/static/js/2.99d6c88c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.f1a1079b.chunk.css.map": "/static/css/2.f1a1079b.chunk.css.map",
-    "static/css/main.dd4e4510.chunk.css.map": "/static/css/main.dd4e4510.chunk.css.map",
+    "static/css/main.cbc12ae6.chunk.css.map": "/static/css/main.cbc12ae6.chunk.css.map",
     "static/js/2.99d6c88c.chunk.js.LICENSE.txt": "/static/js/2.99d6c88c.chunk.js.LICENSE.txt",
     "static/media/Quran&Hadith1Arabic.d5438c28.jpg": "/static/media/Quran&Hadith1Arabic.d5438c28.jpg",
     "static/media/Quran&Hadith1English.0ad327b9.jpg": "/static/media/Quran&Hadith1English.0ad327b9.jpg",
@@ -18,6 +18,7 @@
     "static/media/Quran&Hadith2Arabic.90041078.jpg": "/static/media/Quran&Hadith2Arabic.90041078.jpg",
     "static/media/Quran&Hadith2English.62fdee02.jpg": "/static/media/Quran&Hadith2English.62fdee02.jpg",
     "static/media/Quran&Hadith2Urdu.60103274.jpg": "/static/media/Quran&Hadith2Urdu.60103274.jpg",
+    "static/media/RamadanSuccessfulFast.5464d26d.jpg": "/static/media/RamadanSuccessfulFast.5464d26d.jpg",
     "static/media/aam.0518d8cd.jpg": "/static/media/aam.0518d8cd.jpg",
     "static/media/ahlehadith.aed12ffc.jpg": "/static/media/ahlehadith.aed12ffc.jpg",
     "static/media/arkan.7cdb85d3.jpg": "/static/media/arkan.7cdb85d3.jpg",
@@ -50,7 +51,7 @@
     "static/js/runtime-main.3dbf9d90.js",
     "static/css/2.f1a1079b.chunk.css",
     "static/js/2.99d6c88c.chunk.js",
-    "static/css/main.dd4e4510.chunk.css",
-    "static/js/main.f119ebd8.chunk.js"
+    "static/css/main.cbc12ae6.chunk.css",
+    "static/js/main.2fa280f6.chunk.js"
   ]
 }
