@@ -18,6 +18,8 @@ import taweel from "./taweel";
 import jummuah from "./jummuah";
 import mausamiyat from "./mausamiyat";
 import comingsoon from "./comingsoon";
+import SisterSection from "./sistersection";
+import Ramadan2021 from "./Ramadan2021";
 const Main = () => (
   <Switch>
     <Route exact path="/" component={Home} />
@@ -30,6 +32,8 @@ const Main = () => (
     <Route exact path="/audio/khutbah" component={khutbah} />
     <Route exact path="/audio/jummuah" component={jummuah} />
     <Route exact path="/audio/mausamiyat" component={mausamiyat} />
+    <Route exact path="/audio/sistersection" component={SisterSection} />
+    <Route exact path="/Ramadan2021" component={Ramadan2021} />
     <Route exact path="/books" component={books} />
     <Route exact path="/about" component={about} />
     <Route exact path="/comingsoon" component={comingsoon} />

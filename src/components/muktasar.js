@@ -53,14 +53,6 @@ export default class muktasar extends Component {
                   <div class="card-header pb-0">
                     رفع الملام
                     <p className="lead pt-3">Raf'ul Malam</p>
-                    <h5 class="card-title" style={{ color: "#2e856e" }}>
-                      29th,November,'2016 - 03,December,'2016
-                    </h5>
-                    <p class="card-text" style={{ fontSize: "20px" }}>
-                      <i className="fa fa-map-marker" aria-hidden="true">
-                        Masjid Abdur Rahman Al-khas
-                      </i>
-                    </p>
                   </div>
                   <div class="card-body">
                     <div className="row">
@@ -128,14 +120,6 @@ export default class muktasar extends Component {
                   <div class="card-header pb-0">
                     تدوين السنة
                     <p className="lead pt-3">Tadween As Sunnah</p>
-                    <h5 class="card-title" style={{ color: "#2e856e" }}>
-                      29th,November,'2016 - 03,December,'2016
-                    </h5>
-                    <p class="card-text" style={{ fontSize: "20px" }}>
-                      <i className="fa fa-map-marker" aria-hidden="true">
-                        Masjid Abdur Rahman Al-khas
-                      </i>
-                    </p>
                   </div>
                   <div class="card-body">
                     <div className="row">
@@ -206,14 +190,6 @@ export default class muktasar extends Component {
                   <div class="card-header pb-0">
                     الربعين النووى
                     <p className="lead pt-3">Al-Arba'oona An-Nawawi</p>
-                    <h5 class="card-title" style={{ color: "#2e856e" }}>
-                      29th,November,'2016 - 03,December,'2016
-                    </h5>
-                    <p class="card-text" style={{ fontSize: "20px" }}>
-                      <i className="fa fa-map-marker" aria-hidden="true">
-                        Masjid Abdur Rahman Al-khas
-                      </i>
-                    </p>
                   </div>
                   <div class="card-body">
                     <div className="row">

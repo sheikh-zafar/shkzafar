@@ -178,12 +178,7 @@ export default class audio extends Component {
           <div className="container-fluid py-3">
             <div className="row text-center ">
               <div className="col-md-5 col-sm-12 col-xs-12 d-md-flex justify-content-end marginSisterPhone">
-                <Link
-                  to="/comingsoon"
-                  title="ahle hadith"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <Link to="/audio/sistersection" title="ahle hadith">
                   <div className="rounded-links rounded-circle">
                     <img
                       src={SisterSection}

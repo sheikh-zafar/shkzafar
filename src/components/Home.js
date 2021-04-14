@@ -14,11 +14,13 @@ import { Helmet } from "react-helmet";
 import monday from "../img/monday.jpg";
 import wednesday from "../img/wednesday.jpg";
 import saturday from "../img/saturday.jpg";
+import RamadanSuccessfulFast from "../img/RamadanSuccessfulFast.jpg";
 
 export default class Home extends Component {
   render() {
     return (
       <div>
+        <div id="menu"></div>
         <div className="application">
           <Helmet>
             <meta charSet="utf-8" />
@@ -71,6 +73,15 @@ export default class Home extends Component {
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
+                    <img
+                      src={RamadanSuccessfulFast}
+                      className="img-fld"
+                      alt="zafar ul hasan madani"
+                      height="400px"
+                      width="100%"
+                    />
+                  </div>
+                  <div class="carousel-item">
                     <img
                       src={Sunday}
                       className="img-fld"

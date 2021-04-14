@@ -482,10 +482,6 @@ h2 .accordion-header {
   margin-right: 40vh;
   margin-left: 40vh;
 }
-.marginSisterPhone {
-  display: flex;
-  justify-content: end;
-}
 @media (min-width: 1200px) {
 }
 @media (max-width: 991.98px) {

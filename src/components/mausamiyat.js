@@ -192,7 +192,7 @@ class mausamiat extends Component {
 
                   <div className="col">
                     <a
-                      href="https://drive.google.com/drive/folders/18LVDJ92tAnbNLpjgXneExixWImoOF8mo"
+                      href="https://drive.google.com/drive/folders/1sU6VFMVMRmzzubT2w0CYguodwGDsTd3y"
                       style={{ color: "beige" }}
                       rel="nooperner noreferrer"
                       target="_blank"
