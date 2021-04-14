@@ -50,8 +50,8 @@ export default class muktasar extends Component {
             <div className="row text-center">
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
-                  <div class="card-header pb-0">
-                    رفع الملام
+                  <div class="card-header pb-0 pt-2">
+                    <div className="pt-2">رفع الملام</div>
                     <p className="lead pt-3">Raf'ul Malam</p>
                   </div>
                   <div class="card-body">
@@ -117,8 +117,8 @@ export default class muktasar extends Component {
             <div className="row text-center">
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
-                  <div class="card-header pb-0">
-                    تدوين السنة
+                  <div class="card-header pb-0 pt-2">
+                    <div className="pt-2">تدوين السنة</div>
                     <p className="lead pt-3">Tadween As Sunnah</p>
                   </div>
                   <div class="card-body">
@@ -187,8 +187,8 @@ export default class muktasar extends Component {
             <div className="row text-center">
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
-                  <div class="card-header pb-0">
-                    الربعين النووى
+                  <div class="card-header pb-0 pt-2">
+                    <div className="pt-2">الربعين النووى</div>
                     <p className="lead pt-3">Al-Arba'oona An-Nawawi</p>
                   </div>
                   <div class="card-body">

@@ -32,7 +32,7 @@ export default class sistersection extends Component {
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center pt-2">
                   <div class="card-header pb-0">
-                    النّساء
+                    <div className="pt-2">النّساء</div>
                     <p className="lead pt-3">Sister's section</p>
                   </div>
                   <div class="card-body">

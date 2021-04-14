@@ -482,6 +482,10 @@ h2 .accordion-header {
   margin-right: 40vh;
   margin-left: 40vh;
 }
+.marginSisterPhone {
+  display: flex;
+  justify-content: end;
+}
 @media (min-width: 1200px) {
 }
 @media (max-width: 991.98px) {
@@ -662,7 +666,7 @@ h2 .accordion-header {
     margin-left: 5px;
   }
   .marginSisterPhone {
-    margin-left: -67px;
+    margin-left: -53px;
   }
   .marginAhlulPhone {
     padding-left: 25px;
@@ -670,6 +674,12 @@ h2 .accordion-header {
   .img-fld {
     height: 250px;
     width: 100%;
+  }
+  .carousel-control-prev-icon {
+    display: none;
+  }
+  .carousel-control-next-icon {
+    display: none;
   }
 }
 

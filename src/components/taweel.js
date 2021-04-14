@@ -50,7 +50,7 @@ export default class taweel extends Component {
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
                   <div class="card-header pb-0">
-                    شرح السنة
+                    <div className="pt-2">شرح السنة</div>
                     <p className="lead pt-3">Sharh As-Sunnah</p>
                   </div>
                   <div class="card-body">
@@ -117,7 +117,7 @@ export default class taweel extends Component {
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
                   <div class="card-header pb-0">
-                    بلوغ المرام
+                    <div className="pt-2">بلوغ المرام</div>
                     <p className="lead pt-3">Bulugh al-Maram</p>
                   </div>
                   <div class="card-body">
@@ -184,7 +184,7 @@ export default class taweel extends Component {
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
                   <div class="card-header pb-0">
-                    كتاب التوحيد
+                    <div className="pt-2">كتاب التوحيد</div>
                     <p className="lead pt-3">Kitab at-Tawheed</p>
                   </div>
                   <div class="card-body">
@@ -251,7 +251,7 @@ export default class taweel extends Component {
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
                   <div class="card-header pb-0">
-                    الأصول الثلاثة
+                    <div className="pt-2">الأصول الثلاثة</div>
                     <p className="lead pt-3">Usool al-Thalatha</p>
                   </div>
                   <div class="card-body">
@@ -319,7 +319,7 @@ export default class taweel extends Component {
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
                   <div class="card-header pb-0">
-                    الشمائل المحمدية
+                    <div className="pt-2">الشمائل المحمدية</div>
                     <p className="lead pt-3">Shamail al-Muhammadiyah</p>
                   </div>
                   <div class="card-body">
@@ -386,7 +386,7 @@ export default class taweel extends Component {
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
                   <div class="card-header pb-0">
-                    رياض الصالحين
+                    <div className="pt-2">رياض الصالحين</div>
                     <p className="lead pt-3">Riyad us-saliheen</p>
                   </div>
                   <div class="card-body">
