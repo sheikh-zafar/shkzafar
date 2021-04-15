@@ -2,6 +2,14 @@ const element = "./#/comingsoon";
 
 export const tafseerdata = [
   {
+    arabictitle: "سورة الذاريات",
+    englishtitle: "Surah Ad-Dhariyat",
+    archive: element,
+    drive:
+      "https://drive.google.com/drive/folders/1Xd24enUvrWOVAGxI-oUsn-lbVXcB-D0j",
+    youtube: "https://www.youtube.com/c/ZafarulHasan/playlists",
+  },
+  {
     arabictitle: "سورة الفاتحة",
     englishtitle: "Surah Al-Fatihah",
     archive:
