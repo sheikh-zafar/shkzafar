@@ -14,7 +14,7 @@ export default class comingsoon extends Component {
 
             <p class="lead">
               <Link
-                to="/audio"
+                to="/lectures"
                 className="btn btn btn-lg btn-outline-dark"
                 target="_newtab"
                 style={{
@@ -23,7 +23,7 @@ export default class comingsoon extends Component {
                   fontFamily: "Righteous",
                 }}
               >
-                Go To Audio Page
+                Go To Lectures Page
               </Link>
             </p>
           </div>

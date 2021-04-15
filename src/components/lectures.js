@@ -63,7 +63,7 @@ export default class audio extends Component {
                 </Link>
               </div>
               <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginTafseerPhone">
-                <Link to="/audio/qurantafseer" title="hadeeth">
+                <Link to="/lectures/qurantafseer" title="hadeeth">
                   <div className="rounded-links rounded-circle">
                     <img
                       src={tafseer}
@@ -97,7 +97,7 @@ export default class audio extends Component {
                 </Link>
               </div>
               <div className="col-md-3 col-sm-12 col-xs-6 d-flex justify-content-end d-sm-flex justify-content-center ">
-                <Link to="/audio/mausamiyat" title="pillars of islam">
+                <Link to="/lectures/mausamiyat" title="pillars of islam">
                   <div className="rounded-links rounded-circle">
                     <img
                       src={Moon}
@@ -118,7 +118,7 @@ export default class audio extends Component {
           <div className="container py-3">
             <div className="row text-center">
               <div className="col-md-5 col-sm-12 col-xs-12 d-flex justify-content-center marginTaweelPhone">
-                <Link to="/audio/taweel" title="islam">
+                <Link to="/lectures/taweel" title="islam">
                   <div className="rounded-links rounded-circle">
                     <img
                       src={Taweel}
@@ -138,7 +138,7 @@ export default class audio extends Component {
               </div>
 
               <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginMukhtasarPhone">
-                <Link to="/audio/muktasar" title="quran">
+                <Link to="/lectures/muktasar" title="quran">
                   <div className="rounded-links rounded-circle">
                     <img
                       src={Mukhtasar}
@@ -157,7 +157,7 @@ export default class audio extends Component {
               </div>
 
               <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginAamPhone">
-                <Link to="/audio/aam" title="ahle hadith">
+                <Link to="/lectures/aam" title="ahle hadith">
                   <div className="rounded-links rounded-circle">
                     <img
                       src={Aam}
@@ -178,7 +178,7 @@ export default class audio extends Component {
           <div className="container-fluid py-3">
             <div className="row text-center ">
               <div className="col-md-5 col-sm-12 col-xs-12 d-md-flex justify-content-end marginSisterPhone">
-                <Link to="/audio/sistersection" title="ahle hadith">
+                <Link to="/lectures/sisters-section" title="ahle hadith">
                   <div className="rounded-links rounded-circle">
                     <img
                       src={SisterSection}

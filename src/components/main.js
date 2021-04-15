@@ -6,7 +6,7 @@ import {
   Switch,
 } from "react-router-dom";
 import Home from "./Home";
-import audio from "./audio";
+import lectures from "./lectures";
 import books from "./books";
 import about from "./about";
 import qurantafseer from "./qurantafseer";
@@ -18,22 +18,22 @@ import taweel from "./taweel";
 import jummuah from "./jummuah";
 import mausamiyat from "./mausamiyat";
 import comingsoon from "./comingsoon";
-import SisterSection from "./sistersection";
-import Ramadan2021 from "./Ramadan2021";
+import SisterSection from "./sisters-section";
+import Ramadan2021 from "./Ramadan-1442-2021";
 const Main = () => (
   <Switch>
     <Route exact path="/" component={Home} />
-    <Route exact path="/audio" component={audio} />
-    <Route exact path="/audio/qurantafseer" component={qurantafseer} />
-    <Route exact path="/audio/aam" component={aam} />
-    <Route exact path="/audio/arkan" component={arkan} />
-    <Route exact path="/audio/taweel" component={taweel} />
-    <Route exact path="/audio/muktasar" component={muktasar} />
-    <Route exact path="/audio/khutbah" component={khutbah} />
-    <Route exact path="/audio/jummuah" component={jummuah} />
-    <Route exact path="/audio/mausamiyat" component={mausamiyat} />
-    <Route exact path="/audio/sistersection" component={SisterSection} />
-    <Route exact path="/Ramadan2021" component={Ramadan2021} />
+    <Route exact path="/lectures" component={lectures} />
+    <Route exact path="/lectures/qurantafseer" component={qurantafseer} />
+    <Route exact path="/lectures/aam" component={aam} />
+    <Route exact path="/lectures/arkan" component={arkan} />
+    <Route exact path="/lectures/taweel" component={taweel} />
+    <Route exact path="/lectures/muktasar" component={muktasar} />
+    <Route exact path="/lectures/khutbah" component={khutbah} />
+    <Route exact path="/lectures/jummuah" component={jummuah} />
+    <Route exact path="/lectures/mausamiyat" component={mausamiyat} />
+    <Route exact path="/lectures/sisters-section" component={SisterSection} />
+    <Route exact path="/Ramadan-1442-2021" component={Ramadan2021} />
     <Route exact path="/books" component={books} />
     <Route exact path="/about" component={about} />
     <Route exact path="/comingsoon" component={comingsoon} />

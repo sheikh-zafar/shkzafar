@@ -140,10 +140,10 @@ export default class Navbar extends Component {
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="/audio">
+                    <Link to="/lectures">
                       <a
                         className="nav-link"
-                        href="/audio"
+                        href="/lectures"
                         title="zafar ul hasan madani"
                       >
                         Duroos
