@@ -18,7 +18,7 @@ export default class sistersection extends Component {
                   className="lead"
                   style={{ fontFamily: "Fredoka One", fontSize: "20px" }}
                 >
-                  Sister's Section
+                  Sisters Section
                 </p>
                 <hr />
               </div>
