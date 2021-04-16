@@ -15,10 +15,8 @@ export default class Ramadan2021 extends Component {
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
                   <div class="card-header pb-0 pt-2">
-                    <div className="pt-2">
-                      *عنوان: کامیاب روزہ دار کون؟ ححصہ-٤*
-                    </div>
-                    <p className="lead pt-3">Kamyab Rozedaar</p>
+                    <div className="pt-2">کامیاب روزہ دار کون؟</div>
+                    <p className="lead pt-3">Kamyab Rozedaar kaun</p>
                   </div>
                   <div class="card-body">
                     <div className="row">
@@ -84,8 +82,8 @@ export default class Ramadan2021 extends Component {
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
                   <div class="card-header pb-0 pt-2">
-                    <div className="pt-2"></div>
-                    <p className="lead pt-3">٢٧ جزء</p>
+                    <div className="pt-2">٢٧ جزء</div>
+                    <p className="lead pt-3">Juz 27</p>
                   </div>
                   <div class="card-body">
                     <div className="row">
