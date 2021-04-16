@@ -201,10 +201,11 @@ export default class Home extends Component {
                         rel="noopener noreferrer"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
-                          width: "170px",
+                          width: "130px",
                           height: "70px",
                           backgroundColor: "#2e856e",
                           color: "beige",
+                          fontSize: "15px",
                           fontFamily: "Righteous",
                         }}
                       >
@@ -220,9 +221,10 @@ export default class Home extends Component {
                         rel="noopener noreferrer"
                         className="btn btn btn-lg btn-outline-dark"
                         style={{
-                          width: "170px",
+                          width: "130px",
                           height: "70px",
                           backgroundColor: "#2e856e",
+                          fontSize: "15px",
                           color: "beige",
                           fontFamily: "Righteous",
                         }}
