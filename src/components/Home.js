@@ -284,7 +284,7 @@ export default class Home extends Component {
               }}
             >
               <div className="row justify-content-center">
-                <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                   <div className="container py-3 ">
                     <a
                       href="https://calendar.google.com/calendar/u/0/r/month?tab=wc&pli=1"
@@ -309,7 +309,33 @@ export default class Home extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-3 col-md-4 col-sm-6  col-xs-12">
+                <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                  <div className="container py-3">
+                    <a
+                      href="https://t.me/s/zafarulhasan?"
+                      title="salaf"
+                      role="button"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn btn-lg btn-outline-dark"
+                      style={{
+                        width: "170px",
+                        backgroundColor: "#2e856e",
+                        color: "beige",
+                        fontFamily: "Righteous",
+                      }}
+                    >
+                      Telegram
+                    </a>
+                    <div
+                      className="container  px-0 pt-1"
+                      style={{ fontFamily: "Fredoka One", fontSize: "15px" }}
+                    >
+                      Get Updates
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-md-3 col-sm-6  col-xs-6">
                   <div className="container py-4">
                     <div
                       class="g-ytsubscribe"
@@ -325,7 +351,7 @@ export default class Home extends Component {
                     YouTube Channel
                   </div>
                 </div>
-                <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                   <div className="container py-3">
                     <a
                       href="https://mixlr.com/zafarulhasan/showreel/"
