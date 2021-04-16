@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.db5b2a91.chunk.css",
-    "main.js": "/static/js/main.f68554f2.chunk.js",
-    "main.js.map": "/static/js/main.f68554f2.chunk.js.map",
+    "main.js": "/static/js/main.01bb6182.chunk.js",
+    "main.js.map": "/static/js/main.01bb6182.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3dbf9d90.js",
     "runtime-main.js.map": "/static/js/runtime-main.3dbf9d90.js.map",
     "static/css/2.f1a1079b.chunk.css": "/static/css/2.f1a1079b.chunk.css",
@@ -19,6 +19,7 @@
     "static/media/Quran&Hadith2English.62fdee02.jpg": "/static/media/Quran&Hadith2English.62fdee02.jpg",
     "static/media/Quran&Hadith2Urdu.60103274.jpg": "/static/media/Quran&Hadith2Urdu.60103274.jpg",
     "static/media/RamadanSuccessfulFast.5464d26d.jpg": "/static/media/RamadanSuccessfulFast.5464d26d.jpg",
+    "static/media/RamadanTafseer27.ea7e531a.jpg": "/static/media/RamadanTafseer27.ea7e531a.jpg",
     "static/media/aam.0518d8cd.jpg": "/static/media/aam.0518d8cd.jpg",
     "static/media/ahlehadith.aed12ffc.jpg": "/static/media/ahlehadith.aed12ffc.jpg",
     "static/media/arkan.7cdb85d3.jpg": "/static/media/arkan.7cdb85d3.jpg",
@@ -52,6 +53,6 @@
     "static/css/2.f1a1079b.chunk.css",
     "static/js/2.99d6c88c.chunk.js",
     "static/css/main.db5b2a91.chunk.css",
-    "static/js/main.f68554f2.chunk.js"
+    "static/js/main.01bb6182.chunk.js"
   ]
 }
