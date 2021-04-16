@@ -20,6 +20,7 @@ import mausamiyat from "./mausamiyat";
 import comingsoon from "./comingsoon";
 import SisterSection from "./sisters-section";
 import Ramadan2021 from "./Ramadan-1442-2021";
+import YouTubeChannel from "./YouTubeChannel";
 const Main = () => (
   <Switch>
     <Route exact path="/" component={Home} />
@@ -38,6 +39,18 @@ const Main = () => (
     <Route exact path="/books" component={books} />
     <Route exact path="/about" component={about} />
     <Route exact path="/comingsoon" component={comingsoon} />
+    <Route
+      exact
+      path="/YouTubeChannel"
+      render={() =>
+        (window.location = "https://www.youtube.com/c/ZafarulHasan/")
+      }
+    />
+    <Route
+      exact
+      path="/mixlr"
+      render={() => (window.location = "http://mixlr.com/zafarulhasan")}
+    />
   </Switch>
 );
 

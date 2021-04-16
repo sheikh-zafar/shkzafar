@@ -486,7 +486,9 @@ h2 .accordion-header {
   display: flex;
   justify-content: end;
 }
-
+.tableButton {
+  width: 250px;
+}
 table.table-bordered {
   border: 10px solid #5c4033;
   border-radius: 7px;
@@ -602,7 +604,9 @@ table.table-bordered > tbody > tr > td {
   #menu {
     display: none;
   }
-
+  .tableButton {
+    width: 130px;
+  }
   .btn {
     width: 150px;
     font-size: 14px;

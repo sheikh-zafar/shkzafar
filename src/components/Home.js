@@ -199,9 +199,8 @@ export default class Home extends Component {
                         role="button"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="btn btn btn-lg btn-outline-dark"
+                        className="btn btn btn-lg btn-outline-dark tableButton"
                         style={{
-                          width: "130px",
                           height: "70px",
                           backgroundColor: "#2e856e",
                           color: "beige",
@@ -219,9 +218,8 @@ export default class Home extends Component {
                         role="button"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="btn btn btn-lg btn-outline-dark"
+                        className="btn btn btn-lg btn-outline-dark tableButton"
                         style={{
-                          width: "130px",
                           height: "70px",
                           backgroundColor: "#2e856e",
                           fontSize: "15px",
@@ -301,7 +299,7 @@ export default class Home extends Component {
                         fontFamily: "Righteous",
                       }}
                     >
-                      Calendar
+                      <i class="fa fa-calendar" aria-hidden="true"></i> Calendar
                     </a>
                     <div
                       className="container  px-0 pt-1"
@@ -327,13 +325,13 @@ export default class Home extends Component {
                         fontFamily: "Righteous",
                       }}
                     >
-                      Telegram
+                      <i class="fa fa-telegram" aria-hidden="true"></i> Updates
                     </a>
                     <div
                       className="container  px-0 pt-1"
                       style={{ fontFamily: "Fredoka One", fontSize: "15px" }}
                     >
-                      Get Updates
+                      Get Updates of Duroos
                     </div>
                   </div>
                 </div>
@@ -369,7 +367,8 @@ export default class Home extends Component {
                         fontFamily: "Righteous",
                       }}
                     >
-                      Mixlr Show Reel
+                      <i class="fa fa-headphones" aria-hidden="true"></i> Mixlr
+                      Show Reel
                     </a>
                     <div
                       className="container  px-0 pt-1"
