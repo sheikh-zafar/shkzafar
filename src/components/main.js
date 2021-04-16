@@ -43,13 +43,16 @@ const Main = () => (
       exact
       path="/YouTubeChannel"
       render={() =>
-        (window.location = "https://www.youtube.com/c/ZafarulHasan/")
+        (global.window.location.href =
+          "https://www.youtube.com/c/ZafarulHasan/")
       }
     />
     <Route
       exact
       path="/mixlr"
-      render={() => (window.location = "http://mixlr.com/zafarulhasan")}
+      render={() =>
+        (global.window.location.href = "http://mixlr.com/zafarulhasan")
+      }
     />
   </Switch>
 );
