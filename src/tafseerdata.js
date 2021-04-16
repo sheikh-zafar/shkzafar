@@ -2,8 +2,8 @@ const element = "./#/comingsoon";
 
 export const tafseerdata = [
   {
-    arabictitle: "سورة الذاريات",
-    englishtitle: "Surah Ad-Dhariyat",
+    arabictitle: "٢٧ جزء ",
+    englishtitle: "Juz 27",
     archive: element,
     drive:
       "https://drive.google.com/drive/folders/1Xd24enUvrWOVAGxI-oUsn-lbVXcB-D0j",

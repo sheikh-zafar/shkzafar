@@ -15,6 +15,7 @@ import monday from "../img/monday.jpg";
 import wednesday from "../img/wednesday.jpg";
 import saturday from "../img/saturday.jpg";
 import RamadanSuccessfulFast from "../img/RamadanSuccessfulFast.jpg";
+import RamadanTafseer27 from "../img/RamadanTafseer27.jpg";
 
 export default class Home extends Component {
   render() {
@@ -70,11 +71,24 @@ export default class Home extends Component {
                     data-target="#carouselExampleIndicators"
                     data-slide-to="4"
                   ></li>
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="4"
+                  ></li>
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img
                       src={RamadanSuccessfulFast}
+                      className="img-fld"
+                      alt="zafar ul hasan madani"
+                      height="400px"
+                      width="100%"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src={RamadanTafseer27}
                       className="img-fld"
                       alt="zafar ul hasan madani"
                       height="400px"
