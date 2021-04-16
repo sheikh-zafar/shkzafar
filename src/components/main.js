@@ -56,6 +56,14 @@ const Main = () => (
     />
     <Route
       exact
+      path="/mixlrr"
+      render={() =>
+        (global.window.location.href =
+          "https://play.google.com/store/apps/details?id=com.mixlr.android&hl=en_IN&gl=US")
+      }
+    />
+    <Route
+      exact
       path="/telegram"
       render={() =>
         (global.window.location.href = "https://t.me/s/zafarulhasan?")
