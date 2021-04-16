@@ -166,7 +166,77 @@ export default class Home extends Component {
               </div>
             </section>
           </div>
+          <div className="row text-center">
+            <p className="lead" style={{ color: "beige" }}>
+              ***Note: All Regular Duroos are on hold for the Month of Ramadan
+              only Ramadan Duroos and Jumu'ah Khutba will be ongoing***
+            </p>
+          </div>
         </div>
+
+        <section className="embed-section">
+          <div className="container">
+            <div className="row text-center">
+              <table class="table table-bordered tableBg">
+                <thead className="tableBg">
+                  <tr className="tableBg">
+                    <th scope="col" colspan="2" className="tableBg">
+                      <div
+                        class="card-header pb-0 pt-2"
+                        style={{ color: "#5c4033" }}
+                      >
+                        <div className="pt-2"> رمضان ١٤٤٢</div>
+                        <p className="lead pt-3">Ramadan 1442-2021</p>
+                      </div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="tableBg">
+                    <th scope="col" className="tableBg">
+                      <Link
+                        to="/Ramadan-1442-2021"
+                        role="button"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn btn-lg btn-outline-dark"
+                        style={{
+                          width: "170px",
+                          height: "70px",
+                          backgroundColor: "#2e856e",
+                          color: "beige",
+                          fontFamily: "Righteous",
+                        }}
+                      >
+                        رمضان <br />
+                        Duroos
+                      </Link>
+                    </th>
+                    <th scope="col" className="tableBg">
+                      <Link
+                        to="/jummuah"
+                        role="button"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn btn-lg btn-outline-dark"
+                        style={{
+                          width: "170px",
+                          height: "70px",
+                          backgroundColor: "#2e856e",
+                          color: "beige",
+                          fontFamily: "Righteous",
+                        }}
+                      >
+                        Khutbah <br />
+                        Al-Jummuah
+                      </Link>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
 
         {/*Calendar and Mixlr section*/}
         <div className="container">

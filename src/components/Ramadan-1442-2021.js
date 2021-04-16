@@ -8,6 +8,23 @@ export default class Ramadan2021 extends Component {
     return (
       <div>
         <Navbar />
+        {/*Title */}
+        <section className="embed-section">
+          <div className="container">
+            <div className="row text-center">
+              <div class="col-md-12">
+                <h5 className="audio-display-head"> رمضان ١٤٤٢</h5>
+                <p
+                  className="lead"
+                  style={{ fontFamily: "Fredoka One", fontSize: "20px" }}
+                >
+                  Ramadan 1442-2021
+                </p>
+                <hr />
+              </div>
+            </div>
+          </div>
+        </section>
         {/*Kamyab Rozedaar*/}
         <section className="embed-section">
           <div className="container">
@@ -82,7 +99,7 @@ export default class Ramadan2021 extends Component {
               <div className="col-md-12 d-flex justify-content-center">
                 <div class="card text-center">
                   <div class="card-header pb-0 pt-2">
-                    <div className="pt-2">٢٧ جزء</div>
+                    <div className="pt-2"> جزء ٢٧</div>
                     <p className="lead pt-3">Juz 27</p>
                   </div>
                   <div class="card-body">
@@ -105,7 +122,7 @@ export default class Ramadan2021 extends Component {
                       </div>
                       <div className="col">
                         <a
-                          href="https://drive.google.com/drive/folders/1Xd24enUvrWOVAGxI-oUsn-lbVXcB-D0j"
+                          href="https://drive.google.com/drive/u/0/folders/1k-O0tHKvkC68OJ7E_UmPsKwT42-arFT-"
                           title="juz 27 tafseer"
                           target="_blank"
                           rel="noreferrer"

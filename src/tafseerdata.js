@@ -2,11 +2,11 @@ const element = "./#/comingsoon";
 
 export const tafseerdata = [
   {
-    arabictitle: "٢٧ جزء ",
+    arabictitle: "جزء ٢٧",
     englishtitle: "Juz 27",
     archive: element,
     drive:
-      "https://drive.google.com/drive/folders/1Xd24enUvrWOVAGxI-oUsn-lbVXcB-D0j",
+      "https://drive.google.com/drive/u/0/folders/1k-O0tHKvkC68OJ7E_UmPsKwT42-arFT-",
     youtube: "https://www.youtube.com/c/ZafarulHasan/playlists",
   },
   {

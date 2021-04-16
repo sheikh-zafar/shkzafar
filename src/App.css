@@ -486,6 +486,20 @@ h2 .accordion-header {
   display: flex;
   justify-content: end;
 }
+
+table.table-bordered {
+  border: 10px solid #5c4033;
+  border-radius: 7px;
+}
+table.table-bordered > thead > tr > th {
+  border: 1px solid #5c4033;
+}
+table.table-bordered > tbody > tr > td {
+  border: 1px solid #5c4033;
+}
+.tableBg {
+  background: url(../src/img/beigebg.jpeg);
+}
 @media (min-width: 1200px) {
 }
 @media (max-width: 991.98px) {
