@@ -54,6 +54,13 @@ const Main = () => (
         (global.window.location.href = "http://mixlr.com/zafarulhasan")
       }
     />
+    <Route
+      exact
+      path="/telegram"
+      render={() =>
+        (global.window.location.href = "https://t.me/s/zafarulhasan?")
+      }
+    />
   </Switch>
 );
 
