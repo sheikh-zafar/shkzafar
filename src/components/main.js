@@ -21,6 +21,7 @@ import comingsoon from "./comingsoon";
 import SisterSection from "./sisters-section";
 import Ramadan2021 from "./Ramadan-1442-2021";
 import YouTubeChannel from "./YouTubeChannel";
+import WhatsAppUpdates from "./WhatsAppUpdates";
 const Main = () => (
   <Switch>
     <Route exact path="/" component={Home} />
@@ -39,6 +40,7 @@ const Main = () => (
     <Route exact path="/books" component={books} />
     <Route exact path="/about" component={about} />
     <Route exact path="/comingsoon" component={comingsoon} />
+    <Route exact path="/WhatsAppUpdates" component={WhatsAppUpdates} />
     <Route
       exact
       path="/YouTubeChannel"
@@ -52,14 +54,6 @@ const Main = () => (
       path="/mixlr"
       render={() =>
         (global.window.location.href = "http://mixlr.com/zafarulhasan")
-      }
-    />
-    <Route
-      exact
-      path="/mixlrr"
-      render={() =>
-        (global.window.location.href =
-          "https://play.google.com/store/apps/details?id=com.mixlr.android&hl=en_IN&gl=US")
       }
     />
     <Route
