@@ -15,4 +15,10 @@ export const year_1442 = [
     drive:
       "https://drive.google.com/drive/u/1/folders/1WolaJWLSVMvdBTKdm2TQt-3yB6yAQJVG",
   },
+  {
+    month: "شهر رمضان",
+    year: "2021",
+    archive: "https://archive.org/details/ramdan-2021-1442-zafarulhasan-madani",
+    drive: element,
+  },
 ];

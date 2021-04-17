@@ -39,7 +39,8 @@ export default class Ramadan2021 extends Component {
                     <div className="row">
                       <div className="col">
                         <Link
-                          to="/comingsoon"
+                          to="https://archive.org/details/ramdan-2021-1442-zafarulhasan-madani"
+                          title="ramadan"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_blank"
                           rel="noreferrer"
