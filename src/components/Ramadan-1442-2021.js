@@ -38,8 +38,8 @@ export default class Ramadan2021 extends Component {
                   <div class="card-body">
                     <div className="row">
                       <div className="col">
-                        <Link
-                          to="https://archive.org/details/ramdan-2021-1442-zafarulhasan-madani"
+                        <a
+                          href="https://archive.org/details/ramdan-2021-1442-zafarulhasan-madani"
                           title="ramadan"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_blank"
@@ -52,7 +52,7 @@ export default class Ramadan2021 extends Component {
                         >
                           <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                           Listen
-                        </Link>
+                        </a>
                       </div>
                       <div className="col">
                         <Link

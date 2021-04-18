@@ -506,6 +506,10 @@ table.table-bordered > tbody > tr > td {
   height: 120px;
   width: 120px;
 }
+.blink_me {
+  animation: blinker 1s linear infinite;
+  color: red;
+}
 @media (min-width: 1200px) {
 }
 @media (max-width: 991.98px) {
@@ -722,7 +726,11 @@ table.table-bordered > tbody > tr > td {
 .App-link {
   color: #61dafb;
 }
-
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

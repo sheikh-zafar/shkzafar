@@ -115,24 +115,36 @@ class mausamiat extends Component {
                 <br />
                 <div className="container-fluid">
                   <div class="row d-flex justify-content-between">
-                    <div className="col">
+                    <div className="pt-2">
                       <Link
                         to="/comingsoon"
                         rel="nooperner noreferrer"
                         target="_blank"
-                        style={{ color: "beige" }}
+                        className="btn btn btn-lg btn-outline-dark "
+                        style={{
+                          width: "170px",
+                          backgroundColor: "#5c4033",
+                          color: "beige",
+                          fontFamily: "Righteous",
+                        }}
                       >
                         Listen
                       </Link>
                     </div>
 
-                    <div className="col">
+                    <div className="pt-2">
                       <a
                         href="https://drive.google.com/drive/folders/1b5HZv_HcOAhF7X01w3iovI0KzIqCpprK"
                         title="muharram"
                         rel="nooperner noreferrer"
                         target="_blank"
-                        style={{ color: "beige" }}
+                        className="btn btn btn-lg btn-outline-dark "
+                        style={{
+                          width: "170px",
+                          backgroundColor: "#5c4033",
+                          color: "beige",
+                          fontFamily: "Righteous",
+                        }}
                       >
                         Download
                       </a>
@@ -148,21 +160,33 @@ class mausamiat extends Component {
                   alt="Safar"
                 />
                 <div class="row d-flex justify-content-between">
-                  <div className="col">
+                  <div className="pt-2">
                     <Link
                       to="/comingsoon"
                       rel="nooperner noreferrer"
                       target="_blank"
-                      style={{ color: "beige" }}
+                      className="btn btn btn-lg btn-outline-dark "
+                      style={{
+                        width: "170px",
+                        backgroundColor: "#5c4033",
+                        color: "beige",
+                        fontFamily: "Righteous",
+                      }}
                     >
                       Listen
                     </Link>
                   </div>
 
-                  <div className="col">
+                  <div className="pt-2">
                     <a
                       href="https://drive.google.com/drive/folders/1QLxr6xTkaik9HDA9jn02Wrz5Ghp64i0p"
-                      style={{ color: "beige" }}
+                      className="btn btn btn-lg btn-outline-dark "
+                      style={{
+                        width: "170px",
+                        backgroundColor: "#5c4033",
+                        color: "beige",
+                        fontFamily: "Righteous",
+                      }}
                       rel="nooperner noreferrer"
                       target="_blank"
                       title="safar"
@@ -178,29 +202,38 @@ class mausamiat extends Component {
                   className="img-fluid mausamiyatPoster"
                   alt="Ramadan"
                 />
-                <div class="row d-flex justify-content-between">
-                  <div className="col">
-                    <Link
-                      to="/comingsoon"
-                      rel="nooperner noreferrer"
-                      target="_blank"
-                      style={{ color: "beige" }}
-                    >
-                      Listen
-                    </Link>
-                  </div>
-
-                  <div className="col">
-                    <a
-                      href="https://drive.google.com/drive/folders/1sU6VFMVMRmzzubT2w0CYguodwGDsTd3y"
-                      style={{ color: "beige" }}
-                      rel="nooperner noreferrer"
-                      target="_blank"
-                      title="ramadan"
-                    >
-                      Download
-                    </a>
-                  </div>
+                <div className="pt-2">
+                  <a
+                    href="https://archive.org/details/ramdan-2021-1442-zafarulhasan-madani"
+                    rel="nooperner noreferrer"
+                    target="_blank"
+                    className="btn btn btn-lg btn-outline-dark"
+                    style={{
+                      width: "170px",
+                      backgroundColor: "#5c4033",
+                      color: "beige",
+                      fontFamily: "Righteous",
+                    }}
+                  >
+                    <i class="fa fa-headphones" aria-hidden="true"></i> Listen
+                  </a>
+                </div>
+                <div className="pt-2">
+                  <a
+                    href="https://drive.google.com/drive/folders/1sU6VFMVMRmzzubT2w0CYguodwGDsTd3y"
+                    rel="nooperner noreferrer"
+                    target="_blank"
+                    title="ramadan"
+                    className="btn btn btn-lg btn-outline-dark "
+                    style={{
+                      width: "170px",
+                      backgroundColor: "#5c4033",
+                      color: "beige",
+                      fontFamily: "Righteous",
+                    }}
+                  >
+                    <i class="fa fa-download" aria-hidden="true"></i> Download
+                  </a>
                 </div>
               </div>
             </div>
@@ -215,21 +248,33 @@ class mausamiat extends Component {
                   alt="Rajab"
                 />
                 <div class="row d-flex justify-content-between">
-                  <div className="col">
+                  <div className="pt-2">
                     <Link
                       to="/comingsoon"
                       rel="nooperner noreferrer"
                       target="_blank"
-                      style={{ color: "beige" }}
+                      className="btn btn btn-lg btn-outline-dark "
+                      style={{
+                        width: "170px",
+                        backgroundColor: "#5c4033",
+                        color: "beige",
+                        fontFamily: "Righteous",
+                      }}
                     >
                       Listen
                     </Link>
                   </div>
 
-                  <div className="col">
+                  <div className="pt-2">
                     <a
                       href="https://drive.google.com/drive/folders/1D57h2I6_UyjknJBqtn6PWaNhGe8Hx7fR"
-                      style={{ color: "beige" }}
+                      className="btn btn btn-lg btn-outline-dark "
+                      style={{
+                        width: "170px",
+                        backgroundColor: "#5c4033",
+                        color: "beige",
+                        fontFamily: "Righteous",
+                      }}
                       rel="nooperner noreferrer"
                       target="_blank"
                       title="rajab"
@@ -246,21 +291,33 @@ class mausamiat extends Component {
                   alt="Dhulhijjah"
                 />{" "}
                 <div class="row d-flex justify-content-between">
-                  <div className="col">
+                  <div className="pt-2">
                     <Link
                       to="/comingsoon"
                       rel="nooperner noreferrer"
                       target="_blank"
-                      style={{ color: "beige" }}
+                      className="btn btn btn-lg btn-outline-dark "
+                      style={{
+                        width: "170px",
+                        backgroundColor: "#5c4033",
+                        color: "beige",
+                        fontFamily: "Righteous",
+                      }}
                     >
                       Listen
                     </Link>
                   </div>
 
-                  <div className="col">
+                  <div className="pt-2">
                     <a
                       href="https://drive.google.com/drive/folders/1PiPdszibzFuRKipSHQvlVe79TdWNZoWW"
-                      style={{ color: "beige" }}
+                      className="btn btn btn-lg btn-outline-dark "
+                      style={{
+                        width: "170px",
+                        backgroundColor: "#5c4033",
+                        color: "beige",
+                        fontFamily: "Righteous",
+                      }}
                       rel="nooperner noreferrer"
                       target="_blank"
                       title="dhulhijjah"
@@ -277,21 +334,33 @@ class mausamiat extends Component {
                   alt="Shaban"
                 />{" "}
                 <div class="row d-flex justify-content-between">
-                  <div className="col">
+                  <div className="pt-2">
                     <Link
                       to="/comingsoon"
                       rel="nooperner noreferrer"
                       target="_blank"
-                      style={{ color: "beige" }}
+                      className="btn btn btn-lg btn-outline-dark "
+                      style={{
+                        width: "170px",
+                        backgroundColor: "#5c4033",
+                        color: "beige",
+                        fontFamily: "Righteous",
+                      }}
                     >
                       Listen
                     </Link>
                   </div>
 
-                  <div className="col">
+                  <div className="pt-2">
                     <a
                       href="https://drive.google.com/drive/folders/13laZlvbf1xL-pA-g1Y23AjYlDbW2ck2P"
-                      style={{ color: "beige" }}
+                      className="btn btn btn-lg btn-outline-dark "
+                      style={{
+                        width: "170px",
+                        backgroundColor: "#5c4033",
+                        color: "beige",
+                        fontFamily: "Righteous",
+                      }}
                       rel="nooperner noreferrer"
                       target="_blank"
                       title="shaban"

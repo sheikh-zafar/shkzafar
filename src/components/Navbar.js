@@ -115,12 +115,7 @@ export default class Navbar extends Component {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <i
-                className="fa fa-2x fa-bars"
-                style={{
-                  border: "black",
-                }}
-              ></i>
+              <i className="fa fa-2x fa-bars"></i>
             </button>
             <div className="d-flex d-block flex-row mx-auto mx-0">
               <div
