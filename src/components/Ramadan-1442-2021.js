@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "./footer";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 export default class Ramadan2021 extends Component {
   render() {
@@ -9,6 +10,28 @@ export default class Ramadan2021 extends Component {
       <div>
         <Navbar />
         {/*Title */}
+        <div className="application">
+          <Helmet>
+            <meta charSet="utf-8" data-react-helmet="true" />
+            <title>فضيلة الشيخ ظفر الحسن مدني حفظه الله</title>
+            <link
+              rel="canonical"
+              href="https://zafarulhasan.com/#/audio/Ramadan-1442-2021"
+            />
+            <meta
+              name="title"
+              content="Zafar ul hasan madani | Ramadan Duroos"
+            />
+            <meta
+              name="description"
+              content="Ramadan 1442-2021 - Listen and Download Ramadan duroos by zafar ul hasan madani"
+            />
+            <meta
+              name="keywords"
+              content="ramadan, zafar ul hasan madani, ramadan 2021, ramadan 1442"
+            />
+          </Helmet>
+        </div>
         <section className="embed-section">
           <div className="container">
             <div className="row text-center">

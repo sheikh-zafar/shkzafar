@@ -2,12 +2,35 @@ import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "./footer";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 export default class sistersection extends Component {
   render() {
     return (
       <div>
         <Navbar />
+        <div className="application">
+          <Helmet>
+            <meta charSet="utf-8" data-react-helmet="true" />
+            <title>فضيلة الشيخ ظفر الحسن مدني حفظه الله</title>
+            <link
+              rel="canonical"
+              href="https://zafarulhasan.com/#/audio/sisters-section"
+            />
+            <meta
+              name="title"
+              content="Zafar ul hasan madani | Muslimah Duroos"
+            />
+            <meta
+              name="description"
+              content="Muslimah Duroos- Listen and Download Muslimah Duroos by zafar ul hasan madani"
+            />
+            <meta
+              name="keywords"
+              content="muslimah, zafar ul hasan madani, sisters section"
+            />
+          </Helmet>
+        </div>
         {/*Title */}
         <section className="embed-section">
           <div className="container">

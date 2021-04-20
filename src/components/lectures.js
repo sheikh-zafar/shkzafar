@@ -30,7 +30,7 @@ export default class audio extends Component {
       <div>
         <div className="application">
           <Helmet>
-            <meta charSet="utf-8" />
+            <meta charSet="utf-8" data-react-helmet="true" />
             <title>فضيلة الشيخ ظفر الحسن مدني حفظه الله</title>
             <link rel="canonical" href="https://zafarulhasan.com/#/audio" />
             <meta

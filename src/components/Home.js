@@ -177,7 +177,7 @@ export default class Home extends Component {
         <section className="embed-section">
           <div className="container">
             <div className="row text-center">
-              <table class="table table-bordered tableBg mx-">
+              <table class="table table-bordered tableBg mx-3">
                 <thead className="tableBg">
                   <tr className="tableBg">
                     <th scope="col" colspan="2" className="tableBg">

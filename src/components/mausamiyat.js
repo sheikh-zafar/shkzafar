@@ -70,7 +70,7 @@ class mausamiat extends Component {
       <div>
         <div className="application">
           <Helmet>
-            <meta charSet="utf-8" />
+            <meta charSet="utf-8" data-react-helmet="true" />
             <title>فضيلة الشيخ ظفر الحسن مدني حفظه الله</title>
             <link
               rel="canonical"
@@ -78,11 +78,11 @@ class mausamiat extends Component {
             />
             <meta
               name="title"
-              content="Zafar ul hasan madani | Seasonal Lectures"
+              content="Zafar ul hasan madani | Mausamiyat duroos"
             />
             <meta
               name="description"
-              content="Listen and Download Seasonal Lectures by zafar ul hasan madani"
+              content="Mausamiyat duroos - Listen and Download Mausamiyat duroos by zafar ul hasan madani"
             />
           </Helmet>
         </div>

@@ -10,7 +10,7 @@ export default class muktasar extends Component {
       <div>
         <div className="application">
           <Helmet>
-            <meta charSet="utf-8" />
+            <meta charSet="utf-8" data-react-helmet="true" />
             <title>فضيلة الشيخ ظفر الحسن مدني حفظه الله</title>
             <link
               rel="canonical"
@@ -18,11 +18,11 @@ export default class muktasar extends Component {
             />
             <meta
               name="title"
-              content="Zafar ul hasan madani | Breif Lectures"
+              content="Zafar ul hasan madani | Mukhtasar duroos"
             />
             <meta
               name="description"
-              content="Listen and Download Brief Lectures by zafar ul hasan madani"
+              content="Mukhtasar duroos - Listen and Download Mukhtasar duroos by zafar ul hasan madani"
             />
             <meta name="keywords" content="tadween as sunnah," />
           </Helmet>

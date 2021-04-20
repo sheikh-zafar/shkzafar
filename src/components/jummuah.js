@@ -11,15 +11,19 @@ export default class jummuah extends Component {
       <div>
         <div className="application">
           <Helmet>
-            <meta charSet="utf-8" />
+            <meta charSet="utf-8" data-react-helmet="true" />
             <title>فضيلة الشيخ ظفر الحسن مدني حفظه الله</title>
             <link
               rel="canonical"
               href="https://zafarulhasan.com/#/audio/jummuah"
             />
             <meta
+              name="title"
+              content="Jummuah Khutbah - Listen and Download Jummuah Khutbah bu zafar ul hasan madani"
+            />
+            <meta
               name="description"
-              content="Listen and Download Friday Sermon by zafar ul hasan madani"
+              content="Listen and Download Jummuah Khutbah by zafar ul hasan madani"
             />
           </Helmet>
         </div>
