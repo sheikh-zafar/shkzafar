@@ -5,7 +5,7 @@ import React from "react";
 import express from "express";
 import ReactDOMServer from "react-dom/server";
 
-import App from "../App";
+import App from "../src/App";
 
 const PORT = process.env.PORT || 3000;
 const app = express();
@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
   fs.readFile(indexFile, "utf8", (err, data) => {
     if (err) {
       console.error("Something went wrong:", err);
-      return res.status(500).send("Oops, better luck next time!");
+      return res.status(500).send("Oops, try next time!");
     }
 
     return res.send(
