@@ -486,19 +486,10 @@ h2 .accordion-header {
   display: flex;
   justify-content: end;
 }
-.tableButton {
-  width: 250px;
-}
 table.table-bordered {
-  border: 10px solid #5c4033;
-  border-radius: 7px;
+  border: 5px solid #5c4033;
 }
-table.table-bordered > thead > tr > th {
-  border: 1px solid #5c4033;
-}
-table.table-bordered > tbody > tr > td {
-  border: 1px solid #5c4033;
-}
+
 .tableBg {
   background: url(../src/img/beigebg.jpeg);
 }
@@ -509,6 +500,13 @@ table.table-bordered > tbody > tr > td {
 .blink_me {
   animation: blinker 1s linear infinite;
   color: red;
+}
+.tableButton {
+  height: 70px;
+  background-color: #2e856e;
+  color: beige;
+  font-size: 15px;
+  font-family: "Righteous";
 }
 @media (min-width: 1200px) {
 }
@@ -525,6 +523,13 @@ table.table-bordered > tbody > tr > td {
   .scholar {
     width: 700px;
     align-items: stretch;
+  }
+  .tableButton {
+    height: 70px;
+    background-color: #2e856e;
+    color: beige;
+    font-size: 15px;
+    font-family: "Righteous";
   }
 }
 
@@ -588,6 +593,14 @@ table.table-bordered > tbody > tr > td {
   .marginMukhtasarPhone {
     margin-left: 22px;
   }
+  .tableBg {
+    margin-right: 12px;
+  }
+  .tableButton {
+    height: 70px;
+    width: 150px;
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -612,14 +625,13 @@ table.table-bordered > tbody > tr > td {
   #menu {
     display: none;
   }
+
   .tableButton {
-    width: 130px;
+    height: 45px;
+    width: 81px;
+    font-size: 11px;
   }
-  .btn {
-    width: 150px;
-    font-size: 14px;
-    margin-top: 5px;
-  }
+
   .card {
     font-size: 15px;
     margin: 3px;

@@ -177,63 +177,48 @@ export default class Home extends Component {
         <section className="embed-section">
           <div className="container">
             <div className="row text-center">
-              <table class="table table-bordered tableBg mx-3">
-                <thead className="tableBg">
-                  <tr className="tableBg">
-                    <th scope="col" colspan="2" className="tableBg">
-                      <div
-                        class="card-header pb-0 pt-2"
-                        style={{ color: "#5c4033" }}
-                      >
-                        <div className="pt-2"> رمضان ١٤٤٢</div>
-                        <p className="lead pt-3">Ramadan 1442-2021</p>
-                      </div>
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="tableBg">
-                    <th scope="col" className="tableBg">
-                      <Link
-                        to="/Ramadan-1442-2021"
-                        role="button"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn btn btn-lg btn-outline-dark tableButton"
-                        style={{
-                          height: "70px",
-                          backgroundColor: "#2e856e",
-                          color: "beige",
-                          fontSize: "15px",
-                          fontFamily: "Righteous",
-                        }}
-                      >
-                        رمضان <br />
-                        Duroos
-                      </Link>
-                    </th>
-                    <th scope="col" className="tableBg">
-                      <Link
-                        to="/jummuah"
-                        role="button"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn btn btn-lg btn-outline-dark tableButton"
-                        style={{
-                          height: "70px",
-                          backgroundColor: "#2e856e",
-                          fontSize: "15px",
-                          color: "beige",
-                          fontFamily: "Righteous",
-                        }}
-                      >
-                        Khutbah <br />
-                        Al-Jummuah
-                      </Link>
-                    </th>
-                  </tr>
-                </tbody>
-              </table>
+              <div className="col-md-12 col-xs-8 col-sm-7">
+                <table class="table table-bordered tableBg">
+                  <thead className="tableBg">
+                    <tr className="tableBg">
+                      <th scope="col" colspan="2" className="tableBg">
+                        <div class="card-header" style={{ color: "#5c4033" }}>
+                          <div> رمضان ١٤٤٢</div>
+                          <p className="lead">Ramadan 1442-2021</p>
+                        </div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="tableBg">
+                      <th scope="col" className="tableBg">
+                        <Link
+                          to="/Ramadan-1442-2021"
+                          role="button"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn btn-lg btn-outline-dark tableButton"
+                        >
+                          رمضان <br />
+                          Duroos
+                        </Link>
+                      </th>
+                      <th scope="col" className="tableBg">
+                        <Link
+                          to="/jummuah"
+                          role="button"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn btn btn-lg btn-outline-dark tableButton"
+                        >
+                          Khutbah <br />
+                          Al-Jummuah
+                        </Link>
+                      </th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </section>
