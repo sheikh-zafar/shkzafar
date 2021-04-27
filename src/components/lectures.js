@@ -32,7 +32,7 @@ export default class audio extends Component {
           <Helmet>
             <meta charSet="utf-8" data-react-helmet="true" />
             <title>فضيلة الشيخ ظفر الحسن مدني حفظه الله</title>
-            <link rel="canonical" href="https://zafarulhasan.com/#/audio" />
+            <link rel="canonical" href="https://zafarulhasan.com/#/lectures" />
             <meta
               name="description"
               content="Duroos of Sheikh zafar ul hasan madani"
@@ -49,7 +49,7 @@ export default class audio extends Component {
           <div className="container-fluid py-3">
             <div className="row text-center ">
               <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginJummahPhone">
-                <Link to="/audio/jummuah" title="manhaj">
+                <Link to="/lectures/jummuah" title="manhaj">
                   <div className="rounded-links rounded-circle">
                     <img
                       src={Jummuah}
