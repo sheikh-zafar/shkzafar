@@ -63,6 +63,14 @@ const Main = () => (
         (global.window.location.href = "https://t.me/s/zafarulhasan?")
       }
     />
+    <Route
+      exact
+      path="/catch-up-with-missed-lectures"
+      render={() =>
+        (global.window.location.href =
+          "https://mixlr.com/zafarulhasan/showreel/")
+      }
+    />
   </Switch>
 );
 
