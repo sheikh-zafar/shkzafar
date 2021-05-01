@@ -7,7 +7,8 @@ export const tafseerdata = [
     archive: element,
     drive:
       "https://drive.google.com/drive/u/0/folders/1k-O0tHKvkC68OJ7E_UmPsKwT42-arFT-",
-    youtube: "https://www.youtube.com/c/ZafarulHasan/playlists",
+    youtube:
+      "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
   },
   {
     arabictitle: "سورة الفاتحة",
