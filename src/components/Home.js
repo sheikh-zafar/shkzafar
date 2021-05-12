@@ -48,7 +48,7 @@ export default class Home extends Component {
                 id="carouselExampleIndicators"
                 class="carousel slide carousel-fade"
                 data-ride="carousel"
-                data-interval="2500"
+                data-interval="8000"
               >
                 <ol id="myCarousel-indicators" class="carousel-indicators">
                   <li
