@@ -183,7 +183,7 @@ export default class Home extends Component {
           <div className="row text-center">
             <h4 style={{ color: "beige" }}>
               <i class="fa fa-quote-left" aria-hidden="true"></i> Note:1442 Eid
-              Al Fitr Salah Sharjah Musalla{" "}
+              Al Fitr Khutbah Sharjah Musalla{" "}
               <a
                 href="https://goo.gl/maps/ew6n1JNgnxFumndM6"
                 title="Eid al Fitr 2021"
