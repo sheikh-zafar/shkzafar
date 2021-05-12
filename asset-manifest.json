@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.776997c5.chunk.css",
-    "main.js": "/static/js/main.0dce283a.chunk.js",
-    "main.js.map": "/static/js/main.0dce283a.chunk.js.map",
+    "main.js": "/static/js/main.e0de409d.chunk.js",
+    "main.js.map": "/static/js/main.e0de409d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3dbf9d90.js",
     "runtime-main.js.map": "/static/js/runtime-main.3dbf9d90.js.map",
     "static/css/2.f1a1079b.chunk.css": "/static/css/2.f1a1079b.chunk.css",
@@ -12,6 +12,7 @@
     "static/css/2.f1a1079b.chunk.css.map": "/static/css/2.f1a1079b.chunk.css.map",
     "static/css/main.776997c5.chunk.css.map": "/static/css/main.776997c5.chunk.css.map",
     "static/js/2.b6122368.chunk.js.LICENSE.txt": "/static/js/2.b6122368.chunk.js.LICENSE.txt",
+    "static/media/EidAlFitrKhutbah.f9431756.jpg": "/static/media/EidAlFitrKhutbah.f9431756.jpg",
     "static/media/Quran&Hadith1Arabic.d5438c28.jpg": "/static/media/Quran&Hadith1Arabic.d5438c28.jpg",
     "static/media/Quran&Hadith1English.0ad327b9.jpg": "/static/media/Quran&Hadith1English.0ad327b9.jpg",
     "static/media/Quran&Hadith1Urdu.edece04a.jpg": "/static/media/Quran&Hadith1Urdu.edece04a.jpg",
@@ -54,6 +55,6 @@
     "static/css/2.f1a1079b.chunk.css",
     "static/js/2.b6122368.chunk.js",
     "static/css/main.776997c5.chunk.css",
-    "static/js/main.0dce283a.chunk.js"
+    "static/js/main.e0de409d.chunk.js"
   ]
 }
