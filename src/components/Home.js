@@ -16,6 +16,7 @@ import wednesday from "../img/wednesday.jpg";
 import saturday from "../img/saturday.jpg";
 import RamadanSuccessfulFast from "../img/RamadanSuccessfulFast.jpg";
 import RamadanTafseer27 from "../img/RamadanTafseer27.jpg";
+import EidAlFitr from "../img/EidAlFitrKhutbah.jpg";
 
 export default class Home extends Component {
   render() {
@@ -73,11 +74,24 @@ export default class Home extends Component {
                   ></li>
                   <li
                     data-target="#carouselExampleIndicators"
-                    data-slide-to="4"
+                    data-slide-to="5"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="5"
                   ></li>
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
+                    <img
+                      src={EidAlFitr}
+                      className="img-fld"
+                      alt="zafar ul hasan madani"
+                      height="400px"
+                      width="100%"
+                    />
+                  </div>
+                  <div class="carousel-item ">
                     <img
                       src={RamadanSuccessfulFast}
                       className="img-fld"
@@ -167,9 +181,24 @@ export default class Home extends Component {
             </section>
           </div>
           <div className="row text-center">
+            <h4 style={{ color: "beige" }}>
+              <i class="fa fa-quote-left" aria-hidden="true"></i> Note:1442 Eid
+              Al Fitr Salah Sharjah Musalla{" "}
+              <a
+                href="https://goo.gl/maps/ew6n1JNgnxFumndM6"
+                title="Eid al Fitr 2021"
+                style={{ color: "#5c4033", textDecoration: "underline" }}
+              >
+                <i class="fa fa-map-marker" aria-hidden="true"></i> Location
+              </a>{" "}
+              , Timing 5:51 am{" "}
+              <i class="fa fa-quote-right" aria-hidden="true"></i>
+            </h4>
             <p className="lead" style={{ color: "beige" }}>
-              ***Note: All Regular Duroos are on hold for the Month of Ramadan
-              only Ramadan Duroos and Jumu'ah Khutba will be ongoing***
+              <i class="fa fa-quote-left" aria-hidden="true"></i> Note: All
+              Regular Duroos are on hold for the Month of Ramadan only Ramadan
+              Duroos and Jumu'ah Khutba will be ongoing{" "}
+              <i class="fa fa-quote-right" aria-hidden="true"></i>
             </p>
           </div>
         </div>
