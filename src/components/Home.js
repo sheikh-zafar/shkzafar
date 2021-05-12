@@ -188,6 +188,8 @@ export default class Home extends Component {
                 href="https://goo.gl/maps/ew6n1JNgnxFumndM6"
                 title="Eid al Fitr 2021"
                 style={{ color: "#5c4033", textDecoration: "underline" }}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <i class="fa fa-map-marker" aria-hidden="true"></i> Location
               </a>{" "}
