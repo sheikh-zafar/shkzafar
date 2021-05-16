@@ -4,7 +4,7 @@ export const tafseerdata = [
   {
     arabictitle: "جزء ٢٧",
     englishtitle: "Juz 27",
-    archive: element,
+    archive: "https://archive.org/details/tafseer-juz-27-zafarulhasan-madani",
     drive:
       "https://drive.google.com/drive/u/0/folders/1k-O0tHKvkC68OJ7E_UmPsKwT42-arFT-",
     youtube:
