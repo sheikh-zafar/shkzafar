@@ -707,8 +707,7 @@ export default class Home extends Component {
                                 className="btn btn btn-lg btn-outline-dark tableButton"
                               >
                                 Khutbah <br />
-                                Eid-ul-Fitr <br />
-                                (1442/ 2021)
+                                Eid-ul-Fitr
                               </a>
                             </th>
                           </tr>

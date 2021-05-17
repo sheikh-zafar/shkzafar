@@ -244,8 +244,8 @@ export default class Ramadan2021 extends Component {
                   <div class="card-body">
                     <div className="row">
                       <div className="col">
-                        <Link
-                          to="/comingsoon"
+                        <a
+                          href="https://archive.org/details/tafseer-juz-27-zafarulhasan-madani"
                           className="btn btn btn-lg btn-outline-dark"
                           target="_blank"
                           rel="noreferrer"
@@ -257,7 +257,7 @@ export default class Ramadan2021 extends Component {
                         >
                           <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
                           Listen
-                        </Link>
+                        </a>
                       </div>
                       <div className="col">
                         <a

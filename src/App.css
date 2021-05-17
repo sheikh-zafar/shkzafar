@@ -502,7 +502,7 @@ table.table-bordered {
   color: red;
 }
 .tableButton {
-  height: 90px;
+  height: 65px;
   background-color: #2e856e;
   color: beige;
   font-size: 15px;
@@ -593,7 +593,7 @@ table.table-bordered {
     margin-right: 12px;
   }
   .tableButton {
-    height: 90px;
+    height: 70px;
     width: 150px;
   }
 }
@@ -621,7 +621,7 @@ table.table-bordered {
     display: none;
   }
   .tableButton {
-    height: 58px;
+    height: 50px;
     width: 84px;
     font-size: 11px;
   }
