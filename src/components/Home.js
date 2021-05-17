@@ -14,9 +14,6 @@ import { Helmet } from "react-helmet";
 import monday from "../img/monday.jpg";
 import wednesday from "../img/wednesday.jpg";
 import saturday from "../img/saturday.jpg";
-import RamadanSuccessfulFast from "../img/RamadanSuccessfulFast.jpg";
-import RamadanTafseer27 from "../img/RamadanTafseer27.jpg";
-import EidAlFitr from "../img/EidAlFitrKhutbah.jpg";
 
 export default class Home extends Component {
   render() {
@@ -72,44 +69,9 @@ export default class Home extends Component {
                     data-target="#carouselExampleIndicators"
                     data-slide-to="4"
                   ></li>
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="5"
-                  ></li>
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="5"
-                  ></li>
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img
-                      src={EidAlFitr}
-                      className="img-fld"
-                      alt="zafar ul hasan madani"
-                      height="400px"
-                      width="100%"
-                    />
-                  </div>
-                  <div class="carousel-item ">
-                    <img
-                      src={RamadanSuccessfulFast}
-                      className="img-fld"
-                      alt="zafar ul hasan madani"
-                      height="400px"
-                      width="100%"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src={RamadanTafseer27}
-                      className="img-fld"
-                      alt="zafar ul hasan madani"
-                      height="400px"
-                      width="100%"
-                    />
-                  </div>
-                  <div class="carousel-item">
                     <img
                       src={Sunday}
                       className="img-fld"
@@ -180,79 +142,7 @@ export default class Home extends Component {
               </div>
             </section>
           </div>
-          <div className="row text-center">
-            <h4 style={{ color: "beige" }}>
-              <i class="fa fa-quote-left" aria-hidden="true"></i> Note:1442 Eid
-              Al Fitr Khutbah Sharjah Musalla{" "}
-              <a
-                href="https://goo.gl/maps/ew6n1JNgnxFumndM6"
-                title="Eid al Fitr 2021"
-                style={{ color: "#5c4033", textDecoration: "underline" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i class="fa fa-map-marker" aria-hidden="true"></i> Location
-              </a>{" "}
-              , Timing 5:51 am{" "}
-              <i class="fa fa-quote-right" aria-hidden="true"></i>
-            </h4>
-            <p className="lead" style={{ color: "beige" }}>
-              <i class="fa fa-quote-left" aria-hidden="true"></i> Note: All
-              Regular Duroos are on hold for the Month of Ramadan only Ramadan
-              Duroos and Jumu'ah Khutba will be ongoing{" "}
-              <i class="fa fa-quote-right" aria-hidden="true"></i>
-            </p>
-          </div>
         </div>
-
-        <section className="embed-section">
-          <div className="container">
-            <div className="row text-center">
-              <div className="col-md-12 col-xs-8 col-sm-7">
-                <table class="table table-bordered tableBg">
-                  <thead className="tableBg">
-                    <tr className="tableBg">
-                      <th scope="col" colspan="2" className="tableBg">
-                        <div class="card-header" style={{ color: "#5c4033" }}>
-                          <div> رمضان ١٤٤٢</div>
-                          <p className="lead">Ramadan 1442-2021</p>
-                        </div>
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr className="tableBg">
-                      <th scope="col" className="tableBg">
-                        <Link
-                          to="/Ramadan-1442-2021"
-                          role="button"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="btn btn-lg btn-outline-dark tableButton"
-                        >
-                          رمضان <br />
-                          Duroos
-                        </Link>
-                      </th>
-                      <th scope="col" className="tableBg">
-                        <Link
-                          to="/jummuah"
-                          role="button"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="btn btn btn-lg btn-outline-dark tableButton"
-                        >
-                          Khutbah <br />
-                          Al-Jummuah
-                        </Link>
-                      </th>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/*Calendar and Mixlr section*/}
         <div className="container">
@@ -299,7 +189,7 @@ export default class Home extends Component {
                   "0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9)",
               }}
             >
-              <div className="row justify-content-center">
+              <div className="row justify-content-center d-xs-flex justify-content-center">
                 <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                   <div className="container py-3 ">
                     <a
@@ -353,18 +243,28 @@ export default class Home extends Component {
                 </div>
                 <div className="col-lg-3 col-md-3 col-sm-6  col-xs-6">
                   <div className="container py-4">
+                    <a
+                      href="https://www.youtube.com/channel/UC2zD7wY_3TCGCyA9Cy_Nu9w"
+                      title="zafarul hasan madani"
+                      role="button"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn btn-lg btn-outline-dark"
+                      style={{
+                        width: "170px",
+                        backgroundColor: "#2e856e",
+                        color: "beige",
+                        fontFamily: "Righteous",
+                      }}
+                    >
+                      <i class="fa fa-youtube" aria-hidden="true"></i> YouTube
+                    </a>
                     <div
-                      class="g-ytsubscribe"
-                      data-channelid="UC2zD7wY_3TCGCyA9Cy_Nu9w"
-                      data-layout="full"
-                      data-count="default"
-                    ></div>
-                  </div>
-                  <div
-                    className="container  px-0 pt-1"
-                    style={{ fontFamily: "Fredoka One", fontSize: "15px" }}
-                  >
-                    YouTube Channel
+                      className="container  px-0 pt-1 text-center"
+                      style={{ fontFamily: "Fredoka One", fontSize: "15px" }}
+                    >
+                      YouTube Channel
+                    </div>
                   </div>
                 </div>
                 <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6">
@@ -765,30 +665,63 @@ export default class Home extends Component {
                   </div>
                 </div>
               </div>
+              {/*Ramadan page & Eid khutbah */}
+              <section className="embed-section">
+                <div className="container">
+                  <div className="row text-center">
+                    <div className="col-md-12 col-xs-8 col-sm-7">
+                      <table class="table table-bordered tableBg">
+                        <thead className="tableBg">
+                          <tr className="tableBg">
+                            <th scope="col" colspan="2" className="tableBg">
+                              <div
+                                class="card-header"
+                                style={{ color: "#5c4033" }}
+                              >
+                                <div> رمضان ١٤٤٢</div>
+                                <p className="lead">Ramadan 1442-2021</p>
+                              </div>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr className="tableBg">
+                            <th scope="col" className="tableBg">
+                              <Link
+                                to="/Ramadan-1442-2021"
+                                role="button"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn btn-lg btn-outline-dark tableButton"
+                              >
+                                رمضان <br />
+                                Duroos
+                              </Link>
+                            </th>
+                            <th scope="col" className="tableBg">
+                              <a
+                                href="https://youtu.be/zx0ohzkZfpk"
+                                role="button"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn btn btn-lg btn-outline-dark tableButton"
+                              >
+                                Khutbah <br />
+                                Eid-ul-Fitr <br />
+                                (1442/ 2021)
+                              </a>
+                            </th>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </section>
             </div>
           </div>
         </section>
 
-        {/*Full month calendar*/}
-        <section className="embed-section">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <section className="calendar-section" id="target">
-                  <div class="embed-responsive embed-responsive-16by9">
-                    <iframe
-                      title="zafar ul hasan madani"
-                      src="https://calendar.google.com/calendar/embed?src=3b8poos1bsipthgbp95hcbvni4@group.calendar.google.com&ctz=Asia/Dubai"
-                      frameborder="0"
-                      scrolling="no"
-                      height="100%"
-                    ></iframe>
-                  </div>
-                </section>
-              </div>
-            </div>
-          </div>
-        </section>
         <section className="embed-section">
           <div className="col-md-12 text-center">
             <Footer />

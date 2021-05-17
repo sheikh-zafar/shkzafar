@@ -3,6 +3,10 @@ import Navbar from "./Navbar";
 import Footer from "./footer";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import RamadanSuccessfulFast from "../img/RamadanSuccessfulFast.jpg";
+import RamadanTafseer27 from "../img/RamadanTafseer27.jpg";
+import EidAlFitr from "../img/EidAlFitrKhutbah.jpg";
+import Eid2021 from "../img/eid2021.jpg";
 
 export default class Ramadan2021 extends Component {
   render() {
@@ -32,6 +36,87 @@ export default class Ramadan2021 extends Component {
             />
           </Helmet>
         </div>
+        {/*Banner section*/}
+        <div className="container">
+          <div className="row">
+            <section className="banner-section">
+              <div
+                id="carouselExampleIndicators"
+                class="carousel slide carousel-fade"
+                data-ride="carousel"
+                data-interval="8000"
+              >
+                <ol id="myCarousel-indicators" class="carousel-indicators">
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="0"
+                    class="active"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="1"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="2"
+                  ></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src={EidAlFitr}
+                      className="img-fld"
+                      alt="zafar ul hasan madani"
+                      height="400px"
+                      width="100%"
+                    />
+                  </div>
+                  <div class="carousel-item ">
+                    <img
+                      src={RamadanSuccessfulFast}
+                      className="img-fld"
+                      alt="zafar ul hasan madani"
+                      height="400px"
+                      width="100%"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src={RamadanTafseer27}
+                      className="img-fld"
+                      alt="zafar ul hasan madani"
+                      height="400px"
+                      width="100%"
+                    />
+                  </div>
+                </div>
+                <a
+                  class="carousel-control-prev"
+                  href="#carouselExampleIndicators"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                </a>
+                <a
+                  class="carousel-control-next"
+                  href="#carouselExampleIndicators"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                </a>
+              </div>
+            </section>
+          </div>
+        </div>
+        {/*Title */}
         <section className="embed-section">
           <div className="container">
             <div className="row text-center">
@@ -44,6 +129,36 @@ export default class Ramadan2021 extends Component {
                   Ramadan 1442-2021
                 </p>
                 <hr />
+              </div>
+            </div>
+          </div>
+        </section>
+        {/*Rounded Eid button */}
+        {/*Rounded button links 1*/}
+        <section className="embed-section">
+          <div className="container-fluid py-3">
+            <div className="row text-center ">
+              <div className="col-md-12 d-flex justify-content-center">
+                <a
+                  href="https://youtu.be/zx0ohzkZfpk"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  title="manhaj"
+                >
+                  <div className="rounded-links rounded-circle">
+                    <img
+                      src={Eid2021}
+                      className="img-fluid rounded-circle"
+                      alt="ahle hadith"
+                    />
+                  </div>
+                  <div>
+                    <h3 className="rounded-headname d-flex justify-content-center">
+                      Khutbah Eid-al-Fitr <br />
+                      (1442/2021)
+                    </h3>
+                  </div>
+                </a>
               </div>
             </div>
           </div>

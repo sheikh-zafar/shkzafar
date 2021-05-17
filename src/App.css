@@ -502,7 +502,7 @@ table.table-bordered {
   color: red;
 }
 .tableButton {
-  height: 70px;
+  height: 90px;
   background-color: #2e856e;
   color: beige;
   font-size: 15px;
@@ -526,10 +526,6 @@ table.table-bordered {
   }
   .tableButton {
     height: 70px;
-    background-color: #2e856e;
-    color: beige;
-    font-size: 15px;
-    font-family: "Righteous";
   }
 }
 
@@ -597,9 +593,8 @@ table.table-bordered {
     margin-right: 12px;
   }
   .tableButton {
-    height: 70px;
+    height: 90px;
     width: 150px;
-    font-size: 15px;
   }
 }
 
@@ -625,13 +620,11 @@ table.table-bordered {
   #menu {
     display: none;
   }
-
   .tableButton {
-    height: 45px;
-    width: 81px;
+    height: 58px;
+    width: 84px;
     font-size: 11px;
   }
-
   .card {
     font-size: 15px;
     margin: 3px;
