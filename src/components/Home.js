@@ -26,8 +26,12 @@ export default class Home extends Component {
             <title>فضيلة الشيخ ظفر الحسن مدني حفظه الله</title>
             <link rel="canonical" href="https://zafarulhasan.com/#/" />
             <meta
+              name="title"
+              content="Zafarulhasan.com | Listen and Download Lectures by Sheikh Zafar ul hasan madani"
+            />
+            <meta
               name="description"
-              content="Listen and Download Friday Sermon by zafar ul hasan madani"
+              content="Zafarulhasan.com - Bulugh-al-maram | Buniyadi uloom - Fiqh | Sharh as sunnah - Aqeedah | Tafseer Surah al Baqarah | As shamail al-muhammadiyah | Shamail at-Tirmidhi | Covid19 lectures | Tadween as sunnah | Jummuah khutbah | Eid-ul-fitr | Riyad as saliheen | Kitab at-Tawheed | Usool al-Thalatha | Muharram | Safar | Ramadan | Rajab | Dhul hijjah | Shaban"
             />
             <meta
               name="keywords"

@@ -20,7 +20,7 @@ import mausamiyat from "./mausamiyat";
 import comingsoon from "./comingsoon";
 import SisterSection from "./sisters-section";
 import Ramadan2021 from "./Ramadan-1442-2021";
-import YouTubeChannel from "./YouTubeChannel";
+import Sample from "./Sample";
 import WhatsAppUpdates from "./WhatsAppUpdates";
 const Main = () => (
   <Switch>
@@ -41,6 +41,7 @@ const Main = () => (
     <Route exact path="/about" component={about} />
     <Route exact path="/comingsoon" component={comingsoon} />
     <Route exact path="/WhatsAppUpdates" component={WhatsAppUpdates} />
+    <Route exact path="/Sample" component={Sample} />
     <Route
       exact
       path="/YouTubeChannel"
