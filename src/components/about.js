@@ -80,6 +80,7 @@ export default class about extends Component {
                 renowned Shuyookh and ‘Ulama. A few of them have been named
                 below:
               </p>
+              <div className="container-fluid bg">
               <ol className="about orderlist pt-3">
                 <li>Shaikh Al Hadith Shams Al-haq Salafi (Rahimahullah).</li>
                 <li>
@@ -102,6 +103,8 @@ export default class about extends Component {
                 <li>Maulana Mahfoozur-Rahmaan Faiza (Hafidhullah).</li>
                 <li>Dr. Ziya Ar-rahmaan Aadhmi (Hafidhullah)</li>
               </ol>
+              </div>
+
               <p className="about">
                 Immediately after the completion of his Degree from the Islamic
                 University in Madina, he was appointed as a Teacher for
@@ -133,6 +136,7 @@ export default class about extends Component {
                 By the Grace of Allah azza wa jal, Shaikh Zafar, with his
                 immense knowledge has had the privilege of authoring a few books
                 in Urdu, some of which are mentioned here below:
+                <div className="bg">
                 <ol className="about orderlist pt-3">
                   <li>Tariqai Hajj (published)</li>
                   <li>Mamnou As-Salah Ind-Al Iqamah (published)</li>
@@ -141,6 +145,8 @@ export default class about extends Component {
                   <li>Khutbaat Wa Maqalaat</li>
                   <li>Duroos-e- Hadith</li>
                 </ol>
+                </div>
+
               </section>
             </div>
           </div>

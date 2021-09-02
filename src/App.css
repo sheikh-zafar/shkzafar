@@ -14,7 +14,7 @@
   text-align: center;
 }
 body {
-  background-color: #2e856e;
+  background-color: #0c3823;
   color: beige;
 }
 * {
@@ -33,10 +33,11 @@ body {
   overflow: hidden;
   width: 100%;
 }
-.carousel-item {
-  width: 100%;
-  height: 100%;
+.carousel-section {
+  width: 193vh;
+padding-left: 75px;
 }
+
 
 .carousel-indicators li {
   width: 10px;
@@ -117,7 +118,7 @@ Link .nav-link:hover {
 }
 .mosque {
   margin-top: 25px;
-  background-color: #2e856e;
+  background-color: #0c3823;
 }
 .three-col-section {
   background: url("../src/img/beigebg.jpeg");
@@ -193,7 +194,7 @@ img .logo {
 
 a .rounded-headname {
   font-family: "Righteous", sans-serif;
-  color: #5c4033;
+  color: beige;
   font-size: 1.7rem;
 }
 a .rounded-headname:hover {
@@ -244,13 +245,15 @@ a:active {
 
 .aboutheader {
   font-family: "Langar", sans-serif;
-  color: #5c4033;
+  text-transform: uppercase;
+  color: beige;
   text-shadow: beige;
 }
 .about {
   font-size: 20px;
   font-family: "Fredoka", sans-serif;
 }
+
 .orderlist {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
@@ -371,7 +374,7 @@ a:active {
   margin: 10px 0 0;
   padding: 0%;
   line-height: 1.7;
-  color: #2e856e;
+  color: #0c3823;
 }
 .timeline ul li h4 {
   margin: 0;
@@ -503,7 +506,7 @@ table.table-bordered {
 }
 .tableButton {
   height: 65px;
-  background-color: #2e856e;
+  background-color: #0c3823;
   color: beige;
   font-size: 15px;
   font-family: "Righteous";
@@ -595,6 +598,10 @@ table.table-bordered {
   .tableButton {
     height: 70px;
     width: 150px;
+  }
+  .carousel-section {
+    width: 100%;
+    padding-left: 0px;
   }
 }
 
@@ -703,7 +710,7 @@ table.table-bordered {
     padding-left: 25px;
   }
   .img-fld {
-    height: 250px;
+    height: 75vh;
     width: 100%;
   }
   .carousel-control-prev-icon {
@@ -712,35 +719,14 @@ table.table-bordered {
   .carousel-control-next-icon {
     display: none;
   }
+  .carousel-section {
+    width: 100%;
+
+  }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 @keyframes blinker {
   50% {
     opacity: 0;
-  }
-}
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
   }
 }

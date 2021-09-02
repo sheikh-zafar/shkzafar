@@ -42,7 +42,7 @@ export default class Home extends Component {
         {/*Heading name and Navigation bar*/}
         <Navbar />
         {/*Banner section*/}
-        <div className="container">
+        <div className="carousel-section">
           <div className="row">
             <section className="banner-section">
               <div
@@ -204,7 +204,7 @@ export default class Home extends Component {
                       className="btn btn btn-lg btn-outline-dark"
                       style={{
                         width: "170px",
-                        backgroundColor: "#2e856e",
+                        backgroundColor: "#0C3823",
                         color: "beige",
                         fontFamily: "Righteous",
                       }}
@@ -230,7 +230,7 @@ export default class Home extends Component {
                       className="btn btn btn-lg btn-outline-dark"
                       style={{
                         width: "170px",
-                        backgroundColor: "#2e856e",
+                        backgroundColor: "#0C3823",
                         color: "beige",
                         fontFamily: "Righteous",
                       }}
@@ -256,7 +256,7 @@ export default class Home extends Component {
                       className="btn btn btn-lg btn-outline-dark"
                       style={{
                         width: "170px",
-                        backgroundColor: "#2e856e",
+                        backgroundColor: "#0C3823",
                         color: "beige",
                         fontFamily: "Righteous",
                       }}
@@ -282,7 +282,7 @@ export default class Home extends Component {
                       className="btn btn btn-lg btn-outline-dark"
                       style={{
                         width: "170px",
-                        backgroundColor: "#2e856e",
+                        backgroundColor: "#0C3823",
                         color: "beige",
                         fontFamily: "Righteous",
                       }}
