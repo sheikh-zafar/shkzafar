@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "./footer";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+
 const YOUTUBE_API = "https://www.googleapis.com/youtube/v3/playlistItems";
 require("dotenv").config();
 export default class Sample extends Component {
@@ -38,28 +42,37 @@ export default class Sample extends Component {
     return (
       <div>
         <Navbar />
-        <div className="container">
-          <h1>List of all Videos in a playlist</h1>
-          {this.state.items.map((item)=> {
-            console.log(`item`,item);
-            const {id, snippet = {}} = item;
-            const {title, thumbnails = {}, resourceId} =snippet;
-            const {medium={}} = thumbnails;
-            return (
 
-              <a href={`https://www.youtube.com/watch?v=${resourceId.videoId}`} target="_newtab" rel="noopener noreferrer" title="zafrul hasan">
-                <ul>
-            <li key={id} style={{color:"black"}}>{title}</li>
-            <iframe width={medium.width} height={medium.height}
-src={`https://www.youtube.com/embed/${resourceId.videoId}`} title="title"/>
-          </ul>
+        {this.state.items.map((item) => {
+          const { id, snippet = {} } = item;
+          const { title, thumbnails = {}, resourceId } = snippet;
+          const { medium = {} } = thumbnails;
+          return (
+            <OwlCarousel className="owl-theme" loop margin={10} nav items={4} autoPlay="true">
+              <div class="item" key={id}>
+                <a
+                  href={`https://www.youtube.com/watch?v=${resourceId.videoId}`}
+                  target="_newtab"
+                  rel="noopener noreferrer"
+                  title="zafrul hasan"
+                >
+                  <div className="card">
+                  <h6 className="card-title">{title}</h6>
+                  <iframe
+                  className="card-img-top"
+                    width={medium.width}
+                    height={medium.height}
+                    src={`https://www.youtube.com/embed/${resourceId.videoId}`}
+                    title="title"
+                  />
+                  </div>
 
-              </a>
+                </a>
+              </div>
 
-            );
-          })}
-
-        </div>
+            </OwlCarousel>
+          );
+        })}
 
         <div className="text-center">
           <Footer />

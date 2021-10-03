@@ -721,7 +721,11 @@ table.table-bordered {
   }
   .carousel-section {
     width: 100%;
-
+  }
+  .mobile-first {
+    vertical-align: center;
+    left: 50%;
+    right: 50%;
   }
 }
 

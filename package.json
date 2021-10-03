@@ -22,6 +22,7 @@
     "react-helmet": "^6.1.0",
     "react-iframe": "^1.8.0",
     "react-mdl": "^2.1.0",
+    "react-owl-carousel": "^2.3.3",
     "react-router-dom": "^5.2.0",
     "react-router-v3": "^3.2.1",
     "react-scripts": "4.0.1",

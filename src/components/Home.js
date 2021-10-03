@@ -182,7 +182,7 @@ export default class Home extends Component {
 
         {/*Youtube, Image ,Showreel*/}
         <div className="container pt-3">
-          <section className="three-col-section">
+          <section className="three-col-section ">
             <div
               className="container-fluid py-4 "
               style={{
@@ -193,9 +193,9 @@ export default class Home extends Component {
                   "0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9)",
               }}
             >
-              <div className="row justify-content-center d-xs-flex justify-content-center">
+              <div className="row justify-content-center">
                 <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                  <div className="container py-3 ">
+                  <div className="container py-3">
                     <a
                       href="https://calendar.google.com/calendar/u/0/r/month?tab=wc&pli=1"
                       role="button"
