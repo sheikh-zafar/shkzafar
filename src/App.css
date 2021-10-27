@@ -521,18 +521,17 @@ table.table-bordered {
     display: none;
   }
   .ayah {
-    display: none;
+    width: 100%;
   }
   .scholar {
-    width: 700px;
-    align-items: stretch;
+    width: 650px;
   }
   .tableButton {
     height: 70px;
   }
 }
 
-@media (max-width: 767.98px) {
+@media (min-width: 768px) {
   .heading-name {
     font-size: 25px;
   }
@@ -574,9 +573,6 @@ table.table-bordered {
   .paddingVideo {
     padding-left: 0%;
   }
-  .ayah {
-    display: none;
-  }
   .marginJummahPhone {
     margin-left: 34px;
   }
@@ -602,6 +598,14 @@ table.table-bordered {
   .carousel-section {
     width: 100%;
     padding-left: 0px;
+  }
+  .img-fld {
+    width: 100%;
+  }
+  .scholar {
+    display: flex;
+  align-items: center;
+  justify-content: center;
   }
 }
 
@@ -713,14 +717,15 @@ table.table-bordered {
     height: 75vh;
     width: 100%;
   }
+  .carousel-section {
+    width: 100%;
+    padding-left: 0px;
+  }
   .carousel-control-prev-icon {
     display: none;
   }
   .carousel-control-next-icon {
     display: none;
-  }
-  .carousel-section {
-    width: 100%;
   }
   .mobile-first {
     vertical-align: center;

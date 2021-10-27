@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import SheikhName from "../img/sheikhname.jpg";
-import QuranHadith1Arabic from "../img/Quran&Hadith1Arabic.jpg";
-import QuranHadith1Urdu from "../img/Quran&Hadith1Urdu.jpg";
-import QuranHadith1English from "../img/Quran&Hadith1English.jpg";
-import QuranHadith2Arabic from "../img/Quran&Hadith2Arabic.jpg";
-import QuranHadith2Urdu from "../img/Quran&Hadith2Urdu.jpg";
-import QuranHadith2English from "../img/Quran&Hadith2English.jpg";
+import SheikhName from "../img/sheikhname.png";
+import QuranHadith1Arabic from "../img/Quran&Hadith1Arabic.png";
+import QuranHadith1Urdu from "../img/Quran&Hadith1Urdu.png";
+import QuranHadith1English from "../img/Quran&Hadith1English.png";
+import QuranHadith2Arabic from "../img/Quran&Hadith2Arabic.png";
+import QuranHadith2Urdu from "../img/Quran&Hadith2Urdu.png";
+import QuranHadith2English from "../img/Quran&Hadith2English.png";
 
 export default class Navbar extends Component {
   render() {
@@ -15,7 +15,7 @@ export default class Navbar extends Component {
         <section className="heading-section">
           <div className="row">
             <div className="container">
-              <div className="col-md-7 ">
+              <div className="col-xl-7 col-md-6 col-sm-7">
                 <div
                   id="carouselExampleFade"
                   class="carousel slide carousel-fade"
@@ -26,20 +26,20 @@ export default class Navbar extends Component {
                     <div class="carousel-item active">
                       <img
                         src={QuranHadith1Arabic}
-                        className="ayah w-100"
+                        className="ayah"
                         alt="ahle hadith"
                       />
                     </div>
                     <div class="carousel-item ">
                       <img
                         src={QuranHadith1Urdu}
-                        className="ayah w-100"
+                        className="ayah"
                         alt="salafi"
                       />
                     </div>
                     <div class="carousel-item">
                       <img
-                        className="ayah w-100"
+                        className="ayah"
                         src={QuranHadith1English}
                         alt="salafi"
                       />
@@ -47,20 +47,20 @@ export default class Navbar extends Component {
                     <div class="carousel-item">
                       <img
                         src={QuranHadith2Arabic}
-                        className="ayah w-100"
+                        className="ayah"
                         alt="manhaj salaf"
                       />
                     </div>
                     <div class="carousel-item ">
                       <img
                         src={QuranHadith2Urdu}
-                        className="ayah w-100"
+                        className="ayah"
                         alt="salafi"
                       />
                     </div>
                     <div class="carousel-item">
                       <img
-                        className="ayah w-100"
+                        className="ayah"
                         src={QuranHadith2English}
                         alt="salafi"
                       />
@@ -92,7 +92,7 @@ export default class Navbar extends Component {
                   </a>
                 </div>
               </div>
-              <div className=" col-md-5 d-flex justify-content-start">
+              <div className="col-xl-5 col-md-6 col-xs-12 col-sm-5 d-flex justify-content-start d-sm-flex justify-content-center">
                 <div>
                   <img
                     className="img-fluid scholar"

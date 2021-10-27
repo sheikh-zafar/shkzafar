@@ -42,9 +42,7 @@ export default class Home extends Component {
         {/*Heading name and Navigation bar*/}
         <Navbar />
         {/*Banner section*/}
-        <div className="carousel-section">
-          <div className="row">
-            <section className="banner-section">
+        <div className="carousel-section my-0">
               <div
                 id="carouselExampleIndicators"
                 class="carousel slide carousel-fade"
@@ -80,17 +78,13 @@ export default class Home extends Component {
                       src={Sunday}
                       className="img-fld"
                       alt="ahle hadith"
-                      height="400px"
-                      width="100%"
                     />
                   </div>
-                  <div class="carousel-item ">
+                  <div class="carousel-item">
                     <img
                       src={monday}
                       className="img-fld"
                       alt="zafar ul hasan madani"
-                      height="400px"
-                      width="100%"
                     />
                   </div>
                   <div class="carousel-item">
@@ -98,8 +92,6 @@ export default class Home extends Component {
                       src={Baqarah}
                       className="img-fld"
                       alt="surah baqarah"
-                      height="400px"
-                      width="100%"
                     />
                   </div>
                   <div class="carousel-item ">
@@ -107,8 +99,6 @@ export default class Home extends Component {
                       src={wednesday}
                       className="img-fld"
                       alt="zafar ul hasan madani"
-                      height="400px"
-                      width="100%"
                     />
                   </div>
                   <div class="carousel-item ">
@@ -116,8 +106,6 @@ export default class Home extends Component {
                       src={saturday}
                       className="img-fld"
                       alt="zafar ul hasan madani"
-                      height="400px"
-                      width="100%"
                     />
                   </div>
                 </div>
@@ -144,9 +132,7 @@ export default class Home extends Component {
                   ></span>
                 </a>
               </div>
-            </section>
           </div>
-        </div>
 
         {/*Calendar and Mixlr section*/}
         <div className="container">
