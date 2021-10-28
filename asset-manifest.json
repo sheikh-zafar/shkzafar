@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.8495d7e8.chunk.css",
-    "main.js": "/static/js/main.a5973a4e.chunk.js",
-    "main.js.map": "/static/js/main.a5973a4e.chunk.js.map",
+    "main.css": "/static/css/main.c20e9e9f.chunk.css",
+    "main.js": "/static/js/main.8b940ee1.chunk.js",
+    "main.js.map": "/static/js/main.8b940ee1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3dbf9d90.js",
     "runtime-main.js.map": "/static/js/runtime-main.3dbf9d90.js.map",
     "static/css/2.cb177d9b.chunk.css": "/static/css/2.cb177d9b.chunk.css",
-    "static/js/2.938063d1.chunk.js": "/static/js/2.938063d1.chunk.js",
-    "static/js/2.938063d1.chunk.js.map": "/static/js/2.938063d1.chunk.js.map",
+    "static/js/2.18f3de65.chunk.js": "/static/js/2.18f3de65.chunk.js",
+    "static/js/2.18f3de65.chunk.js.map": "/static/js/2.18f3de65.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.cb177d9b.chunk.css.map": "/static/css/2.cb177d9b.chunk.css.map",
-    "static/css/main.8495d7e8.chunk.css.map": "/static/css/main.8495d7e8.chunk.css.map",
-    "static/js/2.938063d1.chunk.js.LICENSE.txt": "/static/js/2.938063d1.chunk.js.LICENSE.txt",
+    "static/css/main.c20e9e9f.chunk.css.map": "/static/css/main.c20e9e9f.chunk.css.map",
+    "static/js/2.18f3de65.chunk.js.LICENSE.txt": "/static/js/2.18f3de65.chunk.js.LICENSE.txt",
     "static/media/EidAlFitrKhutbah.d1a58bdb.jpg": "/static/media/EidAlFitrKhutbah.d1a58bdb.jpg",
     "static/media/Quran&Hadith1Arabic.5febd166.png": "/static/media/Quran&Hadith1Arabic.5febd166.png",
     "static/media/Quran&Hadith1English.0829ce53.png": "/static/media/Quran&Hadith1English.0829ce53.png",
@@ -43,7 +43,7 @@
     "static/media/shaban.f53fbde7.jpg": "/static/media/shaban.f53fbde7.jpg",
     "static/media/shamail2.jpg": "/static/media/shamail2.7b6ab84b.jpg",
     "static/media/sharhsunnah3.jpg": "/static/media/sharhsunnah3.b782ecca.jpg",
-    "static/media/sheikhname.78457914.png": "/static/media/sheikhname.78457914.png",
+    "static/media/sheikhname.png": "/static/media/sheikhname.78457914.png",
     "static/media/sistersection.70a008ed.jpg": "/static/media/sistersection.70a008ed.jpg",
     "static/media/sunday.jpg": "/static/media/sunday.39e351eb.jpg",
     "static/media/tafseericon.aeb0a638.jpg": "/static/media/tafseericon.aeb0a638.jpg",
@@ -53,8 +53,8 @@
   "entrypoints": [
     "static/js/runtime-main.3dbf9d90.js",
     "static/css/2.cb177d9b.chunk.css",
-    "static/js/2.938063d1.chunk.js",
-    "static/css/main.8495d7e8.chunk.css",
-    "static/js/main.a5973a4e.chunk.js"
+    "static/js/2.18f3de65.chunk.js",
+    "static/css/main.c20e9e9f.chunk.css",
+    "static/js/main.8b940ee1.chunk.js"
   ]
 }
