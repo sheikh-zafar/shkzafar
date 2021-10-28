@@ -68,10 +68,12 @@ padding-left: 75px;
 nav {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+ul .navbar-nav {
+  padding-bottom: 0px;
+}
 li .nav-link {
   font-size: 2rem;
   color: #5c4033;
-  border-right: #5c4033 dotted;
 }
 li .nav-link:hover {
   color: beige;
@@ -511,6 +513,10 @@ table.table-bordered {
   font-size: 15px;
   font-family: "Righteous";
 }
+.social-image {
+  height: 200px;
+  width: 290px;
+}
 @media (min-width: 1200px) {
 }
 @media (max-width: 991.98px) {
@@ -528,6 +534,10 @@ table.table-bordered {
   }
   .tableButton {
     height: 70px;
+  }
+  .social-image {
+    height: 150px;
+    width: 240px;
   }
 }
 
@@ -607,6 +617,10 @@ table.table-bordered {
   align-items: center;
   justify-content: center;
   }
+  .social-image {
+    height: 150px;
+    width: 240px;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -625,7 +639,7 @@ table.table-bordered {
     font-size: 15px;
   }
   li .nav-link {
-    font-size: 1.4rem;
+    font-size: 1rem;
     border-right: none;
   }
   #menu {
@@ -714,8 +728,15 @@ table.table-bordered {
     padding-left: 25px;
   }
   .img-fld {
-    height: 75vh;
+    height: 30vh;
     width: 100%;
+  }
+  .scholar {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 90px;
   }
   .carousel-section {
     width: 100%;
@@ -731,6 +752,9 @@ table.table-bordered {
     vertical-align: center;
     left: 50%;
     right: 50%;
+  }
+  .social-image {
+    display: none;
   }
 }
 

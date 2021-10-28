@@ -12,7 +12,6 @@ export default class Navbar extends Component {
   render() {
     return (
       <div>
-        <section className="heading-section">
           <div className="row">
             <div className="container">
               <div className="col-xl-7 col-md-6 col-sm-7">
@@ -105,7 +104,7 @@ export default class Navbar extends Component {
             </div>
           </div>
 
-          <nav class="navbar navbar-expand-lg navbar-color center">
+          <nav class="navbar navbar-expand-lg navbar-color">
             <button
               class="navbar-toggler"
               type="button"
@@ -116,13 +115,12 @@ export default class Navbar extends Component {
               aria-label="Toggle navigation"
             >
               <i
-                className="fa fa-2x fa-bars"
+                className="fa fa-bars"
                 style={{
                   color: "#5c4033",
-                  fontSize: "32px",
                 }}
               >
-                Menu
+                &nbsp;Menu
               </i>
             </button>
             <div className="d-flex d-block flex-row mx-auto mx-0">
@@ -180,7 +178,6 @@ export default class Navbar extends Component {
               </div>
             </div>
           </nav>
-        </section>
       </div>
     );
   }

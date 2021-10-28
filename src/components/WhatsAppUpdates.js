@@ -67,8 +67,8 @@ export default class WhatsAppUpdates extends Component {
               <div className="col-md-6 d-flex justify-content-end">
                 <a
                   href="https://chat.whatsapp.com/IUbPujZ15UfBrryMSPYdyF"
-                  title="salaf"
                   role="button"
+                  title="zafrul hasan madani"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn btn-lg btn-outline-dark"

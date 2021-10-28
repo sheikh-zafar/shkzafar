@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "./footer";
@@ -14,6 +15,7 @@ import { Helmet } from "react-helmet";
 import monday from "../img/monday.jpg";
 import wednesday from "../img/wednesday.jpg";
 import saturday from "../img/saturday.jpg";
+import SheikhName from "../img/sheikhname.png";
 
 export default class Home extends Component {
   render() {
@@ -43,250 +45,304 @@ export default class Home extends Component {
         <Navbar />
         {/*Banner section*/}
         <div className="carousel-section my-0">
-              <div
-                id="carouselExampleIndicators"
-                class="carousel slide carousel-fade"
-                data-ride="carousel"
-                data-interval="8000"
-              >
-                <ol id="myCarousel-indicators" class="carousel-indicators">
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="0"
-                    class="active"
-                  ></li>
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="1"
-                  ></li>
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="2"
-                  ></li>
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="3"
-                  ></li>
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="4"
-                  ></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img
-                      src={Sunday}
-                      className="img-fld"
-                      alt="ahle hadith"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src={monday}
-                      className="img-fld"
-                      alt="zafar ul hasan madani"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src={Baqarah}
-                      className="img-fld"
-                      alt="surah baqarah"
-                    />
-                  </div>
-                  <div class="carousel-item ">
-                    <img
-                      src={wednesday}
-                      className="img-fld"
-                      alt="zafar ul hasan madani"
-                    />
-                  </div>
-                  <div class="carousel-item ">
-                    <img
-                      src={saturday}
-                      className="img-fld"
-                      alt="zafar ul hasan madani"
-                    />
-                  </div>
-                </div>
-                <a
-                  class="carousel-control-prev"
-                  href="#carouselExampleIndicators"
-                  role="button"
-                  data-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                </a>
-                <a
-                  class="carousel-control-next"
-                  href="#carouselExampleIndicators"
-                  role="button"
-                  data-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                </a>
+          <div
+            id="carouselExampleIndicators"
+            className="carousel slide carousel-fade"
+            data-ride="carousel"
+            data-interval="8000"
+          >
+            <ol id="myCarousel-indicators" className="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                className="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="3"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="4"
+              ></li>
+            </ol>
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img
+                  src={Sunday}
+                  className=" image-fluid img-fld"
+                  alt="ahle hadith"
+                />
               </div>
-          </div>
-
-        {/*Calendar and Mixlr section*/}
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-5 col-md-5 col-sm-10 col-xs-12 ">
-              <section className="mixlr-section calendar">
-                <iframe
-                  title="ahle hadith"
-                  src="https://calendar.google.com/calendar/embed?height=250&amp;wkst=1&amp;bgcolor=%232e856e&amp;ctz=Asia%2FDubai&amp;src=M2I4cG9vczFic2lwdGhnYnA5NWhjYnZuaTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%230B8043&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;showTabs=0&amp;mode=AGENDA"
-                  width="100%"
-                  height="100%"
-                  frameborder="0"
-                  scrolling="no"
-                ></iframe>
-              </section>
+              <div className="carousel-item">
+                <img
+                  src={monday}
+                  className="image-fluid img-fld"
+                  alt="zafar ul hasan madani"
+                />
+              </div>
+              <div className="carousel-item">
+                <img
+                  src={Baqarah}
+                  className="image-fluid img-fld"
+                  alt="surah baqarah"
+                />
+              </div>
+              <div className="carousel-item ">
+                <img
+                  src={wednesday}
+                  className="image-fluid img-fld"
+                  alt="zafar ul hasan madani"
+                />
+              </div>
+              <div className="carousel-item ">
+                <img
+                  src={saturday}
+                  className="image-fluid img-fld"
+                  alt="zafar ul hasan madani"
+                />
+              </div>
             </div>
-            <div className=" col-lg-7 col-md-7 col-sm-10 col-xs-12">
-              <section className="mixlr-section">
-                <iframe
-                  title="zafarulhasan"
-                  src="https://mixlr.com/zafarulhasan/embed"
-                  className="mixlr"
-                  width="100%"
-                  scrolling="no"
-                  frameborder="no"
-                  marginheight="0"
-                  marginwidth="0"
-                ></iframe>
-              </section>
+            <a
+              className="carousel-control-prev"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                className="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+            </a>
+            <a
+              className="carousel-control-next"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                className="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+            </a>
+          </div>
+        </div>
+        {/*Mixlr Live & Calendar */}
+        <div className="container pt-3">
+          <div className="row g-1">
+            <div className="col-lg-7 col-sm-7 col-md-7">
+              <iframe
+                title="ahle hadith"
+                src="https://calendar.google.com/calendar/embed?height=250&amp;wkst=1&amp;bgcolor=%232e856e&amp;ctz=Asia%2FDubai&amp;src=M2I4cG9vczFic2lwdGhnYnA5NWhjYnZuaTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%230B8043&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;showTabs=0&amp;mode=AGENDA"
+                width="100%"
+                height="100%"
+                frameborder="0"
+                scrolling="no"
+              ></iframe>
+            </div>
+            <div className="col-lg-5 col-sm-5 col-md-5">
+              <iframe
+                title="zafarulhasan"
+                src="https://mixlr.com/zafarulhasan/embed"
+                className="mixlr"
+                width="100%"
+                scrolling="no"
+                frameborder="no"
+                marginheight="0"
+                marginwidth="0"
+              ></iframe>
             </div>
           </div>
         </div>
 
-        {/*Youtube, Image ,Showreel*/}
-        <div className="container pt-3">
-          <section className="three-col-section ">
-            <div
-              className="container-fluid py-4 "
-              style={{
-                color: "#5c4033",
-                fontFamily: "Pacifico family",
-                fontSize: "15px",
-                boxShadow:
-                  "0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9)",
-              }}
-            >
-              <div className="row justify-content-center">
-                <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                  <div className="container py-3">
-                    <a
-                      href="https://calendar.google.com/calendar/u/0/r/month?tab=wc&pli=1"
-                      role="button"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn btn btn-lg btn-outline-dark"
-                      style={{
-                        width: "170px",
-                        backgroundColor: "#0C3823",
-                        color: "beige",
-                        fontFamily: "Righteous",
-                      }}
-                    >
-                      <i class="fa fa-calendar" aria-hidden="true"></i> Calendar
-                    </a>
-                    <div
-                      className="container  px-0 pt-1"
-                      style={{ fontFamily: "Fredoka One", fontSize: "15px" }}
-                    >
-                      Complete Lecture Schedule
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6">
-                  <div className="container py-3">
-                    <a
-                      href="https://t.me/s/zafarulhasan?"
-                      title="salaf"
-                      role="button"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn btn btn-lg btn-outline-dark"
-                      style={{
-                        width: "170px",
-                        backgroundColor: "#0C3823",
-                        color: "beige",
-                        fontFamily: "Righteous",
-                      }}
-                    >
-                      <i class="fa fa-telegram" aria-hidden="true"></i> Updates
-                    </a>
-                    <div
-                      className="container  px-0 pt-1"
-                      style={{ fontFamily: "Fredoka One", fontSize: "15px" }}
-                    >
-                      Get Updates of Duroos
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-3 col-sm-6  col-xs-6">
-                  <div className="container py-4">
-                    <a
-                      href="https://www.youtube.com/channel/UC2zD7wY_3TCGCyA9Cy_Nu9w"
-                      title="zafarul hasan madani"
-                      role="button"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn btn btn-lg btn-outline-dark"
-                      style={{
-                        width: "170px",
-                        backgroundColor: "#0C3823",
-                        color: "beige",
-                        fontFamily: "Righteous",
-                      }}
-                    >
-                      <i class="fa fa-youtube" aria-hidden="true"></i> YouTube
-                    </a>
-                    <div
-                      className="container  px-0 pt-1 text-center"
-                      style={{ fontFamily: "Fredoka One", fontSize: "15px" }}
-                    >
-                      YouTube Channel
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                  <div className="container py-3">
-                    <a
-                      href="https://mixlr.com/zafarulhasan/showreel/"
-                      title="salaf"
-                      role="button"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn btn btn-lg btn-outline-dark"
-                      style={{
-                        width: "170px",
-                        backgroundColor: "#0C3823",
-                        color: "beige",
-                        fontFamily: "Righteous",
-                      }}
-                    >
-                      <i class="fa fa-headphones" aria-hidden="true"></i> Mixlr
-                      Show Reel
-                    </a>
-                    <div
-                      className="container  px-0 pt-1"
-                      style={{ fontFamily: "Fredoka One", fontSize: "15px" }}
-                    >
-                      Catch up on missed duroos
-                    </div>
-                  </div>
-                </div>
-              </div>
+        {/* List of all Links */}
+        <div className="container pt-3 shadow-lg">
+          <div className="d-flex justify-content-center border " style={{backgroundColor:"#5c4033"}}>
+            <div>
+              <img
+                src={SheikhName}
+                className="social-image"
+                alt="zafar ul hasan madani"
+              />
             </div>
-          </section>
+            <div className="p-2">
+              <h5 className="display-title">Social Links</h5>
+              <a href="https://www.facebook.com/Shaikh-Zafar-Ul-Hasan-Madani-%D8%AD%D9%81%D8%B8%D9%87-%D8%A7%D9%84%D9%84%D9%87-137613959649087/" className="display-title">
+                <i className="fa fa-facebook" aria-hidden="true">
+                  {" "}Facebook
+                </i>
+                &nbsp;{" "}
+              </a>
+              |{" "}
+              <a
+                href="https://chat.whatsapp.com/IUbPujZ15UfBrryMSPYdyF"
+                className="display-title"
+                title="zafrul hasan madani"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-whatsapp" aria-hidden="true">
+                  {" "}
+                  - Group 1
+                </i>
+              </a>
+              |{" "}
+              <a
+                href="https://chat.whatsapp.com/CbIqCENm52dK87wJ5SJNzN"
+                className="display-title"
+                title="zafrul hasan madani"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-whatsapp" aria-hidden="true">
+                  {" "}
+                  - Group 2
+                </i>
+              </a>
+              |{" "}
+              <a
+                href="https://chat.whatsapp.com/F3Vg6QsmfEt13uP2aETFwq"
+                className="display-title"
+                title="zafrul hasan madani"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-whatsapp" aria-hidden="true">
+                  {" "}
+                  - Group 3
+                </i>
+              </a>
+              |{" "}
+              <a
+                href="https://chat.whatsapp.com/F5AGUHPSPCfC6QL6HYSBgv"
+                className="display-title"
+              >
+                <i
+                  className="fa fa-whatsapp"
+                  aria-hidden="true"
+                  title="zafrul hasan madani"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  - Group 4
+                </i>
+              </a>
+              |{" "}
+              <a
+                href="https://chat.whatsapp.com/F5AGUHPSPCfC6QL6HYSBgv"
+                className="display-title"
+                title="zafrul hasan madani"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-whatsapp" aria-hidden="true">
+                  {" "}
+                  - Group 5
+                </i>
+              </a>
+              |{" "}
+              <a
+                href="https://chat.whatsapp.com/CgfgB8HkjNq3KKdsEaMffb"
+                className="display-title"
+                title="zafrul hasan madani"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-whatsapp" aria-hidden="true">
+                  {" "}
+                  - Group 6
+                </i>
+              </a>
+              |{" "}
+              <a
+                href="https://chat.whatsapp.com/CG20ioefjRJEIpKiidrTtF"
+                className="display-title"
+                title="zafrul hasan madani"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-whatsapp" aria-hidden="true">
+                  {" "}
+                  - Group 7
+                </i>
+              </a>
+              |{" "}
+              <a
+                href="https://chat.whatsapp.com/FWpbNlNLeDF1I1E5RZw1Ls"
+                className="display-title"
+                title="zafrul hasan madani"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-whatsapp" aria-hidden="true">
+                  {" "}
+                  - Group 8
+                </i>
+              </a>
+              |{" "}
+              <a
+                href="/"
+                className="display-title"
+                title="zafrul hasan madani"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-telegram" aria-hidden="true">
+                  {" "}
+                  - Telegram Updates
+                </i>
+              </a>
+              |{" "}
+              <a
+                href="https://accounts.google.com/ServiceLogin?service=cl&passive=1209600&osid=1&continue=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&followup=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&scc=1"
+                className="display-title"
+                title="zafrul hasan madani"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-calendar" aria-hidden="true">
+                  {" "}
+                  - Add calendar to your google calendar
+                </i>
+              </a>
+              |{" "}
+              <a
+                href="https://mixlr.com/zafarulhasan/showreel/"
+                className="display-title"
+                title="zafrul hasan madani"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-headphones" aria-hidden="true">
+                  {" "}
+                  - Mixlr Show reel
+                </i>
+              </a>
+              |{" "}
+              <a
+                href="https://www.youtube.com/channel/UC2zD7wY_3TCGCyA9Cy_Nu9w"
+                className="display-title"
+                title="zafrul hasan madani"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-youtube" aria-hidden="true">
+                  {" "}
+                  - Youtube Videos
+                </i>
+              </a>
+              |{" "}
+            </div>
+          </div>
         </div>
 
         {/*Banner1*/}
@@ -308,7 +364,7 @@ export default class Home extends Component {
                     <h5 className="display-title">Jumu'ah Khutbah</h5>
                   </div>
                 </div>
-                <div class="d-flex justify-content-center">
+                <div className="d-flex justify-content-center">
                   <div className="row">
                     <div className="col">
                       <a
@@ -381,7 +437,7 @@ export default class Home extends Component {
                     </div>
                   </div>
                 </div>
-                <div class="d-flex justify-content-center">
+                <div className="d-flex justify-content-center">
                   <div className="row">
                     <div className="col">
                       <a
@@ -454,7 +510,7 @@ export default class Home extends Component {
                     </div>
                   </div>
                 </div>
-                <div class="d-flex justify-content-center">
+                <div className="d-flex justify-content-center">
                   <div className="row">
                     <div className="col">
                       <a
@@ -527,7 +583,7 @@ export default class Home extends Component {
                     </div>
                   </div>
                 </div>
-                <div class="d-flex justify-content-center">
+                <div className="d-flex justify-content-center">
                   <div className="row">
                     <div className="col">
                       <a
@@ -600,7 +656,7 @@ export default class Home extends Component {
                     </div>
                   </div>
                 </div>
-                <div class="d-flex justify-content-center">
+                <div className="d-flex justify-content-center">
                   <div className="row">
                     <div className="col">
                       <Link
@@ -660,12 +716,12 @@ export default class Home extends Component {
                 <div className="container">
                   <div className="row text-center">
                     <div className="col-md-12 col-xs-8 col-sm-7">
-                      <table class="table table-bordered tableBg">
+                      <table className="table table-bordered tableBg">
                         <thead className="tableBg">
                           <tr className="tableBg">
                             <th scope="col" colspan="2" className="tableBg">
                               <div
-                                class="card-header"
+                                className="card-header"
                                 style={{ color: "#5c4033" }}
                               >
                                 <div> رمضان ١٤٤٢</div>
