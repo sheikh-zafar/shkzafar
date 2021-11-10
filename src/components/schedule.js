@@ -69,7 +69,7 @@ export default class schedule extends Component {
                 </tr>
                 <tr>
                   <th scope="row">Wednesday</th>
-                  <td>Monday</td>
+                  <td>Bulugh al maram(main)</td>
                   <td>the Bird</td>
                 </tr>
                 <tr>
