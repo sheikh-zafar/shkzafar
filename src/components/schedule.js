@@ -46,16 +46,8 @@ export default class schedule extends Component {
               <tbody>
                 <tr>
                   <th scope="row">Sunday</th>
-                  <td>
-                    Sharh as sunnah
-                    <br />
-                    <hr />
-                    Arba'aen Nawawi
-                  </td>
-                  <td>After Isha
-                    <br />
-                    <hr />
-                    After sharh as sunnah</td>
+                  <td>Sharh as sunnah</td>
+                  <td>After Isha</td>
                 </tr>
                 <tr>
                   <th scope="row">Monday</th>
@@ -70,7 +62,7 @@ export default class schedule extends Component {
                 <tr>
                   <th scope="row">Wednesday</th>
                   <td>Bulugh al maram(main)</td>
-                  <td>the Bird</td>
+                  <td>After Isha</td>
                 </tr>
                 <tr>
                   <th scope="row">Thursday</th>
@@ -80,8 +72,8 @@ export default class schedule extends Component {
 
                 <tr>
                   <th scope="row">Friday</th>
-                  <td>-</td>
-                  <td>-</td>
+                  <td>Jumu'ah Khutbah</td>
+                  <td>Jumu'ah</td>
                 </tr>
 
                 <tr>
@@ -91,6 +83,19 @@ export default class schedule extends Component {
                 </tr>
               </tbody>
             </table>
+          </div>
+          <div className="d-flex justify-content-center about">
+            Add Schedule to your calendar&nbsp;&nbsp;
+            <a
+              href="https://accounts.google.com/ServiceLogin?service=cl&passive=1209600&osid=1&continue=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&followup=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&scc=1"
+              role="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-lg btn-outline-dark Social-link-btn"
+              style={{ backgroundColor: "beige", color: "#5c4033" }}
+            >
+              <i class="fa fa-calendar" aria-hidden="true"></i> Calendar
+            </a>
           </div>
         </section>
 
