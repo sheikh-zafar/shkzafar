@@ -164,9 +164,9 @@ export default class Home extends Component {
         </div>
 
         {/* List of all Links */}
-        <div className="container shadow-lg mt-3 bg">
-          <div className="row pt-3">
-          <div className="col-md-3">
+        <div className="container shadow-lg mt-3 bg mx-1">
+          <div className="row pt-5 d-sm-flex justify-content-center">
+          <div className="col-md-2">
             <a
               href="https://accounts.google.com/ServiceLogin?service=cl&passive=1209600&osid=1&continue=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&followup=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&scc=1"
               role="button"
@@ -178,7 +178,7 @@ export default class Home extends Component {
             </a>
             <p className="lead mt-3" style={{color:"#5c4033"}}>Add dars to Your calendar</p>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-2">
           <a
               href="https://mixlr.com/zafarulhasan/showreel/"
               role="button"
@@ -190,7 +190,7 @@ export default class Home extends Component {
             </a>
             <p className="lead mt-3" style={{color:"#5c4033"}}>Catch up on missed lectures</p>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-2">
           <a
               href="https://www.youtube.com/channel/UC2zD7wY_3TCGCyA9Cy_Nu9w"
               role="button"
@@ -202,7 +202,7 @@ export default class Home extends Component {
             </a>
             <p className="lead mt-3" style={{color:"#5c4033"}}>Watch Videos</p>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-2">
           <a
               href="/Sheikh-zafar-ul-hasan-madani-links"
               role="button"
@@ -214,190 +214,21 @@ export default class Home extends Component {
             </a>
             <p className="lead mt-3" style={{color:"#5c4033"}}>Follow Sheikh Zafar <br/>ul Hasan Madani</p>
           </div>
+          <div className="col-md-2">
+          <a
+              href="/WhatsAppUpdates"
+              role="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-lg btn-outline-dark Social-link-btn"
+              style={{width: "180px"}}
+            >
+              <i className="fa fa-whatsapp" aria-hidden="true"></i>{" "}WhatsApp
+            </a>
+            <p className="lead mt-3" style={{color:"#5c4033"}}>Get updates on <br/>WhatsApp</p>
+          </div>
           </div>
 
-          <div className="d-flex justify-content-center">
-            <div>
-              <img
-                src={SheikhName}
-                className="social-image"
-                alt="zafar ul hasan madani"
-              />
-            </div>
-            <div className="p-2">
-              <h5 className="display-title">Social Links</h5>
-              <a
-                href="https://www.facebook.com/Shaikh-Zafar-Ul-Hasan-Madani-%D8%AD%D9%81%D8%B8%D9%87-%D8%A7%D9%84%D9%84%D9%87-137613959649087/"
-                className="display-title"
-              >
-                <i className="fa fa-facebook" aria-hidden="true">
-                  {" "}
-                  Facebook
-                </i>
-                &nbsp;{" "}
-              </a>
-              |{" "}
-              <a
-                href="https://chat.whatsapp.com/IUbPujZ15UfBrryMSPYdyF"
-                className="display-title"
-                title="zafrul hasan madani"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa fa-whatsapp" aria-hidden="true">
-                  {" "}
-                  - Group 1
-                </i>
-              </a>
-              |{" "}
-              <a
-                href="https://chat.whatsapp.com/CbIqCENm52dK87wJ5SJNzN"
-                className="display-title"
-                title="zafrul hasan madani"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa fa-whatsapp" aria-hidden="true">
-                  {" "}
-                  - Group 2
-                </i>
-              </a>
-              |{" "}
-              <a
-                href="https://chat.whatsapp.com/F3Vg6QsmfEt13uP2aETFwq"
-                className="display-title"
-                title="zafrul hasan madani"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa fa-whatsapp" aria-hidden="true">
-                  {" "}
-                  - Group 3
-                </i>
-              </a>
-              |{" "}
-              <a
-                href="https://chat.whatsapp.com/F5AGUHPSPCfC6QL6HYSBgv"
-                className="display-title"
-              >
-                <i
-                  className="fa fa-whatsapp"
-                  aria-hidden="true"
-                  title="zafrul hasan madani"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  - Group 4
-                </i>
-              </a>
-              |{" "}
-              <a
-                href="https://chat.whatsapp.com/F5AGUHPSPCfC6QL6HYSBgv"
-                className="display-title"
-                title="zafrul hasan madani"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa fa-whatsapp" aria-hidden="true">
-                  {" "}
-                  - Group 5
-                </i>
-              </a>
-              |{" "}
-              <a
-                href="https://chat.whatsapp.com/CgfgB8HkjNq3KKdsEaMffb"
-                className="display-title"
-                title="zafrul hasan madani"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa fa-whatsapp" aria-hidden="true">
-                  {" "}
-                  - Group 6
-                </i>
-              </a>
-              |{" "}
-              <a
-                href="https://chat.whatsapp.com/CG20ioefjRJEIpKiidrTtF"
-                className="display-title"
-                title="zafrul hasan madani"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa fa-whatsapp" aria-hidden="true">
-                  {" "}
-                  - Group 7
-                </i>
-              </a>
-              |{" "}
-              <a
-                href="https://chat.whatsapp.com/FWpbNlNLeDF1I1E5RZw1Ls"
-                className="display-title"
-                title="zafrul hasan madani"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa fa-whatsapp" aria-hidden="true">
-                  {" "}
-                  - Group 8
-                </i>
-              </a>
-              |{" "}
-              <a
-                href="/"
-                className="display-title"
-                title="zafrul hasan madani"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa fa-telegram" aria-hidden="true">
-                  {" "}
-                  - Telegram Updates
-                </i>
-              </a>
-              |{" "}
-              <a
-                href="https://accounts.google.com/ServiceLogin?service=cl&passive=1209600&osid=1&continue=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&followup=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&scc=1"
-                className="display-title"
-                title="zafrul hasan madani"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa fa-calendar" aria-hidden="true">
-                  {" "}
-                  - Add calendar to your google calendar
-                </i>
-              </a>
-              |{" "}
-              <a
-                href="https://mixlr.com/zafarulhasan/showreel/"
-                className="display-title"
-                title="zafrul hasan madani"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa fa-headphones" aria-hidden="true">
-                  {" "}
-                  - Mixlr Show reel
-                </i>
-              </a>
-              |{" "}
-              <a
-                href="https://www.youtube.com/channel/UC2zD7wY_3TCGCyA9Cy_Nu9w"
-                className="display-title"
-                title="zafrul hasan madani"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa fa-youtube" aria-hidden="true">
-                  {" "}
-                  - Youtube Videos
-                </i>
-              </a>
-              |{" "}
-            </div>
-          </div>
         </div>
 
         {/*Banner1*/}
