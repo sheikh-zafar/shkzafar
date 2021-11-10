@@ -33,7 +33,7 @@ export default class WhatsAppUpdates extends Component {
           <div className="container">
             <div className="row text-center">
               <div class="col-md-12">
-                <h5 className="audio-display-head"> WhatsApp Updates</h5>
+                <h5 className="audio-display-head"> Sheikh Zafar ul Hasan Madani Updates</h5>
                 <p
                   className="lead"
                   style={{ fontFamily: "Fredoka One", fontSize: "20px" }}

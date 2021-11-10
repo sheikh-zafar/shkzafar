@@ -218,7 +218,7 @@ a:active {
   text-decoration: none;
 }
 .btn {
-  width: 170px;
+  width: auto;
 }
 .card-header {
   font-family: "Tajawal", sans-serif;
@@ -517,6 +517,11 @@ table.table-bordered {
   height: 200px;
   width: 290px;
 }
+.Social-link-btn{
+  background-color: #0c3823;
+  color: white;
+  border-radius: 6px;
+}
 @media (min-width: 1200px) {
 }
 @media (max-width: 991.98px) {
@@ -583,21 +588,7 @@ table.table-bordered {
   .paddingVideo {
     padding-left: 0%;
   }
-  .marginJummahPhone {
-    margin-left: 34px;
-  }
-  .marginTafseerPhone {
-    margin-left: 18px;
-  }
-  .marginArkanPhone {
-    margin-left: 18px;
-  }
-  .marginTaweelPhone {
-    margin-left: 22px;
-  }
-  .marginMukhtasarPhone {
-    margin-left: 22px;
-  }
+
   .tableBg {
     margin-right: 12px;
   }

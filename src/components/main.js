@@ -20,10 +20,12 @@ import mausamiyat from "./mausamiyat";
 import comingsoon from "./comingsoon";
 import SisterSection from "./sisters-section";
 import Ramadan2021 from "./Ramadan-1442-2021";
+import DhulHijjah2021 from "./DhulHijjah-1442-2021";
 import Sample from "./Sample";
 import WhatsAppUpdates from "./WhatsAppUpdates";
 import Home_sample from "./Home_sample";
-import Utube from "./utube";
+import Schedule from "./schedule";
+
 const Main = () => (
   <Switch>
     <Route exact path="/" component={Home} />
@@ -39,10 +41,12 @@ const Main = () => (
     <Route exact path="/lectures/mausamiyat" component={mausamiyat} />
     <Route exact path="/lectures/sisters-section" component={SisterSection} />
     <Route exact path="/Ramadan-1442-2021" component={Ramadan2021} />
+    <Route exact path="/Dhul-hijjah-1442-2021" component={DhulHijjah2021} />
     <Route exact path="/books" component={books} />
     <Route exact path="/about" component={about} />
     <Route exact path="/comingsoon" component={comingsoon} />
-    <Route exact path="/WhatsAppUpdates" component={WhatsAppUpdates} />
+    <Route exact path="/Sheikh-zafar-ul-hasan-madani-links" component={WhatsAppUpdates} />
+    <Route exact path="/lecture-schedule" component={Schedule}/>
     <Route exact path="/Sample" component={Sample} />
     <Route exact path="/Home_sample_Design" component={Home_sample} />
     <Route

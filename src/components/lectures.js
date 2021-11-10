@@ -96,7 +96,7 @@ export default class audio extends Component {
                   </div>
                 </Link>
               </div>
-              <div className="col-md-3 col-sm-12 col-xs-6 d-flex justify-content-end d-sm-flex justify-content-center ">
+              <div className="col-md-3 col-sm-12 col-xs-6 d-flex justify-content-end d-sm-flex justify-content-center">
                 <Link to="/lectures/mausamiyat" title="pillars of islam">
                   <div className="rounded-links rounded-circle">
                     <img

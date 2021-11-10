@@ -164,8 +164,59 @@ export default class Home extends Component {
         </div>
 
         {/* List of all Links */}
-        <div className="container pt-3 shadow-lg">
-          <div className="d-flex justify-content-center border " style={{backgroundColor:"#5c4033"}}>
+        <div className="container shadow-lg mt-3 bg">
+          <div className="row pt-3">
+          <div className="col-md-3">
+            <a
+              href="https://accounts.google.com/ServiceLogin?service=cl&passive=1209600&osid=1&continue=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&followup=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&scc=1"
+              role="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-lg btn-outline-dark Social-link-btn"
+            >
+            <i class="fa fa-calendar" aria-hidden="true"></i> Calendar
+            </a>
+            <p className="lead mt-3" style={{color:"#5c4033"}}>Add dars to Your calendar</p>
+          </div>
+          <div className="col-md-3">
+          <a
+              href="https://mixlr.com/zafarulhasan/showreel/"
+              role="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-lg btn-outline-dark Social-link-btn"
+            >
+              <i class="fa fa-headphones" aria-hidden="true"> </i>Mixlr Showreel
+            </a>
+            <p className="lead mt-3" style={{color:"#5c4033"}}>Catch up on missed lectures</p>
+          </div>
+          <div className="col-md-3">
+          <a
+              href="https://www.youtube.com/channel/UC2zD7wY_3TCGCyA9Cy_Nu9w"
+              role="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-lg btn-outline-dark Social-link-btn"
+            >
+              <i class="fa fa-youtube" aria-hidden="true"></i>YouTube
+            </a>
+            <p className="lead mt-3" style={{color:"#5c4033"}}>Watch Videos</p>
+          </div>
+          <div className="col-md-3">
+          <a
+              href="/Sheikh-zafar-ul-hasan-madani-links"
+              role="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-lg btn-outline-dark Social-link-btn"
+            >
+              <i class="fa fa-telegram" aria-hidden="true"></i> Get Updates
+            </a>
+            <p className="lead mt-3" style={{color:"#5c4033"}}>Follow Sheikh Zafar <br/>ul Hasan Madani</p>
+          </div>
+          </div>
+
+          <div className="d-flex justify-content-center">
             <div>
               <img
                 src={SheikhName}
@@ -175,9 +226,13 @@ export default class Home extends Component {
             </div>
             <div className="p-2">
               <h5 className="display-title">Social Links</h5>
-              <a href="https://www.facebook.com/Shaikh-Zafar-Ul-Hasan-Madani-%D8%AD%D9%81%D8%B8%D9%87-%D8%A7%D9%84%D9%84%D9%87-137613959649087/" className="display-title">
+              <a
+                href="https://www.facebook.com/Shaikh-Zafar-Ul-Hasan-Madani-%D8%AD%D9%81%D8%B8%D9%87-%D8%A7%D9%84%D9%84%D9%87-137613959649087/"
+                className="display-title"
+              >
                 <i className="fa fa-facebook" aria-hidden="true">
-                  {" "}Facebook
+                  {" "}
+                  Facebook
                 </i>
                 &nbsp;{" "}
               </a>
@@ -754,6 +809,58 @@ export default class Home extends Component {
                               >
                                 Khutbah <br />
                                 Eid-ul-Fitr
+                              </a>
+                            </th>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              {/*Dhul hijjah 1442 */}
+              <section className="embed-section">
+                <div className="container">
+                  <div className="row text-center">
+                    <div className="col-md-12 col-xs-8 col-sm-7">
+                      <table className="table table-bordered tableBg">
+                        <thead className="tableBg">
+                          <tr className="tableBg">
+                            <th scope="col" colspan="2" className="tableBg">
+                              <div
+                                className="card-header"
+                                style={{ color: "#5c4033" }}
+                              >
+                                <div> ذو الحجة ١٤٤٢</div>
+                                <p className="lead">Dhul Hijjah 1442-2021</p>
+                              </div>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr className="tableBg">
+                            <th scope="col" className="tableBg">
+                              <Link
+                                to="/Dhul-hijjah-1442-2021"
+                                role="button"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn btn-lg btn-outline-dark tableButton"
+                              >
+                                ذو الحجة <br />
+                                Duroos
+                              </Link>
+                            </th>
+                            <th scope="col" className="tableBg">
+                              <a
+                                href="https://www.youtube.com/watch?v=r1_8xjJg16c"
+                                role="button"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn btn btn-lg btn-outline-dark tableButton"
+                              >
+                                Khutbah <br />
+                                Eid-ul-Ad'ha
                               </a>
                             </th>
                           </tr>
