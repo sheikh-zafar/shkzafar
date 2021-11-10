@@ -164,8 +164,8 @@ export default class Home extends Component {
         </div>
 
         {/* List of all Links */}
-        <div className="container shadow-lg mt-3 bg mx-1">
-          <div className="row pt-5 d-sm-flex justify-content-center">
+        <div className="container shadow-lg mt-3 bg">
+          <div className="row pt-5">
           <div className="col-md-2">
             <a
               href="https://accounts.google.com/ServiceLogin?service=cl&passive=1209600&osid=1&continue=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&followup=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&scc=1"
