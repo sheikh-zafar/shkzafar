@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.4b94897f.chunk.css",
-    "main.js": "/static/js/main.12790c66.chunk.js",
-    "main.js.map": "/static/js/main.12790c66.chunk.js.map",
+    "main.js": "/static/js/main.4ca6d2ea.chunk.js",
+    "main.js.map": "/static/js/main.4ca6d2ea.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3dbf9d90.js",
     "runtime-main.js.map": "/static/js/runtime-main.3dbf9d90.js.map",
     "static/css/2.cb177d9b.chunk.css": "/static/css/2.cb177d9b.chunk.css",
-    "static/js/2.4cc36f08.chunk.js": "/static/js/2.4cc36f08.chunk.js",
-    "static/js/2.4cc36f08.chunk.js.map": "/static/js/2.4cc36f08.chunk.js.map",
+    "static/js/2.7b7c31c8.chunk.js": "/static/js/2.7b7c31c8.chunk.js",
+    "static/js/2.7b7c31c8.chunk.js.map": "/static/js/2.7b7c31c8.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.cb177d9b.chunk.css.map": "/static/css/2.cb177d9b.chunk.css.map",
     "static/css/main.4b94897f.chunk.css.map": "/static/css/main.4b94897f.chunk.css.map",
-    "static/js/2.4cc36f08.chunk.js.LICENSE.txt": "/static/js/2.4cc36f08.chunk.js.LICENSE.txt",
+    "static/js/2.7b7c31c8.chunk.js.LICENSE.txt": "/static/js/2.7b7c31c8.chunk.js.LICENSE.txt",
     "static/media/EidAlFitrKhutbah.jpg": "/static/media/EidAlFitrKhutbah.d1a58bdb.jpg",
     "static/media/Quran&Hadith1Arabic.5febd166.png": "/static/media/Quran&Hadith1Arabic.5febd166.png",
     "static/media/Quran&Hadith1English.0829ce53.png": "/static/media/Quran&Hadith1English.0829ce53.png",
@@ -53,8 +53,8 @@
   "entrypoints": [
     "static/js/runtime-main.3dbf9d90.js",
     "static/css/2.cb177d9b.chunk.css",
-    "static/js/2.4cc36f08.chunk.js",
+    "static/js/2.7b7c31c8.chunk.js",
     "static/css/main.4b94897f.chunk.css",
-    "static/js/main.12790c66.chunk.js"
+    "static/js/main.4ca6d2ea.chunk.js"
   ]
 }
