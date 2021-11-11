@@ -141,6 +141,17 @@ export default class Navbar extends Component {
                     </Link>
                   </li>
                   <li className="nav-item">
+                    <Link to="/">
+                      <a
+                        className="nav-link"
+                        href="/lecture-schedule"
+                        title="zafar ul hasan madani"
+                      >
+                        Schedule
+                      </a>
+                    </Link>
+                  </li>
+                  <li className="nav-item">
                     <Link to="/lectures">
                       <a
                         className="nav-link"
