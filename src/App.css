@@ -522,6 +522,9 @@ table.table-bordered {
   color: white;
   border-radius: 6px;
 }
+.icon-shadow {
+  text-shadow: 5px 5px 20px beige;
+}
 @media (min-width: 1200px) {
 }
 @media (max-width: 991.98px) {

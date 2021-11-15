@@ -164,7 +164,7 @@ export default class Home extends Component {
 
         {/* List of all Links */}
         <div className="container shadow-lg mt-3 bg">
-          <div className="row pt-5">
+          <div className="row pt-5 mx-auto">
           <div className="col-md-2">
             <a
               href="https://accounts.google.com/ServiceLogin?service=cl&passive=1209600&osid=1&continue=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&followup=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&scc=1"
@@ -202,20 +202,20 @@ export default class Home extends Component {
             <p className="lead mt-3" style={{color:"#5c4033"}}>Watch Videos</p>
           </div>
           <div className="col-md-2">
-          <a
-              href="/Sheikh-zafar-ul-hasan-madani-links"
+          <Link
+              to="/sheikh-zafar-ul-hasan-madani-links"
               role="button"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-lg btn-outline-dark Social-link-btn"
             >
               <i class="fa fa-telegram" aria-hidden="true"></i> Get Updates
-            </a>
+            </Link>
             <p className="lead mt-3" style={{color:"#5c4033"}}>Follow Sheikh Zafar <br/>ul Hasan Madani</p>
           </div>
           <div className="col-md-2">
-          <a
-              href="/WhatsAppUpdates"
+          <Link
+              to="/WhatsAppUpdates"
               role="button"
               target="_blank"
               rel="noopener noreferrer"
@@ -223,7 +223,7 @@ export default class Home extends Component {
               style={{width: "180px"}}
             >
               <i className="fa fa-whatsapp" aria-hidden="true"></i>{" "}WhatsApp
-            </a>
+            </Link>
             <p className="lead mt-3" style={{color:"#5c4033"}}>Get updates on <br/>WhatsApp</p>
           </div>
           </div>

@@ -20,7 +20,7 @@ export default class schedule extends Component {
         <div className="container about">
           Lectures of Sheikh Zafarulhasan حفظه الله are held on daily basis and
           it is brodcasted on youtube, mixlr and on zoom by the permission of
-          الله عز و جل. Kindly take notes of his schedule and add the schedule
+          الله عز و جل. Kindly take a note of his schedule and add the schedule
           to your google calendar.
         </div>
         <section className="embed-section">

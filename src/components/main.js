@@ -23,6 +23,7 @@ import Ramadan2021 from "./Ramadan-1442-2021";
 import DhulHijjah2021 from "./DhulHijjah-1442-2021";
 import Sample from "./Sample";
 import WhatsAppUpdates from "./WhatsAppUpdates";
+import AllLinks from "./AllLinks";
 import Home_sample from "./Home_sample";
 import Schedule from "./schedule";
 
@@ -45,7 +46,7 @@ const Main = () => (
     <Route exact path="/books" component={books} />
     <Route exact path="/about" component={about} />
     <Route exact path="/comingsoon" component={comingsoon} />
-    <Route exact path="/Sheikh-zafar-ul-hasan-madani-links" component={WhatsAppUpdates} />
+    <Route exact path="/sheikh-zafar-ul-hasan-madani-links" component={AllLinks} />
     <Route exact path="/lecture-schedule" component={Schedule}/>
     <Route exact path="/Sample" component={Sample} />
     <Route exact path="/Home_sample_Design" component={Home_sample} />
