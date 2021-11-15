@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b94897f.chunk.css",
-    "main.js": "/static/js/main.68935d74.chunk.js",
-    "main.js.map": "/static/js/main.68935d74.chunk.js.map",
+    "main.css": "/static/css/main.905a35bf.chunk.css",
+    "main.js": "/static/js/main.85c00c63.chunk.js",
+    "main.js.map": "/static/js/main.85c00c63.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3dbf9d90.js",
     "runtime-main.js.map": "/static/js/runtime-main.3dbf9d90.js.map",
     "static/css/2.cb177d9b.chunk.css": "/static/css/2.cb177d9b.chunk.css",
-    "static/js/2.240b975e.chunk.js": "/static/js/2.240b975e.chunk.js",
-    "static/js/2.240b975e.chunk.js.map": "/static/js/2.240b975e.chunk.js.map",
+    "static/js/2.7740e153.chunk.js": "/static/js/2.7740e153.chunk.js",
+    "static/js/2.7740e153.chunk.js.map": "/static/js/2.7740e153.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.cb177d9b.chunk.css.map": "/static/css/2.cb177d9b.chunk.css.map",
-    "static/css/main.4b94897f.chunk.css.map": "/static/css/main.4b94897f.chunk.css.map",
-    "static/js/2.240b975e.chunk.js.LICENSE.txt": "/static/js/2.240b975e.chunk.js.LICENSE.txt",
+    "static/css/main.905a35bf.chunk.css.map": "/static/css/main.905a35bf.chunk.css.map",
+    "static/js/2.7740e153.chunk.js.LICENSE.txt": "/static/js/2.7740e153.chunk.js.LICENSE.txt",
     "static/media/EidAlFitrKhutbah.jpg": "/static/media/EidAlFitrKhutbah.d1a58bdb.jpg",
     "static/media/Quran&Hadith1Arabic.5febd166.png": "/static/media/Quran&Hadith1Arabic.5febd166.png",
     "static/media/Quran&Hadith1English.0829ce53.png": "/static/media/Quran&Hadith1English.0829ce53.png",
@@ -30,7 +30,7 @@
     "static/media/dhulhijjah.1bf3289e.jpg": "/static/media/dhulhijjah.1bf3289e.jpg",
     "static/media/jummaicon.32769a2c.jpg": "/static/media/jummaicon.32769a2c.jpg",
     "static/media/jummuahkhutbah.6c24fce3.jpg": "/static/media/jummuahkhutbah.6c24fce3.jpg",
-    "static/media/logo192.25b218da.png": "/static/media/logo192.25b218da.png",
+    "static/media/logo192.png": "/static/media/logo192.25b218da.png",
     "static/media/monday.jpg": "/static/media/monday.587aa3b9.jpg",
     "static/media/moon.84a92c5d.jpg": "/static/media/moon.84a92c5d.jpg",
     "static/media/mosque.jpg": "/static/media/mosque.0cea690a.jpg",
@@ -53,8 +53,8 @@
   "entrypoints": [
     "static/js/runtime-main.3dbf9d90.js",
     "static/css/2.cb177d9b.chunk.css",
-    "static/js/2.240b975e.chunk.js",
-    "static/css/main.4b94897f.chunk.css",
-    "static/js/main.68935d74.chunk.js"
+    "static/js/2.7740e153.chunk.js",
+    "static/css/main.905a35bf.chunk.css",
+    "static/js/main.85c00c63.chunk.js"
   ]
 }
