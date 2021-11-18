@@ -43,6 +43,73 @@ export default class taweel extends Component {
             </div>
           </div>
         </section>
+        {/*Al- Arbaoona Nawawi */}
+        <section className="embed-section">
+          <div className="container">
+            <div className="row text-center">
+              <div className="col-md-12 d-flex justify-content-center">
+                <div class="card text-center">
+                  <div class="card-header pb-0">
+                    <div className="pt-2">الأربعون النَوايَة</div>
+                    <p className="lead pt-3">Al Arba'oona Nawawiyyah</p>
+                  </div>
+                  <div class="card-body">
+                    <div className="row">
+                      <div className="col">
+                        <Link
+                          to="/comingsoon"
+                          className="btn btn btn-lg btn-outline-dark"
+                          target="_blank"
+                          rel="noreferrer"
+                          style={{
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
+                          Listen
+                        </Link>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://drive.google.com/drive/u/1/folders/1azueqYmaJAcOntjy9hxks029gnVIGyky"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          <i class="fa fa-download" aria-hidden="true"></i>{" "}
+                          Download
+                        </a>
+                      </div>
+                      <div className="col">
+                        <a
+                          href="https://www.youtube.com/c/ZafarulHasan/playlists"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="btn btn btn-lg btn-outline-dark"
+                          style={{
+                            backgroundColor: "#2e856e",
+                            color: "beige",
+                            fontFamily: "Righteous",
+                          }}
+                        >
+                          <i class="fa fa-youtube-play" aria-hidden="true"></i>{" "}
+                          Watch
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         {/*Sharh as-Sunnah */}
         <section className="embed-section">
           <div className="container">
@@ -446,6 +513,7 @@ export default class taweel extends Component {
             </div>
           </div>
         </section>
+
         {/*Footer section */}
         <section className="embed-section">
           <div className="col-md-12 text-center">
