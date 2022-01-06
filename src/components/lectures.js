@@ -177,7 +177,7 @@ export default class audio extends Component {
         <section className="embed-section">
           <div className="container-fluid py-3">
             <div className="row text-center ">
-              <div className="col-md-5 col-sm-12 col-xs-12 d-md-flex justify-content-end marginSisterPhone">
+              <div className="col-md-5 col-12 col-sm-12 col-xs-12 d-flex justify-content-center d-md-flex justify-content-end marginSisterPhone">
                 <Link to="/lectures/sisters-section" title="ahle hadith">
                   <div className="rounded-links rounded-circle">
                     <img
@@ -192,7 +192,7 @@ export default class audio extends Component {
                 </Link>
               </div>
 
-              <div className="col-md-7 col-sm-12 col-xs-12 d-flex justify-content-center marginAhlulPhone">
+              <div className="col-md-7 col-12 col-sm-12 col-xs-12 d-flex justify-content-center marginAhlulPhone">
                 <Link
                   to="/comingsoon"
                   title="ahle hadees"

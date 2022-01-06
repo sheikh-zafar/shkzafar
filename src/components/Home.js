@@ -43,7 +43,7 @@ export default class Home extends Component {
         {/*Heading name and Navigation bar*/}
         <Navbar />
         {/*Banner section*/}
-        <div className="carousel-section my-0">
+        <div className="carousel-section my-0 w-100">
           <div
             id="carouselExampleIndicators"
             className="carousel slide carousel-fade"

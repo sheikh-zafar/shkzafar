@@ -701,10 +701,10 @@ table.table-bordered {
     margin-left: 34px;
   }
   .marginTafseerPhone {
-    margin-left: 18px;
+    margin-left: 50%;
   }
   .marginArkanPhone {
-    margin-left: 18px;
+    margin-left: 50%;
   }
   .marginTaweelPhone {
     margin-left: 28px;
@@ -716,7 +716,7 @@ table.table-bordered {
     margin-left: 5px;
   }
   .marginSisterPhone {
-    margin-left: -53px;
+    margin-left: 50%;
   }
   .marginAhlulPhone {
     padding-left: 25px;

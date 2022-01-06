@@ -46,40 +46,40 @@ export default class schedule extends Component {
               <tbody>
                 <tr>
                   <th scope="row">Sunday</th>
-                  <td>Sharh as sunnah</td>
-                  <td>After Isha</td>
+                  <td>Sharh as sunnah of Imam al-Barbaharee (رحمه اللَه)<br/><hr/>Buniyadi Uloom (Fiqh 2 - Baab As-salah)</td>
+                  <td>After Isha<br/><hr/>After Sharh as-sunnah</td>
                 </tr>
                 <tr>
                   <th scope="row">Monday</th>
-                  <td>Bulugh al maram</td>
+                  <td>Shamail al-muhammadiyah by Imam at-Tirmidhi (رحمه اللَه)</td>
                   <td>After Isha</td>
                 </tr>
                 <tr>
                   <th scope="row">Tuesday</th>
-                  <td>Tafseer Surah Al-Baqarah</td>
+                  <td>Bulugh al Maram (Kitab az-zakat)</td>
                   <td>After Isha</td>
                 </tr>
                 <tr>
                   <th scope="row">Wednesday</th>
-                  <td>Bulugh al maram(main)</td>
+                  <td>Tafseer surah al-baqarah</td>
                   <td>After Isha</td>
                 </tr>
                 <tr>
                   <th scope="row">Thursday</th>
-                  <td>Rahe Hidayat</td>
+                  <td>Bulugh al-maram(Kitab al-hajj)</td>
                   <td>After Isha</td>
                 </tr>
 
                 <tr>
                   <th scope="row">Friday</th>
-                  <td>Jumu'ah Khutbah</td>
-                  <td>Jumu'ah</td>
+                  <td>Jumu'ah Khutbah<br/><hr/>Aam Duroos (Rahe hidayat)</td>
+                  <td>Jumu'ah<br/><hr/>After isha</td>
                 </tr>
 
                 <tr>
                   <th scope="row">Saturday</th>
-                  <td>Shamail al muhammadiyah</td>
-                  <td>After Isha</td>
+                  <td>No Dars</td>
+                  <td>-</td>
                 </tr>
               </tbody>
             </table>

@@ -37,18 +37,22 @@ export default class Sample extends Component {
       );
   }
   render() {
-    console.log(this.state.items);
-
     return (
       <div>
         <Navbar />
-
         {this.state.items.map((item) => {
           const { id, snippet = {} } = item;
           const { title, thumbnails = {}, resourceId } = snippet;
           const { medium = {} } = thumbnails;
           return (
-            <OwlCarousel className="owl-theme" loop margin={10} nav items={4} autoPlay="true">
+            <OwlCarousel
+              className="owl-theme"
+              loop
+              margin={10}
+              nav
+              items={4}
+              autoPlay="true"
+            >
               <div class="item" key={id}>
                 <a
                   href={`https://www.youtube.com/watch?v=${resourceId.videoId}`}
@@ -57,19 +61,17 @@ export default class Sample extends Component {
                   title="zafrul hasan"
                 >
                   <div className="card">
-                  <h6 className="card-title">{title}</h6>
-                  <iframe
-                  className="card-img-top"
-                    width={medium.width}
-                    height={medium.height}
-                    src={`https://www.youtube.com/embed/${resourceId.videoId}`}
-                    title="title"
-                  />
+                    <h6 className="card-title">{title}</h6>
+                    <iframe
+                      className="card-img-top"
+                      width={medium.width}
+                      height={medium.height}
+                      src={`https://www.youtube.com/embed/${resourceId.videoId}`}
+                      title="title"
+                    />
                   </div>
-
                 </a>
               </div>
-
             </OwlCarousel>
           );
         })}
