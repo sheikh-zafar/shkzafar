@@ -53,11 +53,8 @@ export default class jummuah extends Component {
             border: "5px solid #5c4033",
           }}
         >
-          <img
-            src={jummuahkhutbah}
-            className="img-fluid header-img pb-3"
-            alt="Jumu'ah Khutbah"
-          />
+          <iframe title="sheikh zafarul hasan" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.2323290267514!2d55.4203404650122!3d25.32998383383455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5947cc37e8d3%3A0x5732b5fb630ab49!2sAws%20Ibn%20Thabit%20Alansari%20Mosque%20-%20Industrial%20Area%20-%20Industrial%20Area%206%20-%20Sharjah%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1641573855932!5m2!1sen!2sin" width="100%" height="450" style={{border:"0"}} allowFullScreen="" loading="lazy"></iframe>
+
           <div className="container-fluid">
             <div class="row d-flex justify-content-between">
               <div className="col">
@@ -120,12 +117,12 @@ export default class jummuah extends Component {
           <div className="row ">
             <div className="col d-flex justify-content-end">
               <h3 className="heading-name" style={{ color: "beige" }}>
-                2021 (۱٤٤۲ - ۱٤٤۳)
+                2022 (۱٤٤۳ - ۱٤٤٤)
               </h3>
             </div>
             <div className="col pt-4">
               <a
-                href="https://drive.google.com/drive/folders/1l9T-CQ1PCrhLlLAa5c3-aQAokT0jLyXh"
+                href="https://drive.google.com/drive/u/1/folders/1cRtqJiIwo4mfqqfzwmlvSK7xUXSnVATg?usp=sharing"
                 title="zafar ul hasan madani"
                 target="_blank"
                 rel="noreferrer"
@@ -150,6 +147,58 @@ export default class jummuah extends Component {
             ></iframe>
           </div>
         </div>
+        {/*2021 */}
+        <section className="embed-section">
+          <div className="container d-flex justify-content-center">
+            <div className="row text-center">
+              <div class="card text-center">
+                <div class="card-header">2021</div>
+                <div class="card-body">
+                  <h2 class="card-title" style={{ color: "#2e856e" }}>
+                    ۱٤٤۱-۱٤٤۲{" "}
+                  </h2>
+
+                  <div className="row">
+                    <div className="col">
+                      <a
+                        href="https://archive.org/details/2021-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=550"
+                        title="zafar ul hasan madani"
+                        className="btn btn btn-lg btn-outline-dark"
+                        target="_blank"
+                        rel="noreferrer"
+                        style={{
+                          backgroundColor: "#2e856e",
+                          color: "beige",
+                          fontFamily: "Righteous",
+                        }}
+                      >
+                        <i class="fa fa-headphones" aria-hidden="true"></i>{" "}
+                        Listen
+                      </a>
+                    </div>
+                    <div className="col">
+                      <a
+                        href="https://drive.google.com/drive/folders/1l9T-CQ1PCrhLlLAa5c3-aQAokT0jLyXh"
+                        title="manhaj"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn btn btn-lg btn-outline-dark"
+                        style={{
+                          backgroundColor: "#2e856e",
+                          color: "beige",
+                          fontFamily: "Righteous",
+                        }}
+                      >
+                        <i class="fa fa-download" aria-hidden="true"></i>{" "}
+                        Download
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         {/*2020 */}
         <section className="embed-section">
           <div className="container d-flex justify-content-center">
