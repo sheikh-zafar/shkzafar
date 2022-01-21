@@ -721,6 +721,9 @@ table.table-bordered {
   .marginAhlulPhone {
     padding-left: 25px;
   }
+  a .rounded-headname {
+    font-size: 18px;
+  }
   .img-fld {
     height: 30vh;
     width: 100%;

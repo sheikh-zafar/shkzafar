@@ -45,10 +45,10 @@ export default class audio extends Component {
         </div>
         <Navbar />
         {/*Rounded button links 1*/}
-        <section className="embed-section">
-          <div className="container-fluid py-3">
-            <div className="row text-center ">
-              <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginJummahPhone">
+        <section className="embed-section ">
+          <div className="container py-3">
+            <div className="row">
+              <div className="col-xl-4 col-md-4 col-sm-12 col-xs-12 d-flex justify-content-center mx-auto">
                 <Link to="/lectures/jummuah" title="manhaj">
                   <div className="rounded-links rounded-circle">
                     <img
@@ -62,7 +62,7 @@ export default class audio extends Component {
                   </div>
                 </Link>
               </div>
-              <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginTafseerPhone">
+              <div className="col-xl-4 col-md-4 col-sm-12 col-xs-12 d-flex justify-content-center">
                 <Link to="/lectures/qurantafseer" title="hadeeth">
                   <div className="rounded-links rounded-circle">
                     <img
@@ -76,8 +76,7 @@ export default class audio extends Component {
                   </div>
                 </Link>
               </div>
-
-              <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginArkanPhone">
+              <div className="col-xl-4 col-md-4 col-sm-12 col-xs-12 d-flex justify-content-center">
                 <Link
                   to="/comingsoon"
                   title="pillars of islam"
@@ -96,7 +95,14 @@ export default class audio extends Component {
                   </div>
                 </Link>
               </div>
-              <div className="col-md-3 col-sm-12 col-xs-6 d-flex justify-content-end d-sm-flex justify-content-center">
+            </div>
+          </div>
+        </section>
+        {/*Rounded button links 2 */}
+        <section className="embed-section">
+          <div className="container py-3">
+            <div className="row">
+              <div className="col-xl-4 col-md-4 col-sm-12 col-xs-12 d-flex justify-content-center">
                 <Link to="/lectures/mausamiyat" title="pillars of islam">
                   <div className="rounded-links rounded-circle">
                     <img
@@ -110,14 +116,7 @@ export default class audio extends Component {
                   </div>
                 </Link>
               </div>
-            </div>
-          </div>
-        </section>
-        {/*Rounded button links 2 */}
-        <section className="embed-section">
-          <div className="container py-3">
-            <div className="row text-center">
-              <div className="col-md-5 col-sm-12 col-xs-12 d-flex justify-content-center marginTaweelPhone">
+              <div className="col-xl-4 col-md-4 col-sm-12 col-xs-12 d-flex justify-content-center">
                 <Link to="/lectures/taweel" title="islam">
                   <div className="rounded-links rounded-circle">
                     <img
@@ -136,8 +135,7 @@ export default class audio extends Component {
                   </div>
                 </Link>
               </div>
-
-              <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginMukhtasarPhone">
+              <div className="col-xl-4 col-md-4 col-sm-12 col-xs-12 d-flex justify-content-center">
                 <Link to="/lectures/muktasar" title="quran">
                   <div className="rounded-links rounded-circle">
                     <img
@@ -148,15 +146,19 @@ export default class audio extends Component {
                   </div>
                   <div>
                     <h3 className="rounded-headname">
-                      Dawrah ilmiyyah
-                      <br />
-                      <p className="lead">(Mukhtasar)</p>
+                      Dawrah ilmiyyah<br/>(Mukhtasar)
                     </h3>
                   </div>
                 </Link>
               </div>
-
-              <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center marginAamPhone">
+            </div>
+          </div>
+        </section>
+        {/*Rounded button links 2*/}
+        <section className="embed-section">
+          <div className="container py-3">
+            <div className="row">
+              <div className="col-xl-4 col-md-4 col-sm-12 col-xs-12 d-flex justify-content-center">
                 <Link to="/lectures/aam" title="ahle hadith">
                   <div className="rounded-links rounded-circle">
                     <img
@@ -170,14 +172,7 @@ export default class audio extends Component {
                   </div>
                 </Link>
               </div>
-            </div>
-          </div>
-        </section>
-        {/*Rounded button links 2*/}
-        <section className="embed-section">
-          <div className="container-fluid py-3">
-            <div className="row text-center ">
-              <div className="col-md-5 col-12 col-sm-12 col-xs-12 d-flex justify-content-center d-md-flex justify-content-end marginSisterPhone">
+              <div className="col-xl-4 col-md-4 col-12 col-sm-12 col-xs-12 d-flex justify-content-center">
                 <Link to="/lectures/sisters-section" title="ahle hadith">
                   <div className="rounded-links rounded-circle">
                     <img
@@ -191,8 +186,7 @@ export default class audio extends Component {
                   </div>
                 </Link>
               </div>
-
-              <div className="col-md-7 col-12 col-sm-12 col-xs-12 d-flex justify-content-center marginAhlulPhone">
+              <div className="col-xl-4 col-md-4 col-12 col-sm-12 col-xs-12 d-flex justify-content-center">
                 <Link
                   to="/comingsoon"
                   title="ahle hadees"
@@ -217,11 +211,9 @@ export default class audio extends Component {
             </div>
           </div>
         </section>
-        {/*audio cards */}
-        <section className="embed-section"></section>
         {/*Footer section */}
         <section className="embed-section">
-          <div className="col-md-12 text-center">
+          <div className="col-md-12">
             <Footer />
           </div>
         </section>

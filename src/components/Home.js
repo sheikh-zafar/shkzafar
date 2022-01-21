@@ -15,6 +15,7 @@ import { Helmet } from "react-helmet";
 import monday from "../img/monday.jpg";
 import wednesday from "../img/wednesday.jpg";
 import saturday from "../img/saturday.jpg";
+import LogoPit from "../img/logopit.jpg";
 
 export default class Home extends Component {
   render() {
