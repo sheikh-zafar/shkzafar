@@ -15,7 +15,7 @@ import { Helmet } from "react-helmet";
 import monday from "../img/monday.jpg";
 import wednesday from "../img/wednesday.jpg";
 import saturday from "../img/saturday.jpg";
-import LogoPit from "../img/logopit.jpg";
+import LogoPit from "../img/250.png";
 
 export default class Home extends Component {
   render() {
@@ -165,66 +165,78 @@ export default class Home extends Component {
 
         {/* List of all Links */}
         <div className="container shadow-lg mt-3 bg">
-          <div className="row pt-5 mx-auto">
-            <div className="col-md-3">
-              <a
-                href="https://accounts.google.com/ServiceLogin?service=cl&passive=1209600&osid=1&continue=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&followup=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&scc=1"
-                role="button"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-lg btn-outline-dark Social-link-btn"
-              >
-                <i class="fa fa-calendar" aria-hidden="true"></i> Calendar
-              </a>
-              <p className="lead mt-3" style={{ color: "#5c4033" }}>
-                Add dars to Your calendar
-              </p>
+          <div className="row pt-5 justify-content-center">
+            <div className="col-xl-3 col-md-3 col-sm-12 col-xs-12 col-12 d-flex justify-content-start d-sm-flex justify-content-sm-center d-md-flex justify-content-md-center d-xl-flex justify-content-xl-center">
+              <div>
+                <a
+                  href="https://accounts.google.com/ServiceLogin?service=cl&passive=1209600&osid=1&continue=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&followup=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&scc=1"
+                  role="button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    backgroundColor: "#0c3823",
+                    color: "white",
+                  }}
+                  className="btn btn-lg"
+                >
+                  <i class="fa fa-calendar" aria-hidden="true"></i> Calendar
+                </a>
+                <p className="lead mt-3" style={{ color: "#5c4033" }}>
+                  Add dars to Your calendar
+                </p>
+              </div>
             </div>
-            <div className="col-md-3">
-              <a
-                href="https://mixlr.com/zafarulhasan/showreel/"
-                role="button"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-lg btn-outline-dark Social-link-btn"
-              >
-                <i class="fa fa-headphones" aria-hidden="true">
-                  {" "}
-                </i>
-                Mixlr Showreel
-              </a>
-              <p className="lead mt-3" style={{ color: "#5c4033" }}>
-                Catch up on missed lectures
-              </p>
+            <div className="col-xl-3 col-md-3 col-sm-12 col-xs-12 col-12 d-flex justify-content-start d-sm-flex justify-content-sm-center d-md-flex justify-content-md-center d-xl-flex justify-content-xl-center">
+              <div>
+                <a
+                  href="https://mixlr.com/zafarulhasan/showreel/"
+                  role="button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-lg btn-outline-dark Social-link-btn"
+                >
+                  <i class="fa fa-headphones" aria-hidden="true">
+                    {" "}
+                  </i>
+                  Mixlr Showreel
+                </a>
+                <p className="lead mt-3" style={{ color: "#5c4033" }}>
+                  Catch up on missed lectures
+                </p>
+              </div>
             </div>
-            <div className="col-md-3">
-              <a
-                href="https://www.youtube.com/channel/UC2zD7wY_3TCGCyA9Cy_Nu9w"
-                role="button"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-lg btn-outline-dark Social-link-btn"
-              >
-                <i class="fa fa-youtube" aria-hidden="true"></i>YouTube
-              </a>
-              <p className="lead mt-3" style={{ color: "#5c4033" }}>
-                Watch Videos
-              </p>
+            <div className="col-xl-3 col-md-3 col-sm-12 col-xs-12 col-12 d-flex justify-content-start d-sm-flex justify-content-sm-center d-md-flex justify-content-md-center d-xl-flex justify-content-xl-center">
+              <div>
+                <a
+                  href="https://www.youtube.com/channel/UC2zD7wY_3TCGCyA9Cy_Nu9w"
+                  role="button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-lg btn-outline-dark Social-link-btn"
+                >
+                  <i class="fa fa-youtube" aria-hidden="true"></i>YouTube
+                </a>
+                <p className="lead mt-3" style={{ color: "#5c4033" }}>
+                  Watch Videos
+                </p>
+              </div>
             </div>
-            <div className="col-md-3">
-              <Link
-                to="/sheikh-zafar-ul-hasan-madani-links"
-                role="button"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-lg btn-outline-dark Social-link-btn"
-              >
-                <i class="fa fa-telegram" aria-hidden="true"></i> Get Updates
-              </Link>
-              <p className="lead mt-3" style={{ color: "#5c4033" }}>
-                Follow Sheikh Zafar <br />
-                ul Hasan Madani
-              </p>
+            <div className="col-xl-3 col-md-3 col-sm-12 col-xs-12 col-12 d-flex justify-content-start d-sm-flex justify-content-sm-center d-md-flex justify-content-md-center d-xl-flex justify-content-xl-center">
+              <div>
+                <Link
+                  to="/sheikh-zafar-ul-hasan-madani-links"
+                  role="button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-lg btn-outline-dark Social-link-btn"
+                >
+                  <i class="fa fa-telegram" aria-hidden="true"></i> Get Updates
+                </Link>
+                <p className="lead mt-3" style={{ color: "#5c4033" }}>
+                  Follow Sheikh Zafar <br />
+                  ul Hasan Madani
+                </p>
+              </div>
             </div>
           </div>
         </div>
