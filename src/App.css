@@ -662,6 +662,9 @@ height: 150px;
   .mobileBanner img {
     width: 100%;
   }
+  .calendar-design {
+    height: 500px;
+  }
 }
 
 @keyframes blinker {
