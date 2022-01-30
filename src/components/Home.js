@@ -15,7 +15,7 @@ import { Helmet } from "react-helmet";
 import monday from "../img/monday.jpg";
 import wednesday from "../img/wednesday.jpg";
 import saturday from "../img/saturday.jpg";
-import LogoPit from "../img/250.png";
+import Mixlr from "../img/mixlr.png";
 
 export default class Home extends Component {
   render() {
@@ -144,6 +144,7 @@ export default class Home extends Component {
                 src="https://calendar.google.com/calendar/embed?height=250&amp;wkst=1&amp;bgcolor=%232e856e&amp;ctz=Asia%2FDubai&amp;src=M2I4cG9vczFic2lwdGhnYnA5NWhjYnZuaTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%230B8043&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;showTabs=0&amp;mode=AGENDA"
                 width="100%"
                 height="100%"
+                className="rounded border-white shadow-lg"
                 frameborder="0"
                 scrolling="no"
               ></iframe>
@@ -152,7 +153,8 @@ export default class Home extends Component {
               <iframe
                 title="zafarulhasan"
                 src="https://mixlr.com/zafarulhasan/embed"
-                className="mixlr"
+
+                className="mixlr rounded border-success"
                 width="100%"
                 scrolling="no"
                 frameborder="no"

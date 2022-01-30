@@ -104,7 +104,7 @@ export default class Navbar extends Component {
             </div>
           </div>
 
-          <nav class="navbar navbar-expand-lg navbar-color">
+          <nav class="navbar navbar-expand-lg navbar-expand-md navbar-color">
             <button
               class="navbar-toggler"
               type="button"

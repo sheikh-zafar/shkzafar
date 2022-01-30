@@ -35,9 +35,8 @@ body {
 }
 .carousel-section {
   width: 193vh;
-padding-left: 75px;
+  padding-left: 75px;
 }
-
 
 .carousel-indicators li {
   width: 10px;
@@ -302,107 +301,6 @@ a:active {
 .icon-bar {
   display: none;
 }
-.timeline {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  position: relative;
-  box-sizing: border-box;
-}
-.timeline::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  width: 2px;
-  height: 100%;
-  background-color: beige;
-}
-.timeline ul {
-  margin: 0;
-  padding: 0;
-}
-.timeline ul li {
-  list-style: none;
-  position: relative;
-  width: 50%;
-  padding: 20px 40px;
-}
-.timeline ul li:nth-child(odd) {
-  float: left;
-  text-align: right;
-  clear: both;
-}
-.timeline ul li:nth-child(even) {
-  float: right;
-  text-align: left;
-  clear: both;
-}
-.content {
-  padding-bottom: 20px;
-  border: 1px solid beige;
-  padding: 10px 10px;
-  border-radius: 5px;
-  background: #fff;
-  text-align: justify;
-}
-.timeline ul li:nth-child(odd)::before {
-  content: "";
-  position: absolute;
-  top: 24px;
-  right: -11px;
-  width: 20px;
-  height: 20px;
-  background: #c23941;
-  border-radius: 50%;
-  box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2);
-}
-.timeline ul li:nth-child(even)::before {
-  content: "";
-  position: absolute;
-  top: 24px;
-  left: -9px;
-  width: 20px;
-  height: 20px;
-  background: #c23941;
-  border-radius: 50%;
-  box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2);
-}
-.timeline ul li h3 {
-  margin: 0;
-  padding: 0;
-  font-weight: 600;
-  color: beige;
-}
-.timeline ul li p {
-  margin: 10px 0 0;
-  padding: 0%;
-  line-height: 1.7;
-  color: #0c3823;
-}
-.timeline ul li h4 {
-  margin: 0;
-  padding: 0;
-  font-size: "16px";
-}
-.timeline ul li:nth-child(odd) .time {
-  position: absolute;
-  top: 12px;
-  right: -165px;
-  margin: 0;
-  padding: 8px 16px;
-  background: #303243;
-  color: beige;
-  border-radius: 18px;
-}
-.timeline ul li:nth-child(even) .time {
-  position: absolute;
-  top: 12px;
-  left: -165px;
-  margin: 0;
-  padding: 8px 16px;
-  background: #303243;
-  color: beige;
-  border-radius: 18px;
-}
 .phoneicon {
   height: 40px;
   width: 40px;
@@ -473,24 +371,6 @@ h2 .accordion-header {
   color: #5c4033;
 }
 
-.mausamiyatPoster {
-  height: 250px;
-  width: 250px;
-  margin: 3px;
-  padding: 3px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.paddingVideo {
-  padding-left: 30px;
-}
-.mausamiyatmargin {
-  margin-right: 40vh;
-  margin-left: 40vh;
-}
-.marginSisterPhone {
-  display: flex;
-  justify-content: end;
-}
 table.table-bordered {
   border: 5px solid #5c4033;
 }
@@ -517,7 +397,7 @@ table.table-bordered {
   height: 200px;
   width: 290px;
 }
-.Social-link-btn{
+.Social-link-btn {
   background-color: #0c3823;
   color: white;
   border-radius: 6px;
@@ -528,11 +408,43 @@ table.table-bordered {
 .mobileBanner {
   display: none;
 }
-@media (min-width: 1200px) {
-.mobileBanner {
+.white-shadows {
+  -moz-box-shadow: 0 0 5px #fff;
+  -webkit-box-shadow: 0 0 5px #fff;
+  box-shadow: 0px 0px 5px #fff;
+}
+.text-red {
+  color: #EE4B2B;
+}
+.bg-brown {
+  background-color: #5c4033;
+}
+.text-gold {
+  color: #FFDF00;
+}
+.bg-green {
+  background-color: #0c3823;
+}
+.text-xs {
+ font-size: smaller;
+}
+.popular-img-height {
+height: 150px;
+}
+.u {
+  text-decoration: underline;
+}
+@media (min-width: 1280.99px) {
+  .mobileBanner {
     display: none;
   }
 }
+@media (min-width: 1024.99px){
+.calendar-design {
+  height: 508px;
+}
+}
+
 @media (max-width: 991.98px) {
   .latest-section {
     height: 215px;
@@ -617,8 +529,8 @@ table.table-bordered {
   }
   .scholar {
     display: flex;
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
   .social-image {
     height: 150px;
@@ -626,6 +538,9 @@ table.table-bordered {
   }
   .mobileBanner {
     display: none;
+  }
+  .calendar-design {
+    height: 500px;
   }
 }
 
@@ -718,10 +633,10 @@ table.table-bordered {
   }
   .scholar {
     display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 70px;
-  width: 90px;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 90px;
   }
   .carousel-section {
     width: 100%;
