@@ -525,7 +525,13 @@ table.table-bordered {
 .icon-shadow {
   text-shadow: 5px 5px 20px beige;
 }
+.mobileBanner {
+  display: none;
+}
 @media (min-width: 1200px) {
+.mobileBanner {
+    display: none;
+  }
 }
 @media (max-width: 991.98px) {
   .latest-section {
@@ -546,6 +552,9 @@ table.table-bordered {
   .social-image {
     height: 150px;
     width: 240px;
+  }
+  .mobileBanner {
+    display: none;
   }
 }
 
@@ -614,6 +623,9 @@ table.table-bordered {
   .social-image {
     height: 150px;
     width: 240px;
+  }
+  .mobileBanner {
+    display: none;
   }
 }
 
@@ -697,30 +709,6 @@ table.table-bordered {
   .ayah {
     display: none;
   }
-  .marginJummahPhone {
-    margin-left: 34px;
-  }
-  .marginTafseerPhone {
-    margin-left: 50%;
-  }
-  .marginArkanPhone {
-    margin-left: 50%;
-  }
-  .marginTaweelPhone {
-    margin-left: 28px;
-  }
-  .marginMukhtasarPhone {
-    margin-left: 28px;
-  }
-  .marginAamPhone {
-    margin-left: 5px;
-  }
-  .marginSisterPhone {
-    margin-left: 50%;
-  }
-  .marginAhlulPhone {
-    padding-left: 25px;
-  }
   a .rounded-headname {
     font-size: 18px;
   }
@@ -752,6 +740,12 @@ table.table-bordered {
   }
   .social-image {
     display: none;
+  }
+  .mobileBanner {
+    display: block;
+  }
+  .mobileBanner img {
+    width: 100%;
   }
 }
 
