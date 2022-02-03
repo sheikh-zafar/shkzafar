@@ -434,6 +434,9 @@ height: 150px;
 .u {
   text-decoration: underline;
 }
+.text-beige {
+  color: beige;
+}
 @media (min-width: 1280.99px) {
   .mobileBanner {
     display: none;

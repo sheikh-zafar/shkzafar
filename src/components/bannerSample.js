@@ -107,7 +107,7 @@ export default class BannerSample extends Component {
                 <nobr className="float-left text-lg">UPCOMING CLASSES</nobr>
                 <nobr className="float-right">
                   <a
-                    className="text-primary"
+                    className="text-beige"
                     alt="sheikh zafar"
                     href="https://accounts.google.com/ServiceLogin?service=cl&passive=1209600&osid=1&continue=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&followup=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&scc=1"
                   >
@@ -185,7 +185,7 @@ export default class BannerSample extends Component {
                   rel="noopener noreferrer"
                 >
                   <i
-                    class="fa fa-3x fa-calendar rounded-circle bg-brown text-primary p-3"
+                    class="fa fa-3x fa-calendar rounded-circle bg-brown text-beige p-3"
                     aria-hidden="true"
                   ></i>
                   <p className="text-dark font-weight-bolder">CALENDAR</p>
@@ -205,7 +205,7 @@ export default class BannerSample extends Component {
                   rel="noopener noreferrer"
                 >
                   <i
-                    className="fa fa-3x fa-headphones rounded-circle bg-brown shadow-lg text-primary p-3"
+                    className="fa fa-3x fa-headphones rounded-circle bg-brown shadow-lg text-beige p-3"
                     aria-hidden="true"
                   ></i>
                   <br />
@@ -224,7 +224,7 @@ export default class BannerSample extends Component {
                   rel="noopener noreferrer"
                 >
                   <i
-                    className="fa fa-3x fa-youtube rounded-circle bg-brown shadow-lg text-primary p-3"
+                    className="fa fa-3x fa-youtube rounded-circle bg-brown shadow-lg text-beige p-3"
                     aria-hidden="true"
                   ></i>
                   <br />
@@ -246,7 +246,7 @@ export default class BannerSample extends Component {
                     rel="noopener noreferrer"
                   >
                     <i
-                      className="fa fa-3x fa-link rounded-circle bg-brown shadow-lg text-primary p-3"
+                      className="fa fa-3x fa-link rounded-circle bg-brown shadow-lg text-beige p-3"
                       aria-hidden="true"
                     ></i>
                     <br />
@@ -281,7 +281,7 @@ export default class BannerSample extends Component {
                       href="https://archive.org/embed/2021-jumuah-khutbah-zafarulhasan-madani&playlist=1&list_height=550"
                       title="zafar ul hasan madani"
                       target="_blank"
-                      className="text-primary"
+                      className="text-beige"
                       rel="noreferrer"
                     >
                       Listen
@@ -292,7 +292,7 @@ export default class BannerSample extends Component {
                       href="https://drive.google.com/drive/folders/1al-gkHcSA5yDjFUrjoXRABxoEg5v8FbF"
                       title="zafar ul hasan madani"
                       target="_blank"
-                      className="text-primary"
+                      className="text-beige"
                       rel="noreferrer"
                     >
                       Download
@@ -303,7 +303,7 @@ export default class BannerSample extends Component {
                       href="https://www.youtube.com/watch?v=-Zy5GaMI2_U&list=PLmZP1KIsC-hmuVCpduAT3dMDd-kZG6l4f"
                       title="quran and sunnah"
                       target="_blank"
-                      className="text-primary"
+                      className="text-beige"
                       rel="noreferrer"
                     >
                       Watch
@@ -328,7 +328,7 @@ export default class BannerSample extends Component {
                       href="https://archive.org/embed/corona-virus-covid-19-lectures-zafarulhasan-madani&playlist=1&list_height=550"
                       title="zafar ul hasan madani"
                       target="_blank"
-                      className="text-primary"
+                      className="text-beige"
                       rel="noreferrer"
                     >
                       Listen
@@ -339,7 +339,7 @@ export default class BannerSample extends Component {
                       href="https://drive.google.com/drive/folders/1Zc_fkwZOBT74_wjYolbEPPzucJHA7ewJ"
                       title="zafar ul hasan madani"
                       target="_blank"
-                      className="text-primary"
+                      className="text-beige"
                       rel="noreferrer"
                     >
                       Download
@@ -350,7 +350,7 @@ export default class BannerSample extends Component {
                       href="https://www.youtube.com/watch?v=2iinT78L7Jo&list=PLmZP1KIsC-hnPUPMq7dyV3r8KVP-0G9Vi"
                       title="quran and sunnah"
                       target="_blank"
-                      className="text-primary"
+                      className="text-beige"
                       rel="noreferrer"
                     >
                       Watch
@@ -375,7 +375,7 @@ export default class BannerSample extends Component {
                       href="https://archive.org/embed/sharh-as-sunnah-barbaharee-zafarulhasan-madani&playlist=1&list_height=550"
                       title="zafar ul hasan madani"
                       target="_blank"
-                      className="text-primary"
+                      className="text-beige"
                       rel="noreferrer"
                     >
                       Listen
@@ -386,7 +386,7 @@ export default class BannerSample extends Component {
                       href="https://drive.google.com/drive/u/0/folders/1FHmnB17RfmCYfZdjSpuyQ6XCt1zELR-o"
                       title="zafar ul hasan madani"
                       target="_blank"
-                      className="text-primary"
+                      className="text-beige"
                       rel="noreferrer"
                     >
                       Download
@@ -397,7 +397,7 @@ export default class BannerSample extends Component {
                       href="https://www.youtube.com/watch?v=A_GfTdyV0Y0&list=PLmZP1KIsC-hnmXQn8oulAyQDd3l8xjyDo"
                       title="quran and sunnah"
                       target="_blank"
-                      className="text-primary"
+                      className="text-beige"
                       rel="noreferrer"
                     >
                       Watch
@@ -424,7 +424,7 @@ export default class BannerSample extends Component {
                       href="https://archive.org/embed/sharh-bulugh-al-maram-zafarulhasan-madani&playlist=1&list_height=550"
                       title="zafar ul hasan madani"
                       target="_blank"
-                      className="text-primary"
+                      className="text-beige"
                       rel="noreferrer"
                     >
                       Listen
@@ -435,7 +435,7 @@ export default class BannerSample extends Component {
                       href="https://drive.google.com/drive/u/0/folders/1msQrFTXsWmG2M76nb373wHtJFeFgl85Y"
                       title="zafar ul hasan madani"
                       target="_blank"
-                      className="text-primary"
+                      className="text-beige"
                       rel="noreferrer"
                     >
                       Download
@@ -446,7 +446,7 @@ export default class BannerSample extends Component {
                       href="https://www.youtube.com/watch?v=uWYV4PLluxw&list=PLmZP1KIsC-hltNDJamXol6XA04VzJKIng"
                       title="quran and sunnah"
                       target="_blank"
-                      className="text-primary"
+                      className="text-beige"
                       rel="noreferrer"
                     >
                       Watch
@@ -471,7 +471,7 @@ export default class BannerSample extends Component {
                       to="/comingsoon"
                       title="zafar ul hasan madani"
                       target="_blank"
-                      className="text-primary"
+                      className="text-beige"
                       rel="noreferrer"
                     >
                       Listen
@@ -482,7 +482,7 @@ export default class BannerSample extends Component {
                       to="/comingsoon"
                       title="zafar ul hasan madani"
                       target="_blank"
-                      className="text-primary"
+                      className="text-beige"
                       rel="noreferrer"
                     >
                       Download
@@ -493,7 +493,7 @@ export default class BannerSample extends Component {
                       href="https://www.youtube.com/watch?v=L1HK1mwyLbI&list=PLmZP1KIsC-hk_6GGFntSM-IwahZs_cJb6"
                       title="quran and sunnah"
                       target="_blank"
-                      className="text-primary"
+                      className="text-beige"
                       rel="noreferrer"
                     >
                       Watch

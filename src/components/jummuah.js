@@ -53,8 +53,7 @@ export default class jummuah extends Component {
             border: "5px solid #5c4033",
           }}
         >
-          <iframe title="sheikh zafarul hasan" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.2323290267514!2d55.4203404650122!3d25.32998383383455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5947cc37e8d3%3A0x5732b5fb630ab49!2sAws%20Ibn%20Thabit%20Alansari%20Mosque%20-%20Industrial%20Area%20-%20Industrial%20Area%206%20-%20Sharjah%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1641573855932!5m2!1sen!2sin" width="100%" height="450" style={{border:"0"}} allowFullScreen="" loading="lazy"></iframe>
-
+          <iframe title="sheikh zafarul hasan" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206499.6441128803!2d55.48191445991279!3d25.343390171226456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zMjXCsDE4JzQ1LjIiTiA1NcKwMjUnNDkuOSJF!5e0!3m2!1sen!2sin!4v1643873415460!5m2!1sen!2sin" width="100%" height="450" style={{border:"0"}} allowFullScreen="" loading="lazy"></iframe>
           <div className="container-fluid">
             <div class="row d-flex justify-content-between">
               <div className="col">
@@ -77,7 +76,7 @@ export default class jummuah extends Component {
 
               <div className="col">
                 <a
-                  href="https://maps.app.goo.gl/YUVc2PvFgb9hhKsq6"
+                  href="https://maps.app.goo.gl/95v1cUuHYRevto8n7"
                   style={{ color: "#2e856e" }}
                 >
                   <p className="mixlrtext">
