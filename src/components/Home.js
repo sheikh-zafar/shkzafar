@@ -15,7 +15,6 @@ import { Helmet } from "react-helmet";
 import monday from "../img/monday.jpg";
 import wednesday from "../img/wednesday.jpg";
 import saturday from "../img/saturday.jpg";
-import Mixlr from "../img/mixlr.png";
 
 export default class Home extends Component {
   render() {
@@ -153,7 +152,6 @@ export default class Home extends Component {
               <iframe
                 title="zafarulhasan"
                 src="https://mixlr.com/zafarulhasan/embed"
-
                 className="mixlr rounded border-success"
                 width="100%"
                 scrolling="no"
@@ -716,6 +714,8 @@ export default class Home extends Component {
             </div>
           </div>
         </section>
+
+
 
         <section className="embed-section">
           <div className="col-md-12 text-center">
