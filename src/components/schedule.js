@@ -10,7 +10,7 @@ export default class schedule extends Component {
         <section className="embed-section">
           <div className="container">
             <div className="row text-center">
-              <div class="col-md-12">
+              <div className="col-md-12">
                 <h2 className="aboutheader">Ramadan Schedule</h2>
                 <hr />
               </div>
@@ -21,7 +21,7 @@ export default class schedule extends Component {
 
         <section className="embed-section">
           <div className="container">
-            <table class="table table-bordered table-dark">
+            <table className="table table-bordered table-dark">
               <thead>
                 <tr>
                   <td>10:15 PM</td>
@@ -33,7 +33,7 @@ export default class schedule extends Component {
                       style={{ color: "blue" }}
                     >
                       <i
-                        class="fa fa-youtube"
+                        className="fa fa-youtube"
                         style={{ color: "red" }}
                         aria-hidden="true"
                       ></i>{" "}
@@ -45,38 +45,58 @@ export default class schedule extends Component {
               <tbody>
                 <tr>
                   <th scope="row">After Asr</th>
-                  <td class="text-center">Ramadan<br/>ki<br/>Bahararen</td>
+                  <td>Ramadan ki Bahararen</td>
+                  <td>Every Sunday</td>
+
                   <td>
-                    <tr>
-                      Every Sunday<br/>
-                      Every Monday<br/>
-                      Every Tuesday<br/>
-                    </tr>
-                  </td>
-                  <td><a
+                    <a
                       href="https://maps.app.goo.gl/Lh6a1NzyvpTqze2o6"
                       style={{ color: "blue" }}
                     >
-                      Masjid Ummul Momineen Khadijah Bint Khowailed رضي الله
-                      عنها- AL Qouz, Dubai
-                    </a><br/><a
-                      href="https://maps.app.goo.gl/fJDQckRGBipgGQu16"
-                      style={{ color: "blue" }}
-                    >
-                      Masjid Khadijah Bint Khowailed رضي الله عنها- Al Nahda, Dubai
-                    </a><br/><a
+                      <i className="fa fa-map-marker text-success" aria-hidden="true"></i> Masjid
+                      Ummul Momineen Khadijah Bint Khowailed رضي الله عنها- AL
+                      Qouz, Dubai
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">After Asr</th>
+                  <td>Ramadan ki Bahararen</td>
+                  <td>Every Monday</td>
+
+                  <td>
+                    <a
                       href="https://maps.app.goo.gl/nbwmrdZbWdeWxbGK6"
-                      style={{ color: "blue", textStyle:"underline" }}
+                      style={{ color: "blue", textStyle: "underline" }}
                     >
-                      Masjid Yousf Baqer- Hor Al Anz, Dubai
-                    </a></td>
+                      <i className="fa fa-map-marker text-success" aria-hidden="true"></i> Masjid
+                      Yousf Baqer- Hor Al Anz, Dubai
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">After Asr</th>
+                  <td>Ramadan ki Bahararen</td>
+                  <td>Every Tuesday</td>
+
+                  <td>
+                    <a
+                      href="https://maps.app.goo.gl/nbwmrdZbWdeWxbGK6"
+                      style={{ color: "blue", textStyle: "underline" }}
+                    >
+                      <i className="fa fa-map-marker text-success" aria-hidden="true"></i> Masjid
+                      Yousf Baqer- Hor Al Anz, Dubai
+                    </a>
+                  </td>
                 </tr>
                 <tr>
                   <td>05:15 PM</td>
-                  <td class="text-center">MAHE<br/>SABR<br/>AAGAYA</td>
+                  <td>Mahe Sabr Aagaya</td>
                   <td>
-                      ALL DAY<br/>
-                      SAT-FRI<br/>
+                    All day
+                    <br />
+                    Saturday - Friday
+                    <br />
                   </td>
                   <td>
                     <a
@@ -84,7 +104,7 @@ export default class schedule extends Component {
                       style={{ color: "blue" }}
                     >
                       <i
-                        class="fa fa-youtube"
+                        className="fa fa-youtube"
                         style={{ color: "red" }}
                         aria-hidden="true"
                       ></i>{" "}
@@ -100,10 +120,13 @@ export default class schedule extends Component {
         <section className="embed-section">
           <div className="container">
             <div className="row text-center">
-              <div class="col-md-12">
+              <div className="col-md-12">
                 <h2 className="aboutheader">Lecture Schedule</h2>
                 <hr />
-                <p class="text-danger text-center">All of the regular classes scheduled below are on hold till Ramadan</p>
+                <p className="text-danger text-center">
+                  All of the regular classes scheduled below are on hold till
+                  Ramadan
+                </p>
               </div>
             </div>
           </div>
@@ -117,21 +140,21 @@ export default class schedule extends Component {
 
         <section className="embed-section">
           <div className="container">
-            <table class="table table-dark">
+            <table className="table table-dark">
               <thead>
                 <tr>
                   <th scope="col">
                     {" "}
-                    <i class="fa fa-calendar-o" aria-hidden="true"></i> Day
+                    <i className="fa fa-calendar-o" aria-hidden="true"></i> Day
                   </th>
                   <th scope="col">
                     {" "}
-                    <i class="fa fa-sticky-note-o" aria-hidden="true"></i>{" "}
+                    <i className="fa fa-sticky-note-o" aria-hidden="true"></i>{" "}
                     Lecture name
                   </th>
                   <th scope="col">
                     {" "}
-                    <i class="fa fa-clock-o" aria-hidden="true"></i> Timing
+                    <i className="fa fa-clock-o" aria-hidden="true"></i> Timing
                   </th>
                 </tr>
               </thead>
@@ -208,7 +231,7 @@ export default class schedule extends Component {
               className="btn-lg btn-outline-dark Social-link-btn"
               style={{ backgroundColor: "beige", color: "#5c4033" }}
             >
-              <i class="fa fa-calendar" aria-hidden="true"></i> Calendar
+              <i className="fa fa-calendar" aria-hidden="true"></i> Calendar
             </a>
           </div>
         </section>
