@@ -45,7 +45,7 @@ export default class schedule extends Component {
               <tbody>
                 <tr>
                   <th scope="row">After Asr</th>
-                  <td>Ramadan ki Bahararen</td>
+                  <td>Ramadan ki Bahaaren</td>
                   <td>Every Sunday</td>
 
                   <td>
@@ -61,7 +61,7 @@ export default class schedule extends Component {
                 </tr>
                 <tr>
                   <th scope="row">After Asr</th>
-                  <td>Ramadan ki Bahararen</td>
+                  <td>Ramadan ki Bahaaren</td>
                   <td>Every Monday</td>
 
                   <td>
@@ -76,7 +76,7 @@ export default class schedule extends Component {
                 </tr>
                 <tr>
                   <th scope="row">After Asr</th>
-                  <td>Ramadan ki Bahararen</td>
+                  <td>Ramadan ki Bahaaren</td>
                   <td>Every Tuesday</td>
 
                   <td>
