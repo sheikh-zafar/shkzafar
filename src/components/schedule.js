@@ -43,6 +43,20 @@ export default class schedule extends Component {
                 </tr>
               </thead>
               <tbody>
+              <tr>
+                  <th scope="row">After Asr</th>
+                  <td>Ramadan ki Bahaaren</td>
+                  <td>Every Saturday</td>
+
+                  <td>
+                    <a
+                      href="https://goo.gl/maps/yb9JiypfhBAhJdUe7"
+                      style={{ color: "blue" }}
+                    >
+                      <i className="fa fa-map-marker text-success" aria-hidden="true"></i> Masjid Ibrahim khaleel, Al-Raffa, Bur dubai, Dubai
+                    </a>
+                  </td>
+                </tr>
                 <tr>
                   <th scope="row">After Asr</th>
                   <td>Ramadan ki Bahaaren</td>
@@ -66,11 +80,10 @@ export default class schedule extends Component {
 
                   <td>
                     <a
-                      href="https://maps.app.goo.gl/nbwmrdZbWdeWxbGK6"
+                      href="https://maps.app.goo.gl/fJDQckRGBipgGQu16"
                       style={{ color: "blue", textStyle: "underline" }}
                     >
-                      <i className="fa fa-map-marker text-success" aria-hidden="true"></i> Masjid
-                      Yousf Baqer- Hor Al Anz, Dubai
+                      <i className="fa fa-map-marker text-success" aria-hidden="true"></i> Masjid Khadijah Bint Khowailed رضي الله عنها- Al Nahda, Dubai
                     </a>
                   </td>
                 </tr>
@@ -109,6 +122,22 @@ export default class schedule extends Component {
                         aria-hidden="true"
                       ></i>{" "}
                       Youtube
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>After Taraweeh</td>
+                  <td>في ختام الشهر</td>
+                  <td>
+                    Thursday (21-04-2022)
+                    <br />
+                  </td>
+                  <td>
+                    <a
+                      href="https://goo.gl/maps/sxDQeEeQxewm9i9b8"
+                      style={{ color: "blue" }}
+                    >
+                      <i className="fa fa-map-marker" style={{ color: "green" }} aria-hidden="true"></i> Masjid Ar-Rida
                     </a>
                   </td>
                 </tr>
