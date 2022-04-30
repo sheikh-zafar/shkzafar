@@ -11,6 +11,43 @@ export default class schedule extends Component {
           <div className="container">
             <div className="row text-center">
               <div className="col-md-12">
+                <h2 className="aboutheader">Eid Al Fitr 2022 - 1443</h2>
+                <hr />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="embed-section">
+          <div className="container">
+            <table className="table table-bordered table-dark">
+              <thead>
+                <tr>
+                  <td>05:58 AM</td>
+                  <td>Eid al Fitr 2022 Khutbah</td>
+                  <td>Shawwal 01, '1443</td>
+                  <td>
+                    <a
+                      href="https://maps.app.goo.gl/G66xpSZEBWUA7buUA"
+                      style={{ color: "blue" }}
+                    >
+                      <i className="fa fa-map-marker text-success" aria-hidden="true"></i>{" "}
+                      Sharjah Musalla (Sharjah Eidgah)
+                    </a>
+                  </td>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+
+
+        <section className="embed-section">
+          <div className="container">
+            <div className="row text-center">
+              <div className="col-md-12">
                 <h2 className="aboutheader">Ramadan Schedule</h2>
                 <hr />
               </div>
