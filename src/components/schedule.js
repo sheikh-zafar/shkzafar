@@ -27,7 +27,7 @@ export default class schedule extends Component {
                   <td>Shawwal 01, '1443</td>
                   <td>
                     <a
-                      href="https://maps.app.goo.gl/G66xpSZEBWUA7buUA"
+                      href="https://maps.app.goo.gl/JUmUYJwGCzQWPbgn6"
                       style={{ color: "blue" }}
                     >
                       <i className="fa fa-map-marker text-success" aria-hidden="true"></i>{" "}
