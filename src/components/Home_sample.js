@@ -8,13 +8,13 @@ import sharhsunnah3 from "../img/sharhsunnah3.jpg";
 import mosque from "../img/mosque.jpg";
 import Covid from "../img/covid.jpeg";
 import { Link } from "react-router-dom";
-import Baqarah from "../img/baqarah.jpg";
-import Sunday from "../img/sunday.jpg";
 import { Helmet } from "react-helmet";
-import monday from "../img/monday.jpg";
-import wednesday from "../img/wednesday.jpg";
-import saturday from "../img/saturday.jpg";
 import bg from "../img/beigebg.jpeg";
+import Sunday from "../img/home_banner/Sunday.jpg";
+import Monday from "../img/home_banner/Monday.jpg";
+import Tuesday from "../img/home_banner/Tuesday.jpg";
+import Wednesday from "../img/home_banner/Wednesday.jpg";
+import Thursday from "../img/home_banner/Thursday.jpg"
 
 export default class Home_sample extends Component {
   render() {
@@ -87,7 +87,7 @@ export default class Home_sample extends Component {
                   </div>
                   <div class="carousel-item ">
                     <img
-                      src={monday}
+                      src={Monday}
                       className="img-fld"
                       alt="zafar ul hasan madani"
                       height="400px"
@@ -96,7 +96,7 @@ export default class Home_sample extends Component {
                   </div>
                   <div class="carousel-item">
                     <img
-                      src={Baqarah}
+                      src={Tuesday}
                       className="img-fld"
                       alt="surah baqarah"
                       height="400px"
@@ -105,7 +105,7 @@ export default class Home_sample extends Component {
                   </div>
                   <div class="carousel-item ">
                     <img
-                      src={wednesday}
+                      src={Wednesday}
                       className="img-fld"
                       alt="zafar ul hasan madani"
                       height="400px"
@@ -114,7 +114,7 @@ export default class Home_sample extends Component {
                   </div>
                   <div class="carousel-item ">
                     <img
-                      src={saturday}
+                      src={Thursday}
                       className="img-fld"
                       alt="zafar ul hasan madani"
                       height="400px"

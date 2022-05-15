@@ -9,12 +9,12 @@ import sharhsunnah3 from "../img/sharhsunnah3.jpg";
 import mosque from "../img/mosque.jpg";
 import Covid from "../img/covid.jpeg";
 import { Link } from "react-router-dom";
-import Baqarah from "../img/baqarah.jpg";
-import Sunday from "../img/sunday.jpg";
 import { Helmet } from "react-helmet";
-import monday from "../img/monday.jpg";
-import wednesday from "../img/wednesday.jpg";
-import saturday from "../img/saturday.jpg";
+import Sunday from "../img/home_banner/Sunday.jpg";
+import monday from "../img/home_banner/Monday.jpg";
+import Tuesday from "../img/home_banner/Tuesday.jpg";
+import wednesday from "../img/home_banner/Wednesday.jpg";
+import Thursday from "../img/home_banner/Thursday.jpg"
 
 export default class Home extends Component {
   render() {
@@ -90,7 +90,7 @@ export default class Home extends Component {
               </div>
               <div className="carousel-item">
                 <img
-                  src={Baqarah}
+                  src={Tuesday}
                   className="image-fluid img-fld"
                   alt="surah baqarah"
                 />
@@ -104,7 +104,7 @@ export default class Home extends Component {
               </div>
               <div className="carousel-item ">
                 <img
-                  src={saturday}
+                  src={Thursday}
                   className="image-fluid img-fld"
                   alt="zafar ul hasan madani"
                 />

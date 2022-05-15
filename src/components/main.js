@@ -26,7 +26,6 @@ import WhatsAppUpdates from "./WhatsAppUpdates";
 import AllLinks from "./AllLinks";
 import Home_sample from "./Home_sample";
 import Schedule from "./schedule";
-import BannerSample from "./bannerSample";
 
 const Main = () => (
   <Switch>
@@ -51,7 +50,6 @@ const Main = () => (
     <Route exact path="/lecture-schedule" component={Schedule}/>
     <Route exact path="/Sample" component={Sample} />
     <Route exact path="/Home_sample_Design" component={Home_sample} />
-    <Route exact path="/BannerSample" component={BannerSample}/>
     <Route
       exact
       path="/YouTubeChannel"
