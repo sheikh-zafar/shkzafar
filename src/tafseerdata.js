@@ -2,6 +2,15 @@ const element = "./#/comingsoon";
 
 export const tafseerdata = [
   {
+    arabictitle: "جزء ٢٨",
+    englishtitle: "Juz 28",
+    archive: "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani",
+    drive:
+      "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+    youtube:
+      "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+  },
+  {
     arabictitle: "جزء ٢٧",
     englishtitle: "Juz 27",
     archive: "https://archive.org/details/tafseer-juz-27-zafarulhasan-madani",

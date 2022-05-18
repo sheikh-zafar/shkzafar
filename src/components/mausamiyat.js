@@ -17,6 +17,7 @@ import Year_39 from "./Year_39";
 import Year_40 from "./Year_40";
 import Year_41 from "./Year_41";
 import Year_42 from "./Year_42";
+import Year_43 from "./Year_43";
 import { year_1427 } from "../year_1427";
 import { year_1428 } from "../year_1428";
 import { year_1429 } from "../year_1429";
@@ -33,6 +34,7 @@ import { year_1439 } from "../year_1439";
 import { year_1440 } from "../year_1440";
 import { year_1441 } from "../year_1441";
 import { year_1442 } from "../year_1442";
+import { year_1443 } from "../year_1443";
 import Ramadan from "../img/ramadan.jpg";
 import Shaban from "../img/shaban.jpg";
 import Safar from "../img/safar.jpg";
@@ -63,6 +65,7 @@ class mausamiat extends Component {
       year_1440: year_1440,
       year_1441: year_1441,
       year_1442: year_1442,
+      year_1443: year_1443,
     };
   }
   render() {
@@ -476,6 +479,32 @@ class mausamiat extends Component {
                       </ul>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="row mausamiyatmargin">
+              {/*Year 43 */}
+              <div
+                class="accordion"
+                id="accordionExample"
+                style={{ color: "#2e856e" }}
+              >
+                <div class="accordion-item ">
+                  <h2 class="accordion-header " id="headingSeventeen">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSeventeen"
+                      aria-expanded="true"
+                      aria-controls="collapseSeventeen"
+                    >
+                      1443 [2021 - 2022]
+                    </button>
+                    <Year_43 year1443={this.state.year_1443} />
+                  </h2>
                 </div>
               </div>
             </div>
