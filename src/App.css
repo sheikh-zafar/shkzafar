@@ -437,6 +437,17 @@ height: 150px;
 .text-beige {
   color: beige;
 }
+.linktree-bg {
+  background-color: white;
+  color: #5c4033;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: "Potta One";
+}
+.linktree-head {
+  font-size: 30px;
+}
 @media (min-width: 1280.99px) {
   .mobileBanner {
     display: none;
@@ -544,6 +555,9 @@ height: 150px;
   }
   .calendar-design {
     height: 500px;
+  }
+  .linktree-head {
+    font-size: 27px;
   }
 }
 
@@ -667,6 +681,9 @@ height: 150px;
   }
   .calendar-design {
     height: 500px;
+  }
+  .linktree-head {
+    font-size: 15px;
   }
 }
 
