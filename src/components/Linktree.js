@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../img/icon.jpeg';
 import Footer from './footer';
-import {Link} from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 export default class Linktree extends Component {
   render() {
@@ -26,49 +26,7 @@ export default class Linktree extends Component {
                   rel="noreferrer"
                   alt="zafarulhasan madani"
                 >
-                  <div className="col linktree-bg text-center">Website</div>
-                </a>
-              </div>
-              <div className="py-3">
-                <a
-                  href="https://www.youtube.com/zafarulhasan"
-                  target="_blank"
-                  rel="noreferrer"
-                  alt="zafarulhasan madani"
-                >
-                  <div className="col linktree-bg text-center">Youtube</div>
-                </a>
-              </div>
-              <div className="py-3">
-                <a
-                  href="https://www.facebook.com/zafarulhasan.official/"
-                  target="_blank"
-                  rel="noreferrer"
-                  alt="zafarulhasan madani"
-                >
-                  <div className="col linktree-bg text-center">Facebook</div>
-                </a>
-              </div>
-
-              <div className="py-3 ">
-                <a
-                  href="https://www.instagram.com/zafarulhasan.official/"
-                  target="_blank"
-                  rel="noreferrer"
-                  alt="zafarulhasan madani"
-                >
-                  <div className="col linktree-bg text-center">Instagram</div>
-                </a>
-              </div>
-
-              <div className="py-3">
-                <a
-                  href="https://mixlr.com/zafarulhasan"
-                  target="_blank"
-                  rel="noreferrer"
-                  alt="zafarulhasan madani"
-                >
-                  <div className="col linktree-bg text-center">Mixlr</div>
+                  <div className="col linktree-bg text-center bg">Website</div>
                 </a>
               </div>
               <div className="py-3">
@@ -78,7 +36,7 @@ export default class Linktree extends Component {
                   rel="noreferrer"
                   alt="zafarulhasan madani"
                 >
-                  <div className="col linktree-bg text-center">Calendar</div>
+                  <div className="col linktree-bg text-center bg">Calendar</div>
                 </a>
               </div>
 
@@ -89,10 +47,79 @@ export default class Linktree extends Component {
                   rel="noreferrer"
                   alt="zafarulhasan madani"
                 >
-                  <div className="col linktree-bg text-center">Updates</div>
+                  <div className="col linktree-bg text-center bg">Updates</div>
                 </Link>
               </div>
+              <div className="py-3">
+                <a
+                  href="https://www.youtube.com/zafarulhasan"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="zafarulhasan madani"
+                >
+                  <div
+                    className="col linktree-bg text-center"
+                    style={{ backgroundColor: 'red ', color: 'white' }}
+                  >
+                    Youtube
+                  </div>
+                </a>
+              </div>
+              <div className="py-3">
+                <a
+                  href="https://www.facebook.com/zafarulhasan.official/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="zafarulhasan madani"
+                >
+                  <div
+                    className="col linktree-bg text-center"
+                    style={{ backgroundColor: '#4267B2', color: 'white' }}
+                  >
+                    Facebook
+                  </div>
+                </a>
+              </div>
 
+              <div className="py-3 ">
+                <a
+                  href="https://www.instagram.com/zafarulhasan.official/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="zafarulhasan madani"
+                >
+                  <div
+                    className="col linktree-bg text-center"
+                    style={{
+                      backgroundImage:
+                        'linear-gradient(to right,#F58529,#FFB900,#DD2A7B,#8134AF,#515BD4)',
+                      color: 'white',
+                    }}
+                  >
+                    Instagram
+                  </div>
+                </a>
+              </div>
+
+              <div className="py-3">
+                <a
+                  href="https://mixlr.com/zafarulhasan"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="zafarulhasan madani"
+                >
+                  <div
+                    className="col linktree-bg text-center"
+                    style={{
+                      backgroundImage:
+                        'linear-gradient(to right, #ED1C24, #F8A3A6, #FFF9FF, #CA666E,#A52D2E,#FFCFEA)',
+                      color: '#ED1C24',
+                    }}
+                  >
+                    Mixlr
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
