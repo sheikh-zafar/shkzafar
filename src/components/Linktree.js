@@ -17,7 +17,6 @@ export default class Linktree extends Component {
                 width={80}
               />
             </div>
-            <h3 className="linktree-head">فضيلة الشيخ ظفر الحسن مدني حفظه الله</h3>
             <div>
               <div className="py-3">
                 <a
@@ -71,6 +70,7 @@ export default class Linktree extends Component {
                   <div className="col linktree-bg text-center">Mixlr</div>
                 </a>
               </div>
+
             </div>
           </div>
         </div>
