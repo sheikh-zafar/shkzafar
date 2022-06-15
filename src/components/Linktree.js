@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../img/icon.jpeg';
 import Footer from './footer';
+import {Link} from "react-router-dom";
 
 export default class Linktree extends Component {
   render() {
@@ -69,6 +70,27 @@ export default class Linktree extends Component {
                 >
                   <div className="col linktree-bg text-center">Mixlr</div>
                 </a>
+              </div>
+              <div className="py-3">
+                <a
+                  href="https://accounts.google.com/ServiceLogin?service=cl&passive=1209600&osid=1&continue=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&followup=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&scc=1"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="zafarulhasan madani"
+                >
+                  <div className="col linktree-bg text-center">Calendar</div>
+                </a>
+              </div>
+
+              <div className="py-3">
+                <Link
+                  to="/sheikh-zafar-ul-hasan-madani-links"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="zafarulhasan madani"
+                >
+                  <div className="col linktree-bg text-center">Updates</div>
+                </Link>
               </div>
 
             </div>
