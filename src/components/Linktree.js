@@ -112,8 +112,8 @@ export default class Linktree extends Component {
                     className="col linktree-bg text-center"
                     style={{
                       backgroundImage:
-                        'linear-gradient(to right, #ED1C24, #F8A3A6, #FFF9FF, #CA666E,#A52D2E,#FFCFEA)',
-                      color: '#ED1C24',
+                        'radial-gradient( circle at center,#ED1C24,#A52D2E, #F8A3A6, #CA666E)',
+                      color: '#FFF9FF',
                     }}
                   >
                     Mixlr
