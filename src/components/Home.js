@@ -620,8 +620,8 @@ export default class Home extends Component {
                                 className="card-header"
                                 style={{ color: "#5c4033" }}
                               >
-                                <div> رمضان ١٤٤٢</div>
-                                <p className="lead">Ramadan 1442-2021</p>
+                                <div> رمضان ١٤٤٣</div>
+                                <p className="lead">Ramadan 1443-2022</p>
                               </div>
                             </th>
                           </tr>
@@ -630,7 +630,7 @@ export default class Home extends Component {
                           <tr className="tableBg">
                             <th scope="col" className="tableBg">
                               <Link
-                                to="/Ramadan-1442-2021"
+                                to="/Ramadan-1443-2022"
                                 role="button"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -659,7 +659,7 @@ export default class Home extends Component {
                   </div>
                 </div>
               </section>
-              {/*Dhul hijjah 1442 */}
+              {/*Dhul hijjah 1443 */}
               <section className="embed-section">
                 <div className="container">
                   <div className="row text-center">
@@ -672,8 +672,8 @@ export default class Home extends Component {
                                 className="card-header"
                                 style={{ color: "#5c4033" }}
                               >
-                                <div> ذو الحجة ١٤٤٢</div>
-                                <p className="lead">Dhul Hijjah 1442-2021</p>
+                                <div> ذو الحجة ١٤٤٣</div>
+                                <p className="lead">Dhul Hijjah 1443-2022</p>
                               </div>
                             </th>
                           </tr>
@@ -682,7 +682,7 @@ export default class Home extends Component {
                           <tr className="tableBg">
                             <th scope="col" className="tableBg">
                               <Link
-                                to="/Dhul-hijjah-1442-2021"
+                                to="/lectures/mausamiyat"
                                 role="button"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -694,7 +694,7 @@ export default class Home extends Component {
                             </th>
                             <th scope="col" className="tableBg">
                               <a
-                                href="https://www.youtube.com/watch?v=r1_8xjJg16c"
+                                href="https://www.youtube.com/zafarulhasan"
                                 role="button"
                                 target="_blank"
                                 rel="noopener noreferrer"
