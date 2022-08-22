@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import Footer from "./footer";
-import Navbar from "./Navbar";
+import React, { Component } from 'react';
+import Footer from './footer';
+import Navbar from './Navbar';
 
 export default class schedule extends Component {
   render() {
@@ -30,16 +30,24 @@ export default class schedule extends Component {
               <thead>
                 <tr>
                   <th scope="col">
-                    {" "}
+                    {' '}
                     <i className="fa fa-calendar-o" aria-hidden="true"></i> Day
                   </th>
                   <th scope="col">
-                    {" "}
-                    <i className="fa fa-sticky-note-o" aria-hidden="true"></i>{" "}
+                    {' '}
+                    <i
+                      className="fa fa-sticky-note-o"
+                      aria-hidden="true"
+                    ></i>{' '}
                     Lecture name
                   </th>
                   <th scope="col">
-                    {" "}
+                    {' '}
+                    <i className="fa fa-clock-o" aria-hidden="true"></i>{' '}
+                    Location
+                  </th>
+                  <th scope="col">
+                    {' '}
                     <i className="fa fa-clock-o" aria-hidden="true"></i> Timing
                   </th>
                 </tr>
@@ -47,62 +55,116 @@ export default class schedule extends Component {
               <tbody>
                 <tr>
                   <th scope="row">Sunday</th>
-                  <td>
-                    Sharh as sunnah of Imam al-Barbaharee (رحمه اللَه)
-                    <br />
-                    <hr />
-                    Buniyadi Uloom (Fiqh 2 - Baab As-salah)
-                  </td>
-                  <td>
-                    After Isha
-                    <br />
-                    <hr />
-                    After Sharh as-sunnah
-                  </td>
+                  <td>No dars</td>
+                  <td>-</td>
+                  <td>-</td>
                 </tr>
                 <tr>
                   <th scope="row">Monday</th>
-                  <td>
-                    Shamail al-muhammadiyah by Imam at-Tirmidhi (رحمه اللَه)
-                  </td>
-                  <td>After Isha</td>
-                </tr>
-                <tr>
-                  <th scope="row">Tuesday</th>
-                  <td>Bulugh al Maram (Kitab az-zakat)</td>
-                  <td>After Isha</td>
-                </tr>
-                <tr>
-                  <th scope="row">Wednesday</th>
-                  <td>Tafseer surah al-baqarah</td>
-                  <td>After Isha</td>
-                </tr>
-                <tr>
-                  <th scope="row">Thursday</th>
-                  <td>Bulugh al-maram(Kitab al-hajj)</td>
-                  <td>After Isha</td>
-                </tr>
-
-                <tr>
-                  <th scope="row">Friday</th>
-                  <td>
-                    Jumu'ah Khutbah
-                    <br />
-                    <hr />
-                    Aam Duroos (Rahe hidayat)
-                  </td>
-                  <td>
-                    Jumu'ah
-                    <br />
-                    <hr />
-                    After isha
-                  </td>
-                </tr>
-
-                <tr>
-                  <th scope="row">Saturday</th>
-                  <td>No Dars</td>
+                  <td>No dars</td>
                   <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">Tuesday بروزمنگل</th>
+                  <td>
+                    Breezes of Imaan ایمان کی بہاریں
+                    <br />
+                    <hr />
+                    Breezes of Imaan ایمان کی بہاریں
+                  </td>
+                  <td>
+                    <a
+                      href="https://maps.app.goo.gl/oYtgodMLQv6McE2r7"
+                      style={{ color: 'white', textDecoration:'underline' }}
+                    >
+                      <i className="fa fa-map-marker" aria-hidden="true"></i>
+                      &nbsp; Masjid Khadija bint Khuwailid - Al-Nahda-2
+                      مسجد خدیجة بنت خويلد رضي الله عنها- النہدہ (Click here)
+                    </a>
+                    <br />
+                    <hr />
+                    <a
+                      href="https://maps.app.goo.gl/kMoLGXqyhPBDpsxJ7"
+                      style={{ color: 'white', textDecoration:'underline' }}
+                    >
+                      <i className="fa fa-map-marker" aria-hidden="true"></i>
+                      &nbsp;Masjid Yusuf Baqar - Hor al Anz مسجد يوسف باقر- ہور العنز  (Click here)
+                    </a>
+                  </td>
+                  <td>
+                    After Maghrib بعد صلاۃ مغرب  (بوقت متحدہ عرب امارات AE)
+                    <br />
+                    <hr />
+                    After Isha بعد صلاۃ عشاء  (بوقت متحدہ عرب امارات AE)
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Wednesday بروز بدھ</th>
+                  <td>Quran Tafseer تفسیر قرآن کریم</td>
+                  <td>
+                    <a
+                      href="https://maps.app.goo.gl/FrYfnHzK4wLbjb3k8"
+                      style={{ color: 'white', textDecoration:'underline' }}
+                    >
+                      <i className="fa fa-map-marker" aria-hidden="true"></i>
+                      &nbsp;Masjid Mohammed bin Hasan Ash Shaikh - Al Twar 2
+                      مسجد محمد بن حسن الشيخ- الطوار2   (Click here)
+                    </a>
+                  </td>
+                  <td>After Isha بعد صلاۃ عشاء  (بوقت متحدہ عرب امارات AE) </td>
+                </tr>
+                <tr>
+                  <th scope="row">Thursday بروز جمعرات</th>
+                  <td>Explanation of Bulugh Al Maram شرح كتاب بلوغ المرام</td>
+                  <td>
+                    <a
+                      href="https://maps.app.goo.gl/FrYfnHzK4wLbjb3k8"
+                      style={{ color: 'white', textDecoration:'underline' }}
+                    >
+                      <i className="fa fa-map-marker" aria-hidden="true"></i>
+                      &nbsp;Masjid Mohammed bin Hasan Ash Shaikh - Al Twar 2
+                      مسجد محمد بن حسن الشيخ- الطوار2  (Click here)
+                    </a>
+                  </td>
+                  <td>After Isha بعد صلاۃ عشاء  (بوقت متحدہ عرب امارات AE) </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Friday بروز جمعہ</th>
+                  <td>
+                    Explanation of the book Al-Targheeb wat-Tarheeb شرح کتاب
+                    الترغیب والترھیب
+                  </td>
+                  <td>
+                    <a
+                      href="https://maps.app.goo.gl/FrYfnHzK4wLbjb3k8"
+                      style={{ color: 'white', textDecoration:'underline' }}
+                    >
+                      <i className="fa fa-map-marker" aria-hidden="true"></i>
+                      &nbsp;Masjid Mohammed bin Hasan Ash Shaikh - Al Twar 2
+                      مسجد محمد بن حسن الشيخ- الطوار2  (Click here)
+                    </a>
+                  </td>
+                  <td>After Isha بعد صلاۃ عشاء  (بوقت متحدہ عرب امارات AE) </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Saturday بروز سنیچر</th>
+                  <td>Beauty of Islam محاسن اسلام</td>
+                  <td>
+                    <a
+                      href="https://maps.app.goo.gl/mscog2WwkqiHVszA8"
+                      style={{ color: 'white', textDecoration:'underline' }}
+                    >
+                      <i className="fa fa-map-marker" aria-hidden="true"></i>
+                      &nbsp;Masjid Ash-Shaikha Latifa Bint Hamdan (Ibrahim al
+                      Khaleel) - Bur Dubai
+                      مسجد الشيخة لطيفة بنت حمدان (إبراهيم الخليل) - بر دبي  (Click here)
+                    </a>
+                  </td>
+                  <td>After Isha بعد صلاۃ عشاء  (بوقت متحدہ عرب امارات AE)</td>
                 </tr>
               </tbody>
             </table>
@@ -115,7 +177,7 @@ export default class schedule extends Component {
               target="_blank"
               rel="noopener noreferrer"
               className="btn-lg btn-outline-dark Social-link-btn"
-              style={{ backgroundColor: "beige", color: "#5c4033" }}
+              style={{ backgroundColor: 'beige', color: '#5c4033' }}
             >
               <i className="fa fa-calendar" aria-hidden="true"></i> Calendar
             </a>
