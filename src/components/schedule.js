@@ -66,105 +66,102 @@ export default class schedule extends Component {
                   <td>-</td>
                 </tr>
                 <tr>
-                  <th scope="row">Tuesday بروزمنگل</th>
+                  <th scope="row">Tuesday </th>
                   <td>
-                    Breezes of Imaan ایمان کی بہاریں
+                    Breezes of Imaan
                     <br />
                     <hr />
-                    Breezes of Imaan ایمان کی بہاریں
+                    Breezes of Imaan
                   </td>
                   <td>
                     <a
                       href="https://maps.app.goo.gl/oYtgodMLQv6McE2r7"
-                      style={{ color: 'white', textDecoration:'underline' }}
+                      style={{ color: 'white', textDecoration: 'underline' }}
                     >
                       <i className="fa fa-map-marker" aria-hidden="true"></i>
-                      &nbsp; Masjid Khadija bint Khuwailid - Al-Nahda-2
-                      مسجد خدیجة بنت خويلد رضي الله عنها- النہدہ (Click here)
+                      &nbsp; Masjid Khadija bint Khuwailid - Al-Nahda-2 (Click here)
                     </a>
                     <br />
                     <hr />
                     <a
                       href="https://maps.app.goo.gl/kMoLGXqyhPBDpsxJ7"
-                      style={{ color: 'white', textDecoration:'underline' }}
+                      style={{ color: 'white', textDecoration: 'underline' }}
                     >
                       <i className="fa fa-map-marker" aria-hidden="true"></i>
-                      &nbsp;Masjid Yusuf Baqar - Hor al Anz مسجد يوسف باقر- ہور العنز  (Click here)
+                      &nbsp;Masjid Yusuf Baqar (Click here)
                     </a>
                   </td>
                   <td>
-                    After Maghrib بعد صلاۃ مغرب  (بوقت متحدہ عرب امارات AE)
+                    After Maghrib
                     <br />
                     <hr />
-                    After Isha بعد صلاۃ عشاء  (بوقت متحدہ عرب امارات AE)
+                    After Isha
                   </td>
                 </tr>
 
                 <tr>
                   <th scope="row">Wednesday بروز بدھ</th>
-                  <td>Quran Tafseer تفسیر قرآن کریم</td>
+                  <td>Quran Tafseer </td>
                   <td>
                     <a
                       href="https://maps.app.goo.gl/FrYfnHzK4wLbjb3k8"
-                      style={{ color: 'white', textDecoration:'underline' }}
+                      style={{ color: 'white', textDecoration: 'underline' }}
                     >
                       <i className="fa fa-map-marker" aria-hidden="true"></i>
                       &nbsp;Masjid Mohammed bin Hasan Ash Shaikh - Al Twar 2
-                      مسجد محمد بن حسن الشيخ- الطوار2   (Click here)
+                      (Click here)
                     </a>
                   </td>
-                  <td>After Isha بعد صلاۃ عشاء  (بوقت متحدہ عرب امارات AE) </td>
+                  <td>After Isha  </td>
                 </tr>
                 <tr>
                   <th scope="row">Thursday بروز جمعرات</th>
-                  <td>Explanation of Bulugh Al Maram شرح كتاب بلوغ المرام</td>
+                  <td>Explanation of Bulugh Al Maram </td>
                   <td>
                     <a
                       href="https://maps.app.goo.gl/FrYfnHzK4wLbjb3k8"
-                      style={{ color: 'white', textDecoration:'underline' }}
+                      style={{ color: 'white', textDecoration: 'underline' }}
                     >
                       <i className="fa fa-map-marker" aria-hidden="true"></i>
                       &nbsp;Masjid Mohammed bin Hasan Ash Shaikh - Al Twar 2
-                      مسجد محمد بن حسن الشيخ- الطوار2  (Click here)
+                      (Click here)
                     </a>
                   </td>
-                  <td>After Isha بعد صلاۃ عشاء  (بوقت متحدہ عرب امارات AE) </td>
+                  <td>After Isha </td>
                 </tr>
 
                 <tr>
                   <th scope="row">Friday بروز جمعہ</th>
                   <td>
-                    Explanation of the book Al-Targheeb wat-Tarheeb شرح کتاب
-                    الترغیب والترھیب
+                    Explanation of the book Al-Targheeb wat-Tarheeb
                   </td>
                   <td>
                     <a
                       href="https://maps.app.goo.gl/FrYfnHzK4wLbjb3k8"
-                      style={{ color: 'white', textDecoration:'underline' }}
+                      style={{ color: 'white', textDecoration: 'underline' }}
                     >
                       <i className="fa fa-map-marker" aria-hidden="true"></i>
                       &nbsp;Masjid Mohammed bin Hasan Ash Shaikh - Al Twar 2
-                      مسجد محمد بن حسن الشيخ- الطوار2  (Click here)
+                       (Click here)
                     </a>
                   </td>
-                  <td>After Isha بعد صلاۃ عشاء  (بوقت متحدہ عرب امارات AE) </td>
+                  <td>After Isha  </td>
                 </tr>
 
                 <tr>
-                  <th scope="row">Saturday بروز سنیچر</th>
-                  <td>Beauty of Islam محاسن اسلام</td>
+                  <th scope="row">Saturday</th>
+                  <td>Beauty of Islam </td>
                   <td>
                     <a
                       href="https://maps.app.goo.gl/mscog2WwkqiHVszA8"
-                      style={{ color: 'white', textDecoration:'underline' }}
+                      style={{ color: 'white', textDecoration: 'underline' }}
                     >
                       <i className="fa fa-map-marker" aria-hidden="true"></i>
                       &nbsp;Masjid Ash-Shaikha Latifa Bint Hamdan (Ibrahim al
-                      Khaleel) - Bur Dubai
-                      مسجد الشيخة لطيفة بنت حمدان (إبراهيم الخليل) - بر دبي  (Click here)
+                      Khaleel) (Click here)
                     </a>
                   </td>
-                  <td>After Isha بعد صلاۃ عشاء  (بوقت متحدہ عرب امارات AE)</td>
+                  <td>After Isha </td>
                 </tr>
               </tbody>
             </table>
