@@ -41,14 +41,34 @@ export default class Linktree extends Component {
               </div>
 
               <div className="py-3">
-                <Link
-                  to="/sheikh-zafar-ul-hasan-madani-links"
+                <a
+                  href="https://chat.whatsapp.com/CbIqCENm52dK87wJ5SJNzN"
                   target="_blank"
                   rel="noreferrer"
                   alt="zafarulhasan madani"
                 >
-                  <div className="col linktree-bg text-center bg">Updates</div>
-                </Link>
+                  <div
+                    className="col linktree-bg text-center"
+                    style={{ backgroundColor: '#25D366', color: 'white' }}
+                  >
+                    WhatsApp
+                  </div>
+                </a>
+              </div>
+              <div className="py-3">
+                <a
+                  href="https://t.me/zafarulhasan"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="zafarulhasan madani"
+                >
+                  <div
+                    className="col linktree-bg text-center"
+                    style={{ backgroundColor: '#229ED9', color: 'white' }}
+                  >
+                    Telegram
+                  </div>
+                </a>
               </div>
               <div className="py-3">
                 <a

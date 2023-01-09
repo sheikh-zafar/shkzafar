@@ -1,20 +1,20 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
-import React, { Component } from "react";
-import Navbar from "./Navbar";
-import Footer from "./footer";
-import "react-calendar/dist/Calendar.css";
-import bam2 from "../img/bulugh.jpg";
-import shamail2 from "../img/shamail2.jpg";
-import sharhsunnah3 from "../img/sharhsunnah3.jpg";
-import mosque from "../img/mosque.jpg";
-import Covid from "../img/covid.jpeg";
-import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
-import Sunday from "../img/home_banner/Sunday.jpg";
-import monday from "../img/home_banner/Monday.jpg";
-import Tuesday from "../img/home_banner/Tuesday.jpg";
-import wednesday from "../img/home_banner/Wednesday.jpg";
-import Thursday from "../img/home_banner/Thursday.jpg"
+import React, { Component } from 'react';
+import Navbar from './Navbar';
+import Footer from './footer';
+import 'react-calendar/dist/Calendar.css';
+import bam2 from '../img/bulugh.jpg';
+import shamail2 from '../img/shamail2.jpg';
+import sharhsunnah3 from '../img/sharhsunnah3.jpg';
+import mosque from '../img/mosque.jpg';
+import Covid from '../img/covid.jpeg';
+import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
+import Sunday from '../img/home_banner/Sunday.jpg';
+import monday from '../img/home_banner/Monday.jpg';
+import Tuesday from '../img/home_banner/Tuesday.jpg';
+import wednesday from '../img/home_banner/Wednesday.jpg';
+import Thursday from '../img/home_banner/Thursday.jpg';
 
 export default class Home extends Component {
   render() {
@@ -174,14 +174,14 @@ export default class Home extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
-                    backgroundColor: "#0c3823",
-                    color: "white",
+                    backgroundColor: '#0c3823',
+                    color: 'white',
                   }}
                   className="btn btn-lg"
                 >
                   <i class="fa fa-calendar" aria-hidden="true"></i> Calendar
                 </a>
-                <p className="lead mt-3" style={{ color: "#5c4033" }}>
+                <p className="lead mt-3" style={{ color: '#5c4033' }}>
                   Add dars to Your calendar
                 </p>
               </div>
@@ -196,11 +196,11 @@ export default class Home extends Component {
                   className="btn-lg btn-outline-dark Social-link-btn"
                 >
                   <i class="fa fa-headphones" aria-hidden="true">
-                    {" "}
+                    {' '}
                   </i>
                   Mixlr Showreel
                 </a>
-                <p className="lead mt-3" style={{ color: "#5c4033" }}>
+                <p className="lead mt-3" style={{ color: '#5c4033' }}>
                   Catch up on missed lectures
                 </p>
               </div>
@@ -216,7 +216,7 @@ export default class Home extends Component {
                 >
                   <i class="fa fa-youtube" aria-hidden="true"></i>YouTube
                 </a>
-                <p className="lead mt-3" style={{ color: "#5c4033" }}>
+                <p className="lead mt-3" style={{ color: '#5c4033' }}>
                   Watch Videos
                 </p>
               </div>
@@ -224,7 +224,7 @@ export default class Home extends Component {
             <div className="col-xl-3 col-md-3 col-sm-12 col-xs-12 col-12 d-flex justify-content-start d-sm-flex justify-content-sm-center d-md-flex justify-content-md-center d-xl-flex justify-content-xl-center">
               <div>
                 <Link
-                  to="/sheikh-zafar-ul-hasan-madani-links"
+                  to="/links"
                   role="button"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -232,7 +232,7 @@ export default class Home extends Component {
                 >
                   <i class="fa fa-telegram" aria-hidden="true"></i> Get Updates
                 </Link>
-                <p className="lead mt-3" style={{ color: "#5c4033" }}>
+                <p className="lead mt-3" style={{ color: '#5c4033' }}>
                   Follow Sheikh Zafar <br />
                   ul Hasan Madani
                 </p>
@@ -268,10 +268,10 @@ export default class Home extends Component {
                         title="ahle hadith"
                         className="lead pt-3"
                         style={{
-                          fontFamily: "Fredoka One",
-                          fontSize: "20px",
-                          color: "beige",
-                          textDecoration: "underline",
+                          fontFamily: 'Fredoka One',
+                          fontSize: '20px',
+                          color: 'beige',
+                          textDecoration: 'underline',
                         }}
                         target="_blank"
                         rel="noreferrer"
@@ -285,10 +285,10 @@ export default class Home extends Component {
                         title="zafar ul hasan madani"
                         className="lead pt-3"
                         style={{
-                          fontFamily: "Fredoka One",
-                          fontSize: "20px",
-                          color: "beige",
-                          textDecoration: "underline",
+                          fontFamily: 'Fredoka One',
+                          fontSize: '20px',
+                          color: 'beige',
+                          textDecoration: 'underline',
                         }}
                         target="_blank"
                         rel="noreferrer"
@@ -302,10 +302,10 @@ export default class Home extends Component {
                         title="manhaj"
                         className="lead pt-3"
                         style={{
-                          fontFamily: "Fredoka One",
-                          fontSize: "20px",
-                          color: "beige",
-                          textDecoration: "underline",
+                          fontFamily: 'Fredoka One',
+                          fontSize: '20px',
+                          color: 'beige',
+                          textDecoration: 'underline',
                         }}
                         target="_blank"
                         rel="noreferrer"
@@ -341,10 +341,10 @@ export default class Home extends Component {
                         title="manhaj"
                         className="lead pt-3"
                         style={{
-                          fontFamily: "Fredoka One",
-                          fontSize: "20px",
-                          color: "beige",
-                          textDecoration: "underline",
+                          fontFamily: 'Fredoka One',
+                          fontSize: '20px',
+                          color: 'beige',
+                          textDecoration: 'underline',
                         }}
                         target="_blank"
                         rel="noreferrer"
@@ -358,10 +358,10 @@ export default class Home extends Component {
                         title="salaf"
                         className="lead pt-3"
                         style={{
-                          fontFamily: "Fredoka One",
-                          fontSize: "20px",
-                          color: "beige",
-                          textDecoration: "underline",
+                          fontFamily: 'Fredoka One',
+                          fontSize: '20px',
+                          color: 'beige',
+                          textDecoration: 'underline',
                         }}
                         target="_blank"
                         rel="noreferrer"
@@ -375,10 +375,10 @@ export default class Home extends Component {
                         title="manhaj"
                         className="lead pt-3"
                         style={{
-                          fontFamily: "Fredoka One",
-                          fontSize: "20px",
-                          color: "beige",
-                          textDecoration: "underline",
+                          fontFamily: 'Fredoka One',
+                          fontSize: '20px',
+                          color: 'beige',
+                          textDecoration: 'underline',
                         }}
                         target="_blank"
                         rel="noreferrer"
@@ -414,10 +414,10 @@ export default class Home extends Component {
                         title="zafar ul hasan madani"
                         className="lead pt-3"
                         style={{
-                          fontFamily: "Fredoka One",
-                          fontSize: "20px",
-                          color: "beige",
-                          textDecoration: "underline",
+                          fontFamily: 'Fredoka One',
+                          fontSize: '20px',
+                          color: 'beige',
+                          textDecoration: 'underline',
                         }}
                         target="_blank"
                         rel="noreferrer"
@@ -431,10 +431,10 @@ export default class Home extends Component {
                         title="zafar ul hasan madani"
                         className="lead pt-3"
                         style={{
-                          fontFamily: "Fredoka One",
-                          fontSize: "20px",
-                          color: "beige",
-                          textDecoration: "underline",
+                          fontFamily: 'Fredoka One',
+                          fontSize: '20px',
+                          color: 'beige',
+                          textDecoration: 'underline',
                         }}
                         target="_blank"
                         rel="noreferrer"
@@ -448,10 +448,10 @@ export default class Home extends Component {
                         title="quran and sunnah"
                         className="lead pt-3"
                         style={{
-                          fontFamily: "Fredoka One",
-                          fontSize: "20px",
-                          color: "beige",
-                          textDecoration: "underline",
+                          fontFamily: 'Fredoka One',
+                          fontSize: '20px',
+                          color: 'beige',
+                          textDecoration: 'underline',
                         }}
                         target="_blank"
                         rel="noreferrer"
@@ -461,7 +461,7 @@ export default class Home extends Component {
                     </div>
                   </div>
                 </div>
-              </div>{" "}
+              </div>{' '}
               <div className="container py-4">
                 <div className="row justify-content-center">
                   <div className="col-md-10 displayimg  d-flex justify-content-center">
@@ -487,10 +487,10 @@ export default class Home extends Component {
                         title="fiqh"
                         className="lead pt-3"
                         style={{
-                          fontFamily: "Fredoka One",
-                          fontSize: "20px",
-                          color: "beige",
-                          textDecoration: "underline",
+                          fontFamily: 'Fredoka One',
+                          fontSize: '20px',
+                          color: 'beige',
+                          textDecoration: 'underline',
                         }}
                         target="_blank"
                         rel="noreferrer"
@@ -504,10 +504,10 @@ export default class Home extends Component {
                         title="fiqh"
                         className="lead pt-3"
                         style={{
-                          fontFamily: "Fredoka One",
-                          fontSize: "20px",
-                          color: "beige",
-                          textDecoration: "underline",
+                          fontFamily: 'Fredoka One',
+                          fontSize: '20px',
+                          color: 'beige',
+                          textDecoration: 'underline',
                         }}
                         target="_blank"
                         rel="noreferrer"
@@ -521,10 +521,10 @@ export default class Home extends Component {
                         title="zafar ul hasan madani"
                         className="lead pt-3"
                         style={{
-                          fontFamily: "Fredoka One",
-                          fontSize: "20px",
-                          color: "beige",
-                          textDecoration: "underline",
+                          fontFamily: 'Fredoka One',
+                          fontSize: '20px',
+                          color: 'beige',
+                          textDecoration: 'underline',
                         }}
                         target="_blank"
                         rel="noreferrer"
@@ -560,10 +560,10 @@ export default class Home extends Component {
                         title="zafar ul hasan madani"
                         className="lead pt-3"
                         style={{
-                          fontFamily: "Fredoka One",
-                          fontSize: "20px",
-                          color: "beige",
-                          textDecoration: "underline",
+                          fontFamily: 'Fredoka One',
+                          fontSize: '20px',
+                          color: 'beige',
+                          textDecoration: 'underline',
                         }}
                         target="_blank"
                         rel="noreferrer"
@@ -576,10 +576,10 @@ export default class Home extends Component {
                         to="/comingsoon"
                         className="lead pt-3"
                         style={{
-                          fontFamily: "Fredoka One",
-                          fontSize: "20px",
-                          color: "beige",
-                          textDecoration: "underline",
+                          fontFamily: 'Fredoka One',
+                          fontSize: '20px',
+                          color: 'beige',
+                          textDecoration: 'underline',
                         }}
                         target="_blank"
                         rel="noreferrer"
@@ -593,10 +593,10 @@ export default class Home extends Component {
                         title="ahle hadith"
                         className="lead pt-3"
                         style={{
-                          fontFamily: "Fredoka One",
-                          fontSize: "20px",
-                          color: "beige",
-                          textDecoration: "underline",
+                          fontFamily: 'Fredoka One',
+                          fontSize: '20px',
+                          color: 'beige',
+                          textDecoration: 'underline',
                         }}
                         target="_blank"
                         rel="noreferrer"
@@ -618,7 +618,7 @@ export default class Home extends Component {
                             <th scope="col" colspan="2" className="tableBg">
                               <div
                                 className="card-header"
-                                style={{ color: "#5c4033" }}
+                                style={{ color: '#5c4033' }}
                               >
                                 <div> رمضان ١٤٤٣</div>
                                 <p className="lead">Ramadan 1443-2022</p>
@@ -670,7 +670,7 @@ export default class Home extends Component {
                             <th scope="col" colspan="2" className="tableBg">
                               <div
                                 className="card-header"
-                                style={{ color: "#5c4033" }}
+                                style={{ color: '#5c4033' }}
                               >
                                 <div> ذو الحجة ١٤٤٣</div>
                                 <p className="lead">Dhul Hijjah 1443-2022</p>
@@ -714,8 +714,6 @@ export default class Home extends Component {
             </div>
           </div>
         </section>
-
-
 
         <section className="embed-section">
           <div className="col-md-12 text-center">
