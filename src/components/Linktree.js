@@ -42,7 +42,7 @@ export default class Linktree extends Component {
 
               <div className="py-3">
                 <a
-                  href="https://chat.whatsapp.com/CbIqCENm52dK87wJ5SJNzN"
+                  href="https://chat.whatsapp.com/Blmyg0w36Dp0fE92w0NLtD"
                   target="_blank"
                   rel="noreferrer"
                   alt="zafarulhasan madani"
