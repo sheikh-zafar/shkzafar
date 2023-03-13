@@ -55,15 +55,15 @@ export default class schedule extends Component {
               <tbody>
                 <tr>
                   <th scope="row">Sunday</th>
-                  <td>No dars</td>
-                  <td>-</td>
-                  <td>-</td>
+                  <td>Explanation of the Biography Of Prophet Muhammad(ﷺ)</td>
+                  <td>After Isha</td>
+                  <td><a href="https://youtube.com/Zafarulhasan" style={{ color: 'white', textDecoration: 'underline' }}>Online</a></td>
                 </tr>
                 <tr>
                   <th scope="row">Monday</th>
-                  <td>No dars</td>
-                  <td>-</td>
-                  <td>-</td>
+                  <td>The Explanation of Shama'il Muhammadiyyah</td>
+                  <td>After Isha</td>
+                  <td><a href="https://youtube.com/Zafarulhasan" style={{ color: 'white', textDecoration: 'underline' }}>Online</a></td>
                 </tr>
                 <tr>
                   <th scope="row">Tuesday </th>
