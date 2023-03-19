@@ -179,10 +179,10 @@ export default class Home extends Component {
                   }}
                   className="btn btn-lg"
                 >
-                  <i class="fa fa-calendar" aria-hidden="true"></i> Calendar
+                  <i class="fa fa-calendar" aria-hidden="true"></i>  Schedule
                 </a>
                 <p className="lead mt-3" style={{ color: '#5c4033' }}>
-                  Add dars to Your calendar
+                  Lecture Schedule
                 </p>
               </div>
             </div>
@@ -230,11 +230,10 @@ export default class Home extends Component {
                   rel="noopener noreferrer"
                   className="btn-lg btn-outline-dark Social-link-btn"
                 >
-                  <i class="fa fa-telegram" aria-hidden="true"></i> Social Media Links
+                  <i class="fa fa-telegram" aria-hidden="true"></i> Links
                 </Link>
                 <p className="lead mt-3" style={{ color: '#5c4033' }}>
-                  Follow Sheikh Zafar <br />
-                  ul Hasan Madani
+                  Social Media Links
                 </p>
               </div>
             </div>

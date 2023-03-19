@@ -151,6 +151,7 @@ export default class schedule extends Component {
             </a>
           </div>
         </section>
+        **Note: Regular classes are on hold till the end of Ramadan.
 
 
 
