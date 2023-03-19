@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.f4a7742e.chunk.css",
-    "main.js": "/static/js/main.f16a86ec.chunk.js",
-    "main.js.map": "/static/js/main.f16a86ec.chunk.js.map",
+    "main.js": "/static/js/main.5641c508.chunk.js",
+    "main.js.map": "/static/js/main.5641c508.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3dbf9d90.js",
     "runtime-main.js.map": "/static/js/runtime-main.3dbf9d90.js.map",
     "static/css/2.cb177d9b.chunk.css": "/static/css/2.cb177d9b.chunk.css",
@@ -32,7 +32,7 @@
     "static/media/bulugh.jpg": "/static/media/bulugh.4a954cde.jpg",
     "static/media/covid.jpeg": "/static/media/covid.9d399de8.jpeg",
     "static/media/dhulhijjah.1bf3289e.jpg": "/static/media/dhulhijjah.1bf3289e.jpg",
-    "static/media/icon.f9ec7c15.jpeg": "/static/media/icon.f9ec7c15.jpeg",
+    "static/media/icon.ab26d39e.jpeg": "/static/media/icon.ab26d39e.jpeg",
     "static/media/jummaicon.32769a2c.jpg": "/static/media/jummaicon.32769a2c.jpg",
     "static/media/jummuahkhutbah.6c24fce3.jpg": "/static/media/jummuahkhutbah.6c24fce3.jpg",
     "static/media/logo192.25b218da.png": "/static/media/logo192.25b218da.png",
@@ -56,6 +56,6 @@
     "static/css/2.cb177d9b.chunk.css",
     "static/js/2.2d52196c.chunk.js",
     "static/css/main.f4a7742e.chunk.css",
-    "static/js/main.f16a86ec.chunk.js"
+    "static/js/main.5641c508.chunk.js"
   ]
 }
