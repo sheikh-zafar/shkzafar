@@ -23,145 +23,116 @@ export default class schedule extends Component {
           الله عز و جل. Kindly take a note of his schedule and add the schedule
           to your google calendar.
         </div>
-
+        {/*Timetable */}
         <section className="embed-section">
           <div className="container">
-            <table className="table table-dark">
+            <table className="table table-bordered table-dark">
               <thead>
                 <tr>
-                  <th scope="col">
-                    {' '}
-                    <i className="fa fa-calendar-o" aria-hidden="true"></i> Day
-                  </th>
-                  <th scope="col">
-                    {' '}
-                    <i
-                      className="fa fa-sticky-note-o"
-                      aria-hidden="true"
-                    ></i>{' '}
-                    Lecture name
-                  </th>
-                  <th scope="col">
-                    {' '}
-                    <i className="fa fa-clock-o" aria-hidden="true"></i>{' '}
-                    Location
-                  </th>
-                  <th scope="col">
-                    {' '}
-                    <i className="fa fa-clock-o" aria-hidden="true"></i> Timing
-                  </th>
+                  <td>TIMING</td>
+                  <td>TOPIC</td>
+                  <td>DAY</td>
+                  <td>
+                    LOCATION
+                  </td>
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <th scope="row">Sunday</th>
-                  <td>Explanation of the Biography Of Prophet Muhammad(ﷺ)</td>
-                  <td>After Isha</td>
-                  <td><a href="https://youtube.com/Zafarulhasan" style={{ color: 'white', textDecoration: 'underline' }}>Online</a></td>
-                </tr>
-                <tr>
-                  <th scope="row">Monday</th>
-                  <td>The Explanation of Shama'il Muhammadiyyah</td>
-                  <td>After Isha</td>
-                  <td><a href="https://youtube.com/Zafarulhasan" style={{ color: 'white', textDecoration: 'underline' }}>Online</a></td>
-                </tr>
-                <tr>
-                  <th scope="row">Tuesday </th>
-                  <td>
-                    Breezes of Imaan
-                    <br />
-                    <hr />
-                    Breezes of Imaan
-                  </td>
+              <tr>
+                  <td>09:00 PM to 11:00 PM</td>
+                  <td>Quran Tafseer Juz 26</td>
+                  <td>Sunday - Friday</td>
                   <td>
                     <a
-                      href="https://maps.app.goo.gl/oYtgodMLQv6McE2r7"
-                      style={{ color: 'white', textDecoration: 'underline' }}
+                      href="https://youtube.com/c/ZafarulHasan"
+                      style={{ color: "blue" }}
                     >
-                      <i className="fa fa-map-marker" aria-hidden="true"></i>
-                      &nbsp; Masjid Khadija bint Khuwailid - Al-Nahda-2 (Click here)
+                      <i
+                        className="fa fa-youtube"
+                        style={{ color: "red" }}
+                        aria-hidden="true"
+                      ></i>{" "}
+                      Youtube
                     </a>
-                    <br />
-                    <hr />
-                    <a
-                      href="https://maps.app.goo.gl/kMoLGXqyhPBDpsxJ7"
-                      style={{ color: 'white', textDecoration: 'underline' }}
-                    >
-                      <i className="fa fa-map-marker" aria-hidden="true"></i>
-                      &nbsp;Masjid Yusuf Baqar (Click here)
-                    </a>
-                  </td>
-                  <td>
-                    After Maghrib
-                    <br />
-                    <hr />
-                    After Isha
                   </td>
                 </tr>
+                <tr>
+                  <td>04:45 PM to 06:00 PM</td>
+                  <td>Ramadan Wal Qur'an</td>
+                  <td>Everday</td>
+                  <td>
+                    <a
+                      href="https://youtube.com/c/ZafarulHasan"
+                      style={{ color: "blue" }}
+                    >
+                      <i
+                        className="fa fa-youtube"
+                        style={{ color: "red" }}
+                        aria-hidden="true"
+                      ></i>{" "}
+                      Youtube
+                    </a>
+                  </td>
+                </tr>
+              <tr>
+                  <th scope="row">04:00 PM to 05:30 PM</th>
+                  <td>Rawdat-ua-Saa'im</td>
+                  <td>Every Saturday</td>
 
-                <tr>
-                  <th scope="row">Wednesday بروز بدھ</th>
-                  <td>Quran Tafseer </td>
                   <td>
-                    <a
-                      href="https://maps.app.goo.gl/FrYfnHzK4wLbjb3k8"
-                      style={{ color: 'white', textDecoration: 'underline' }}
+                  <a
+                      href="https://maps.app.goo.gl/Lh6a1NzyvpTqze2o6"
+                      style={{ color: "blue" }}
                     >
-                      <i className="fa fa-map-marker" aria-hidden="true"></i>
-                      &nbsp;Masjid Mohammed bin Hasan Ash Shaikh - Al Twar 2
-                      (Click here)
+                      <i className="fa fa-map-marker text-success" aria-hidden="true"></i> Masjid
+                      Ummul Momineen Khadijah Bint Khowailed رضي الله عنها- AL
+                      Quoz, Dubai
                     </a>
                   </td>
-                  <td>After Isha  </td>
                 </tr>
                 <tr>
-                  <th scope="row">Thursday بروز جمعرات</th>
-                  <td>Explanation of Bulugh Al Maram </td>
-                  <td>
-                    <a
-                      href="https://maps.app.goo.gl/FrYfnHzK4wLbjb3k8"
-                      style={{ color: 'white', textDecoration: 'underline' }}
-                    >
-                      <i className="fa fa-map-marker" aria-hidden="true"></i>
-                      &nbsp;Masjid Mohammed bin Hasan Ash Shaikh - Al Twar 2
-                      (Click here)
-                    </a>
-                  </td>
-                  <td>After Isha </td>
-                </tr>
+                <th scope="row">04:00 PM to 05:30 PM</th>
+                  <td>Rawdat-ua-Saa'im</td>
+                  <td>Every Sunday</td>
 
-                <tr>
-                  <th scope="row">Friday بروز جمعہ</th>
-                  <td>
-                    Explanation of the book Al-Targheeb wat-Tarheeb
-                  </td>
-                  <td>
-                    <a
-                      href="https://maps.app.goo.gl/FrYfnHzK4wLbjb3k8"
-                      style={{ color: 'white', textDecoration: 'underline' }}
-                    >
-                      <i className="fa fa-map-marker" aria-hidden="true"></i>
-                      &nbsp;Masjid Mohammed bin Hasan Ash Shaikh - Al Twar 2
-                       (Click here)
-                    </a>
-                  </td>
-                  <td>After Isha  </td>
-                </tr>
-
-                <tr>
-                  <th scope="row">Saturday</th>
-                  <td>Beauty of Islam </td>
                   <td>
                     <a
                       href="https://maps.app.goo.gl/mscog2WwkqiHVszA8"
-                      style={{ color: 'white', textDecoration: 'underline' }}
+                      style={{ color: "blue" }}
                     >
-                      <i className="fa fa-map-marker" aria-hidden="true"></i>
-                      &nbsp;Masjid Ash-Shaikha Latifa Bint Hamdan (Ibrahim al
-                      Khaleel) (Click here)
+                      <i className="fa fa-map-marker text-success" aria-hidden="true"></i> Masjid
+                      Masjid Ash-Shaikha Latifa Bint Hamdan - (Al Raffa) (Ibrahim al Khaleel)
                     </a>
                   </td>
-                  <td>After Isha </td>
+                </tr>
+                <tr>
+                  <th scope="row">04:00 PM to 05:30 PM</th>
+                  <td>Rawdat-ua-Saa'im</td>
+                  <td>Every Monday</td>
+
+                  <td>
+                    <a
+                      href="https://maps.app.goo.gl/d2bN1JwhYV37hqBA9"
+                      style={{ color: "blue", textStyle: "underline" }}
+                    >
+                      <i className="fa fa-map-marker text-success" aria-hidden="true"></i> Masjid Zarooni Al Kabeer (Al Nahda-2, Dubai)
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                <th scope="row">04:00 PM to 05:30 PM</th>
+                <td>Rawdat-ua-Saa'im</td>
+                  <td>Every Tuesday</td>
+
+                  <td>
+                    <a
+                      href="https://maps.app.goo.gl/nbwmrdZbWdeWxbGK6"
+                      style={{ color: "blue", textStyle: "underline" }}
+                    >
+                      <i className="fa fa-map-marker text-success" aria-hidden="true"></i> Masjid
+                      Yousf Baqer- Hor Al Anz, Dubai
+                    </a>
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -169,7 +140,7 @@ export default class schedule extends Component {
           <div className="d-flex justify-content-center about">
             Add Schedule to your calendar&nbsp;&nbsp;
             <a
-              href="https://accounts.google.com/ServiceLogin?service=cl&passive=1209600&osid=1&continue=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&followup=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&scc=1"
+              href="https://calendar.google.com/calendar/u/2?cid=M2I4cG9vczFic2lwdGhnYnA5NWhjYnZuaTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
               role="button"
               target="_blank"
               rel="noopener noreferrer"
@@ -180,6 +151,9 @@ export default class schedule extends Component {
             </a>
           </div>
         </section>
+
+
+
 
         <Footer />
       </div>
