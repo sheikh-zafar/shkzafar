@@ -230,7 +230,7 @@ export default class Home extends Component {
                   rel="noopener noreferrer"
                   className="btn-lg btn-outline-dark Social-link-btn"
                 >
-                  <i class="fa fa-telegram" aria-hidden="true"></i> Get Updates
+                  <i class="fa fa-telegram" aria-hidden="true"></i> Social Media Links
                 </Link>
                 <p className="lead mt-3" style={{ color: '#5c4033' }}>
                   Follow Sheikh Zafar <br />
