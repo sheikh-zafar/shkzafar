@@ -19,12 +19,7 @@ export default class schedule extends Component {
             </div>
           </div>
         </section>
-        <div className="container about">
-          Lectures of Sheikh Zafarulhasan حفظه الله are held on daily basis and
-          it is brodcasted on youtube, mixlr and on zoom by the permission of
-          الله عز و جل. Kindly take a note of his schedule and add the schedule
-          to your google calendar.
-        </div>
+
         {/*Timetable */}
         <section className="embed-section">
           <div className="container">
@@ -76,7 +71,7 @@ export default class schedule extends Component {
                 </tr>
                 <tr>
                   <th scope="row">04:00 PM to 05:30 PM</th>
-                  <td>Rawdat-ua-Saa'im</td>
+                  <td>Ramadan Ki Bahaaren</td>
                   <td>Every Saturday</td>
 
                   <td>
@@ -95,7 +90,7 @@ export default class schedule extends Component {
                 </tr>
                 <tr>
                   <th scope="row">04:00 PM to 05:30 PM</th>
-                  <td>Rawdat-ua-Saa'im</td>
+                  <td>Ramadan Ki Bahaaren</td>
                   <td>Every Sunday</td>
 
                   <td>
@@ -114,7 +109,7 @@ export default class schedule extends Component {
                 </tr>
                 <tr>
                   <th scope="row">04:00 PM to 05:30 PM</th>
-                  <td>Rawdat-ua-Saa'im</td>
+                  <td>Ramadan Ki Bahaaren</td>
                   <td>Every Monday</td>
 
                   <td>
@@ -132,7 +127,7 @@ export default class schedule extends Component {
                 </tr>
                 <tr>
                   <th scope="row">04:00 PM to 05:30 PM</th>
-                  <td>Rawdat-ua-Saa'im</td>
+                  <td>Ramadan Ki Bahaaren</td>
                   <td>Every Tuesday</td>
 
                   <td>
@@ -145,6 +140,60 @@ export default class schedule extends Component {
                         aria-hidden="true"
                       ></i>{' '}
                       Masjid Yousf Baqer- Hor Al Anz, Dubai
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">04:00 PM to 05:30 PM</th>
+                  <td>Ramadan Ki Bahaaren</td>
+                  <td>Every Wednesday</td>
+
+                  <td>
+                    <a
+                      href="https://maps.app.goo.gl/G9aAf3HDM2M4qDgV6"
+                      style={{ color: 'blue', textStyle: 'underline' }}
+                    >
+                      <i
+                        className="fa fa-map-marker text-success"
+                        aria-hidden="true"
+                      ></i>{' '}
+                      Masjid Ali Bin Abi Talibرضي الله عنه- Industrial Area 2, Ajman
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">04:00 PM to 05:30 PM</th>
+                  <td>Ramadan Ki Bahaaren</td>
+                  <td>Every Friday</td>
+
+                  <td>
+                    <a
+                      href="https://maps.app.goo.gl/G9aAf3HDM2M4qDgV6"
+                      style={{ color: 'blue', textStyle: 'underline' }}
+                    >
+                      <i
+                        className="fa fa-map-marker text-success"
+                        aria-hidden="true"
+                      ></i>{' '}
+                      Masjid Ali Bin Abi Talibرضي الله عنه- Industrial Area 2, Ajman
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">04:00 PM to 05:30 PM</th>
+                  <td>Jummu'ah Khutbah</td>
+                  <td>Every Friday</td>
+
+                  <td>
+                    <a
+                      href="https://maps.app.goo.gl/am9twe29eBtpGYdAA"
+                      style={{ color: 'blue', textStyle: 'underline' }}
+                    >
+                      <i
+                        className="fa fa-map-marker text-success"
+                        aria-hidden="true"
+                      ></i>{' '}
+                      Masjid Bin Darwish, Sharjah
                     </a>
                   </td>
                 </tr>
@@ -227,6 +276,12 @@ export default class schedule extends Component {
             </table>
           </div>
         </section>
+        <div className="container about">
+          Lectures of Sheikh Zafarulhasan حفظه الله are held on daily basis and
+          it is brodcasted on youtube, mixlr and on zoom by the permission of
+          الله عز و جل. Kindly take a note of his schedule and add the schedule
+          to your google calendar.
+        </div>
         <div className="container about">
           **Note: Regular classes are on hold till the end of Ramadan.
         </div>
