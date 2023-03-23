@@ -11,7 +11,9 @@ export default class schedule extends Component {
           <div className="container">
             <div className="row text-center">
               <div className="col-md-12">
-                <h2 className="aboutheader">Lecture Schedule</h2>
+                <h2 className="aboutheader">
+                  Ramadan Regular Lecture Schedule
+                </h2>
                 <hr />
               </div>
             </div>
@@ -32,26 +34,24 @@ export default class schedule extends Component {
                   <td>TIMING</td>
                   <td>TOPIC</td>
                   <td>DAY</td>
-                  <td>
-                    LOCATION
-                  </td>
+                  <td>LOCATION</td>
                 </tr>
               </thead>
               <tbody>
-              <tr>
+                <tr>
                   <td>09:00 PM to 11:00 PM</td>
                   <td>Quran Tafseer Juz 26</td>
                   <td>Sunday - Friday</td>
                   <td>
                     <a
                       href="https://youtube.com/c/ZafarulHasan"
-                      style={{ color: "blue" }}
+                      style={{ color: 'blue' }}
                     >
                       <i
                         className="fa fa-youtube"
-                        style={{ color: "red" }}
+                        style={{ color: 'red' }}
                         aria-hidden="true"
-                      ></i>{" "}
+                      ></i>{' '}
                       Youtube
                     </a>
                   </td>
@@ -63,45 +63,52 @@ export default class schedule extends Component {
                   <td>
                     <a
                       href="https://youtube.com/c/ZafarulHasan"
-                      style={{ color: "blue" }}
+                      style={{ color: 'blue' }}
                     >
                       <i
                         className="fa fa-youtube"
-                        style={{ color: "red" }}
+                        style={{ color: 'red' }}
                         aria-hidden="true"
-                      ></i>{" "}
+                      ></i>{' '}
                       Youtube
                     </a>
                   </td>
                 </tr>
-              <tr>
+                <tr>
                   <th scope="row">04:00 PM to 05:30 PM</th>
                   <td>Rawdat-ua-Saa'im</td>
                   <td>Every Saturday</td>
 
                   <td>
-                  <a
+                    <a
                       href="https://maps.app.goo.gl/Lh6a1NzyvpTqze2o6"
-                      style={{ color: "blue" }}
+                      style={{ color: 'blue' }}
                     >
-                      <i className="fa fa-map-marker text-success" aria-hidden="true"></i> Masjid
-                      Ummul Momineen Khadijah Bint Khowailed رضي الله عنها- AL
-                      Quoz, Dubai
+                      <i
+                        className="fa fa-map-marker text-success"
+                        aria-hidden="true"
+                      ></i>{' '}
+                      Masjid Ummul Momineen Khadijah Bint Khowailed رضي الله
+                      عنها- AL Quoz, Dubai
                     </a>
                   </td>
                 </tr>
                 <tr>
-                <th scope="row">04:00 PM to 05:30 PM</th>
+                  <th scope="row">04:00 PM to 05:30 PM</th>
                   <td>Rawdat-ua-Saa'im</td>
                   <td>Every Sunday</td>
 
                   <td>
                     <a
                       href="https://maps.app.goo.gl/mscog2WwkqiHVszA8"
-                      style={{ color: "blue" }}
+                      style={{ color: 'blue' }}
                     >
-                      <i className="fa fa-map-marker text-success" aria-hidden="true"></i> Masjid
-                      Masjid Ash-Shaikha Latifa Bint Hamdan - (Al Raffa) (Ibrahim al Khaleel)
+                      <i
+                        className="fa fa-map-marker text-success"
+                        aria-hidden="true"
+                      ></i>{' '}
+                      Masjid Masjid Ash-Shaikha Latifa Bint Hamdan - (Al Raffa)
+                      (Ibrahim al Khaleel)
                     </a>
                   </td>
                 </tr>
@@ -113,24 +120,31 @@ export default class schedule extends Component {
                   <td>
                     <a
                       href="https://maps.app.goo.gl/d2bN1JwhYV37hqBA9"
-                      style={{ color: "blue", textStyle: "underline" }}
+                      style={{ color: 'blue', textStyle: 'underline' }}
                     >
-                      <i className="fa fa-map-marker text-success" aria-hidden="true"></i> Masjid Zarooni Al Kabeer (Al Nahda-2, Dubai)
+                      <i
+                        className="fa fa-map-marker text-success"
+                        aria-hidden="true"
+                      ></i>{' '}
+                      Masjid Zarooni Al Kabeer (Al Nahda-2, Dubai)
                     </a>
                   </td>
                 </tr>
                 <tr>
-                <th scope="row">04:00 PM to 05:30 PM</th>
-                <td>Rawdat-ua-Saa'im</td>
+                  <th scope="row">04:00 PM to 05:30 PM</th>
+                  <td>Rawdat-ua-Saa'im</td>
                   <td>Every Tuesday</td>
 
                   <td>
                     <a
                       href="https://maps.app.goo.gl/nbwmrdZbWdeWxbGK6"
-                      style={{ color: "blue", textStyle: "underline" }}
+                      style={{ color: 'blue', textStyle: 'underline' }}
                     >
-                      <i className="fa fa-map-marker text-success" aria-hidden="true"></i> Masjid
-                      Yousf Baqer- Hor Al Anz, Dubai
+                      <i
+                        className="fa fa-map-marker text-success"
+                        aria-hidden="true"
+                      ></i>{' '}
+                      Masjid Yousf Baqer- Hor Al Anz, Dubai
                     </a>
                   </td>
                 </tr>
@@ -151,10 +165,71 @@ export default class schedule extends Component {
             </a>
           </div>
         </section>
-        **Note: Regular classes are on hold till the end of Ramadan.
-
-
-
+        <section className="embed-section">
+          <div className="container">
+            <div className="row text-center">
+              <div className="col-md-12">
+                <h2 className="aboutheader">
+                  Ramadan <nobr className="text-red">Special</nobr> Lecture Schedule
+                </h2>
+                <hr />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="embed-section">
+          <div className="container">
+            <table className="table table-bordered table-dark">
+              <thead>
+                <tr>
+                  <td>TIMING</td>
+                  <td>TOPIC</td>
+                  <td>DAY</td>
+                  <td>LOCATION</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>After Taraweeh</td>
+                  <td>Whispers Of Shaytan And Its Legislated Treatment</td>
+                  <td>Friday رمضان 2 - 24/3/2023</td>
+                  <td>
+                  <a
+                      href="https://maps.app.goo.gl/WyMsQghpz3JK7YVo7"
+                      style={{ color: 'blue' }}
+                    >
+                      <i
+                        className="fa fa-map-marker text-success"
+                        aria-hidden="true"
+                      ></i>{' '}
+                      Masjid Ash-Sheikh Zayed رحمه الله, Ajman
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>After Taraweeh</td>
+                  <td>Verily in the remembrance of Allah do hearts find rest.</td>
+                  <td>Thursday رمضان 8 - 30/3/2023</td>
+                  <td>
+                  <a
+                      href="https://maps.app.goo.gl/ZMd6TZ6BXnFhsq779"
+                      style={{ color: 'blue' }}
+                    >
+                      <i
+                        className="fa fa-map-marker text-success"
+                        aria-hidden="true"
+                      ></i>{' '}
+                      Masjid Mirdif Al Kabeer, Dubai
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <div className="container about">
+          **Note: Regular classes are on hold till the end of Ramadan.
+        </div>
 
         <Footer />
       </div>
