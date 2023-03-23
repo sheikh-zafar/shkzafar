@@ -70,7 +70,7 @@ export default class schedule extends Component {
                   </td>
                 </tr>
                 <tr>
-                  <th scope="row">04:00 PM to 05:30 PM</th>
+                  <th scope="row">After Asr</th>
                   <td>Ramadan Ki Bahaaren</td>
                   <td>Every Saturday</td>
 
@@ -89,7 +89,7 @@ export default class schedule extends Component {
                   </td>
                 </tr>
                 <tr>
-                  <th scope="row">04:00 PM to 05:30 PM</th>
+                  <th scope="row">After Asr</th>
                   <td>Ramadan Ki Bahaaren</td>
                   <td>Every Sunday</td>
 
@@ -108,7 +108,7 @@ export default class schedule extends Component {
                   </td>
                 </tr>
                 <tr>
-                  <th scope="row">04:00 PM to 05:30 PM</th>
+                  <th scope="row">After Asr</th>
                   <td>Ramadan Ki Bahaaren</td>
                   <td>Every Monday</td>
 
@@ -126,7 +126,7 @@ export default class schedule extends Component {
                   </td>
                 </tr>
                 <tr>
-                  <th scope="row">04:00 PM to 05:30 PM</th>
+                  <th scope="row">After Asr</th>
                   <td>Ramadan Ki Bahaaren</td>
                   <td>Every Tuesday</td>
 
@@ -144,7 +144,7 @@ export default class schedule extends Component {
                   </td>
                 </tr>
                 <tr>
-                  <th scope="row">04:00 PM to 05:30 PM</th>
+                  <th scope="row">After Asr</th>
                   <td>Ramadan Ki Bahaaren</td>
                   <td>Every Wednesday</td>
 
@@ -162,7 +162,7 @@ export default class schedule extends Component {
                   </td>
                 </tr>
                 <tr>
-                  <th scope="row">04:00 PM to 05:30 PM</th>
+                  <th scope="row">After Asr</th>
                   <td>Ramadan Ki Bahaaren</td>
                   <td>Every Friday</td>
 
@@ -180,7 +180,7 @@ export default class schedule extends Component {
                   </td>
                 </tr>
                 <tr>
-                  <th scope="row">04:00 PM to 05:30 PM</th>
+                  <th scope="row">Jummuah Time</th>
                   <td>Jummu'ah Khutbah</td>
                   <td>Every Friday</td>
 
