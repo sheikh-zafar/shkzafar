@@ -157,7 +157,7 @@ export default class schedule extends Component {
                         className="fa fa-map-marker text-success"
                         aria-hidden="true"
                       ></i>{' '}
-                      Masjid Ali Bin Abi Talibرضي الله عنه- Industrial Area 2, Ajman
+                      Masjid Ali Bin Abi Talib رضي الله عنه- Industrial Area 2, Ajman
                     </a>
                   </td>
                 </tr>

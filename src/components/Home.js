@@ -169,7 +169,7 @@ export default class Home extends Component {
             <div className="col-xl-3 col-md-3 col-sm-12 col-xs-12 col-12 d-flex justify-content-start d-sm-flex justify-content-sm-center d-md-flex justify-content-md-center d-xl-flex justify-content-xl-center">
               <div>
                 <a
-                  href="https://accounts.google.com/ServiceLogin?service=cl&passive=1209600&osid=1&continue=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&followup=https://calendar.google.com/calendar/u/0/r/month?tab%3Dwc%26pli%3D1&scc=1"
+                  href="https://zafarulhasan.com/#/lecture-schedule"
                   role="button"
                   target="_blank"
                   rel="noopener noreferrer"
