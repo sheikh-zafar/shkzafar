@@ -179,7 +179,7 @@ export default class Home extends Component {
                   }}
                   className="btn btn-lg"
                 >
-                  <i class="fa fa-calendar" aria-hidden="true"></i>  Schedule
+                  <i className="fa fa-calendar" aria-hidden="true"></i>  Schedule
                 </a>
                 <p className="lead mt-3" style={{ color: '#5c4033' }}>
                   Lecture Schedule
@@ -195,7 +195,7 @@ export default class Home extends Component {
                   rel="noopener noreferrer"
                   className="btn-lg btn-outline-dark Social-link-btn"
                 >
-                  <i class="fa fa-headphones" aria-hidden="true">
+                  <i className="fa fa-headphones" aria-hidden="true">
                     {' '}
                   </i>
                   Mixlr Showreel
@@ -214,7 +214,7 @@ export default class Home extends Component {
                   rel="noopener noreferrer"
                   className="btn-lg btn-outline-dark Social-link-btn"
                 >
-                  <i class="fa fa-youtube" aria-hidden="true"></i>YouTube
+                  <i className="fa fa-youtube" aria-hidden="true"></i>YouTube
                 </a>
                 <p className="lead mt-3" style={{ color: '#5c4033' }}>
                   Watch Videos
@@ -230,7 +230,7 @@ export default class Home extends Component {
                   rel="noopener noreferrer"
                   className="btn-lg btn-outline-dark Social-link-btn"
                 >
-                  <i class="fa fa-telegram" aria-hidden="true"></i> Links
+                  <i className="fa fa-telegram" aria-hidden="true"></i> Links
                 </Link>
                 <p className="lead mt-3" style={{ color: '#5c4033' }}>
                   Social Media Links

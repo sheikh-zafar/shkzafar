@@ -40,7 +40,7 @@ export default class schedule extends Component {
                   <td>
                     <a
                       href="https://youtube.com/c/ZafarulHasan"
-                      style={{ color: 'blue' }}
+                      style={{ color: 'blue', textDecoration:"underline" }}
                     >
                       <i
                         className="fa fa-youtube"
@@ -58,7 +58,7 @@ export default class schedule extends Component {
                   <td>
                     <a
                       href="https://youtube.com/c/ZafarulHasan"
-                      style={{ color: 'blue' }}
+                      style={{ color: 'blue', textDecoration:"underline" }}
                     >
                       <i
                         className="fa fa-youtube"
@@ -77,7 +77,7 @@ export default class schedule extends Component {
                   <td>
                     <a
                       href="https://maps.app.goo.gl/Lh6a1NzyvpTqze2o6"
-                      style={{ color: 'blue' }}
+                      style={{ color: 'blue', textDecoration:"underline" }}
                     >
                       <i
                         className="fa fa-map-marker text-success"
@@ -96,7 +96,7 @@ export default class schedule extends Component {
                   <td>
                     <a
                       href="https://maps.app.goo.gl/mscog2WwkqiHVszA8"
-                      style={{ color: 'blue' }}
+                      style={{ color: 'blue', textDecoration:"underline" }}
                     >
                       <i
                         className="fa fa-map-marker text-success"
@@ -115,7 +115,7 @@ export default class schedule extends Component {
                   <td>
                     <a
                       href="https://maps.app.goo.gl/d2bN1JwhYV37hqBA9"
-                      style={{ color: 'blue', textStyle: 'underline' }}
+                      style={{ color: 'blue', textDecoration: 'underline' }}
                     >
                       <i
                         className="fa fa-map-marker text-success"
@@ -125,24 +125,7 @@ export default class schedule extends Component {
                     </a>
                   </td>
                 </tr>
-                <tr>
-                  <th scope="row">After Asr</th>
-                  <td>Ramadan Ki Bahaaren</td>
-                  <td>Every Tuesday</td>
-
-                  <td>
-                    <a
-                      href="https://maps.app.goo.gl/nbwmrdZbWdeWxbGK6"
-                      style={{ color: 'blue', textStyle: 'underline' }}
-                    >
-                      <i
-                        className="fa fa-map-marker text-success"
-                        aria-hidden="true"
-                      ></i>{' '}
-                      Masjid Yousf Baqer- Hor Al Anz, Dubai
-                    </a>
-                  </td>
-                </tr>
+                
                 <tr>
                   <th scope="row">After Asr</th>
                   <td>Ramadan Ki Bahaaren</td>
@@ -151,7 +134,7 @@ export default class schedule extends Component {
                   <td>
                     <a
                       href="https://maps.app.goo.gl/G9aAf3HDM2M4qDgV6"
-                      style={{ color: 'blue', textStyle: 'underline' }}
+                      style={{ color: 'blue', textDecoration: 'underline' }}
                     >
                       <i
                         className="fa fa-map-marker text-success"
@@ -169,7 +152,7 @@ export default class schedule extends Component {
                   <td>
                     <a
                       href="https://maps.app.goo.gl/G9aAf3HDM2M4qDgV6"
-                      style={{ color: 'blue', textStyle: 'underline' }}
+                      style={{ color: 'blue', textDecoration: 'underline' }}
                     >
                       <i
                         className="fa fa-map-marker text-success"
@@ -187,7 +170,7 @@ export default class schedule extends Component {
                   <td>
                     <a
                       href="https://maps.app.goo.gl/am9twe29eBtpGYdAA"
-                      style={{ color: 'blue', textStyle: 'underline' }}
+                      style={{ color: 'blue', textDecoration: 'underline' }}
                     >
                       <i
                         className="fa fa-map-marker text-success"
