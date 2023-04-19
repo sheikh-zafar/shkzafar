@@ -20,6 +20,7 @@ import mausamiyat from './mausamiyat';
 import comingsoon from './comingsoon';
 import SisterSection from './sisters-section';
 import Ramadan2021 from './Ramadan-1442-2021';
+import Ramadan2023 from './Ramadan-1444-2023';
 import DhulHijjah2021 from './DhulHijjah-1442-2021';
 import DhulHijjah2022 from './DhulHijjah-1443-2022';
 import Sample from './Sample';
@@ -43,6 +44,8 @@ const Main = () => (
     <Route exact path="/lectures/mausamiyat" component={mausamiyat} />
     <Route exact path="/lectures/sisters-section" component={SisterSection} />
     <Route exact path="/Ramadan-1442-2021" component={Ramadan2021} />
+    <Route exact path="/Ramadan-1444-2023" component={Ramadan2023} />
+
     <Route exact path="/Dhul-hijjah-1442-2021" component={DhulHijjah2021} />
     <Route exact path="/Dhul-hijjah-1443-2022" component={DhulHijjah2022} />
     <Route exact path="/books" component={books} />

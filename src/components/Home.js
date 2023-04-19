@@ -179,7 +179,7 @@ export default class Home extends Component {
                   }}
                   className="btn btn-lg"
                 >
-                  <i className="fa fa-calendar" aria-hidden="true"></i>  Schedule
+                  <i className="fa fa-calendar" aria-hidden="true"></i> Schedule
                 </a>
                 <p className="lead mt-3" style={{ color: '#5c4033' }}>
                   Lecture Schedule
@@ -619,8 +619,8 @@ export default class Home extends Component {
                                 className="card-header"
                                 style={{ color: '#5c4033' }}
                               >
-                                <div> رمضان ١٤٤٣</div>
-                                <p className="lead">Ramadan 1443-2022</p>
+                                <div> رمضان ١٤٤٤ - 2023 </div>
+                                <p className="lead">Ramadan 1444-2023</p>
                               </div>
                             </th>
                           </tr>
@@ -629,7 +629,7 @@ export default class Home extends Component {
                           <tr className="tableBg">
                             <th scope="col" className="tableBg">
                               <Link
-                                to="/Ramadan-1443-2022"
+                                to="/Ramadan-1444-2023"
                                 role="button"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -641,7 +641,7 @@ export default class Home extends Component {
                             </th>
                             <th scope="col" className="tableBg">
                               <a
-                                href="https://youtu.be/zx0ohzkZfpk"
+                                href="https://www.youtube.com/zafarulhasan"
                                 role="button"
                                 target="_blank"
                                 rel="noopener noreferrer"
