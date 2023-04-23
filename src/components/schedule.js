@@ -177,19 +177,6 @@ export default class schedule extends Component {
             </a>
           </div>
         </section>
-        <section className="embed-section">
-          <div className="container">
-            <div className="row text-center">
-              <div className="col-md-12">
-                <h2 className="aboutheader">
-                  Ramadan Regular Lecture Schedule
-                </h2>
-                <hr />
-              </div>
-            </div>
-          </div>
-        </section>
-
 
         <div className="container about">
           Lectures of Sheikh Zafarulhasan حفظه الله are held on daily basis and
